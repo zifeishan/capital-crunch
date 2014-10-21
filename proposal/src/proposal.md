@@ -142,7 +142,7 @@ edges. -->
 
 \normalsize
 
-# Proposed Model
+# Proposed Approach
 
 ## Data Model
 
@@ -191,7 +191,7 @@ twitter     zynga           0.45
 
 \normalsize
 
-## Proposed Features
+## Features
 
 A rich set of features can be applied to predict investments. They may
 include:
@@ -201,12 +201,13 @@ include:
 - Linguistic features: information buried in company descriptions and biography of people.
 - Network topology, e.g. make use of all relations including degree, founder and other investments. These feature may be only captured by a factor graph model discussed later.
 
-## Baseline and Oracle
+## Model
 
 A naive baseline model would be a random predictor that predict random
-labels based on some class priors.
+labels based on some class priors. An oracle would be one that knows
+all existing investments and give correct predictions.
 
-A better baseline would be training an independent logistic regressor
+Our initial model would be training an independent logistic regressor
 for each individual investor, that takes a feature vector of a start-
 up and predicts a label. The drawback of this model is that it can
 hardly utilize investor-based attributes and higher-level knowledge
@@ -238,14 +239,13 @@ happening.
 
 # Evaluation
 
-We will evaluate our models based on ground truth investments. 
-
+We will evaluate our models based on ground truth investments.
 Specifically, we hold out a fraction of training examples, and predict
 these relations and get measures including precision and recall. We
 may want to define our own measure to encourage aggressive predictions
 and punish false negatives more than false positives.
 
-Another measure to try is the accuracy in top-K prediction: we hope to
+Another measure to try is the accuracy of top-K prediction: we hope to
 get a trained system where the most confident predictions are very
 likely to be true.
 
@@ -288,7 +288,7 @@ collaborative filtering, or a joint inference model that correlates
 prediction on all investors, would also help tackling the sparsity
 issue.
 
-**Feature Extraction.** Designing and extracting features are the key
+**Feature extraction.** Designing and extracting features are the key
 to a successful predictor. To fully utilize the information hidden
 from raw text such as company descriptions and founder bios, we
 propose to adopt state-of-the-art natural language processing methods
@@ -305,6 +305,11 @@ If we are building a factor graph model with a large feature space, it
 would be hard to do learning and inference on the graph. We propose to
 use DeepDive \cite{zhang2014feature}, a highly scalable inference
 engine to tackle the problem.
+
+**Future extensions.**
+If time permits, we might extend our model to predict company
+acquisition in this dataset. We also propose to do analysis on
+important factors in investment and acquisition behaviors.
 
 <!-- The need to integrate the various parties and their relationships into
 one problem. For example we have start-ups, venture capital companies,

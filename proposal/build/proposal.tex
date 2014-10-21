@@ -75,7 +75,7 @@ The detailed data format for people and companies is demonstrated below.
 
 \normalsize
 
-\section{Proposed Model}\label{proposed-model}
+\section{Proposed Approach}\label{proposed-approach}
 
 \subsection{Data Model}\label{data-model}
 
@@ -130,7 +130,7 @@ twitter     zynga           0.45
 
 \normalsize
 
-\subsection{Proposed Features}\label{proposed-features}
+\subsection{Features}\label{features}
 
 A rich set of features can be applied to predict investments. They may
 include:
@@ -151,12 +151,13 @@ include:
   factor graph model discussed later.
 \end{itemize}
 
-\subsection{Baseline and Oracle}\label{baseline-and-oracle}
+\subsection{Model}\label{model}
 
 A naive baseline model would be a random predictor that predict random
-labels based on some class priors.
+labels based on some class priors. An oracle would be one that knows all
+existing investments and give correct predictions.
 
-A better baseline would be training an independent logistic regressor
+Our initial model would be training an independent logistic regressor
 for each individual investor, that takes a feature vector of a start- up
 and predicts a label. The drawback of this model is that it can hardly
 utilize investor-based attributes and higher-level knowledge such as
@@ -187,13 +188,12 @@ investors and startups with no known investment happening.
 \section{Evaluation}\label{evaluation}
 
 We will evaluate our models based on ground truth investments.
-
 Specifically, we hold out a fraction of training examples, and predict
 these relations and get measures including precision and recall. We may
 want to define our own measure to encourage aggressive predictions and
 punish false negatives more than false positives.
 
-Another measure to try is the accuracy in top-K prediction: we hope to
+Another measure to try is the accuracy of top-K prediction: we hope to
 get a trained system where the most confident predictions are very
 likely to be true.
 
@@ -221,7 +221,7 @@ or trying methods like SVD. More advanced models, e.g.~collaborative
 filtering, or a joint inference model that correlates prediction on all
 investors, would also help tackling the sparsity issue.
 
-\textbf{Feature Extraction.} Designing and extracting features are the
+\textbf{Feature extraction.} Designing and extracting features are the
 key to a successful predictor. To fully utilize the information hidden
 from raw text such as company descriptions and founder bios, we propose
 to adopt state-of-the-art natural language processing methods for
@@ -237,6 +237,10 @@ company and people, etc.
 large feature space, it would be hard to do learning and inference on
 the graph. We propose to use DeepDive \cite{zhang2014feature}, a highly
 scalable inference engine to tackle the problem.
+
+\textbf{Future extensions.} If time permits, we might extend our model
+to predict company acquisition in this dataset. We also propose to do
+analysis on important factors in investment and acquisition behaviors.
 
 \section{Related Work}\label{related-work}
 
