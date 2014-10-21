@@ -1,4 +1,4 @@
-Capital Crunch: Predicting Investments in Tech Companies
+# Capital Crunch: Predicting Investments in Tech Companies
 
 For many start-ups, lack of investment and capital has become the
 bottleneck for development. This phenomenon inspires us to use machine
