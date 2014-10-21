@@ -1,0 +1,542 @@
+{
+ "metadata": {
+  "version": 2,
+  "www_path_prefix": "http://www.crunchbase.com/",
+  "api_path_prefix": "http://api.crunchbase.com/v/2/",
+  "image_path_prefix": "http://images.crunchbase.com/"
+ },
+ "data": {
+  "uuid": "e139350830ea8a363f96dd3226033abd",
+  "type": "Organization",
+  "properties": {
+   "role_company": true,
+   "description": "Wetpaint is a technology platform company that uses its proprietary state-of-the-art technology and expertise in social media to build and monetize audiences for digital publishers. Wetpaint’s own online property, Wetpaint Entertainment, an entertainment news site that attracts more than 12 million unique visitors monthly and has over 2 million Facebook fans, is a proof point to the company’s success in building and engaging audiences. Media companies can license Wetpaint’s platform which includes a dynamic playbook tailored to their individual needs and comprehensive training. Founded by Internet pioneer Ben Elowitz, and with offices in New York and Seattle, Wetpaint is backed by Accel Partners, the investors behind Facebook.\n",
+   "short_description": "Wetpaint offers an online social publishing platform that helps digital publishers grow their customer base.",
+   "permalink": "wetpaint",
+   "primary_role": "company",
+   "is_closed": false,
+   "closed_on_trust_code": 0,
+   "homepage_url": "http://wetpaint-inc.com",
+   "name": "Wetpaint",
+   "email_address": "info@wetpaint.com",
+   "founded_on_day": 17,
+   "founded_on_month": 10,
+   "founded_on_year": 2005,
+   "founded_on": "2005-10-17",
+   "founded_on_trust_code": 7,
+   "created_at": 1180101087,
+   "updated_at": 1397987383,
+   "total_funding_usd": 39750000,
+   "number_of_investments": 0,
+   "number_of_employees": 47
+  },
+  "relationships": {
+   "past_team": {
+    "paging": {
+     "total_items": 13,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/past_team",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "first_name": "Alex",
+      "last_name": "Berg",
+      "title": "VP User Experience",
+      "started_on": null,
+      "ended_on": null,
+      "path": "person/alex-berg",
+      "created_at": 1210057243,
+      "updated_at": 1397989046
+     },
+     {
+      "first_name": "Ben",
+      "last_name": "Elowitz",
+      "title": "Co-Founder/CEO/Board of Directors",
+      "started_on": null,
+      "ended_on": null,
+      "path": "person/ben-elowitz",
+      "created_at": 1180101834,
+      "updated_at": 1397988871
+     },
+     {
+      "first_name": "Kevin",
+      "last_name": "Flaherty",
+      "title": "VP Marketing",
+      "started_on": null,
+      "ended_on": null,
+      "path": "person/kevin-flaherty",
+      "created_at": 1180101856,
+      "updated_at": 1397988871
+     },
+     {
+      "first_name": "Rob",
+      "last_name": "Grady",
+      "title": "COO/Board of Directors",
+      "started_on": null,
+      "ended_on": null,
+      "path": "person/rob-grady",
+      "created_at": 1274325870,
+      "updated_at": 1397989008
+     },
+     {
+      "first_name": "Rob",
+      "last_name": "Grady",
+      "title": "Senior Vice President, Marketing",
+      "started_on": "2009-01-01",
+      "ended_on": "2009-01-01",
+      "path": "person/rob-grady",
+      "created_at": 1274325870,
+      "updated_at": 1397989008
+     },
+     {
+      "first_name": "Bert",
+      "last_name": "Hogue",
+      "title": "CFO",
+      "started_on": "2007-01-01",
+      "ended_on": "2009-01-01",
+      "path": "person/bert-hogue",
+      "created_at": 1245291212,
+      "updated_at": 1397989315
+     },
+     {
+      "first_name": "Michael",
+      "last_name": "Howell",
+      "title": "Co-Founder and VP, Social and Audience Development",
+      "started_on": null,
+      "ended_on": null,
+      "path": "person/michael-howell",
+      "created_at": 1274325870,
+      "updated_at": 1412713694
+     },
+     {
+      "first_name": "Werner",
+      "last_name": "Koepf",
+      "title": "VP, Technology and Product",
+      "started_on": null,
+      "ended_on": null,
+      "path": "person/werner-koepf",
+      "created_at": 1320478440,
+      "updated_at": 1397989624
+     }
+    ]
+   },
+   "board_members_and_advisors": {
+    "paging": {
+     "total_items": 3,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/board_members_and_advisors",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "first_name": "Len",
+      "last_name": "Jordan",
+      "title": "Board",
+      "started_on": null,
+      "path": "person/len-jordan",
+      "created_at": 1210057349,
+      "updated_at": 1412604300
+     },
+     {
+      "first_name": "Theresia",
+      "last_name": "Ranzetta",
+      "title": "Board",
+      "started_on": null,
+      "path": "person/theresia-ranzetta",
+      "created_at": 1205275643,
+      "updated_at": 1397989416
+     },
+     {
+      "first_name": "Gus",
+      "last_name": "Tai",
+      "title": "Board Member",
+      "started_on": "2005-10-01",
+      "path": "person/gus-tai",
+      "created_at": 1180574629,
+      "updated_at": 1397988873
+     }
+    ]
+   },
+   "current_team": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/current_team",
+     "sort_order": "custom"
+    },
+    "items": [
+     {
+      "first_name": "Alex",
+      "last_name": "Weinstein",
+      "title": "Head of Technology and Product",
+      "started_on": "2011-06-01",
+      "path": "person/alex-weinstein",
+      "created_at": 1312970972,
+      "updated_at": 1406331922
+     }
+    ]
+   },
+   "acquired_by": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/acquired_by",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "announced_on": "2013-12-16",
+      "type": "Acquisition",
+      "name": "Viggle acquired Wetpaint",
+      "path": "acquisition/7172b9aa74c5e5a7eb6e9211ed79c605",
+      "created_at": 1387250697,
+      "updated_at": 1397994843
+     }
+    ]
+   },
+   "competitors": {
+    "paging": {
+     "total_items": 7,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/competitors",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Organization",
+      "name": "SocialGO",
+      "path": "organization/socialgo",
+      "created_at": 1224998717,
+      "updated_at": 1409881547
+     },
+     {
+      "type": "Organization",
+      "name": "Soceeo",
+      "path": "organization/soceeo",
+      "created_at": 1212453436,
+      "updated_at": 1397988857
+     },
+     {
+      "type": "Organization",
+      "name": "JotSpot",
+      "path": "organization/jotspot",
+      "created_at": 1187803816,
+      "updated_at": 1411671482
+     },
+     {
+      "type": "Organization",
+      "name": "Yola",
+      "path": "organization/yola",
+      "created_at": 1187271708,
+      "updated_at": 1412974559
+     },
+     {
+      "type": "Organization",
+      "name": "Wikia",
+      "path": "organization/wikia",
+      "created_at": 1185887938,
+      "updated_at": 1410861161
+     },
+     {
+      "type": "Organization",
+      "name": "Socialtext",
+      "path": "organization/socialtext",
+      "created_at": 1184960385,
+      "updated_at": 1413283238
+     },
+     {
+      "type": "Organization",
+      "name": "Ning by Glam Media",
+      "path": "organization/ning",
+      "created_at": 1182181055,
+      "updated_at": 1411624942
+     }
+    ]
+   },
+   "offices": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/offices",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Address",
+      "name": "Wetpaint Office",
+      "street_1": "710 2nd Avenue",
+      "street_2": "Suite 1100",
+      "created_at": 1205362453,
+      "updated_at": 1406131487,
+      "city": "Seattle",
+      "city_uuid": "d3d408384bbbb09438656c4cf9970090",
+      "city_path": "location/seattle/d3d408384bbbb09438656c4cf9970090",
+      "region": "Washington",
+      "country_code": "USA"
+     }
+    ]
+   },
+   "headquarters": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/headquarters",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Address",
+      "name": "Wetpaint Office",
+      "street_1": "710 2nd Avenue",
+      "street_2": "Suite 1100",
+      "created_at": 1205362453,
+      "updated_at": 1406131487,
+      "city": "Seattle",
+      "city_uuid": "d3d408384bbbb09438656c4cf9970090",
+      "city_path": "location/seattle/d3d408384bbbb09438656c4cf9970090",
+      "region": "Washington",
+      "country_code": "USA"
+     }
+    ]
+   },
+   "funding_rounds": {
+    "paging": {
+     "total_items": 3,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/funding_rounds",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "FundingRound",
+      "name": "Wetpaint raises 25000000 in venture round",
+      "path": "funding-round/6e02dcbf49e197f48ad7ca6888a4982f",
+      "created_at": 1211168357,
+      "updated_at": 1398009920
+     },
+     {
+      "type": "FundingRound",
+      "name": "Wetpaint raises 9500000 in venture round",
+      "path": "funding-round/9bb86e435e9374d1d52c39e9cecfb648",
+      "created_at": 1194397501,
+      "updated_at": 1398009991
+     },
+     {
+      "type": "FundingRound",
+      "name": "Wetpaint raises 5250000 in venture round",
+      "path": "funding-round/06c1218c7e15a01dc27742f07a2b3743",
+      "created_at": 1194397303,
+      "updated_at": 1398009990
+     }
+    ]
+   },
+   "categories": {
+    "paging": {
+     "total_items": 2,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/categories",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Category",
+      "name": "Curated Web",
+      "uuid": "c87f19a05bd9c7c6e379ca118f49aa4e",
+      "path": "category/curated web/c87f19a05bd9c7c6e379ca118f49aa4e",
+      "created_at": 1397980728,
+      "updated_at": 1413846916
+     },
+     {
+      "type": "Category",
+      "name": "Web Tools",
+      "uuid": "bcf714417c0fa61bdcff629530c88d10",
+      "path": "category/web tools/bcf714417c0fa61bdcff629530c88d10",
+      "created_at": 1397980727,
+      "updated_at": 1413788831
+     }
+    ]
+   },
+   "founders": {
+    "paging": {
+     "total_items": 2,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/founders",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Person",
+      "name": "Michael Howell",
+      "path": "person/michael-howell",
+      "created_at": 1274325870,
+      "updated_at": 1412713694
+     },
+     {
+      "type": "Person",
+      "name": "Ben Elowitz",
+      "path": "person/ben-elowitz",
+      "created_at": 1180101834,
+      "updated_at": 1397988871
+     }
+    ]
+   },
+   "products": {
+    "paging": {
+     "total_items": 2,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/products",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "Product",
+      "name": "Wetpaint Social Distribution System",
+      "path": "product/wetpaint-social-distribution-system",
+      "created_at": 1344387674,
+      "updated_at": 1399276845
+     },
+     {
+      "type": "Product",
+      "name": "Wikison Wetpaint",
+      "path": "product/wetpaint-wiki",
+      "created_at": 1180145922,
+      "updated_at": 1397995342
+     }
+    ]
+   },
+   "primary_image": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/primary_image",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "ImageAsset",
+      "title": null,
+      "path": "image/upload/v1397180177/2036b3394a37152e0ff69f27c71bc883.jpg",
+      "created_at": 1398018466,
+      "updated_at": 1398018466
+     }
+    ]
+   },
+   "images": {
+    "paging": {
+     "total_items": 1,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/images",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "type": "ImageAsset",
+      "title": null,
+      "path": "image/upload/v1397180179/7fafe257cb6c67144cfec0a8231f896a.png",
+      "created_at": 1398018466,
+      "updated_at": 1398018466
+     }
+    ]
+   },
+   "websites": {
+    "paging": {
+     "total_items": 3,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/websites",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "url": "http://twitter.com/BachelrWetpaint",
+      "type": "WebPresence",
+      "title": "twitter",
+      "created_at": 1180075887,
+      "updated_at": 1409448309
+     },
+     {
+      "url": "http://digitalquarters.net/",
+      "type": "WebPresence",
+      "title": "blog",
+      "created_at": 1180075887,
+      "updated_at": 1397987383
+     },
+     {
+      "url": "http://wetpaint-inc.com",
+      "type": "WebPresence",
+      "title": "homepage",
+      "created_at": 1180075887,
+      "updated_at": 1397987383
+     }
+    ]
+   },
+   "news": {
+    "paging": {
+     "total_items": 22,
+     "first_page_url": "http://api.crunchbase.com/v/2/organization/wetpaint/news",
+     "sort_order": "created_at DESC"
+    },
+    "items": [
+     {
+      "url": "http://allthingsd.com/20121018/how-to-boost-your-facebook-traffic-tips-and-tricks-from-wetpaint/",
+      "author": null,
+      "posted_on": null,
+      "type": "PressReference",
+      "title": "Interview with Wetpaint CEO Ben Elowitz in All Things D",
+      "created_at": 1351798103,
+      "updated_at": 2012
+     },
+     {
+      "url": "http://adage.com/article/digital/celeb-site-wetpaint-shows-media-profit-facebook/237828/",
+      "author": null,
+      "posted_on": null,
+      "type": "PressReference",
+      "title": "Profile of Wetpaint in Ad Age",
+      "created_at": 1351798103,
+      "updated_at": 2012
+     },
+     {
+      "url": "http://allfacebook.com/wetpaint-media-data_b75963",
+      "author": null,
+      "posted_on": null,
+      "type": "PressReference",
+      "title": "AllFacebook coverage of Wetpaint",
+      "created_at": 1344362094,
+      "updated_at": 2012
+     },
+     {
+      "url": "http://www.businessinsider.com/facebook-captures-14-percent-of-our-online-attention-but-only-4-percent-of-ad-spending-online-2012-6",
+      "author": null,
+      "posted_on": null,
+      "type": "PressReference",
+      "title": "Guest post by CEO Ben Elowitz in Business Insider",
+      "created_at": 1344361915,
+      "updated_at": 2012
+     },
+     {
+      "url": "http://adage.com/article/digitalnext/facebook-biggest-player-advertising-s-540-billion-world/235708/",
+      "author": null,
+      "posted_on": null,
+      "type": "PressReference",
+      "title": "Guest post by CEO Ben Elowitz in AdAge",
+      "created_at": 1344361915,
+      "updated_at": 2012
+     },
+     {
+      "url": "http://allthingsd.com/20120516/what-to-expect-when-facebook-is-expecting-five-predictions-for-facebooks-first-public-year/",
+      "author": null,
+      "posted_on": null,
+      "type": "PressReference",
+      "title": "Guest post by CEO Ben Elowitz in AllThingsD",
+      "created_at": 1344361915,
+      "updated_at": 2012
+     },
+     {
+      "url": "http://techcrunch.com/2012/06/17/search-and-social-how-two-will-soon-become-one/",
+      "author": null,
+      "posted_on": null,
+      "type": "PressReference",
+      "title": "Guest post by CEO Ben Elowitz in TechCrunch",
+      "created_at": 1344361333,
+      "updated_at": 2012
+     },
+     {
+      "url": "http://www.geekwire.com/2011/rewind-ben-elowitz-wetpaint-ceo-building-type-media-company",
+      "author": null,
+      "posted_on": null,
+      "type": "PressReference",
+      "title": "GeekWire interview: Rewind - Ben Elowitz, Wetpaint CEO, on building a new type of media company",
+      "created_at": 1320453696,
+      "updated_at": 2011
+     }
+    ]
+   }
+  }
+ }
+}
