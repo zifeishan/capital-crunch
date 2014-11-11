@@ -231,9 +231,9 @@ simply label all pairs of $(investor, startup)$ that do not have a
 known investment as negative, because (1) this makes positive examples
 extremely sparse and introduce a data skew, and (2) even if an
 investor have not invested a startup right now, it is still possible
-that the invest will happen in the future. How to effectively label
-negative examples is still open to us. For now we propose to take
-random pairs of investors and startups with no known investment
+that the investment will happen in the future. How to effectively label
+negative examples is still open to us. For now we propose to sub-sample
+random pairs of investors and startups without known investment
 happening.
 
 

@@ -15,4 +15,7 @@ Updates:
   - school
   - group
 
-214195 organizations
+In parsed list:
+- 214195 organizations
+- 286658 people
+
