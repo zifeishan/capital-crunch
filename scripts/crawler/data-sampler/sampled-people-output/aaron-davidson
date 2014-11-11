@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "a1fb1ee0d73564fffe2e3aba884d0797",
+    "type": "Person",
+    "properties": {
+      "last_name": "Davidson",
+      "first_name": "Aaron",
+      "permalink": "aaron-davidson",
+      "bio": "Mr. Davidson is a Managing Director of H.I.G. BioVentures and focuses on investment opportunities in the life sciences sector. Prior to joining H.I.G. in 2004, he was a Vice President with Ventures West with a focus on venture investing in life science companies. Mr. Davidson began his career with Lilly, where he spent a decade in various management roles in the United States and Canada including business development, strategic planning, market research and financial planning. \n\nMr. Davidson currently serves on the boards of Alder Biopharmaceuticals, Inc., Cardeas Pharma, HyperBranch Medical Technology, Intact Vascular, NeurAxon Inc., and Novadaq Technologies. He served on the boards of Salmedix and Gemin X Pharmaceuticals prior to their acquisitions by Cephalon in 2005 and 2011 respectively and the board of Oncogenex Pharmaceuticals prior to their public listing.\n\nMr. Davidson earned his MBA from Harvard Business School and a Bachelor of Commerce degree from McGill University.\n",
+      "created_at": 1345499975,
+      "updated_at": 1397989606
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-davidson/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": null,
+            "degree_subject": null,
+            "type": "Degree",
+            "organization_name": "McGill University",
+            "organization_path": "organization/mcgill-university"
+          },
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": null,
+            "degree_subject": null,
+            "type": "Degree",
+            "organization_name": "Harvard Business School",
+            "organization_path": "organization/harvard-business-school"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-davidson/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Jawfish Games",
+            "organization_path": "organization/jawfish-games",
+            "title": "Senior Server Developer",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "H.I.G. BioVentures",
+            "organization_path": "organization/h-i-g-bioventures",
+            "title": "Managing Director",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-davidson/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "H.I.G. BioVentures",
+            "organization_path": "organization/h-i-g-bioventures",
+            "title": "Managing Director",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-davidson/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397749828/ec1d23c5a75dce14b2e1c3c9d84a8553.jpg",
+            "created_at": 1398019138,
+            "updated_at": 1398019138
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-davidson/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/pub/aaron-davidson/2/ab6/4a8",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 1409468418
+          },
+          {
+            "url": "http://angel.co/aaron-davidson",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/artichikin",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1345499975,
+            "updated_at": 1409377158
+          }
+        ]
+      }
+    }
+  }
+}

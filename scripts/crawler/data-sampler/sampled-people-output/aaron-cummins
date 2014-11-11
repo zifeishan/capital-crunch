@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "7a7799d44e839a855a5d51a967737b90",
+    "type": "Person",
+    "properties": {
+      "last_name": "Cummins",
+      "first_name": "Aaron",
+      "permalink": "aaron-cummins",
+      "created_at": 1332166345,
+      "updated_at": 1397989316
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-cummins/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Time Bomb Deals",
+            "organization_path": "organization/time-bomb-deals",
+            "title": "VP of Sales",
+            "started_on": "2011-10-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-cummins/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Time Bomb Deals",
+            "organization_path": "organization/time-bomb-deals",
+            "title": "VP of Sales",
+            "started_on": "2011-10-01",
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

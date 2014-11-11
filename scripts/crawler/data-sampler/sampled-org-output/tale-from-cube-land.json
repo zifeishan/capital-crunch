@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "4443aca7dc23d07a2dfa995ae27d4aa6",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "email_address": "the6e@yahoo.com",
+      "description": "Wild and interesting stories from offices around the country.\n\nTales from cube land is a website devoted to de-stressing from a hard days work.  Offering 100% anonymous posts, it is becoming the place to go to find interesting stories that any cube-dweller can relate to.  A great place to visit when venting to your husband/wife just isn&#39;t doing enough for you.\n",
+      "short_description": "Wild Office Stories",
+      "founded_on_day": 18,
+      "founded_on_month": 11,
+      "founded_on_year": 2010,
+      "founded_on": "2010-11-18",
+      "founded_on_trust_code": 7,
+      "permalink": "tale-from-cube-land",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.talesfromcubeland.com",
+      "name": "Tale From Cube Land",
+      "num_employees_max": 10,
+      "num_employees_min": 1,
+      "closed_on_year": null,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on": null,
+      "created_at": 1293488220,
+      "updated_at": 1409876291,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 1
+    },
+    "relationships": {
+      "categories": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tale-from-cube-land/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Content",
+            "uuid": "3ab64b4261dc08a5cfe3a25127ae3eea",
+            "path": "category/content/3ab64b4261dc08a5cfe3a25127ae3eea",
+            "created_at": 1397980728,
+            "updated_at": 1415585160
+          },
+          {
+            "type": "Category",
+            "name": "Office Space",
+            "uuid": "6a7cae47b8aab63619ca5e2873f8c1f3",
+            "path": "category/office space/6a7cae47b8aab63619ca5e2873f8c1f3",
+            "created_at": 1397980728,
+            "updated_at": 1415184597
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tale-from-cube-land/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/TalesFromCubeL",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1293459420,
+            "updated_at": 1409419552
+          },
+          {
+            "url": "http://www.talesfromcubeland.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1293459420,
+            "updated_at": 1397988693
+          }
+        ]
+      }
+    }
+  }
+}

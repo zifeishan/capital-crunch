@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "4a32692eeb768d0b47f0c4d6b771be66",
+    "type": "Person",
+    "properties": {
+      "last_name": "Abajian",
+      "first_name": "Aaron",
+      "permalink": "aaron-abajian",
+      "created_at": 1330254680,
+      "updated_at": 1397989129
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-abajian/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Cronote",
+            "organization_path": "organization/cronote",
+            "title": "CEO, Co-Founder",
+            "started_on": "2010-12-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-abajian/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Cronote",
+            "organization_path": "organization/cronote",
+            "title": "CEO, Co-Founder",
+            "started_on": "2010-12-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-abajian/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Cronote",
+            "path": "organization/cronote",
+            "created_at": 1330283481,
+            "updated_at": 1400591255
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "f874e1cf4603884757c0c269031ef540",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "SEMICOA, Inc. designs, develops, and manufactures discrete semiconductors and optoelectronics for military/aerospace and commercial markets. It offers small signal and power transistors, transistor lead finishes/RoHS updates, transistor chips, custom transistors, photodiodes, and photo detectors. The company also offers medical imaging products, including x-ray detectors and optoelectronics. In addition, it provides solder dip, tape and reel, wafer fabrication, electrical testing, environmental testing, and operating life testing services. The company was founded in 1968 and is based in Costa Mesa, California. As of July 15, 2008, SEMICOA, Inc. operates as a subsidiary of Microsemi Corp.\n",
+      "short_description": "SEMICOA, Inc. designs, develops, and manufactures discrete semiconductors and optoelectronics for military/aerospace and commercial",
+      "permalink": "semicoa",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.semicoa.com",
+      "name": "SEMICOA",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 1968,
+      "founded_on": "1968-01-01",
+      "founded_on_trust_code": 4,
+      "email_address": "sales@semicoa.com",
+      "created_at": 1248690948,
+      "updated_at": 1397987403,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "acquired_by": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/semicoa/acquired_by",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "announced_on": "2008-07-15",
+            "type": "Acquisition",
+            "name": "Microsemi acquired SEMICOA",
+            "path": "acquisition/cd88c79cdd47c5dc3d3f539eff15a592",
+            "created_at": 1248691192,
+            "updated_at": 1397995218
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/semicoa/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "333 McCormick Avenue",
+            "street_2": null,
+            "postal_code": "92626",
+            "city": "Costa Mesa",
+            "city_path": "location/costa-mesa/bd1066f0e1bc25ef3031a73df8b3df6a",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 33.680409,
+            "longitude": -117.872034,
+            "created_at": 1248690948,
+            "updated_at": 1397991410
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/semicoa/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "333 McCormick Avenue",
+            "street_2": null,
+            "postal_code": "92626",
+            "city": "Costa Mesa",
+            "city_path": "location/costa-mesa/bd1066f0e1bc25ef3031a73df8b3df6a",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 33.680409,
+            "longitude": -117.872034,
+            "created_at": 1248690948,
+            "updated_at": 1397991410
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/semicoa/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Semiconductors",
+            "uuid": "cc2e8b611ce4b0463ddc703542961715",
+            "path": "category/semiconductors/cc2e8b611ce4b0463ddc703542961715",
+            "created_at": 1397980726,
+            "updated_at": 1415266531
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/semicoa/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397185848/fe1656416d547e538f4d0824cd69298c.jpg",
+            "created_at": 1398018881,
+            "updated_at": 1398018881
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/semicoa/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.semicoa.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1248690948,
+            "updated_at": 1397987403
+          }
+        ]
+      }
+    }
+  }
+}

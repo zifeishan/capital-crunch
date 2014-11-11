@@ -1,0 +1,360 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "19a3905ff52cccbcaf1d661dd3dc0944",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Qloo is a cultural discovery platform that enables you to source a wide range of personalized suggestions based on all the things and places you already love.\n\nQloo is headquartered and lovingly built in New York City.\n",
+      "short_description": "Qloo is an iOS app that makes personalized recommendations and suggestions\u00a0based on the users' interests.",
+      "founded_on_day": 1,
+      "founded_on_month": 4,
+      "founded_on_year": 2012,
+      "founded_on": "2012-04-01",
+      "founded_on_trust_code": 6,
+      "permalink": "qloo",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.qloo.com",
+      "name": "Qloo",
+      "email_address": "help@qloo.com",
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "created_at": 1352435217,
+      "updated_at": 1406922330,
+      "total_funding_usd": 3000000,
+      "number_of_investments": 0,
+      "number_of_employees": 8
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 7,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/qloo/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Jay",
+            "last_name": "Alger",
+            "title": "Co-Founder and Chief Operating Officer",
+            "started_on": "2012-04-01",
+            "path": "person/jay-alger",
+            "created_at": 1352435217,
+            "updated_at": 1397989684
+          },
+          {
+            "first_name": "Hahn",
+            "last_name": "Bak",
+            "title": "Lead Backend Developer",
+            "started_on": null,
+            "path": "person/hahn-bak",
+            "created_at": 1384498504,
+            "updated_at": 1397989644
+          },
+          {
+            "first_name": "Mike",
+            "last_name": "Diolosa",
+            "title": "Chief Technology Officer",
+            "started_on": "2012-04-01",
+            "path": "person/mike-diolosa",
+            "created_at": 1352866290,
+            "updated_at": 1397989728
+          },
+          {
+            "first_name": "Alex",
+            "last_name": "Elias",
+            "title": "Co-Founder and President",
+            "started_on": "2012-04-01",
+            "path": "person/alexander-elias",
+            "created_at": 1352435217,
+            "updated_at": 1397989684
+          },
+          {
+            "first_name": "Michael",
+            "last_name": "J. Emrani",
+            "title": "Business Development",
+            "started_on": null,
+            "path": "person/michael-j-emrani",
+            "created_at": 1369405960,
+            "updated_at": 1397989669
+          },
+          {
+            "first_name": "Iti",
+            "last_name": "Sakharet",
+            "title": "Chief Design Officer",
+            "started_on": "2012-04-01",
+            "path": "person/iti-sakharet",
+            "created_at": 1352866290,
+            "updated_at": 1397989728
+          },
+          {
+            "first_name": "Coby",
+            "last_name": "Santos",
+            "title": "VP of Engineering",
+            "started_on": null,
+            "path": "person/coby-santos",
+            "created_at": 1384498448,
+            "updated_at": 1397989644
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/qloo/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Qloo Inc.",
+            "street_1": "195 Bowery",
+            "street_2": null,
+            "postal_code": "10002",
+            "city": "New York",
+            "city_path": "location/new-york/d64b7615985cfbf44affaa89d70c4050",
+            "region": "New York",
+            "region_path": "location/new-york/83ead471332bd02e67b767279aed075b",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 40.7208859,
+            "longitude": -73.9935778,
+            "created_at": 1352406418,
+            "updated_at": 1397991385
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/qloo/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Qloo Inc.",
+            "street_1": "195 Bowery",
+            "street_2": null,
+            "postal_code": "10002",
+            "city": "New York",
+            "city_path": "location/new-york/d64b7615985cfbf44affaa89d70c4050",
+            "region": "New York",
+            "region_path": "location/new-york/83ead471332bd02e67b767279aed075b",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 40.7208859,
+            "longitude": -73.9935778,
+            "created_at": 1352406418,
+            "updated_at": 1397991385
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/qloo/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Qloo raises 1600000 in seed round",
+            "path": "funding-round/aae8adb8f339882e2aedb0f8de24f4c6",
+            "created_at": 1384433614,
+            "updated_at": 1398009863
+          },
+          {
+            "type": "FundingRound",
+            "name": "Qloo raises 1400000 in seed round",
+            "path": "funding-round/373019e418608a905c6526c2e53fd9d3",
+            "created_at": 1352406418,
+            "updated_at": 1398009974
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/qloo/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Curated Web",
+            "uuid": "c87f19a05bd9c7c6e379ca118f49aa4e",
+            "path": "category/curated web/c87f19a05bd9c7c6e379ca118f49aa4e",
+            "created_at": 1397980728,
+            "updated_at": 1415355242
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/qloo/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Jay Alger",
+            "path": "person/jay-alger",
+            "created_at": 1352435217,
+            "updated_at": 1397989684
+          },
+          {
+            "type": "Person",
+            "name": "Alex Elias",
+            "path": "person/alexander-elias",
+            "created_at": 1352435217,
+            "updated_at": 1397989684
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/qloo/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397751548/bc3d3aff37b71e5e44dd0517c83567e5.png",
+            "created_at": 1398019018,
+            "updated_at": 1398019018
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 7,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/qloo/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188877/2a11a205c6fd496c9a0faa35cc8c8f91.jpg",
+            "created_at": 1398019019,
+            "updated_at": 1398019019
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188877/f91a669729b4eaf020536bdbd5028cda.jpg",
+            "created_at": 1398019019,
+            "updated_at": 1398019019
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188876/4986dfa7cddf9259740d5465743c2d40.jpg",
+            "created_at": 1398019019,
+            "updated_at": 1398019019
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188875/51c0cd27435f1e5cc42038e2b49b6000.jpg",
+            "created_at": 1398019019,
+            "updated_at": 1398019019
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188873/fa2d363c1f62410851c46bb0f41fcb16.png",
+            "created_at": 1398019019,
+            "updated_at": 1398019019
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188872/e629c9e6f1387d010ca713ddad1aa7ca.png",
+            "created_at": 1398019019,
+            "updated_at": 1398019019
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188870/07ca0d007682e2939ae353f34cca5ec1.png",
+            "created_at": 1398019019,
+            "updated_at": 1398019019
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/qloo/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/Qloo",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1352406417,
+            "updated_at": 1409442282
+          },
+          {
+            "url": "http://www.qloo.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1352406417,
+            "updated_at": 1397987806
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/qloo/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://gigaom.com/2012/11/08/with-1-4m-qloo-finds-food-films-and-fashion-that-match-your-taste/",
+            "author": null,
+            "posted_on": null,
+            "type": "PressReference",
+            "title": "With $1.4M, Qloo finds films, fashion, food and more that match your taste",
+            "created_at": 1352406418,
+            "updated_at": 2012
+          },
+          {
+            "url": "http://techcrunch.com/2012/11/08/backed-by-1-4m-from-celebrity-investors-qloo-launches-a-netflix-style-discovery-engine-for-culture/",
+            "author": null,
+            "posted_on": null,
+            "type": "PressReference",
+            "title": "Backed By $1.4M From Celebrity Investors, Qloo Launches A Netfli-Style Discovery Engine For Culture",
+            "created_at": 1352406418,
+            "updated_at": 2012
+          },
+          {
+            "url": "http://www.usatoday.com/story/tech/2012/11/08/qloo-amazon-pandora-netflix/1684053/",
+            "author": null,
+            "posted_on": null,
+            "type": "PressReference",
+            "title": "Getting a Qloo on where to find similar tastes",
+            "created_at": 1352406418,
+            "updated_at": 2012
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "f84d8dd420c487a6c706ebe1f5f38de2",
+    "type": "Person",
+    "properties": {
+      "last_name": "Avery",
+      "first_name": "Aaron",
+      "permalink": "aaron-avery",
+      "created_at": 1322071941,
+      "updated_at": 1397989129
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-avery/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Banjo",
+            "organization_path": "organization/banjo",
+            "title": "Director of Marketing & Business Development",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-avery/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Banjo",
+            "organization_path": "organization/banjo",
+            "title": "Director of Marketing & Business Development",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-avery/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/in/aaroneavery",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1404622586,
+            "updated_at": 1404622586
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "6ba83324718cf2871ff3e0ca0c61a5f3",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "short_description": "Cocoa software development company",
+      "permalink": "yummycocoa",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://yummycocoa.com",
+      "name": "YummyCocoa",
+      "description": "YummyCocoa LTD is a small team of developers and designers who have taken it upon themselves to create amazing iPhone applications that are both aesthetically pleasing, and as usable as possible. \n",
+      "founded_on_day": 19,
+      "founded_on_month": 1,
+      "founded_on_year": 2009,
+      "founded_on": "2009-01-19",
+      "founded_on_trust_code": 7,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "email_address": "contact@yummycocoa.com",
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "created_at": 1268274032,
+      "updated_at": 1409891386,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 3
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/yummycocoa/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Tim",
+            "last_name": "Davies",
+            "title": "Lead Engineer",
+            "started_on": "2009-01-01",
+            "path": "person/tim-davies",
+            "created_at": 1274202739,
+            "updated_at": 1397988997
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/yummycocoa/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Mac",
+            "uuid": "94779e8a9d64a939529a41fa005a4f81",
+            "path": "category/mac/94779e8a9d64a939529a41fa005a4f81",
+            "created_at": 1397980728,
+            "updated_at": 1415274144
+          },
+          {
+            "type": "Category",
+            "name": "iPad",
+            "uuid": "c757026ee5818e384d66184fb060aefd",
+            "path": "category/i-pad/c757026ee5818e384d66184fb060aefd",
+            "created_at": 1397980727,
+            "updated_at": 1415455169
+          },
+          {
+            "type": "Category",
+            "name": "iPhone",
+            "uuid": "544ed5a54765c73789cc99093a2655d8",
+            "path": "category/i-phone/544ed5a54765c73789cc99093a2655d8",
+            "created_at": 1397980727,
+            "updated_at": 1415206061
+          },
+          {
+            "type": "Category",
+            "name": "Software",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+            "created_at": 1397980727,
+            "updated_at": 1415532315
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/yummycocoa/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397205500/df653233fff9d10ecad396b66c951769.png",
+            "created_at": 1398018644,
+            "updated_at": 1398018644
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/yummycocoa/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/YummyCocoa",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1268245232,
+            "updated_at": 1409440458
+          },
+          {
+            "url": "http://yummycocoa.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1268245232,
+            "updated_at": 1397987917
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "a09add17c1dc1587a296cf8c22342bac",
+    "type": "Organization",
+    "properties": {
+      "permalink": "dr-sears-family-essentials",
+      "primary_role": "company",
+      "is_closed": true,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.drsearsfamilyessentials.com",
+      "name": "Dr Sears Family Essentials",
+      "email_address": "info@drsearsfamilyessentials.com",
+      "description": "Dr. Sears Family Essentials is a privately-held, functional food and beverage company rooted in the collective expertise of the Sears Family of Pediatricians, which features more than a century of combined medical knowledge. The company offers a doctor-formulated, kid-approved line of 100 percent all-natural snacks, beverages and supplements that provide essential daily nutrients, such as Omega-3 DHA, to help children grow healthy, strong and smart. Dr. Sears Family Essentials products are reflective of Dr. Bill Sears&#39; lifelong dedication to children&#39;s health and wellness and the company&#39;s commitment to helping combat childhood obesity and Nutritional Deficit Disorder.  Dr. Sears Family Essentials products are available nationwide at The Vitamin Shoppe, Whole Foods, independent natural health retailers and major regional grocery retailers including H-E-B, Meijer and Fred Meyer across the U.S.\n",
+      "short_description": "Dr Sears Family Essentials offers all-natural snacks, beverages and supplements that provide essential daily nutrients.",
+      "role_company": true,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "created_at": 1298463284,
+      "updated_at": 1397988355,
+      "total_funding_usd": 5600000,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dr-sears-family-essentials/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "2361 Campus Drive, Suite 200",
+            "street_2": null,
+            "postal_code": "92612",
+            "city": "Irvine",
+            "city_path": "location/irvine/2979b857d250537dc44a22382d922237",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1298434511,
+            "updated_at": 1397990858
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dr-sears-family-essentials/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "2361 Campus Drive, Suite 200",
+            "street_2": null,
+            "postal_code": "92612",
+            "city": "Irvine",
+            "city_path": "location/irvine/2979b857d250537dc44a22382d922237",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1298434511,
+            "updated_at": 1397990858
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dr-sears-family-essentials/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Dr Sears Family Essentials raises 5600000 in unknown round",
+            "path": "funding-round/43f266fb5bc5069c910d24cee696df6e",
+            "created_at": 1298435070,
+            "updated_at": 1415304997
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dr-sears-family-essentials/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Hospitality",
+            "uuid": "e7d8b7cac72b77935a6d2801f6a0e8ee",
+            "path": "category/hospitality/e7d8b7cac72b77935a6d2801f6a0e8ee",
+            "created_at": 1397980728,
+            "updated_at": 1415548606
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dr-sears-family-essentials/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397182999/21310fe67d917eb2dccb3ab5fe80d79c.jpg",
+            "created_at": 1398018551,
+            "updated_at": 1398018551
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dr-sears-family-essentials/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397183000/40b03891e031a99b683e2c163e214035.jpg",
+            "created_at": 1398018551,
+            "updated_at": 1398018551
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dr-sears-family-essentials/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.drsearsfamilyessentials.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1298434484,
+            "updated_at": 1397988355
+          }
+        ]
+      }
+    }
+  }
+}

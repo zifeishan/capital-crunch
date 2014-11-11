@@ -1,0 +1,596 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "b69ecc7fc29f093b33bc7cd8e3193868",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "email_address": "investor.relations@level3.com",
+      "description": "Global Crossing (NASDAQ: GLBC) is a leading global IP, Ethernet, data center and video solutions provider with the world&#39;s first integrated global IP-based network.  The company offers a full range of data, voice, collaboration, broadcast and media services delivered with superior customer service.\n\nGlobal Crossing provides services to enterprises (including approximately 40 percent of the Fortune 500); government departments and agencies; and 700 carriers, mobile operators and ISPs.  It delivers converged IP services to more than 700 cities in more than 70 countries, and has 17 world-class data centers in major business centers around the globe.\n",
+      "short_description": "Level 3 Communications\u00ae is an international communications company developing IP transit networks in North America and Europe.",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 1985,
+      "founded_on": "1985-01-01",
+      "founded_on_trust_code": 4,
+      "permalink": "level-2",
+      "primary_role": "company",
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.level3.com",
+      "name": "Level 3 Communications",
+      "is_closed": false,
+      "closed_on_year": null,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on": null,
+      "created_at": 1209868752,
+      "updated_at": 1415386286,
+      "total_funding_usd": 13700000,
+      "number_of_investments": 0,
+      "stock_symbol": "LVLT"
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 65,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/level-2/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Marcio",
+            "last_name": "Avillez",
+            "title": "Vice President Product Management, Executive Director New Products, General Manager International Voice Services, Director of Marketing and Business Development",
+            "started_on": "2000-01-01",
+            "ended_on": "2009-01-01",
+            "path": "person/marcio-avillez",
+            "created_at": 1377529991,
+            "updated_at": 1397989353
+          },
+          {
+            "first_name": "Scott",
+            "last_name": "Beer",
+            "title": "Vice President of Carrier Relations",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/scott-beer",
+            "created_at": 1380276991,
+            "updated_at": 1397989289
+          },
+          {
+            "first_name": "Jeff",
+            "last_name": "Betteker",
+            "title": "Senior Vice President",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/jeff-betteker",
+            "created_at": 1391269175,
+            "updated_at": 1397989610
+          },
+          {
+            "first_name": "Jason",
+            "last_name": "Booma",
+            "title": "Product Manager",
+            "started_on": "2000-06-01",
+            "ended_on": "2004-05-01",
+            "path": "person/jason-booma",
+            "created_at": 1328099409,
+            "updated_at": 1397989601
+          },
+          {
+            "first_name": "David",
+            "last_name": "Boyle",
+            "title": "VP of Sales & Account Management",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/j-david-boyle-ii",
+            "created_at": 1252401370,
+            "updated_at": 1397989170
+          },
+          {
+            "first_name": "Kenneth",
+            "last_name": "Buckfire",
+            "title": "Team Member",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/kenneth-buckfire",
+            "created_at": 1411191593,
+            "updated_at": 1411192652
+          },
+          {
+            "first_name": "Jude",
+            "last_name": "Callirgos",
+            "title": "Director Resource Management",
+            "started_on": "1997-01-01",
+            "ended_on": "1999-01-01",
+            "path": "person/jude-callirgos-2",
+            "created_at": 1376833931,
+            "updated_at": 1412623206
+          },
+          {
+            "first_name": "Dan",
+            "last_name": "Caruso",
+            "title": "Founding Executives",
+            "started_on": "2001-01-01",
+            "ended_on": "2003-01-01",
+            "path": "person/dan-caruso",
+            "created_at": 1219153355,
+            "updated_at": 1397988966
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "paging": {
+          "total_items": 14,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/level-2/board_members_and_advisors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Terry",
+            "last_name": "Clontz",
+            "title": "Non-Executive Director on the Boards",
+            "started_on": null,
+            "path": "person/terry-clontz",
+            "created_at": 1367944082,
+            "updated_at": 1410373518
+          },
+          {
+            "first_name": "Albert",
+            "last_name": "C. Yates",
+            "title": "Board of Directors",
+            "started_on": "2005-03-01",
+            "path": "person/albert-c-yates",
+            "created_at": 1394313180,
+            "updated_at": 1397989800
+          },
+          {
+            "first_name": "Peter",
+            "last_name": "van Oppen",
+            "title": "Board of Directors",
+            "started_on": "2013-03-01",
+            "path": "person/peter-van-oppen",
+            "created_at": 1385128895,
+            "updated_at": 1397989304
+          },
+          {
+            "first_name": "Peter",
+            "last_name": "Seah Lim Huat",
+            "title": "Board of Directors",
+            "started_on": "2011-10-01",
+            "path": "person/peter-seah-lim-huat",
+            "created_at": 1394313180,
+            "updated_at": 1398230443
+          },
+          {
+            "first_name": "John",
+            "last_name": "T. Reed",
+            "title": "Board of Directors",
+            "started_on": "2003-03-01",
+            "path": "person/john-t-reed",
+            "created_at": 1394313180,
+            "updated_at": 1397989799
+          },
+          {
+            "first_name": "Charles",
+            "last_name": "C. Miller III",
+            "title": "Board of Directors",
+            "started_on": "2009-02-01",
+            "path": "person/charles-c-miller-iii",
+            "created_at": 1394241935,
+            "updated_at": 1397989783
+          },
+          {
+            "first_name": "Michael",
+            "last_name": "J. Mahoney",
+            "title": "Board of Directors",
+            "started_on": "2007-08-01",
+            "path": "person/michael-j-mahoney",
+            "created_at": 1394241935,
+            "updated_at": 1397989783
+          },
+          {
+            "first_name": "Richard",
+            "last_name": "R. Jaros",
+            "title": "Board of Directors",
+            "started_on": "1993-06-01",
+            "path": "person/richard-r-jaros",
+            "created_at": 1394241935,
+            "updated_at": 1397989783
+          }
+        ]
+      },
+      "current_team": {
+        "paging": {
+          "total_items": 17,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/level-2/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Hector",
+            "last_name": "Alonso",
+            "title": "Regional President Latin America",
+            "started_on": null,
+            "path": "person/hector-alonso",
+            "created_at": 1394231968,
+            "updated_at": 1397989780
+          },
+          {
+            "first_name": "Thomas",
+            "last_name": "C. Stortz",
+            "title": "Executive Vice President, Chief Administrative Officer and Secretary",
+            "started_on": "1998-01-01",
+            "path": "person/thomas-c-stortz",
+            "created_at": 1394231968,
+            "updated_at": 1397989780
+          },
+          {
+            "first_name": "Anthony",
+            "last_name": "Christie",
+            "title": "Chief Marketing Officer",
+            "started_on": null,
+            "path": "person/anthony-christie",
+            "created_at": 1394231968,
+            "updated_at": 1397989780
+          },
+          {
+            "first_name": "Archie",
+            "last_name": "Clemins",
+            "title": "Director",
+            "started_on": null,
+            "path": "person/archie-clemins",
+            "created_at": 1378752393,
+            "updated_at": 1397989299
+          },
+          {
+            "first_name": "Andrew",
+            "last_name": "Crouch",
+            "title": "Regional President, North America and APAC",
+            "started_on": null,
+            "path": "person/andrew-crouch",
+            "created_at": 1394231968,
+            "updated_at": 1397989780
+          },
+          {
+            "first_name": "James",
+            "last_name": "Crowe",
+            "title": "CEO",
+            "started_on": null,
+            "path": "person/james-crowe",
+            "created_at": 1210923446,
+            "updated_at": 1397989106
+          },
+          {
+            "first_name": "Neel",
+            "last_name": "Dev",
+            "title": "Group Vice President, Finance",
+            "started_on": null,
+            "path": "person/neel-dev",
+            "created_at": 1394231968,
+            "updated_at": 1397989780
+          },
+          {
+            "first_name": "Matt",
+            "last_name": "Ference",
+            "title": "Team Member",
+            "started_on": null,
+            "path": "person/matt-ference",
+            "created_at": 1209868752,
+            "updated_at": 1397989039
+          }
+        ]
+      },
+      "acquisitions": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/level-2/acquisitions",
+          "sort_order": "announced_on? desc"
+        },
+        "items": [
+          {
+            "announced_on": "2014-06-16",
+            "type": "Acquisition",
+            "name": "Acquisition",
+            "path": "acquisition/02c2a4d527491baf09ac7daffdcd8a2e",
+            "created_at": 1402922719,
+            "updated_at": 1402922741
+          },
+          {
+            "announced_on": "2011-04-11",
+            "type": "Acquisition",
+            "name": "Level 3 Communications acquired Global Crossing",
+            "path": "acquisition/508df50c9929828a71c39e35b3198e14",
+            "created_at": 1302573962,
+            "updated_at": 1397994859
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/level-2/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "1025 Eldorado Boulevard",
+            "street_2": null,
+            "postal_code": "80021",
+            "city": "Broomfield",
+            "city_path": "location/broomfield/4abbe04aed2e3e2f863404e307cf370a",
+            "region": "Colorado",
+            "region_path": "location/colorado/056b6b3909ea2c8527aff54b58a28072",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 39.920606,
+            "longitude": -105.144276,
+            "created_at": 1211765982,
+            "updated_at": 1397991951
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/level-2/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "1025 Eldorado Boulevard",
+            "street_2": null,
+            "postal_code": "80021",
+            "city": "Broomfield",
+            "city_path": "location/broomfield/4abbe04aed2e3e2f863404e307cf370a",
+            "region": "Colorado",
+            "region_path": "location/colorado/056b6b3909ea2c8527aff54b58a28072",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 39.920606,
+            "longitude": -105.144276,
+            "created_at": 1211765982,
+            "updated_at": 1397991951
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/level-2/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Level 3 Communications raises 13700000 in grant round",
+            "path": "funding-round/1776b0b0390a9c04391e95099c3c897b",
+            "created_at": 1267594391,
+            "updated_at": 1398009904
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/level-2/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Web Hosting",
+            "uuid": "56483f2d3a3570be7b8024c5bad5f1b8",
+            "path": "category/web hosting/56483f2d3a3570be7b8024c5bad5f1b8",
+            "created_at": 1397980728,
+            "updated_at": 1415358574
+          },
+          {
+            "type": "Category",
+            "name": "Content Delivery",
+            "uuid": "b9cab5d02afc6b49ff6d796d2ab49334",
+            "path": "category/content delivery/b9cab5d02afc6b49ff6d796d2ab49334",
+            "created_at": 1397980727,
+            "updated_at": 1415355716
+          }
+        ]
+      },
+      "ipo": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/level-2/ipo",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Ipo",
+            "name": "Went public on October 28, 2011",
+            "path": "ipo/b5dbdb145b6a555e112ffe0b530ffd0d",
+            "created_at": 1211765940,
+            "updated_at": 1397994524
+          }
+        ]
+      },
+      "products": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/level-2/products",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Product",
+            "name": "Level3 CDN",
+            "path": "product/level3-cdn",
+            "created_at": 1402743884,
+            "updated_at": 1402743925
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/level-2/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1415386284/hauiahkqyx9gwbzv3jas.jpg",
+            "created_at": 1398019054,
+            "updated_at": 1415386285
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/level-2/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397186729/468e1ac41c81c14d10c7771bb0b251e8.png",
+            "created_at": 1398019054,
+            "updated_at": 1398019054
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/level-2/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/company/level-3-communications",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1410641734,
+            "updated_at": 1410641735
+          },
+          {
+            "url": "http://www.plus.google.com/+level3communications",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/level3",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/Level3",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1209843552,
+            "updated_at": 1409420544
+          },
+          {
+            "url": "http://blog.level3.com/",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1209843552,
+            "updated_at": 1397988583
+          },
+          {
+            "url": "http://www.level3.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1209843552,
+            "updated_at": 1397988583
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 7,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/level-2/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.policychargingcontrol.com/1651-level-3-china-telecom-global-bring-video-cloud-solution-to-china",
+            "author": "Ray Sharma",
+            "posted_on": "2014-06-23",
+            "type": "PressReference",
+            "title": "Level 3, China Telecom Global Bring Video Cloud Solution to China",
+            "created_at": 1403675890,
+            "updated_at": 1403675890
+          },
+          {
+            "url": "http://www.policychargingcontrol.com/mobile-network-operators-ma/1592-a-more-competitive-and-nimbler-level-3-communications-with-acquisition-of-tw-telecom",
+            "author": "Tara Neal",
+            "posted_on": "2014-06-17",
+            "type": "PressReference",
+            "title": "A More Competitive and Nimbler Level 3 Communications with Acquisition of tw Telecom",
+            "created_at": 1403243611,
+            "updated_at": 1403243611
+          },
+          {
+            "url": "http://www.marketwatch.com/story/level-3-to-buy-tw-telecom-in-73-bln-deal-including-debt-2014-06-16?mod=latestnewssocialflow&link=sfmw",
+            "author": "Ciara Linnane",
+            "posted_on": "2014-06-16",
+            "type": "PressReference",
+            "title": "Level 3 to buy TW Telecom in $7.3 bln deal, including debt",
+            "created_at": 1402920624,
+            "updated_at": 1402920624
+          },
+          {
+            "url": "http://techcrunch.com/2010/12/03/comcast-we-are-not-the-bad-guys-in-this-whole-netflix-level-3-fiasco/",
+            "author": "Nicholas Deleon",
+            "posted_on": "2010-12-03",
+            "type": "PressReference",
+            "title": "Comcast: We Are *Not* The Bad Guys In This Whole Netflix-Level 3&nbsp;Fiasco",
+            "created_at": 1291393090,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://techcrunch.com/2010/11/30/what-the-comcastlevel-3-fracas-is-really-about-money/",
+            "author": "John Biggs",
+            "posted_on": "2010-11-30",
+            "type": "PressReference",
+            "title": "What The Comcast/Level 3 Fracas Is Really About:&nbsp;Money",
+            "created_at": 1291126361,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://techcrunch.com/2010/11/11/level-3-lands-netflix-streaming-business-will-double-its-storage-capability/",
+            "author": "Robin Wauters",
+            "posted_on": "2010-11-11",
+            "type": "PressReference",
+            "title": "Level 3 Lands Netflix Streaming Business, Will Double Its Storage&nbsp;Capability",
+            "created_at": 1289481361,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://www.techcrunch.com/2007/12/09/cdns-are-big-business-edgecast-get-6-million/",
+            "author": "Nick Gonzalez",
+            "posted_on": "2007-12-09",
+            "type": "PressReference",
+            "title": "CDNs Are Big Business, EdgeCast Get $6 Million",
+            "created_at": 1218505443,
+            "updated_at": 2008
+          }
+        ]
+      }
+    }
+  }
+}

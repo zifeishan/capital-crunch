@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "4669ebdf3de1a28bf3cea4c69e7fb271",
+    "type": "Person",
+    "properties": {
+      "last_name": "Endo",
+      "first_name": "Aaron",
+      "permalink": "aaron-endo",
+      "created_at": 1284153203,
+      "updated_at": 1397989195
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-endo/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "New Medici",
+            "organization_path": "organization/new-medici",
+            "title": "SVP, Finance/Modeling",
+            "started_on": "2010-04-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-endo/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "New Medici",
+            "organization_path": "organization/new-medici",
+            "title": "SVP, Finance/Modeling",
+            "started_on": "2010-04-01",
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

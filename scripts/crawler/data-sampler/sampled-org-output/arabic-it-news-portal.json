@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "8c1aa3bb420ccdebb9eb651b5e6c95cd",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "The Arabic IT News Portal is the world&#39;s first and biggest news source that is completely dedicated to offering the latest news and updates of information and communications technology in proper Arabic. \n",
+      "short_description": "The Arabic IT News Portal is the world's first and biggest news source that is completely dedicated to offering the latest news and updates",
+      "founded_on_day": 1,
+      "founded_on_month": 9,
+      "founded_on_year": 2005,
+      "founded_on": "2005-09-01",
+      "founded_on_trust_code": 7,
+      "permalink": "arabic-it-news-portal",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.aitnews.com",
+      "name": "Arabic IT News Portal",
+      "num_employees_max": 10,
+      "num_employees_min": 1,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "email_address": "gm@aitnws.com",
+      "created_at": 1279834917,
+      "updated_at": 1409879243,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 5
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/arabic-it-news-portal/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Ahmed",
+            "last_name": "Abd Al Qadir",
+            "title": "Founder & CEO",
+            "started_on": "2005-09-01",
+            "ended_on": "2010-07-22",
+            "path": "person/ahmed-abd-al-qadir",
+            "created_at": 1279834917,
+            "updated_at": 1397989421
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/arabic-it-news-portal/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "Level 41 Emirates Towers",
+            "street_2": null,
+            "postal_code": "31303",
+            "city": "Dubai",
+            "city_path": "location/dubai/0e8010ee2f5938dbb7e2998e92dde222",
+            "region": "Dubai",
+            "region_path": "location/dubai/bdaf57f04a063b657b13e2983186c2ab",
+            "country": "United Arab Emirates",
+            "country_path": "location/united-arab-emirates/9314d29a0a5602c36b274168733de77f",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1279809718,
+            "updated_at": 1397991525
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/arabic-it-news-portal/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "Level 41 Emirates Towers",
+            "street_2": null,
+            "postal_code": "31303",
+            "city": "Dubai",
+            "city_path": "location/dubai/0e8010ee2f5938dbb7e2998e92dde222",
+            "region": "Dubai",
+            "region_path": "location/dubai/bdaf57f04a063b657b13e2983186c2ab",
+            "country": "United Arab Emirates",
+            "country_path": "location/united-arab-emirates/9314d29a0a5602c36b274168733de77f",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1279809718,
+            "updated_at": 1397991525
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/arabic-it-news-portal/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Ahmed Abd Al Qadir",
+            "path": "person/ahmed-abd-al-qadir",
+            "created_at": 1279834917,
+            "updated_at": 1397989421
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/arabic-it-news-portal/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397187609/716d3b445069d92a92e473d23d908e11.jpg",
+            "created_at": 1398019085,
+            "updated_at": 1398019085
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/arabic-it-news-portal/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397187609/c06bcbfca3ecec1c7ba7519d96ea3ec5.jpg",
+            "created_at": 1398019085,
+            "updated_at": 1398019085
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/arabic-it-news-portal/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/company/594739",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.plus.google.com/+Aitnewsportal",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/aitnews",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/aitnews",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1279809717,
+            "updated_at": 1409420932
+          },
+          {
+            "url": "http://www.aitnews.com",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1279809717,
+            "updated_at": 1397988651
+          },
+          {
+            "url": "http://www.aitnews.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1279809717,
+            "updated_at": 1397988651
+          }
+        ]
+      }
+    }
+  }
+}

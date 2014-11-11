@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "30b1084fa57f9dcdd8b76985e8c76c14",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Navic&#39;s technology offers television networks tools that use real-time audience measurement data to optimize the delivery and placement of targeted video advertisements.\n",
+      "short_description": "Navic Networks develops tools that TV advertisers can use to target ads at specific digital cable subscribers and measure their responses.",
+      "founded_on_day": 3,
+      "founded_on_month": 1,
+      "founded_on_year": 2000,
+      "founded_on": "2000-01-03",
+      "founded_on_trust_code": 7,
+      "permalink": "navic-networks",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.navic.tv",
+      "name": "Navic Networks",
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "created_at": 1212449050,
+      "updated_at": 1409998644,
+      "total_funding_usd": 42000000,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "board_members_and_advisors": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/navic-networks/board_members_and_advisors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Bob",
+            "last_name": "Davis",
+            "title": "Board of Directors",
+            "started_on": null,
+            "path": "person/bob-davis",
+            "created_at": 1213241808,
+            "updated_at": 1412257351
+          },
+          {
+            "first_name": "Robert",
+            "last_name": "Rosenbloom",
+            "title": "Advisor & Board of Director",
+            "started_on": null,
+            "path": "person/robert-rosenbloom",
+            "created_at": 1395157152,
+            "updated_at": 1397989603
+          },
+          {
+            "first_name": "Tim",
+            "last_name": "Hanlon",
+            "title": "Advisor",
+            "started_on": "2007-01-01",
+            "path": "person/tim-hanlon",
+            "created_at": 1320815144,
+            "updated_at": 1410901553
+          }
+        ]
+      },
+      "current_team": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/navic-networks/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Matthew",
+            "last_name": "Emans",
+            "title": "VP of Product Management",
+            "started_on": null,
+            "path": "person/matthew-emans",
+            "created_at": 1212474247,
+            "updated_at": 1397989197
+          },
+          {
+            "first_name": "John",
+            "last_name": "Hoctor",
+            "title": "VP of Business Development and Marketing",
+            "started_on": null,
+            "path": "person/john-hoctor",
+            "created_at": 1212474246,
+            "updated_at": 1397989197
+          },
+          {
+            "first_name": "Chet",
+            "last_name": "Kanojia",
+            "title": "CEO",
+            "started_on": null,
+            "path": "person/chet-kanojia",
+            "created_at": 1212474245,
+            "updated_at": 1411171678
+          },
+          {
+            "first_name": "John",
+            "last_name": "Pruellage",
+            "title": "VP of Business Affairs",
+            "started_on": null,
+            "path": "person/john-pruellage",
+            "created_at": 1212474247,
+            "updated_at": 1397989197
+          },
+          {
+            "first_name": "Tore",
+            "last_name": "Tellefsen",
+            "title": "VP of Program Management",
+            "started_on": null,
+            "path": "person/tore-tellefsen",
+            "created_at": 1212474247,
+            "updated_at": 1397989197
+          },
+          {
+            "first_name": "Tom",
+            "last_name": "Walsh",
+            "title": "SVP",
+            "started_on": null,
+            "path": "person/tom-walsh",
+            "created_at": 1212474246,
+            "updated_at": 1397989197
+          }
+        ]
+      },
+      "acquired_by": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/navic-networks/acquired_by",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "announced_on": "2008-06-18",
+            "type": "Acquisition",
+            "name": "Microsoft acquired Navic Networks",
+            "path": "acquisition/5c6a25bc635c5f67600c1dc8d09b485e",
+            "created_at": 1213793036,
+            "updated_at": 1397994858
+          }
+        ]
+      },
+      "competitors": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/navic-networks/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "icueTV",
+            "path": "organization/icuetv",
+            "created_at": 1216664132,
+            "updated_at": 1397987707
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/navic-networks/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "201 Jones Road",
+            "street_2": null,
+            "postal_code": "02451",
+            "city": "Waltham",
+            "city_path": "location/waltham/02f71c8f3589b9dad8b3b1ad1bc9b93a",
+            "region": "Massachusetts",
+            "region_path": "location/massachusetts/98c62fd921489dd7d767b27fa0816b97",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 42.375518,
+            "longitude": -71.272292,
+            "created_at": 1212449057,
+            "updated_at": 1397990958
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/navic-networks/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "201 Jones Road",
+            "street_2": null,
+            "postal_code": "02451",
+            "city": "Waltham",
+            "city_path": "location/waltham/02f71c8f3589b9dad8b3b1ad1bc9b93a",
+            "region": "Massachusetts",
+            "region_path": "location/massachusetts/98c62fd921489dd7d767b27fa0816b97",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 42.375518,
+            "longitude": -71.272292,
+            "created_at": 1212449057,
+            "updated_at": 1397990958
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/navic-networks/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Navic Networks raises 20000000 in venture round",
+            "path": "funding-round/a349e3f1638b62ddc15c603df3160893",
+            "created_at": 1213794207,
+            "updated_at": 1398009998
+          },
+          {
+            "type": "FundingRound",
+            "name": "Navic Networks raises 20000000 in venture round",
+            "path": "funding-round/7afdf8ef8dfe74a22705c3ddc9964dfe",
+            "created_at": 1213794207,
+            "updated_at": 1398009998
+          },
+          {
+            "type": "FundingRound",
+            "name": "Navic Networks raises 2000000 in venture round",
+            "path": "funding-round/0d0bdba8b19659a1b76e78d903ba3b32",
+            "created_at": 1212449055,
+            "updated_at": 1398009959
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/navic-networks/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Advertising",
+            "uuid": "6cb685372de1b0412ee5451ff81bccab",
+            "path": "category/advertising/6cb685372de1b0412ee5451ff81bccab",
+            "created_at": 1397980727,
+            "updated_at": 1415587589
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/navic-networks/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188046/6bb453507efbfa409733871612cae0be.jpg",
+            "created_at": 1398019175,
+            "updated_at": 1398019175
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/navic-networks/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.navic.tv",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1212449050,
+            "updated_at": 1397988860
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/navic-networks/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.techcrunch.com/2008/06/18/microsoft-gets-into-interactive-tv-ads-buys-navic-networks-for-an-estimated-200-to-300-million/",
+            "author": "Erick Schonfeld",
+            "posted_on": "2008-06-18",
+            "type": "PressReference",
+            "title": "Microsoft Gets Into Interactive TV Ads; Buys Navic Networks For An Estimated $200 to $300 Million",
+            "created_at": 1218505459,
+            "updated_at": 2008
+          }
+        ]
+      }
+    }
+  }
+}

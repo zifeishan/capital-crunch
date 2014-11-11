@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "d01c70d4b03e08713d61438d8f4be030",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Afterbrnr is a platform where crowdfunded projects get more breathing space and a new life.\nWe haven&#39;t launcehed yet so we&#39;ll update this space as soon as our private beta opens. \n",
+      "short_description": "We fuel crowdfunded projects.",
+      "founded_on_day": 1,
+      "founded_on_month": 6,
+      "founded_on_year": 2012,
+      "founded_on": "2012-06-01",
+      "founded_on_trust_code": 7,
+      "permalink": "afterbrnr",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://afterbrnr.com",
+      "name": "Afterbrnr",
+      "closed_on_year": null,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on": null,
+      "email_address": "hi@afterbrnr.com",
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "created_at": 1338569799,
+      "updated_at": 1409864486,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 2
+    },
+    "relationships": {
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/afterbrnr/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "E-Commerce",
+            "uuid": "275ddcbc27deff4f4e506dc26ebf9570",
+            "path": "category/e-commerce/275ddcbc27deff4f4e506dc26ebf9570",
+            "created_at": 1397980726,
+            "updated_at": 1415640058
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/afterbrnr/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397197188/63a580981d56d2dcd5e983e0aa3c22fb.png",
+            "created_at": 1398018642,
+            "updated_at": 1398018642
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/afterbrnr/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/afterbrnr",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1338544599,
+            "updated_at": 1409402906
+          },
+          {
+            "url": "http://afterbrnr.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1338544599,
+            "updated_at": 1397989003
+          }
+        ]
+      }
+    }
+  }
+}

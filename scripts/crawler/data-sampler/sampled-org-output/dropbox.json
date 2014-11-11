@@ -1,0 +1,825 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "e6449ca522685cf796cab808a234da00",
+    "type": "Organization",
+    "properties": {
+      "short_description": "Dropbox operates a free file hosting service that allows its users to share and access photos, documents, and videos from anywhere.",
+      "founded_on_day": 1,
+      "founded_on_month": 6,
+      "founded_on_year": 2007,
+      "founded_on": "2007-06-01",
+      "founded_on_trust_code": 7,
+      "permalink": "dropbox",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.dropbox.com",
+      "name": "Dropbox",
+      "role_company": null,
+      "also_known_as": "[\"Evenflow\"]",
+      "closed_on_year": null,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on": null,
+      "description": "Dropbox operates a free file hosting service that allows its users to share and access photos, documents, and videos from anywhere.\n\nDropbox was first created when Drew Houston, after being frustrated by working from multiple computers, developed a service that would enable people to take their files anywhere without needing to email around attachments. It was after seeing Dropbox\u2019s demo that Arash Ferdowsi dropped out of college with only one semester left in order to make Dropbox a reality. Guiding their decisions was a relentless focus on crafting a simple and reliable experience across every computer and phone.\n\nIn the fall of 2007, Houston and Ferdowsi moved to San Francisco after securing seed funding from Y Combinator and set about building an engineering team. Afterwards, in the fall of 2008, Sequoia Capital led a $7.2M Series A with Accel Partners to help bring Dropbox to people everywhere. \n\nIn present day, Dropbox helps businesses protect their work and allows teams to reach their files from any computer, phone, or tablet. It also enables its users to share the right files with the right people; add documents, photos, and other digital products into a central location; and work on or share digital items from any connected device.\n\nDropbox serves customers ranging from Fortune 500 companies to local organizations in the United States and internationally.\n\nDropbox was launched on June 1, 2007, by Drew Houston and Arash Ferdowsi in San Francisco, California.\n",
+      "num_employees_max": null,
+      "num_employees_min": null,
+      "secondary_role_for_profit": true,
+      "num_employees_range": null,
+      "created_at": 1187287840,
+      "updated_at": 1415345673,
+      "total_funding_usd": 1107215000,
+      "number_of_investments": 0,
+      "number_of_employees": 642
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 19,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Makinde",
+            "last_name": "Adeagbo",
+            "title": "Software Craftsman",
+            "started_on": "2011-07-01",
+            "ended_on": "2012-07-01",
+            "path": "person/makinde-adeagbo",
+            "created_at": 1335212983,
+            "updated_at": 1397989684
+          },
+          {
+            "first_name": "Soleio",
+            "last_name": "Cuervo",
+            "title": "Design",
+            "started_on": "2012-12-11",
+            "ended_on": null,
+            "path": "person/soleio-cuervo",
+            "created_at": 1273208299,
+            "updated_at": 1397989569
+          },
+          {
+            "first_name": "Michael",
+            "last_name": "De Wildt",
+            "title": "Senior Engineer",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/michael-de-wildt",
+            "created_at": 1393948332,
+            "updated_at": 1402936688
+          },
+          {
+            "first_name": "Michael",
+            "last_name": "Dwan",
+            "title": "Product Manager, Photos",
+            "started_on": "2012-12-01",
+            "ended_on": "2014-03-01",
+            "path": "person/michael-dwan",
+            "created_at": 1312861117,
+            "updated_at": 1397989419
+          },
+          {
+            "first_name": "Rajiv",
+            "last_name": "Eranki",
+            "title": "Head of Server Engineering",
+            "started_on": "2008-03-01",
+            "ended_on": null,
+            "path": "person/rajiv-eranki",
+            "created_at": 1305526453,
+            "updated_at": 1401843182
+          },
+          {
+            "first_name": "Michael",
+            "last_name": "Grinich",
+            "title": "Engineer",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/michael-grinich",
+            "created_at": 1404755666,
+            "updated_at": 1404755991
+          },
+          {
+            "first_name": "Adam",
+            "last_name": "Gross",
+            "title": "SVP, Marketing & Sales",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/adam-gross",
+            "created_at": 1266143093,
+            "updated_at": 1412226095
+          },
+          {
+            "first_name": "Russ",
+            "last_name": "Heddleston",
+            "title": "PM Intern",
+            "started_on": "2010-05-10",
+            "ended_on": "2010-08-10",
+            "path": "person/russ-heddleston",
+            "created_at": 1298690122,
+            "updated_at": 1402050525
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/board_members_and_advisors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Hadi",
+            "last_name": "Partovi",
+            "title": "Advisor",
+            "started_on": "2007-09-01",
+            "path": "person/hadi-partovi",
+            "created_at": 1184698470,
+            "updated_at": 1413972595
+          },
+          {
+            "first_name": "Bryan",
+            "last_name": "Schreier",
+            "title": "Board Member",
+            "started_on": null,
+            "path": "person/bryan-schreier",
+            "created_at": 1270764702,
+            "updated_at": 1410175194
+          },
+          {
+            "first_name": "Ali",
+            "last_name": "Partovi",
+            "title": "Advisor",
+            "started_on": "2007-08-01",
+            "path": "person/ali-partovi",
+            "created_at": 1184698451,
+            "updated_at": 1411060936
+          },
+          {
+            "first_name": "Condoleezza",
+            "last_name": "Rice",
+            "title": "Board of Directors",
+            "started_on": "2014-04-01",
+            "path": "person/condoleezza-rice",
+            "created_at": 1262140356,
+            "updated_at": 1410175600
+          },
+          {
+            "first_name": "Sean",
+            "last_name": "Ellis",
+            "title": "Marketing Advisor",
+            "started_on": "2008-07-01",
+            "path": "person/sean-ellis",
+            "created_at": 1286424487,
+            "updated_at": 1415090834
+          },
+          {
+            "first_name": "Charles",
+            "last_name": "Hilliard",
+            "title": "Advisor",
+            "started_on": "2012-09-01",
+            "path": "person/charles-hilliard",
+            "created_at": 1188597652,
+            "updated_at": 1406330518
+          }
+        ]
+      },
+      "current_team": {
+        "paging": {
+          "total_items": 26,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Drew",
+            "last_name": "Houston",
+            "title": "Founder & CEO",
+            "started_on": null,
+            "path": "person/drew-houston",
+            "created_at": 1187379042,
+            "updated_at": 1413692730
+          },
+          {
+            "first_name": "Arash",
+            "last_name": "Ferdowsi",
+            "title": "Founder & CTO",
+            "started_on": null,
+            "path": "person/arash-ferdowsi",
+            "created_at": 1187379067,
+            "updated_at": 1406332568
+          },
+          {
+            "first_name": "Aditya",
+            "last_name": "Agarwal",
+            "title": "VP of Engineering",
+            "started_on": "2012-02-01",
+            "path": "person/aditya-agarwal",
+            "created_at": 1253054098,
+            "updated_at": 1412873859
+          },
+          {
+            "first_name": "Ilya",
+            "last_name": "Fushman",
+            "title": "Head of Product, Business and Mobile",
+            "started_on": "2011-01-01",
+            "path": "person/ilya-fushman",
+            "created_at": 1406123021,
+            "updated_at": 1410172438
+          },
+          {
+            "first_name": "Boris",
+            "last_name": "Babenko",
+            "title": "Engineer",
+            "started_on": "2012-09-01",
+            "path": "person/boris-babenko",
+            "created_at": 1341641134,
+            "updated_at": 1397989098
+          },
+          {
+            "first_name": "Jeff",
+            "last_name": "Bartelma",
+            "title": "Director of Product",
+            "started_on": "2010-10-01",
+            "path": "person/jeff-bartelma",
+            "created_at": 1305526454,
+            "updated_at": 1411295644
+          },
+          {
+            "first_name": "Nathan",
+            "last_name": "Borror",
+            "title": "Designer",
+            "started_on": "2014-04-22",
+            "path": "person/nathan-borror",
+            "created_at": 1395755425,
+            "updated_at": 1398238240
+          },
+          {
+            "first_name": "Ronnie",
+            "last_name": "Cheng",
+            "title": "Team Member",
+            "started_on": null,
+            "path": "person/ronnie-cheng",
+            "created_at": 1365065701,
+            "updated_at": 1410177033
+          }
+        ]
+      },
+      "acquisitions": {
+        "paging": {
+          "total_items": 18,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/acquisitions",
+          "sort_order": "announced_on? desc"
+        },
+        "items": [
+          {
+            "announced_on": "2014-07-01",
+            "type": "Acquisition",
+            "name": "Acquisition",
+            "path": "acquisition/506af0b99cd96bb268372c5c8d9bc971",
+            "created_at": 1404272805,
+            "updated_at": 1404272842
+          },
+          {
+            "announced_on": "2014-06-16",
+            "type": "Acquisition",
+            "name": "Acquisition",
+            "path": "acquisition/c86c39f6f36a7dfd8b7fe31a33ed05db",
+            "created_at": 1402992233,
+            "updated_at": 1402992233
+          },
+          {
+            "announced_on": "2014-06-10",
+            "type": "Acquisition",
+            "name": "Acquisition",
+            "path": "acquisition/c65f77cbdc34bfc2f4eb864b8020431b",
+            "created_at": 1402439505,
+            "updated_at": 1402439506
+          },
+          {
+            "announced_on": "2014-06-05",
+            "type": "Acquisition",
+            "name": "Acquisition",
+            "path": "acquisition/53f26cc7940856c82bed63f9e283abe8",
+            "created_at": 1402049062,
+            "updated_at": 1402049094
+          },
+          {
+            "announced_on": "2014-05-21",
+            "type": "Acquisition",
+            "name": "Acquisition",
+            "path": "acquisition/66a397d46a6d3d8bbb8188977f7483f1",
+            "created_at": 1400732777,
+            "updated_at": 1400732855
+          },
+          {
+            "announced_on": "2014-04-17",
+            "type": "Acquisition",
+            "name": "Dropbox acquired HackPad",
+            "path": "acquisition/7cff11024b6310c56a50b1932b1dba90",
+            "created_at": 1397799223,
+            "updated_at": 1397995224
+          },
+          {
+            "announced_on": "2014-04-17",
+            "type": "Acquisition",
+            "name": "Dropbox acquired Loom",
+            "path": "acquisition/fa853a6e407ab2db6de10ef0c221ed8b",
+            "created_at": 1397799223,
+            "updated_at": 1397995224
+          },
+          {
+            "announced_on": "2014-03-28",
+            "type": "Acquisition",
+            "name": "Dropbox acquired Readmill",
+            "path": "acquisition/4c2010ade495f785fbd9b89feee6816d",
+            "created_at": 1396071163,
+            "updated_at": 1397995118
+          }
+        ]
+      },
+      "competitors": {
+        "paging": {
+          "total_items": 32,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Egnyte",
+            "path": "organization/egnyte",
+            "created_at": 1398267062,
+            "updated_at": 1414081509
+          },
+          {
+            "type": "Organization",
+            "name": "HubiC",
+            "path": "organization/hubic",
+            "created_at": 1391827966,
+            "updated_at": 1409498781
+          },
+          {
+            "type": "Organization",
+            "name": "Infinit",
+            "path": "organization/infinit",
+            "created_at": 1360717252,
+            "updated_at": 1411770769
+          },
+          {
+            "type": "Organization",
+            "name": "Thru, Inc.",
+            "path": "organization/thru-inc",
+            "created_at": 1315622683,
+            "updated_at": 1415390726
+          },
+          {
+            "type": "Organization",
+            "name": "Infrascale",
+            "path": "organization/infrascale",
+            "created_at": 1315569801,
+            "updated_at": 1412869675
+          },
+          {
+            "type": "Organization",
+            "name": "Dropmysite",
+            "path": "organization/dropmysite",
+            "created_at": 1313925427,
+            "updated_at": 1409499265
+          },
+          {
+            "type": "Organization",
+            "name": "AeroFS",
+            "path": "organization/aerofs",
+            "created_at": 1309359736,
+            "updated_at": 1409498870
+          },
+          {
+            "type": "Organization",
+            "name": "TeamDrive",
+            "path": "organization/teamdrive",
+            "created_at": 1295388346,
+            "updated_at": 1409499440
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "EMEA Office",
+            "street_1": "2 Fitzwilliam Pl",
+            "street_2": "Fitzwilliam Hall",
+            "postal_code": null,
+            "city": "Dublin",
+            "city_path": "location/dublin/97c70aa17568ca5375122f181f0484a7",
+            "region": "Dublin",
+            "region_path": "location/dublin/e401019b70f746eef7f33331a2528672",
+            "country": "Ireland",
+            "country_path": "location/ireland/1944e9da82b4819038c0014fef22e2ef",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1400696973,
+            "updated_at": 1400696973
+          },
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "333 Brannan",
+            "street_2": null,
+            "postal_code": "94107",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1391548864,
+            "updated_at": 1397992336
+          },
+          {
+            "type": "Address",
+            "name": "Headquarters",
+            "street_1": null,
+            "street_2": "185 Berry St 4th Floor",
+            "postal_code": "94107",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.7909427,
+            "longitude": -122.4084994,
+            "created_at": 1205362458,
+            "updated_at": 1397990900
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Headquarters",
+            "street_1": null,
+            "street_2": "185 Berry St 4th Floor",
+            "postal_code": "94107",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.7909427,
+            "longitude": -122.4084994,
+            "created_at": 1205362458,
+            "updated_at": 1397990900
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Dropbox raises 0 in seed round",
+            "path": "funding-round/06480ed05bdda6caeb0e365927f9c30b",
+            "created_at": 1402083532,
+            "updated_at": 1402083532
+          },
+          {
+            "type": "FundingRound",
+            "name": "Dropbox raises 500000000 in debt_financing round",
+            "path": "funding-round/224ac48ac0b1afa2dca33be4f9a3dbeb",
+            "created_at": 1396838035,
+            "updated_at": 1409947372
+          },
+          {
+            "type": "FundingRound",
+            "name": "Dropbox raises 350000000 in venture round",
+            "path": "funding-round/c71ac91426570e91385d5961356e2f0d",
+            "created_at": 1389996775,
+            "updated_at": 1398009914
+          },
+          {
+            "type": "FundingRound",
+            "name": "Dropbox raises 250000000 in venture round",
+            "path": "funding-round/ec0043748057f7b18c1312fdcdd871be",
+            "created_at": 1314775655,
+            "updated_at": 1398010039
+          },
+          {
+            "type": "FundingRound",
+            "name": "Dropbox raises 6000000 in venture round",
+            "path": "funding-round/f0060f848b90e98af4d26d84a6c98fb3",
+            "created_at": 1259122333,
+            "updated_at": 1398010046
+          },
+          {
+            "type": "FundingRound",
+            "name": "Dropbox raises 1200000 in seed round",
+            "path": "funding-round/488cdf765daca41e2fc800347ccc5a43",
+            "created_at": 1220583342,
+            "updated_at": 1404860822
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Web Hosting",
+            "uuid": "56483f2d3a3570be7b8024c5bad5f1b8",
+            "path": "category/web hosting/56483f2d3a3570be7b8024c5bad5f1b8",
+            "created_at": 1397980728,
+            "updated_at": 1415358574
+          },
+          {
+            "type": "Category",
+            "name": "Storage",
+            "uuid": "d4ba0ecc9aad9f1f7e76dedb73dcc769",
+            "path": "category/storage/d4ba0ecc9aad9f1f7e76dedb73dcc769",
+            "created_at": 1397980727,
+            "updated_at": 1415360443
+          },
+          {
+            "type": "Category",
+            "name": "Cloud Data Services",
+            "uuid": "d0c29b4e27db3c4734fe94881a585836",
+            "path": "category/cloud data services/d0c29b4e27db3c4734fe94881a585836",
+            "created_at": 1397980726,
+            "updated_at": 1415267017
+          }
+        ]
+      },
+      "customers": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/customers",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Ouyeaa",
+            "path": "organization/ouyeaa",
+            "created_at": 1408010328,
+            "updated_at": 1415202561
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Arash Ferdowsi",
+            "path": "person/arash-ferdowsi",
+            "created_at": 1187379067,
+            "updated_at": 1406332568
+          },
+          {
+            "type": "Person",
+            "name": "Drew Houston",
+            "path": "person/drew-houston",
+            "created_at": 1187379042,
+            "updated_at": 1413692730
+          }
+        ]
+      },
+      "products": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/products",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Product",
+            "name": "Carousel",
+            "path": "product/carousel",
+            "created_at": 1406123483,
+            "updated_at": 1413955633
+          },
+          {
+            "type": "Product",
+            "name": "DropBox",
+            "path": "product/dropbox",
+            "created_at": 1224826102,
+            "updated_at": 1414685876
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1412848781/ub44kt96u00ampxwdoqh.png",
+            "created_at": 1398018531,
+            "updated_at": 1412848796
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397180935/73026aab3e65f620e232082d3ec740ed.png",
+            "created_at": 1398018532,
+            "updated_at": 1398018532
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397180934/29cb05ac772de9697c0453c6489ca4b2.png",
+            "created_at": 1398018532,
+            "updated_at": 1398018532
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397180933/a4fd56dc6f5e94fb0825c35279837335.png",
+            "created_at": 1398018532,
+            "updated_at": 1398018532
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397180931/4a6ddba2bc7ba80e8a814ac582f172f5.png",
+            "created_at": 1398018531,
+            "updated_at": 1398018531
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/company/dropbox",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1401601911,
+            "updated_at": 1401601911
+          },
+          {
+            "url": "http://www.facebook.com/Dropbox",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1401601911,
+            "updated_at": 1409505382
+          },
+          {
+            "url": "http://twitter.com/Dropbox",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1187262640,
+            "updated_at": 1409448378
+          },
+          {
+            "url": "http://blog.dropbox.com",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1187262640,
+            "updated_at": 1397987523
+          },
+          {
+            "url": "http://www.dropbox.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1187262640,
+            "updated_at": 1397987523
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 139,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dropbox/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://techcrunch.com/2014/11/04/dropboxs-drew-houston-responds-to-snowdens-privacy-criticism-its-a-trade-off/",
+            "author": null,
+            "posted_on": "2014-11-04",
+            "type": "PressReference",
+            "title": "Dropbox\u2019s Drew Houston Responds To Snowden\u2019s Privacy Criticism: It\u2019s A Trade-Off | TechCrunch",
+            "created_at": 1415172099,
+            "updated_at": 1415172099
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/14/dropbox-pastebin/",
+            "author": null,
+            "posted_on": "2014-10-14",
+            "type": "PressReference",
+            "title": "Dropbox Confirms Compromised Account Details But Says Its Servers Weren\u2019t Hacked | TechCrunch",
+            "created_at": 1414039177,
+            "updated_at": 1414039177
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/20/dropbox-updated-for-iphone-6-and-6-plus-gains-touch-id-support/",
+            "author": null,
+            "posted_on": "2014-10-20",
+            "type": "PressReference",
+            "title": "Dropbox Updated For iPhone 6 And 6 Plus, Gains Touch ID Support | TechCrunch",
+            "created_at": 1413993324,
+            "updated_at": 1413993324
+          },
+          {
+            "url": "http://techcrunch.com/2014/09/23/dropbox-is-now-ios-8-ready-with-a-notification-center-widget-app-extension-support-and-more/",
+            "author": null,
+            "posted_on": "2014-09-23",
+            "type": "PressReference",
+            "title": "Dropbox Is Now iOS 8-Ready With A Notification Center Widget, App Extension Support And More | TechCrunch",
+            "created_at": 1411550823,
+            "updated_at": 1411550824
+          },
+          {
+            "url": "http://techcrunch.com/2014/09/11/dropbox-calls-for-support-of-the-senates-nsa-reform-bill/",
+            "author": null,
+            "posted_on": "2014-09-11",
+            "type": "PressReference",
+            "title": "Dropbox Calls For Support Of The Senate\u2019s NSA Reform Bill | TechCrunch",
+            "created_at": 1410510270,
+            "updated_at": 1410510273
+          },
+          {
+            "url": "http://techcrunch.com/2014/08/19/finally/",
+            "author": null,
+            "posted_on": "2014-08-19",
+            "type": "PressReference",
+            "title": "Mailbox Finally Brings Its Email Client To The Desktop, Adds Drafts And Syncing Between Devices | TechCrunch",
+            "created_at": 1408522185,
+            "updated_at": 1408522185
+          },
+          {
+            "url": "http://www.techinasia.com/south-korea-startup-cloudike-asdtech-funding-to-challenge-dropbox/",
+            "author": null,
+            "posted_on": null,
+            "type": "PressReference",
+            "title": "This Korean startup's founders left Google and LG to crush Dropbox, today they secured $1M investment",
+            "created_at": 1406700317,
+            "updated_at": 1406700317
+          },
+          {
+            "url": "http://techcrunch.com/2014/07/23/dropbox-gets-down-to-business-adds-more-sharing-features-and-search-for-enterprises/",
+            "author": null,
+            "posted_on": "2014-07-23",
+            "type": "PressReference",
+            "title": "Dropbox Gets Down To Business, Adds More Sharing Features And Search For Enterprises | TechCrunch",
+            "created_at": 1406189529,
+            "updated_at": 1406189530
+          }
+        ]
+      }
+    }
+  }
+}

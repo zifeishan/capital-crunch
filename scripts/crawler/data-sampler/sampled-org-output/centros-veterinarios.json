@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "50b84f727fc9d0850ce5b292a31d66bf",
+    "type": "Organization",
+    "properties": {
+      "description": "The directory of vet clinics in Spain\n",
+      "permalink": "centros-veterinarios",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.centrosveterinarios.com",
+      "name": "Centros Veterinarios",
+      "role_company": true,
+      "short_description": "Vet clinics",
+      "founded_on_day": 1,
+      "founded_on_month": 6,
+      "founded_on_year": 2011,
+      "founded_on": "2011-06-01",
+      "founded_on_trust_code": 6,
+      "created_at": 1339424224,
+      "updated_at": 1397987488,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 3
+    },
+    "relationships": {
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/centros-veterinarios/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "Fuenlabrada De Los Montes",
+            "city_path": "location/fuenlabrada-de-los-montes/a0b4482e104467f9fbbc9e54d6be775d",
+            "region": "Extremadura",
+            "region_path": "location/extremadura/fb3bd9f58699c8cffae40916dc2051c5",
+            "country": "Spain",
+            "country_path": "location/spain/3f66b02a78e2aca02da4e7e1eed94671",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1339399024,
+            "updated_at": 1397990955
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/centros-veterinarios/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "Fuenlabrada De Los Montes",
+            "city_path": "location/fuenlabrada-de-los-montes/a0b4482e104467f9fbbc9e54d6be775d",
+            "region": "Extremadura",
+            "region_path": "location/extremadura/fb3bd9f58699c8cffae40916dc2051c5",
+            "country": "Spain",
+            "country_path": "location/spain/3f66b02a78e2aca02da4e7e1eed94671",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1339399024,
+            "updated_at": 1397990955
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/centros-veterinarios/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Search",
+            "uuid": "0d39287e5b1377a6970274294daded43",
+            "path": "category/search/0d39287e5b1377a6970274294daded43",
+            "created_at": 1397980727,
+            "updated_at": 1415360236
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/centros-veterinarios/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397198034/5cef7f9242864ba899e0635440901a65.jpg",
+            "created_at": 1398018730,
+            "updated_at": 1398018730
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/centros-veterinarios/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397198034/68a9d409e94aae20b24a180c3826d0e4.jpg",
+            "created_at": 1398018730,
+            "updated_at": 1398018730
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/centros-veterinarios/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/company/centrosveterinarios-com",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1406423577,
+            "updated_at": 1406423577
+          },
+          {
+            "url": "http://www.facebook.com/pages/CentrosVeterinarioscom/27358152266",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1406423576,
+            "updated_at": 1406423576
+          },
+          {
+            "url": "http://www.pinterest.com/cveterinarios",
+            "type": "WebPresence",
+            "title": "pinterest",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.plus.google.com/+Centrosveterinarios",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/CentrosV",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1339399024,
+            "updated_at": 1409449874
+          },
+          {
+            "url": "http://www.centrosveterinarios.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1339399024,
+            "updated_at": 1397987488
+          }
+        ]
+      }
+    }
+  }
+}

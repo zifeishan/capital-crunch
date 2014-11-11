@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "aa774c16b868df8ad616bba87bad8cb9",
+    "type": "Person",
+    "properties": {
+      "last_name": "Douglas",
+      "first_name": "Aaron",
+      "permalink": "aaron-douglas",
+      "created_at": 1330116458,
+      "updated_at": 1397989120
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-douglas/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Deep Ripples",
+            "organization_path": "organization/deep-ripples",
+            "title": "President",
+            "started_on": "2008-01-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-douglas/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Deep Ripples",
+            "organization_path": "organization/deep-ripples",
+            "title": "President",
+            "started_on": "2008-01-01",
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

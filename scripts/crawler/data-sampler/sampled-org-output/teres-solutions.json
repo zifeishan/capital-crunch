@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "7c9d3a4d03e498417ff82c1c2297019f",
+    "type": "Organization",
+    "properties": {
+      "description": "Teres Solutions is a provider of consumer lending solutions for credit unions and banks.\n",
+      "short_description": "Consumer Lending Solutions",
+      "permalink": "teres-solutions",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "name": "Teres Solutions",
+      "role_company": true,
+      "email_address": "sales@teressolutions.com",
+      "homepage_url": "http://www.teressolutions.com",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 2002,
+      "founded_on": "2002-01-01",
+      "founded_on_trust_code": 4,
+      "created_at": 1249606921,
+      "updated_at": 1397987575,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 53
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/teres-solutions/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Bruce",
+            "last_name": "Callen",
+            "title": "President",
+            "started_on": null,
+            "path": "person/bruce-callen",
+            "created_at": 1249608317,
+            "updated_at": 1397989032
+          },
+          {
+            "first_name": "Tim",
+            "last_name": "Kelly",
+            "title": "CEO",
+            "started_on": null,
+            "path": "person/tim-kelly",
+            "created_at": 1249607212,
+            "updated_at": 1397989032
+          }
+        ]
+      },
+      "acquired_by": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/teres-solutions/acquired_by",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "announced_on": "2008-07-01",
+            "type": "Acquisition",
+            "name": "CRiF acquired Teres Solutions",
+            "path": "acquisition/84d675e3d63b2c5c1e88c3cc692faccd",
+            "created_at": 1249586757,
+            "updated_at": 1397994793
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/teres-solutions/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "12365-B Riata Trace Parkway",
+            "street_2": "Suite 250",
+            "postal_code": "78727",
+            "city": "Austin",
+            "city_path": "location/austin/05f9cee2453ec12f243859f21246783e",
+            "region": "Texas",
+            "region_path": "location/texas/54e9e76a1847d13700a7ed1aab624b78",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 30.428372,
+            "longitude": -97.741937,
+            "created_at": 1249581944,
+            "updated_at": 1397991646
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/teres-solutions/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "12365-B Riata Trace Parkway",
+            "street_2": "Suite 250",
+            "postal_code": "78727",
+            "city": "Austin",
+            "city_path": "location/austin/05f9cee2453ec12f243859f21246783e",
+            "region": "Texas",
+            "region_path": "location/texas/54e9e76a1847d13700a7ed1aab624b78",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 30.428372,
+            "longitude": -97.741937,
+            "created_at": 1249581944,
+            "updated_at": 1397991646
+          },
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "12365-B Riata Trace Parkway",
+            "street_2": "Suite 250",
+            "postal_code": "78727",
+            "city": "Austin",
+            "city_path": "location/austin/05f9cee2453ec12f243859f21246783e",
+            "region": "Texas",
+            "region_path": "location/texas/54e9e76a1847d13700a7ed1aab624b78",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 30.428372,
+            "longitude": -97.741937,
+            "created_at": 1249581944,
+            "updated_at": 1397991646
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/teres-solutions/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Software",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+            "created_at": 1397980727,
+            "updated_at": 1415567658
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/teres-solutions/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397186758/d5fb71ca50e89d3ee578ddcc4498e731.jpg",
+            "created_at": 1398018971,
+            "updated_at": 1398018971
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/teres-solutions/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397186759/11b3421d464d7d7527ad09075a415eb4.jpg",
+            "created_at": 1398018971,
+            "updated_at": 1398018971
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/teres-solutions/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.teressolutions.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1249581721,
+            "updated_at": 1397987575
+          }
+        ]
+      }
+    }
+  }
+}

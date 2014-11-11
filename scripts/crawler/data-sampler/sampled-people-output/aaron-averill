@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "5ea5c386c76ec7938ce5067b8eef43ee",
+    "type": "Person",
+    "properties": {
+      "last_name": "Averill",
+      "first_name": "Aaron",
+      "permalink": "aaron-averill",
+      "created_at": 1295533774,
+      "updated_at": 1397989599
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-averill/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Zone Five Software",
+            "organization_path": "organization/zone-five-software",
+            "title": "President",
+            "started_on": "2008-09-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-averill/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Zone Five Software",
+            "organization_path": "organization/zone-five-software",
+            "title": "President",
+            "started_on": "2008-09-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-averill/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/in/aaronaverill",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 1409483050
+          },
+          {
+            "url": "http://angel.co/aaron-averill",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/techaaron",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1295533774,
+            "updated_at": 1409371967
+          }
+        ]
+      }
+    }
+  }
+}

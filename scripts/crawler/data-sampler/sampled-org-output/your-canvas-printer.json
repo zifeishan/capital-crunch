@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "f6e4f2895f3c7287c720df90a774027b",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Professional quality large canvas prints at affordable prices! Proudly display your cherished photos on canvas with a custom canvas print! Let us show you why you should make us YourCanvasPrinter! \n",
+      "short_description": "Photos on Cavnas Printer",
+      "permalink": "your-canvas-printer",
+      "primary_role": "company",
+      "closed_on_trust_code": 0,
+      "name": "Your Canvas Printer",
+      "is_closed": false,
+      "homepage_url": "http://www.yourcanvasprinter.com",
+      "created_at": 1351999967,
+      "updated_at": 1397987688,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/your-canvas-printer/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "E-Commerce",
+            "uuid": "275ddcbc27deff4f4e506dc26ebf9570",
+            "path": "category/e-commerce/275ddcbc27deff4f4e506dc26ebf9570",
+            "created_at": 1397980726,
+            "updated_at": 1415425472
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/your-canvas-printer/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188425/d69a1fb2d766e9546398c8f7a13f5b54.jpg",
+            "created_at": 1398018969,
+            "updated_at": 1398018969
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/your-canvas-printer/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.facebook.com/pages/your-canvas-printer/22423137426981",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1406414906,
+            "updated_at": 1406414906
+          },
+          {
+            "url": "http://twitter.com/yourcanvasprint",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1351999967,
+            "updated_at": 1409442243
+          },
+          {
+            "url": "http://www.yourcanvasprinter.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1351999967,
+            "updated_at": 1397987688
+          }
+        ]
+      }
+    }
+  }
+}

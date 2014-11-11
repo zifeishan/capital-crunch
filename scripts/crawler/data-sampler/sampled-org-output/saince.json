@@ -1,0 +1,258 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "7f9bc8e3dad06d9d4842fe00fc49fde5",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "email_address": "info@saince.com",
+      "description": "Saince provides clinical documentation technology and services to hospitals and IDNs across the country. \n",
+      "short_description": "Healthcare Clinical Documentation",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 2001,
+      "founded_on": "2001-01-01",
+      "founded_on_trust_code": 4,
+      "permalink": "saince",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.saince.com",
+      "name": "Saince",
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "num_employees_min": 101,
+      "num_employees_max": 250,
+      "created_at": 1341192034,
+      "updated_at": 1411520049,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 110
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/saince/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Dondi",
+            "last_name": "Jones",
+            "title": "VP Operations",
+            "started_on": "2007-01-01",
+            "path": "person/dondi-jones",
+            "created_at": 1341192033,
+            "updated_at": 1397989692
+          },
+          {
+            "first_name": "Davis",
+            "last_name": "L Turner",
+            "title": "VP Sales",
+            "started_on": "2011-01-01",
+            "path": "person/davis-l-turner",
+            "created_at": 1341192033,
+            "updated_at": 1397989692
+          },
+          {
+            "first_name": "Regina",
+            "last_name": "Swope",
+            "title": "VP Sales",
+            "started_on": "2011-01-01",
+            "path": "person/regina-swope",
+            "created_at": 1341192033,
+            "updated_at": 1397989692
+          },
+          {
+            "first_name": "Raghu",
+            "last_name": "Vir",
+            "title": "President",
+            "started_on": "2001-01-01",
+            "path": "person/raghu-vir",
+            "created_at": 1341192033,
+            "updated_at": 1397989692
+          }
+        ]
+      },
+      "competitors": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/saince/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "M*Modal",
+            "path": "organization/m-modal",
+            "created_at": 1341192033,
+            "updated_at": 1415054936
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/saince/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Head Office",
+            "street_1": "5470 McGinnis Village Place",
+            "street_2": "Suite 103",
+            "postal_code": "30005",
+            "city": "Alpharetta",
+            "city_path": "location/alpharetta/bafd9dd37f265a9edb7139afc003bf5d",
+            "region": "Georgia",
+            "region_path": "location/georgia/e5e9da40cf545c78963be6d5a2efe686",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1341166835,
+            "updated_at": 1397991460
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/saince/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Head Office",
+            "street_1": "5470 McGinnis Village Place",
+            "street_2": "Suite 103",
+            "postal_code": "30005",
+            "city": "Alpharetta",
+            "city_path": "location/alpharetta/bafd9dd37f265a9edb7139afc003bf5d",
+            "region": "Georgia",
+            "region_path": "location/georgia/e5e9da40cf545c78963be6d5a2efe686",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1341166835,
+            "updated_at": 1397991460
+          },
+          {
+            "type": "Address",
+            "name": "Head Office",
+            "street_1": "5470 McGinnis Village Place",
+            "street_2": "Suite 103",
+            "postal_code": "30005",
+            "city": "Alpharetta",
+            "city_path": "location/alpharetta/bafd9dd37f265a9edb7139afc003bf5d",
+            "region": "Georgia",
+            "region_path": "location/georgia/e5e9da40cf545c78963be6d5a2efe686",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1341166835,
+            "updated_at": 1397991460
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/saince/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Health and Insurance",
+            "uuid": "1e4930ab69a8fa31708d4467fa2ef494",
+            "path": "category/health and insurance/1e4930ab69a8fa31708d4467fa2ef494",
+            "created_at": 1397980728,
+            "updated_at": 1415612559
+          },
+          {
+            "type": "Category",
+            "name": "Electronic Health Records",
+            "uuid": "791c2276789e7ca1c20f44d681a36882",
+            "path": "category/electronic health records/791c2276789e7ca1c20f44d681a36882",
+            "created_at": 1397980728,
+            "updated_at": 1415007250
+          },
+          {
+            "type": "Category",
+            "name": "Health Care",
+            "uuid": "3f21415b57846be63722eb189190b7cd",
+            "path": "category/health care/3f21415b57846be63722eb189190b7cd",
+            "created_at": 1397980726,
+            "updated_at": 1415621529
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/saince/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397199952/3ac7113f2b2414ccbf35e4ff6bbfb208.png",
+            "created_at": 1398018930,
+            "updated_at": 1398018930
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/saince/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.facebook.com/pages/Saince-Inc/556507531046427",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1406414704,
+            "updated_at": 1406414704
+          },
+          {
+            "url": "http://twitter.com/saince_inc",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1341166834,
+            "updated_at": 1409432725
+          },
+          {
+            "url": "http://www.saince.com/blog",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1341166834,
+            "updated_at": 1397987974
+          },
+          {
+            "url": "http://www.saince.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1341166834,
+            "updated_at": 1397987974
+          }
+        ]
+      }
+    }
+  }
+}

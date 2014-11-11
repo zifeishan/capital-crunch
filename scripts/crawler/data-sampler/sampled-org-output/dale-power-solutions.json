@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "c1d3ed067e026267d478b5d33ab2efc6",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Dale Power Solutions have provided their business partners with high quality systems and services, protecting critical power supplies at all times and in all conditions. With an annual turnover in excess of \u00a330million, Dale Power Solutions provides a comprehensive and bespoke design capability service to their customers, taking initial concepts through state-of-the-art design, project management, manufacturing, installation and commissioning processes, followed by complete maintenance and servicing on a worldwide basis to more than 4,000 generators and UPS systems.\n",
+      "short_description": "Dale Power Systems is a service provider offering standby power systems.",
+      "permalink": "dale-power-solutions",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.dalepowersolutions.com",
+      "name": "Dale Power Solutions",
+      "email_address": "info@dalepowersolutions.com",
+      "created_at": 1344257286,
+      "updated_at": 1397988801,
+      "total_funding_usd": 16349622,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dale-power-solutions/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "Salter Road, Eastfield Industrial Estate",
+            "street_2": "Scarborough",
+            "postal_code": "YO11 3DU",
+            "city": "Scarborough",
+            "city_path": "location/scarborough/8194a8e4617f43517ed508486a73782c",
+            "region": "Ontario",
+            "region_path": "location/ontario/452160a8eaea9fb811fe78c5935ec12e",
+            "country": "Canada",
+            "country_path": "location/canada/1b3d6217ec761b13c47aaca49b466a2c",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1344257327,
+            "updated_at": 1410285897
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dale-power-solutions/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "Salter Road, Eastfield Industrial Estate",
+            "street_2": "Scarborough",
+            "postal_code": "YO11 3DU",
+            "city": "Scarborough",
+            "city_path": "location/scarborough/8194a8e4617f43517ed508486a73782c",
+            "region": "Ontario",
+            "region_path": "location/ontario/452160a8eaea9fb811fe78c5935ec12e",
+            "country": "Canada",
+            "country_path": "location/canada/1b3d6217ec761b13c47aaca49b466a2c",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1344257327,
+            "updated_at": 1410285897
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dale-power-solutions/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Dale Power Solutions raises 16349622 in unknown round",
+            "path": "funding-round/a75f01ef3a8fbe9afd244b40b119217b",
+            "created_at": 1344257844,
+            "updated_at": 1398009952
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dale-power-solutions/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Manufacturing",
+            "uuid": "e811671c168d1fd236e5df4e08a09f7c",
+            "path": "category/manufacturing/e811671c168d1fd236e5df4e08a09f7c",
+            "created_at": 1397980727,
+            "updated_at": 1415378983
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dale-power-solutions/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397203346/bd5a183d1e3abe28a813d17a8bb9f6b2.jpg",
+            "created_at": 1398018663,
+            "updated_at": 1398018663
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dale-power-solutions/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397203347/190975773e6ee10e73f9f1aef6465216.jpg",
+            "created_at": 1398018663,
+            "updated_at": 1398018663
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dale-power-solutions/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/DPowersolutions",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1344257286,
+            "updated_at": 1409407459
+          },
+          {
+            "url": "http://www.dalepowersolutions.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1344257286,
+            "updated_at": 1397988801
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "337b88d49980fd0aec24d1a9c0b67230",
+    "type": "Person",
+    "properties": {
+      "last_name": "Bradley",
+      "first_name": "Aaron",
+      "permalink": "aaron-bradley",
+      "created_at": 1315129925,
+      "updated_at": 1397989110
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-bradley/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Football2Soccer",
+            "organization_path": "organization/football2soccer",
+            "title": "Team Member",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-bradley/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Football2Soccer",
+            "organization_path": "organization/football2soccer",
+            "title": "Team Member",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "55b372a2b626ef3934629d14872c20c9",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "At Neuralnet, we are a creative and strong company dedicated to the development of web sites and software design. Our qualified and expert technical support for our clients and companies is what sets us apart from the rest. Moreover, we always design our software to satisfy the unique or specific needs of our customers. Innovation is present in all of our designs.\n\nAs such, Neuralnet has offered to the marketplace, several products. For example, AERONET, which is software designed for the air industry and civil aviation. Likewise, we have developed a web site called Garage Web Sales. This application is designed to announce nationwide garage sales, in which any person can log in and advertise their garage sale, without any cost to register.\n\nFinally, our Technical Support, includes the maintenance, control and service of all computer equipment, in addition to the implementation of updates and repairs. In everything we offer to our customers, we always do it following our slogan,\u00e2\u20ac\u00a6 \u00e2\u20ac\u0153where creativity meets development\u00e2\u20ac\u009d. \n",
+      "short_description": "Website Design Company",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 2008,
+      "founded_on": "2008-01-01",
+      "founded_on_trust_code": 4,
+      "permalink": "neuralnet",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.neuralnetsystems.com",
+      "name": "Neuralnet",
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "email_address": "info@neuralnetsystems.com",
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "created_at": 1270165183,
+      "updated_at": 1409891136,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 10
+    },
+    "relationships": {
+      "categories": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/neuralnet/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Web Hosting",
+            "uuid": "56483f2d3a3570be7b8024c5bad5f1b8",
+            "path": "category/web hosting/56483f2d3a3570be7b8024c5bad5f1b8",
+            "created_at": 1397980728,
+            "updated_at": 1415532230
+          },
+          {
+            "type": "Category",
+            "name": "Curated Web",
+            "uuid": "c87f19a05bd9c7c6e379ca118f49aa4e",
+            "path": "category/curated web/c87f19a05bd9c7c6e379ca118f49aa4e",
+            "created_at": 1397980728,
+            "updated_at": 1415598397
+          },
+          {
+            "type": "Category",
+            "name": "Information Services",
+            "uuid": "f579213a60af8bb3309b1d80607ad2a9",
+            "path": "category/information services/f579213a60af8bb3309b1d80607ad2a9",
+            "created_at": 1397980727,
+            "updated_at": 1415614581
+          },
+          {
+            "type": "Category",
+            "name": "Design",
+            "uuid": "47b3b55695747cf6a48e489b69aa7daa",
+            "path": "category/design/47b3b55695747cf6a48e489b69aa7daa",
+            "created_at": 1397980727,
+            "updated_at": 1415614954
+          },
+          {
+            "type": "Category",
+            "name": "E-Commerce",
+            "uuid": "275ddcbc27deff4f4e506dc26ebf9570",
+            "path": "category/e-commerce/275ddcbc27deff4f4e506dc26ebf9570",
+            "created_at": 1397980726,
+            "updated_at": 1415615645
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/neuralnet/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397207626/9fc22e203f7a5fee43c444a399fe6fb4.png",
+            "created_at": 1398018846,
+            "updated_at": 1398018846
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/neuralnet/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397207627/d94dcdf46af5506abdf4d5befbbd2869.png",
+            "created_at": 1398018846,
+            "updated_at": 1398018846
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/neuralnet/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.neuralnetsystems.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1270139983,
+            "updated_at": 1397988303
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/neuralnet/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://techcrunch.com/2013/02/07/alchemy-api-raises-2-million-for-neural-net-analysis-tech-on-par-with-ibm-watson-google/",
+            "author": "Alex Williams",
+            "posted_on": "2013-02-07",
+            "type": "PressReference",
+            "title": "AlchemyAPI Raises $2 Million For Neural Net Analysis Tech, On Par With IBM Watson, Google",
+            "created_at": 1360299622,
+            "updated_at": 2013
+          }
+        ]
+      }
+    }
+  }
+}

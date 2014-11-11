@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "bac2a36b965d16e9db6a97b25ba6d060",
+    "type": "Person",
+    "properties": {
+      "last_name": "Elliott",
+      "first_name": "Aaron",
+      "permalink": "aaron-elliott",
+      "homepage_url": "http://seermarketing.com.au",
+      "born_on_day": 19,
+      "born_on_month": 6,
+      "born_on_year": 1983,
+      "born_on": "1983-06-19",
+      "born_on_trust_code": 7,
+      "created_at": 1346560719,
+      "updated_at": 1397989742
+    },
+    "relationships": {
+      "websites": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-elliott/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://plus.google.com/113912036252063522997",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1406335250,
+            "updated_at": 1406335250
+          },
+          {
+            "url": "http://twitter.com/seermarketing",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1346560719,
+            "updated_at": 1409374385
+          },
+          {
+            "url": "http://seermarketing.com.au/blog/",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1346560719,
+            "updated_at": 1397989742
+          },
+          {
+            "url": "http://seermarketing.com.au",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1346560719,
+            "updated_at": 1397989742
+          }
+        ]
+      }
+    }
+  }
+}

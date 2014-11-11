@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "2faadf0e57ed8099f7fb0aeb150e5d8b",
+    "type": "Person",
+    "properties": {
+      "last_name": "DeRose",
+      "first_name": "Aaron",
+      "permalink": "aaron-derose",
+      "bio": "Aaron DeRose is a director at Mercato Partners and a member of the investment committee where he is involved with the boards of CradlePoint, Stance, Skullcandy and Goal Zero. Aaron has relevant transaction and M&amp;A experience in consumer products and consumer technology companies. \n\nPrior to Mercato Partners Aaron was a Corporate Finance Manager at Quiksilver, Inc. (NYSE: ZQK), where he was responsible for M&amp;A activity and financial reporting. Aaron also supervised team performance on quarterly forecasting and capital budgeting. \n\nPrior to joining Quiksilver, Aaron served as a Senior Consultant with Ernst &amp; Young\u2019s Business Risk Services group, where he consulted key clients such as Sony, Disney, Qualcomm, Raytheon, and Vans in SOX 404 and Internal Audit compliance. Aaron was honored as Top 40 under Forty by Utah Business Magazine and is on advisory board of the Surf Industry Manufacturers Association (SIMA). \n\nAaron received his B.S. in Business Administration from the University of Utah and completed an MBA in Finance from Pepperdine University, Graziadio School of Business. Aaron played collegiate volleyball and races mountain bikes.\n",
+      "died_on_trust_code": 0,
+      "died_on_day": null,
+      "died_on_month": null,
+      "died_on_year": null,
+      "died_on": null,
+      "created_at": 1249354202,
+      "updated_at": 1414472556,
+      "location_uuid": "b70a7ae026469643dce0d0a466fae009"
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-derose/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": null,
+            "degree_subject": "Business Administration",
+            "type": "Degree",
+            "organization_name": "University of Utah, Salt Lake City",
+            "organization_path": "organization/university-of-utah-salt-lake-city"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-derose/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Mercato Partners",
+            "organization_path": "organization/mercato-partners",
+            "title": "Director",
+            "started_on": "2007-06-01",
+            "ended_on": null
+          },
+          {
+            "organization_name": "Ernst & Young",
+            "organization_path": "organization/ernst-young",
+            "title": "Senior Associate",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_location": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-derose/primary_location",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Location",
+            "name": "Salt Lake City",
+            "uuid": "b70a7ae026469643dce0d0a466fae009",
+            "path": "location/salt-lake-city/b70a7ae026469643dce0d0a466fae009",
+            "created_at": 1397981419,
+            "updated_at": 1412735804
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-derose/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Mercato Partners",
+            "organization_path": "organization/mercato-partners",
+            "title": "Director",
+            "started_on": "2007-06-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-derose/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184513/46d7ab33780fc732f539ea50ad56efa8.jpg",
+            "created_at": 1398019000,
+            "updated_at": 1398019000
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-derose/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/pub/aaron-derose/6/71a/981",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1389071791,
+            "updated_at": 2014
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "1334d9da81531bc55b75652576acd65f",
+    "type": "Person",
+    "properties": {
+      "last_name": "Bylund",
+      "first_name": "Aaron",
+      "permalink": "aaron-bylund",
+      "created_at": 1269903555,
+      "updated_at": 1397989329
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-bylund/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "ClearCenter",
+            "organization_path": "organization/clearcenter",
+            "title": "Marketing Manager",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-bylund/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "ClearCenter",
+            "organization_path": "organization/clearcenter",
+            "title": "Marketing Manager",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "a31baa1ed4decb8b878f5dee96ae9b6e",
+    "type": "Person",
+    "properties": {
+      "last_name": "Pathak",
+      "first_name": "Aamod",
+      "permalink": "aamod-pathak",
+      "created_at": 1343045304,
+      "updated_at": 1397989318
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamod-pathak/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Stuxbot Technology",
+            "organization_path": "organization/stuxbot-technology",
+            "title": "SEO",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamod-pathak/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Stuxbot Technology",
+            "organization_path": "organization/stuxbot-technology",
+            "title": "SEO",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

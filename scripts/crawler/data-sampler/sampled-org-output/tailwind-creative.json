@@ -1,0 +1,256 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "575770559733869e8604b73a70e808b0",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Tailwind Creative is a digital marketing agency that uses SEO, strategic web design, and social media to help companies generate leads online.\n",
+      "short_description": "Digital Marketing Agency",
+      "founded_on_day": 1,
+      "founded_on_month": 3,
+      "founded_on_year": 2012,
+      "founded_on": "2012-03-01",
+      "founded_on_trust_code": 6,
+      "permalink": "tailwind-creative",
+      "primary_role": "company",
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.tailwindcreative.com",
+      "name": "Tailwind Creative",
+      "is_closed": false,
+      "created_at": 1350955151,
+      "updated_at": 1397987361,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 3
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tailwind-creative/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Ben",
+            "last_name": "Bartling",
+            "title": "Co-Founder",
+            "started_on": null,
+            "path": "person/ben-bartling",
+            "created_at": 1324602705,
+            "updated_at": 1397989339
+          },
+          {
+            "first_name": "Jon",
+            "last_name": "Hainstock",
+            "title": "Co-Founder",
+            "started_on": null,
+            "path": "person/jon-hainstock-2",
+            "created_at": 1350955151,
+            "updated_at": 1397989511
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tailwind-creative/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Tailwind Creative HQ",
+            "street_1": "131 W Seeboth",
+            "street_2": null,
+            "postal_code": "53204",
+            "city": "Milwaukee",
+            "city_path": "location/milwaukee/0ef361a74cf3b4a80497398172c1c42c",
+            "region": "Wisconsin",
+            "region_path": "location/wisconsin/48b8886e5c62b703e81bffcebec196f3",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 43.030118,
+            "longitude": -87.911972,
+            "created_at": 1350929951,
+            "updated_at": 1397991011
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tailwind-creative/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Tailwind Creative HQ",
+            "street_1": "131 W Seeboth",
+            "street_2": null,
+            "postal_code": "53204",
+            "city": "Milwaukee",
+            "city_path": "location/milwaukee/0ef361a74cf3b4a80497398172c1c42c",
+            "region": "Wisconsin",
+            "region_path": "location/wisconsin/48b8886e5c62b703e81bffcebec196f3",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 43.030118,
+            "longitude": -87.911972,
+            "created_at": 1350929951,
+            "updated_at": 1397991011
+          },
+          {
+            "type": "Address",
+            "name": "Tailwind Creative HQ",
+            "street_1": "131 W Seeboth",
+            "street_2": null,
+            "postal_code": "53204",
+            "city": "Milwaukee",
+            "city_path": "location/milwaukee/0ef361a74cf3b4a80497398172c1c42c",
+            "region": "Wisconsin",
+            "region_path": "location/wisconsin/48b8886e5c62b703e81bffcebec196f3",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 43.030118,
+            "longitude": -87.911972,
+            "created_at": 1350929951,
+            "updated_at": 1397991011
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tailwind-creative/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Web Development",
+            "uuid": "292d82c553819717827f3122ee792e71",
+            "path": "category/web development/292d82c553819717827f3122ee792e71",
+            "created_at": 1397980727,
+            "updated_at": 1415576587
+          },
+          {
+            "type": "Category",
+            "name": "Web Design",
+            "uuid": "dd82e300d88587dd148b419b21c14cc9",
+            "path": "category/web design/dd82e300d88587dd148b419b21c14cc9",
+            "created_at": 1397980727,
+            "updated_at": 1415557318
+          },
+          {
+            "type": "Category",
+            "name": "SEO",
+            "uuid": "4bacab56cafe2e50fdb27cb16c0b1cd6",
+            "path": "category/seo/4bacab56cafe2e50fdb27cb16c0b1cd6",
+            "created_at": 1397980727,
+            "updated_at": 1415482004
+          },
+          {
+            "type": "Category",
+            "name": "Internet Marketing",
+            "uuid": "9b217660b6cd0dc65723521f7f23f537",
+            "path": "category/internet marketing/9b217660b6cd0dc65723521f7f23f537",
+            "created_at": 1397980726,
+            "updated_at": 1415585414
+          },
+          {
+            "type": "Category",
+            "name": "Consulting",
+            "uuid": "b9bd65b920bf45cc207db70ac35d5bf4",
+            "path": "category/consulting/b9bd65b920bf45cc207db70ac35d5bf4",
+            "created_at": 1397980726,
+            "updated_at": 1415531812
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tailwind-creative/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Jon Hainstock",
+            "path": "person/jon-hainstock-2",
+            "created_at": 1350955151,
+            "updated_at": 1397989511
+          },
+          {
+            "type": "Person",
+            "name": "Ben Bartling",
+            "path": "person/ben-bartling",
+            "created_at": 1324602705,
+            "updated_at": 1397989339
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tailwind-creative/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397187139/b483a346767e090b91a57547202ace6d.jpg",
+            "created_at": 1398018835,
+            "updated_at": 1398018835
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tailwind-creative/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/in/jonhainstock",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/tailwindcreate",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1350929951,
+            "updated_at": 1409449595
+          },
+          {
+            "url": "http://www.tailwindcreative.com/blog",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1350929951,
+            "updated_at": 1397987361
+          },
+          {
+            "url": "http://www.tailwindcreative.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1350929951,
+            "updated_at": 1397987361
+          }
+        ]
+      }
+    }
+  }
+}

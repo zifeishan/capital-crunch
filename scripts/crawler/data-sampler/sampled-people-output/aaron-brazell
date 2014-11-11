@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "a11ba52a21feb1cf47200c5637dccbff",
+    "type": "Person",
+    "properties": {
+      "bio": "Aaron Brazell is the author of the WordPress Bible (Wiley), the Lead Editor of Technosailor.com and the lead developer for WP Engine, a premium WordPress platform provider.  He has been an active member of the WordPress community since 2004 as a developer, user and consultant. He advises small- and medium-sized businesses (and on occasion, an enterprise, educational institution or non-profit organization) on innovative WordPress solutions and guides them in strategy and business decisions pertaining to their endeavors.\n\nHe has worked a variety of companies including Lijit and blog network b5media where he worked as the Director of Technology from 2006-2008.\n\nPrior to 2006, Aaron was involved with several large defense contracting companies including Northrop Grumman, Lockheed Martin and CSC.\n\nHe currently resides in Austin, TX.\n",
+      "last_name": "Brazell",
+      "first_name": "Aaron",
+      "permalink": "aaron-brazell",
+      "homepage_url": "http://technosailor.com",
+      "born_on_day": 6,
+      "born_on_month": 9,
+      "born_on_year": 1976,
+      "born_on": "1976-09-06",
+      "born_on_trust_code": 7,
+      "created_at": 1202775820,
+      "updated_at": 1397989277
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-brazell/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "WP Engine",
+            "organization_path": "organization/wp-engine",
+            "title": "Team Member",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "b5media",
+            "organization_path": "organization/b5media",
+            "title": "Director of Technology",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-brazell/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397182394/b0898ee036ee4a09bab0bb4fe3f04048.jpg",
+            "created_at": 1398019180,
+            "updated_at": 1398019180
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 12,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-brazell/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://yahoo.tumblr.com",
+            "type": "WebPresence",
+            "title": "tumblr",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.youtube.com/user/abrazell",
+            "type": "WebPresence",
+            "title": "youtube",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://quora.com/aaron-brazell",
+            "type": "WebPresence",
+            "title": "quora",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://plus.google.com/103488659073796680811",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://github.com/technosailor",
+            "type": "WebPresence",
+            "title": "github",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/aaronbrazell",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 1409513893
+          },
+          {
+            "url": "http://angel.co/technosailor",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://about.me/technosailor",
+            "type": "WebPresence",
+            "title": "about.me",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          }
+        ]
+      }
+    }
+  }
+}

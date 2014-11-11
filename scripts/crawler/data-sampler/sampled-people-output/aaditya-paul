@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "220e7d8a6dd7bc47c8950cc508567229",
+    "type": "Person",
+    "properties": {
+      "last_name": "Paul",
+      "first_name": "Aaditya",
+      "permalink": "aaditya-paul",
+      "created_at": 1283786749,
+      "updated_at": 1397989145
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaditya-paul/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Stockfotoworld",
+            "organization_path": "organization/stockfotoworld",
+            "title": "Team Member",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaditya-paul/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Stockfotoworld",
+            "organization_path": "organization/stockfotoworld",
+            "title": "Team Member",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

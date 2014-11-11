@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "9ae208a2508d3df4c514e722cbcd6a91",
+    "type": "Person",
+    "properties": {
+      "last_name": "Anzelc",
+      "first_name": "Aaron",
+      "permalink": "aaron-anzelc",
+      "created_at": 1245719601,
+      "updated_at": 1397989365
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-anzelc/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "PerfectForms",
+            "organization_path": "organization/perfectforms",
+            "title": "COO",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-anzelc/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "PerfectForms",
+            "organization_path": "organization/perfectforms",
+            "title": "COO",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "a402dcce8873257264a0155ea0a5bd6e",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "MicroTechies.com offers Computer Repair Services, IT-Rollouts, On-site and Remote Support, Training and a host of other Technology Services for Business and Home Needs. With a deployable Workforce of over 20,000 Technicians and Service Engineers, MicroTechies confidently offer IT services in virtually every part of the US and Canada, with same-day service available in most areas. \n",
+      "short_description": "Nationwide platform for Computer Repairs",
+      "founded_on_day": 10,
+      "founded_on_month": 1,
+      "founded_on_year": 2009,
+      "founded_on": "2009-01-10",
+      "founded_on_trust_code": 7,
+      "permalink": "microtechies-com",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.MicroTechies.Com",
+      "name": "MicroTechies.Com",
+      "email_address": "info@microtechies.com",
+      "created_at": 1253747278,
+      "updated_at": 1397988338,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 5
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/microtechies-com/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Gani",
+            "last_name": "Adebayo",
+            "title": "Founder/CEO",
+            "started_on": null,
+            "path": "person/gani-adebayo",
+            "created_at": 1253747277,
+            "updated_at": 1397989262
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/microtechies-com/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "MicroTechies",
+            "street_1": "2180 Pleasant Hill Road",
+            "street_2": null,
+            "postal_code": "30096",
+            "city": "Duluth",
+            "city_path": "location/duluth/e00bc8ce4f7c7aa6ddf337c8678d7649",
+            "region": "Georgia",
+            "region_path": "location/georgia/e5e9da40cf545c78963be6d5a2efe686",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1253722078,
+            "updated_at": 1397991121
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/microtechies-com/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "MicroTechies",
+            "street_1": "2180 Pleasant Hill Road",
+            "street_2": null,
+            "postal_code": "30096",
+            "city": "Duluth",
+            "city_path": "location/duluth/e00bc8ce4f7c7aa6ddf337c8678d7649",
+            "region": "Georgia",
+            "region_path": "location/georgia/e5e9da40cf545c78963be6d5a2efe686",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1253722078,
+            "updated_at": 1397991121
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/microtechies-com/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Computers",
+            "uuid": "26e64a652efb7bb72c130091ac683791",
+            "path": "category/computers/26e64a652efb7bb72c130091ac683791",
+            "created_at": 1397980728,
+            "updated_at": 1415450368
+          },
+          {
+            "type": "Category",
+            "name": "Customer Support Tools",
+            "uuid": "d11698a8714fda54c7c2f40a0781ed4b",
+            "path": "category/customer support tools/d11698a8714fda54c7c2f40a0781ed4b",
+            "created_at": 1397980727,
+            "updated_at": 1415585307
+          },
+          {
+            "type": "Category",
+            "name": "Enterprise Software",
+            "uuid": "d38b3f26abc46f7bb29db952021a1b14",
+            "path": "category/enterprise software/d38b3f26abc46f7bb29db952021a1b14",
+            "created_at": 1397980726,
+            "updated_at": 1415564354
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/microtechies-com/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Gani Adebayo",
+            "path": "person/gani-adebayo",
+            "created_at": 1253747277,
+            "updated_at": 1397989262
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/microtechies-com/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397191083/ad6955a694b8330785c2392069d02a87.jpg",
+            "created_at": 1398018680,
+            "updated_at": 1398018680
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/microtechies-com/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.MicroTechies.Com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1253722078,
+            "updated_at": 1397988338
+          }
+        ]
+      }
+    }
+  }
+}

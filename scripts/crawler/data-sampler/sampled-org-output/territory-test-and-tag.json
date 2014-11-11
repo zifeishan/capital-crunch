@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "48c7febda0662e465b6b1efd9595759b",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "closed_on_trust_code": 0,
+      "description": "We are a locally owned business, providing affordable on-site solutions for over a decade. TTTS are Canberra regions largest independent specialised service provider.\n",
+      "short_description": "We are a locally owned business, providing affordable on-site solutions for over a decade. TTTS are Canberra regions largest independent",
+      "permalink": "territory-test-and-tag",
+      "primary_role": "company",
+      "is_closed": false,
+      "homepage_url": "http://www.territorytestandtag.com.au",
+      "name": "Territory Test and Tag",
+      "created_at": 1355194334,
+      "updated_at": 1397988736,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/territory-test-and-tag/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Enterprise Software",
+            "uuid": "d38b3f26abc46f7bb29db952021a1b14",
+            "path": "category/enterprise software/d38b3f26abc46f7bb29db952021a1b14",
+            "created_at": 1397980726,
+            "updated_at": 1415621507
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/territory-test-and-tag/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.territorytestandtag.com.au",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1355194334,
+            "updated_at": 1397988736
+          }
+        ]
+      }
+    }
+  }
+}

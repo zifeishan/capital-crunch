@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "17abc65f86ae1a6ea1a548961d4b56b5",
+    "type": "Person",
+    "properties": {
+      "bio": "Aamir is Founder and CEO of FillTheContainer.com since 2011.\n\nFormerly Aamir co-founded Etilize, Inc in 2000 - an e-commerce search and content services provider which was acquired by GFK Group in 2009. He has a bachelors degree in Computer Engineering from CSULB and an MBA from INSEAD.\n\nAamir started his career as a software engineer and has been writing code and building software / internet companies since 1997.\n",
+      "last_name": "Baig",
+      "first_name": "Aamir",
+      "permalink": "aamir-baig",
+      "born_on_day": 27,
+      "born_on_month": 3,
+      "born_on_year": 1979,
+      "born_on": "1979-03-27",
+      "born_on_trust_code": 7,
+      "homepage_url": "http://www.fillthecontainer.com",
+      "created_at": 1337634490,
+      "updated_at": 1397989291
+    },
+    "relationships": {
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamir-baig/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397181011/5a61e7dd1399c4699772b54487895ba9.jpg",
+            "created_at": 1398019182,
+            "updated_at": 1398019182
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 8,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamir-baig/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.pinterest.com/bryghtcom",
+            "type": "WebPresence",
+            "title": "pinterest",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.plus.google.com/105153023516648101270",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/bryghtcom",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.linkedin.com/in/abaig",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 1409484519
+          },
+          {
+            "url": "http://angel.co/aamir",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/baigaamir",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1337634490,
+            "updated_at": 1409393363
+          },
+          {
+            "url": "http://blog.fillthecontainer.com",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1337634490,
+            "updated_at": 1397989291
+          },
+          {
+            "url": "http://www.fillthecontainer.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1337634490,
+            "updated_at": 1397989291
+          }
+        ]
+      }
+    }
+  }
+}

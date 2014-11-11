@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "feaca082509a7a2301e660248913b26c",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "short_description": "Developer for TV Broadcasters",
+      "founded_on_day": 1,
+      "founded_on_month": 4,
+      "founded_on_year": 1994,
+      "founded_on": "1994-04-01",
+      "founded_on_trust_code": 7,
+      "permalink": "marketgraph",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "name": "Marketgraph",
+      "email_address": "info@marketgraph.nl",
+      "description": "&quot;It&#39;s all in the game&quot;. Marketgraph is the technology partner for the production of TV Gameshows. Software and graphics are being made for TV Broadcasters (MTV, CBS, RTL) and production companies like Freemantle and Endemol. The company is expert in interactive solutions and connectivity with internet and mobile (both text messaging and mobile solutions).\n",
+      "homepage_url": "http://www.marketgraph.nl",
+      "created_at": 1281992231,
+      "updated_at": 1397987557,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 12
+    },
+    "relationships": {
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/marketgraph/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Software",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+            "created_at": 1397980727,
+            "updated_at": 1415621624
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/marketgraph/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397189914/97f9dbd9bef8f8052d90dcd2e35c0be6.png",
+            "created_at": 1398018649,
+            "updated_at": 1398018649
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/marketgraph/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.facebook.com/MarketgraphTV",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/marketgraph",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1281967031,
+            "updated_at": 1409451049
+          },
+          {
+            "url": "http://www.marketgraph.nl",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1281967031,
+            "updated_at": 1397987557
+          }
+        ]
+      }
+    }
+  }
+}

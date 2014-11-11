@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "d7388eb4d63575661fb7903680c223c3",
+    "type": "Person",
+    "properties": {
+      "last_name": "Dicks",
+      "first_name": "Aaron",
+      "permalink": "aaron-dicks",
+      "homepage_url": "http://www.evoenergy.co.uk/solar-pv",
+      "created_at": 1343925583,
+      "updated_at": 1397989430
+    },
+    "relationships": {
+      "websites": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-dicks/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/in/aarondicks",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 1409477125
+          },
+          {
+            "url": "http://www.plus.google.com/114157395882679546346",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/EvoEnergy",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/aarondicks",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1343925583,
+            "updated_at": 1409385201
+          },
+          {
+            "url": "http://www.evoenergy.co.uk/solar-thermal",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1343925583,
+            "updated_at": 1397989430
+          },
+          {
+            "url": "http://www.evoenergy.co.uk/solar-pv",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1343925583,
+            "updated_at": 1397989430
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-dicks/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.evoenergy.co.uk",
+            "author": null,
+            "posted_on": null,
+            "type": "PressReference",
+            "title": "EvoEnergy",
+            "created_at": 1343925583,
+            "updated_at": 2012
+          }
+        ]
+      }
+    }
+  }
+}

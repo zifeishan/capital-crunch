@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "dd7bbbb6b8ec30207335b15324d9c724",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "dilitronics GmbH provides light emitting diodes. The company serves various business areas, such as projection, general lighting, and sensors. \n\ndilitronics GmbH is based in Jena, Germany.\n",
+      "short_description": "dilitronics provides light emitting diodes (LEDs) for projection, general lighting, and sensors.",
+      "permalink": "dilitronics",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.dilitronics.com",
+      "name": "dilitronics",
+      "created_at": 1279788640,
+      "updated_at": 1397988643,
+      "total_funding_usd": 2720000,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dilitronics/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "Moritz-von-Rohr-Str. 1a",
+            "street_2": null,
+            "postal_code": "07745",
+            "city": "Jena",
+            "city_path": "location/jena/a3706e3922703f15c4e7178757489da8",
+            "region": "Thuringen",
+            "region_path": "location/thuringen/b0f7f71e574db5247cb506303eabcdf5",
+            "country": "Germany",
+            "country_path": "location/germany/6085b4bfb18a1763a04efdde3f6aba94",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1280148788,
+            "updated_at": 1397991588
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dilitronics/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "Moritz-von-Rohr-Str. 1a",
+            "street_2": null,
+            "postal_code": "07745",
+            "city": "Jena",
+            "city_path": "location/jena/a3706e3922703f15c4e7178757489da8",
+            "region": "Thuringen",
+            "region_path": "location/thuringen/b0f7f71e574db5247cb506303eabcdf5",
+            "country": "Germany",
+            "country_path": "location/germany/6085b4bfb18a1763a04efdde3f6aba94",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1280148788,
+            "updated_at": 1397991588
+          },
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "Moritz-von-Rohr-Str. 1a",
+            "street_2": null,
+            "postal_code": "07745",
+            "city": "Jena",
+            "city_path": "location/jena/a3706e3922703f15c4e7178757489da8",
+            "region": "Thuringen",
+            "region_path": "location/thuringen/b0f7f71e574db5247cb506303eabcdf5",
+            "country": "Germany",
+            "country_path": "location/germany/6085b4bfb18a1763a04efdde3f6aba94",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1280148788,
+            "updated_at": 1397991588
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dilitronics/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "dilitronics raises 2720000 in venture round",
+            "path": "funding-round/2ce75fc18bdad65b5ffe667726df3fb5",
+            "created_at": 1279788873,
+            "updated_at": 1398010213
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dilitronics/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Hardware + Software",
+            "uuid": "6826312c814aadc750ab9de1e9bd1999",
+            "path": "category/hardware + software/6826312c814aadc750ab9de1e9bd1999",
+            "created_at": 1397980727,
+            "updated_at": 1415605382
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dilitronics/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397187545/8e0444eee6c9efcf84c22eeab8441a57.gif",
+            "created_at": 1398019078,
+            "updated_at": 1398019078
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dilitronics/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397187546/4a180d4badefa38782908fb83871c1e9.jpg",
+            "created_at": 1398019078,
+            "updated_at": 1398019078
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/dilitronics/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.dilitronics.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1279788640,
+            "updated_at": 1397988643
+          }
+        ]
+      }
+    }
+  }
+}

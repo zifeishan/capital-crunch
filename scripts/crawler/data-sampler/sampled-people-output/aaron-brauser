@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "6c30be88d80e0b78797a0e91f9d825e4",
+    "type": "Person",
+    "properties": {
+      "bio": "Aaron has 9+ years experience having worked at Nokia, Idea Integration and CoManage before joining TalkShoe.\n\nHe&#39;s also a graduate of the University of Pittsburgh (MBA).\n",
+      "last_name": "Brauser",
+      "first_name": "Aaron",
+      "permalink": "aaron-brauser",
+      "created_at": 1205267710,
+      "updated_at": 1397989420
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-brauser/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": "MBA",
+            "degree_subject": null,
+            "type": "Degree",
+            "organization_name": "University of Pittsburgh, Main",
+            "organization_path": "organization/university-of-pittsburgh-main"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-brauser/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "CoManage Corp",
+            "organization_path": "organization/comanage-corp",
+            "title": "Team Member",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "Idea Integration",
+            "organization_path": "organization/idea-integration",
+            "title": "Team Member",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "Nokia",
+            "organization_path": "organization/nokia",
+            "title": "Team Member",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "TalkShoe",
+            "organization_path": "organization/talkshoe",
+            "title": "VP Product Management",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-brauser/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397183023/5fc2f7ba490861eca8b11b336daa2c0f.jpg",
+            "created_at": 1398019012,
+            "updated_at": 1398019012
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-brauser/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/in/abrauser",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1384068067,
+            "updated_at": 2013
+          }
+        ]
+      }
+    }
+  }
+}

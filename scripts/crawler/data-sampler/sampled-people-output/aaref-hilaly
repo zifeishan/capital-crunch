@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "a396ba2f3f8708fd818748876a51a0f3",
+    "type": "Person",
+    "properties": {
+      "bio": "Aaref works with enterprise, internet, and mobile companies. Prior to joining Sequoia Capital in 2012, he was the CEO of Clearwell, a leading provider of analytics software for electronic discovery. Aaref grew Clearwell from a handful of engineers into a profitable company with an annual revenue run-rate of over $100 million, leading to its acquisition by Symantec in 2011. Prior to that, Aaref was the Founder and CEO of CenterRun, a pioneer in datacenter automation, which was acquired by Sun Microsystems. Aaref holds an MBA from Harvard Business School, a Masters degree in Economics from McGill University, and BA degree from Oxford University. (Sequoia Capital)\n",
+      "last_name": "Hilaly",
+      "first_name": "Aaref",
+      "permalink": "aaref-hilaly",
+      "created_at": 1280598532,
+      "updated_at": 1409678896
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaref-hilaly/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": "BA",
+            "degree_subject": null,
+            "type": "Degree",
+            "organization_name": "University of Oxford",
+            "organization_path": "organization/university-of-oxford"
+          },
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": "MS",
+            "degree_subject": "Economics",
+            "type": "Degree",
+            "organization_name": "McGill University",
+            "organization_path": "organization/mcgill-university"
+          },
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": "MBA",
+            "degree_subject": null,
+            "type": "Degree",
+            "organization_name": "Harvard University",
+            "organization_path": "organization/harvard-university"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 7,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaref-hilaly/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Clari",
+            "organization_path": "organization/clari",
+            "title": "Board Member",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "CenterRun",
+            "organization_path": "organization/centerrun",
+            "title": "Founder, CEO",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "MobileIron",
+            "organization_path": "organization/mobileiron",
+            "title": "Board Member",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "Sequoia Capital",
+            "organization_path": "organization/sequoia-capital",
+            "title": "Partner",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "Clari",
+            "organization_path": "organization/clari",
+            "title": "Board Member",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "Clearwell Systems",
+            "organization_path": "organization/clearwell-systems",
+            "title": "CEO, Board Member",
+            "started_on": "2005-06-01",
+            "ended_on": null
+          },
+          {
+            "organization_name": "Duck Duck Moose",
+            "organization_path": "organization/duck-duck-moose",
+            "title": "Investor and Board Member",
+            "started_on": "2012-09-26",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaref-hilaly/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Sequoia Capital",
+            "organization_path": "organization/sequoia-capital",
+            "title": "Partner",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "advisor_at": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaref-hilaly/advisor_at",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": null,
+            "title": "Board Member"
+          },
+          {
+            "organization_name": "MobileIron",
+            "title": "Board Member"
+          },
+          {
+            "organization_name": "Clari",
+            "title": "Board Member"
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaref-hilaly/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "CenterRun",
+            "path": "organization/centerrun",
+            "created_at": 1329199970,
+            "updated_at": 1397988410
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaref-hilaly/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184140/893773f8c9c4f4003d1bd85dfeacfaf6.jpg",
+            "created_at": 1398018991,
+            "updated_at": 1398018991
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaref-hilaly/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/pub/aaref-hilaly/0/64/472",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 1409469837
+          },
+          {
+            "url": "http://angel.co/aaref-hilaly",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaref-hilaly/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://techcrunch.com/2013/05/04/aaref-hilaly-backstage-disrupt/",
+            "author": "Anthony Ha",
+            "posted_on": "2013-05-04",
+            "type": "PressReference",
+            "title": "Sequoia's Aaref Hilaly Says Messaging Apps Are A New Kind Of Social Network",
+            "created_at": 1367726416,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://techcrunch.com/2013/04/12/david-tisch-naval-ravikant-mike-abbott-and-aaref-hilaly-to-talk-future-of-investing-at-disrupt-ny/",
+            "author": "Eric Eldon",
+            "posted_on": "2013-04-12",
+            "type": "PressReference",
+            "title": "David Tisch, Naval Ravikant, Mike Abbott And Aaref Hilaly To Talk Future Of Investing At Disrupt NY",
+            "created_at": 1365781213,
+            "updated_at": 2013
+          }
+        ]
+      }
+    }
+  }
+}

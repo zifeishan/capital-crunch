@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "bb718c566727f09a1ed89200f16985b0",
+    "type": "Person",
+    "properties": {
+      "last_name": "Gupta",
+      "first_name": "Aakriti",
+      "permalink": "aakriti-gupta",
+      "bio": "Executive Manager at Groupiest Social S.L.\n",
+      "homepage_url": "http://groupiest.com/en",
+      "born_on_day": 9,
+      "born_on_month": 2,
+      "born_on_year": 1987,
+      "born_on": "1987-02-09",
+      "born_on_trust_code": 7,
+      "created_at": 1341572451,
+      "updated_at": 1397989748
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aakriti-gupta/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": "2007-01-01",
+            "degree_type_name": null,
+            "degree_subject": "BBA",
+            "type": "Degree",
+            "organization_name": "Indiana University",
+            "organization_path": "organization/indiana-university-2"
+          },
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": "MBA",
+            "degree_subject": null,
+            "type": "Degree",
+            "organization_name": "IESE Business School",
+            "organization_path": "organization/iese-business-school-2"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aakriti-gupta/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Ernst & Young",
+            "organization_path": "organization/ernst-young",
+            "title": "IT Auditor",
+            "started_on": "2008-03-01",
+            "ended_on": "2011-03-31"
+          },
+          {
+            "organization_name": "Groupiest",
+            "organization_path": "organization/groupiest",
+            "title": "CEO",
+            "started_on": "2012-06-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aakriti-gupta/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Groupiest",
+            "organization_path": "organization/groupiest",
+            "title": "CEO",
+            "started_on": "2012-06-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aakriti-gupta/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397182223/6fc5f36c991d6dc5f170a55fbb862862.jpg",
+            "created_at": 1398019151,
+            "updated_at": 1398019151
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aakriti-gupta/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/Groupiest",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1341572451,
+            "updated_at": 1409382138
+          },
+          {
+            "url": "http://groupiest.com/en",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1341572451,
+            "updated_at": 1397989748
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "d99e594c7b3147ed82abbf7e81c1ed7b",
+    "type": "Person",
+    "properties": {
+      "last_name": "Virani",
+      "first_name": "Aamir",
+      "permalink": "aamir-virani",
+      "bio": "Co-Founder and COO of Dropcam.\nAamir is interested in data -- it doesn&#39;t matter if it&#39;s in hardware, software, or people. Lots of interesting things remain to be learned.\n",
+      "homepage_url": "http://www.aamirvirani.com",
+      "created_at": 1256071331,
+      "updated_at": 1397989404
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamir-virani/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": "2001-01-01",
+            "degree_type_name": "BS",
+            "degree_subject": "Electrical Engineering",
+            "type": "Degree",
+            "organization_name": "Rice University",
+            "organization_path": "organization/rice-university-2"
+          },
+          {
+            "started_on": null,
+            "completed_on": "2006-01-01",
+            "degree_type_name": "MS",
+            "degree_subject": "Electrical Engineering",
+            "type": "Degree",
+            "organization_name": "Stanford University",
+            "organization_path": "organization/stanford-university"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamir-virani/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Dropcam",
+            "organization_path": "organization/dropcam",
+            "title": "COO, Co-Founder",
+            "started_on": "2009-01-01",
+            "ended_on": null
+          },
+          {
+            "organization_name": "Xobni",
+            "organization_path": "organization/xobni",
+            "title": "Software Engineer",
+            "started_on": "2007-10-01",
+            "ended_on": "2008-10-01"
+          },
+          {
+            "organization_name": "National Instruments",
+            "organization_path": "organization/national-instruments",
+            "title": "Hardware Engineer",
+            "started_on": "2001-01-01",
+            "ended_on": "2004-01-01"
+          },
+          {
+            "organization_name": "NeuroPace",
+            "organization_path": "organization/neuropace",
+            "title": "Software Engineering Intern",
+            "started_on": "2005-01-01",
+            "ended_on": "2005-01-01"
+          },
+          {
+            "organization_name": "PowerReviews",
+            "organization_path": "organization/powerreviews",
+            "title": "Software Engineer",
+            "started_on": "2006-01-01",
+            "ended_on": "2007-01-01"
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamir-virani/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Dropcam",
+            "organization_path": "organization/dropcam",
+            "title": "COO, Co-Founder",
+            "started_on": "2009-01-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamir-virani/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Dropcam",
+            "path": "organization/dropcam",
+            "created_at": 1256087438,
+            "updated_at": 1414709221
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamir-virani/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397185653/59a9c73fc84c71fe269622857657d508.jpg",
+            "created_at": 1398019106,
+            "updated_at": 1398019106
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 8,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamir-virani/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.youtube.com/user/avirani104",
+            "type": "WebPresence",
+            "title": "youtube",
+            "created_at": 1406336291,
+            "updated_at": 1406336291
+          },
+          {
+            "url": "http://plus.google.com/114138729397436040174",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1406336291,
+            "updated_at": 1406336291
+          },
+          {
+            "url": "http://github.com/aamirv",
+            "type": "WebPresence",
+            "title": "github",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://angel.co/aamir-virani",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.linkedin.com/in/avirani",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/avirani",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1256071331,
+            "updated_at": 1409399467
+          },
+          {
+            "url": "http://www.aamirvirani.com",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1256071331,
+            "updated_at": 1397989404
+          },
+          {
+            "url": "http://www.aamirvirani.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1256071331,
+            "updated_at": 1397989404
+          }
+        ]
+      }
+    }
+  }
+}

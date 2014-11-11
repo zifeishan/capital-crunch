@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "45c7588707d3454c7e6cbebd1e1d78b4",
+    "type": "Person",
+    "properties": {
+      "last_name": "Baig",
+      "first_name": "Aamir",
+      "permalink": "aamir-baig-2",
+      "created_at": 1337636292,
+      "updated_at": 1397989291
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamir-baig-2/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Bryght",
+            "organization_path": "organization/bryght",
+            "title": "Founder, CEO",
+            "started_on": "2011-10-18",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamir-baig-2/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Bryght",
+            "organization_path": "organization/bryght",
+            "title": "Founder, CEO",
+            "started_on": "2011-10-18",
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamir-baig-2/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Bryght",
+            "path": "organization/bryght",
+            "created_at": 1254290478,
+            "updated_at": 1409880230
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamir-baig-2/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/profile/view?id=2699664",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1381719702,
+            "updated_at": 1409496869
+          }
+        ]
+      }
+    }
+  }
+}

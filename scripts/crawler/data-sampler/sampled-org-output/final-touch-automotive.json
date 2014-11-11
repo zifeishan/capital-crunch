@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "ac3c53f958203d6faf6f972c2cd994bd",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Final Touch Automotive is an online dealer where you can buy catalytic converter parts, exhaust parts, other auto parts, and accessories. We specialize in exhaust parts including muffler and exhaust tips and catalytic converters.\n",
+      "short_description": "Performance Muffler",
+      "permalink": "final-touch-automotive",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "name": "Final Touch Automotive",
+      "homepage_url": "http://www.finaltouchautomotive.com",
+      "created_at": 1364454827,
+      "updated_at": 1397988518,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/final-touch-automotive/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Final Touch Automotive",
+            "street_1": "1591 North Main Street",
+            "street_2": null,
+            "postal_code": "84041",
+            "city": "Layton",
+            "city_path": "location/layton/b6f50d76017e403d674417a001bd3979",
+            "region": "Utah",
+            "region_path": "location/utah/08b3ad58fc22d6a915c6be18a87af313",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 41.0831968,
+            "longitude": -111.9952503,
+            "created_at": 1364454827,
+            "updated_at": 1397990847
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/final-touch-automotive/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Final Touch Automotive",
+            "street_1": "1591 North Main Street",
+            "street_2": null,
+            "postal_code": "84041",
+            "city": "Layton",
+            "city_path": "location/layton/b6f50d76017e403d674417a001bd3979",
+            "region": "Utah",
+            "region_path": "location/utah/08b3ad58fc22d6a915c6be18a87af313",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 41.0831968,
+            "longitude": -111.9952503,
+            "created_at": 1364454827,
+            "updated_at": 1397990847
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/final-touch-automotive/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.facebook.com/pages/Final-Touch-Automotive/31679847173",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1406394575,
+            "updated_at": 1406394575
+          },
+          {
+            "url": "http://www.finaltouchautomotive.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1364454827,
+            "updated_at": 1397988518
+          }
+        ]
+      }
+    }
+  }
+}

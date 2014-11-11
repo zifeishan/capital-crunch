@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "6f93eb0aac93ebf7aa581e8e9a3c3e73",
+    "type": "Organization",
+    "properties": {
+      "description": "Tableau develops and manufactures products geared towards the needs of the computer forensics community. Tableau designs, tests, and packages its products in-house, giving Tableau direct control over product features, workmanship and quality.\n",
+      "short_description": "Tableau develops and manufactures products for the computer forensics community.",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 2003,
+      "founded_on": "2003-01-01",
+      "founded_on_trust_code": 4,
+      "permalink": "tableau",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.tableau.com",
+      "name": "Tableau",
+      "role_company": true,
+      "email_address": "info@tableau.com",
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "created_at": 1278580613,
+      "updated_at": 1414147608,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "acquired_by": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tableau/acquired_by",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "announced_on": "2010-05-10",
+            "type": "Acquisition",
+            "name": "Guidance Software acquired Tableau",
+            "path": "acquisition/3252bbbd0f2eba75ec7b7cd97535a1c4",
+            "created_at": 1278580673,
+            "updated_at": 1397994784
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tableau/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "W223 N608 Saratoga Drive",
+            "street_2": null,
+            "postal_code": "53186",
+            "city": "Waukesha",
+            "city_path": "location/waukesha/d59e138f66e6f31acbdc4ec98f8d7fce",
+            "region": "Wisconsin",
+            "region_path": "location/wisconsin/48b8886e5c62b703e81bffcebec196f3",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1279372108,
+            "updated_at": 1397991447
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tableau/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "W223 N608 Saratoga Drive",
+            "street_2": null,
+            "postal_code": "53186",
+            "city": "Waukesha",
+            "city_path": "location/waukesha/d59e138f66e6f31acbdc4ec98f8d7fce",
+            "region": "Wisconsin",
+            "region_path": "location/wisconsin/48b8886e5c62b703e81bffcebec196f3",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1279372108,
+            "updated_at": 1397991447
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tableau/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Analytics",
+            "uuid": "99c5404c0ff58ee5d3344b944ddb8cd9",
+            "path": "category/analytics/99c5404c0ff58ee5d3344b944ddb8cd9",
+            "created_at": 1397980727,
+            "updated_at": 1415593577
+          },
+          {
+            "type": "Category",
+            "name": "Digital Media",
+            "uuid": "2f47ba9333d361fede890fe8a4a8366b",
+            "path": "category/digital media/2f47ba9333d361fede890fe8a4a8366b",
+            "created_at": 1397980726,
+            "updated_at": 1415585139
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tableau/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397186145/c496773ef62c3df547041ffd6a0bc574.jpg",
+            "created_at": 1398018932,
+            "updated_at": 1398018932
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tableau/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397186146/180d85ac4bcb1f0f502419a00a6545ee.jpg",
+            "created_at": 1398018932,
+            "updated_at": 1398018932
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tableau/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/tableauforensic",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1278580613,
+            "updated_at": 1409424189
+          },
+          {
+            "url": "http://www.tableau.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1278580613,
+            "updated_at": 1397988359
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tableau/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://techcrunch.com/2013/05/16/tableau-software-to-open-trading-on-the-nyse-at-31-per-share-with-market-symbol-data/",
+            "author": "Alex Williams",
+            "posted_on": "2013-05-16",
+            "type": "PressReference",
+            "title": "Tableau Software To Open Trading On The NYSE At $31 Per Share With Market Symbol &#8220;DATA&#8221;",
+            "created_at": 1368750017,
+            "updated_at": 2013
+          }
+        ]
+      }
+    }
+  }
+}

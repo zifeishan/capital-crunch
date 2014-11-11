@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "df8eaa570ba2be49c909d99b41f1fd1e",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "short_description": "Nitol Solar is a vertically-integrated company focused on scientific development and manufacture of products used to generate solar energy.",
+      "permalink": "nitol-solar",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.nitolsolar.com",
+      "name": "Nitol Solar",
+      "description": "Nitol Solar is an international, vertically integrated company whose main business activities are scientific development and manufacture of products used to generate solar energy.\n\nNitol\u00e2\u20ac\u2122s current and envisaged product groups include the value chain from raw materials (chlorine and hydrogen) to trichlorosilane and solar grade polycrystalline silicon.\n",
+      "email_address": "info@nitolsolar.com",
+      "created_at": 1248759246,
+      "updated_at": 1397987415,
+      "total_funding_usd": 50000000,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/nitol-solar/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "3\u00d0\u0090, Krasnokazarmennaya St.,",
+            "street_2": null,
+            "postal_code": "111250",
+            "city": "Moscow",
+            "city_path": "location/moscow/2e267c0c58ace44e018dd3f60f725bcb",
+            "region": "Moscow City",
+            "region_path": "location/moscow-city/ec3a0cfc29f596541f234f8f9f593c71",
+            "country": "Russian Federation",
+            "country_path": "location/russian-federation/c6489798402ca5b4fe7709247eee9900",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1248759713,
+            "updated_at": 1411761181
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/nitol-solar/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "3\u00d0\u0090, Krasnokazarmennaya St.,",
+            "street_2": null,
+            "postal_code": "111250",
+            "city": "Moscow",
+            "city_path": "location/moscow/2e267c0c58ace44e018dd3f60f725bcb",
+            "region": "Moscow City",
+            "region_path": "location/moscow-city/ec3a0cfc29f596541f234f8f9f593c71",
+            "country": "Russian Federation",
+            "country_path": "location/russian-federation/c6489798402ca5b4fe7709247eee9900",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1248759713,
+            "updated_at": 1411761181
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/nitol-solar/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Nitol Solar raises 50000000 in unknown round",
+            "path": "funding-round/5778c33365295a5a141d22a7e20f7b27",
+            "created_at": 1248759901,
+            "updated_at": 1415303689
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/nitol-solar/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Clean Technology",
+            "uuid": "a65417a50cce51cecefc20a5043d87ab",
+            "path": "category/clean technology/a65417a50cce51cecefc20a5043d87ab",
+            "created_at": 1397980726,
+            "updated_at": 1415386384
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/nitol-solar/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397185931/769f276f844f51bee353fb2e18268c1b.jpg",
+            "created_at": 1398018889,
+            "updated_at": 1398018889
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/nitol-solar/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397185932/207e1faee10e4939adae29134e2dd8db.jpg",
+            "created_at": 1398018890,
+            "updated_at": 1398018890
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/nitol-solar/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.nitolsolar.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1248759246,
+            "updated_at": 1397987415
+          }
+        ]
+      }
+    }
+  }
+}

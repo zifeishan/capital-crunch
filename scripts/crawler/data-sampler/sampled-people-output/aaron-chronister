@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "7b112415e7fddfa7172b3d8abe079630",
+    "type": "Person",
+    "properties": {
+      "bio": "Search marketing consultant experienced in SEO, PPC, social media, brand awareness, email marketing, web usability, affiliate marketing, and reputation management. \n\nOver 10 years experience managing search marketing campaigns in various markets from small business to Fortune 100. Worked with SEO clients in Kansas City and nationwide. Worked with start-ups, from concept to launch and beyond to them continue to grow.\n\nFounder of BBQ Addicts and the Bacon Explosion, and several other successful startups. Currently with CBS Interactive as Director of Audience Development.\n",
+      "last_name": "Chronister",
+      "first_name": "Aaron",
+      "permalink": "aaron-chronister",
+      "born_on_day": 12,
+      "born_on_month": 5,
+      "born_on_year": 1976,
+      "born_on": "1976-05-12",
+      "born_on_trust_code": 7,
+      "created_at": 1297971282,
+      "updated_at": 1397989159
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-chronister/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "CBS Interactive",
+            "organization_path": "organization/cbs-interactive",
+            "title": "Director, Audience Development",
+            "started_on": "2011-07-01",
+            "ended_on": null
+          },
+          {
+            "organization_name": "Cannon Express",
+            "organization_path": "organization/cannon-express",
+            "title": "Regional Manager",
+            "started_on": "1996-02-01",
+            "ended_on": "1999-10-01"
+          },
+          {
+            "organization_name": "Ticket solutions",
+            "organization_path": "organization/ticket-solutions",
+            "title": "VP of Internet Marketing",
+            "started_on": "2003-10-01",
+            "ended_on": "2011-06-01"
+          },
+          {
+            "organization_name": "BBQ Addicts",
+            "organization_path": "organization/bbq-addicts",
+            "title": "Founder",
+            "started_on": "2008-10-01",
+            "ended_on": "2011-06-01"
+          },
+          {
+            "organization_name": "Mad Hat Media",
+            "organization_path": "organization/mad-hat-media",
+            "title": "Founder",
+            "started_on": "2000-12-01",
+            "ended_on": null
+          },
+          {
+            "organization_name": "Jukeboxx Media",
+            "organization_path": "organization/jukeboxx-media",
+            "title": "Founder",
+            "started_on": "2010-05-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-chronister/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Jukeboxx Media",
+            "organization_path": "organization/jukeboxx-media",
+            "title": "Founder",
+            "started_on": "2010-05-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-chronister/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "BBQ Addicts",
+            "path": "organization/bbq-addicts",
+            "created_at": 1367357167,
+            "updated_at": 1397987639
+          },
+          {
+            "type": "Organization",
+            "name": "Mad Hat Media",
+            "path": "organization/mad-hat-media",
+            "created_at": 1367357167,
+            "updated_at": 1397987639
+          },
+          {
+            "type": "Organization",
+            "name": "Jukeboxx Media",
+            "path": "organization/jukeboxx-media",
+            "created_at": 1367357166,
+            "updated_at": 1397987639
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-chronister/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397182559/34bf6e8afe5983fdab9d166c055db395.jpg",
+            "created_at": 1398019128,
+            "updated_at": 1398019128
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 8,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-chronister/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://quora.com/aaron-chronister",
+            "type": "WebPresence",
+            "title": "quora",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://plus.google.com/103763950041012049878",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://flickr.com/photos/themadhat",
+            "type": "WebPresence",
+            "title": "flickr",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/chronister",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 1409515055
+          },
+          {
+            "url": "http://angel.co/themadhat",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.linkedin.com/in/themadhat",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1367331502,
+            "updated_at": 1409491218
+          },
+          {
+            "url": "http://twitter.com/TheMadHat",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1297971282,
+            "updated_at": 1409387451
+          },
+          {
+            "url": "http://www.themadhat.com/",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1297971282,
+            "updated_at": 1397989159
+          }
+        ]
+      }
+    }
+  }
+}

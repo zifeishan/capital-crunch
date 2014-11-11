@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "d53116a0fdabac0231e1c0d594578583",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "email_address": "sales@globalcharge.com",
+      "short_description": "Android In App Payments",
+      "founded_on_day": 19,
+      "founded_on_month": 1,
+      "founded_on_year": 2007,
+      "founded_on": "2007-01-19",
+      "founded_on_trust_code": 7,
+      "permalink": "globalcharge",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.globalcharge.com",
+      "name": "GlobalCharge",
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "created_at": 1298839696,
+      "updated_at": 1409875070,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 12
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/globalcharge/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Bernadette",
+            "last_name": "Lyons",
+            "title": "Managing Director",
+            "started_on": "2011-04-01",
+            "path": "person/bernadette-lyons",
+            "created_at": 1314485442,
+            "updated_at": 1397989598
+          }
+        ]
+      },
+      "competitors": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/globalcharge/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Fortumo",
+            "path": "organization/fortumo",
+            "created_at": 1234282985,
+            "updated_at": 1414592699
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/globalcharge/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Head Office",
+            "street_1": "CEME Innovation Centre",
+            "street_2": "Marsh Way,Essex",
+            "postal_code": "RM13 8EU",
+            "city": "Rainham",
+            "city_path": "location/rainham/c2f0132a9a376cecad88fbdd2620c098",
+            "region": "Medway",
+            "region_path": "location/medway/6917dec335afc816b324779ed8bd28fc",
+            "country": "United Kingdom",
+            "country_path": "location/united-kingdom/a30e342c17426b1c66e9461de680e54b",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1298810896,
+            "updated_at": 1397990975
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/globalcharge/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Head Office",
+            "street_1": "CEME Innovation Centre",
+            "street_2": "Marsh Way,Essex",
+            "postal_code": "RM13 8EU",
+            "city": "Rainham",
+            "city_path": "location/rainham/c2f0132a9a376cecad88fbdd2620c098",
+            "region": "Medway",
+            "region_path": "location/medway/6917dec335afc816b324779ed8bd28fc",
+            "country": "United Kingdom",
+            "country_path": "location/united-kingdom/a30e342c17426b1c66e9461de680e54b",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1298810896,
+            "updated_at": 1397990975
+          },
+          {
+            "type": "Address",
+            "name": "Head Office",
+            "street_1": "CEME Innovation Centre",
+            "street_2": "Marsh Way,Essex",
+            "postal_code": "RM13 8EU",
+            "city": "Rainham",
+            "city_path": "location/rainham/c2f0132a9a376cecad88fbdd2620c098",
+            "region": "Medway",
+            "region_path": "location/medway/6917dec335afc816b324779ed8bd28fc",
+            "country": "United Kingdom",
+            "country_path": "location/united-kingdom/a30e342c17426b1c66e9461de680e54b",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1298810896,
+            "updated_at": 1397990975
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/globalcharge/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Android",
+            "uuid": "3f49498d20fe408cce0c5425ee885d74",
+            "path": "category/android/3f49498d20fe408cce0c5425ee885d74",
+            "created_at": 1397980728,
+            "updated_at": 1415397956
+          },
+          {
+            "type": "Category",
+            "name": "Mobile Payments",
+            "uuid": "33cfeb88f3231b4f8eccf3f876a5df05",
+            "path": "category/mobile payments/33cfeb88f3231b4f8eccf3f876a5df05",
+            "created_at": 1397980728,
+            "updated_at": 1415361238
+          },
+          {
+            "type": "Category",
+            "name": "Payments",
+            "uuid": "f6195c471e3b4cce54096ed62f94d43c",
+            "path": "category/payments/f6195c471e3b4cce54096ed62f94d43c",
+            "created_at": 1397980727,
+            "updated_at": 1415357854
+          },
+          {
+            "type": "Category",
+            "name": "Mobile",
+            "uuid": "e907cf2a842d8a30a0b107d9de4a8178",
+            "path": "category/mobile/e907cf2a842d8a30a0b107d9de4a8178",
+            "created_at": 1397980726,
+            "updated_at": 1415573242
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/globalcharge/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397183531/c84f0f33d636c3e79320caa3e79d0c22.jpg",
+            "created_at": 1398018608,
+            "updated_at": 1398018608
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/globalcharge/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.globalcharge.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1298810896,
+            "updated_at": 1397988462
+          }
+        ]
+      }
+    }
+  }
+}

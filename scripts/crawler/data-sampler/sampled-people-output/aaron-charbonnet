@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "f608743a3cfa6cdf7b3a421197ce3cce",
+    "type": "Person",
+    "properties": {
+      "bio": "Aaron Charbonnet joined Accurate Background in 2006. As Senior Vice President of Client Development, Mr. Charbonnet is responsible for sales operations, implementation, and customer success. Mr. Charbonnet is a veteran of human capital management and technology solutions with more than 20 years experience. He combines in-depth HR-industry experience with a track record of building and managing successful large project teams.\n\nMr. Charbonnet began his information technology consulting and business process outsourcing career at ADP where he focused on HR and payroll Business Process Outsourcing. He then began to assume management roles to build and grow outsourcing services and ERP implementation practices. \n\nAs a partner with BearingPoint (formerly KPMG Consulting), Mr. Charbonnet held a variety of industry leadership positions including managing partner for the Western Region PeopleSoft Practice, Director of World-Class Human Resources Practice, and Strategy Consultant in the areas of Consumer Products, Media Entertainment and Public Sector industries.\n\nMr. Charbonnet earned his Bachelor of Arts in Economics from UCLA.\n",
+      "last_name": "Charbonnet",
+      "first_name": "Aaron",
+      "permalink": "aaron-charbonnet",
+      "created_at": 1244475920,
+      "updated_at": 1397989240
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-charbonnet/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": null,
+            "degree_subject": "Economics",
+            "type": "Degree",
+            "organization_name": "University of California, Los Angeles",
+            "organization_path": "organization/university-of-california-los-angeles"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-charbonnet/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Accurate Background",
+            "organization_path": "organization/accurate-background",
+            "title": "Senior Vice President Client Development",
+            "started_on": "2006-01-01",
+            "ended_on": null
+          },
+          {
+            "organization_name": "BearingPoint",
+            "organization_path": "organization/bearingpoint",
+            "title": "Partner",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "ADP",
+            "organization_path": "organization/adp",
+            "title": "Team Member",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-charbonnet/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Accurate Background",
+            "organization_path": "organization/accurate-background",
+            "title": "Senior Vice President Client Development",
+            "started_on": "2006-01-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-charbonnet/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397183122/74a175f50acfa8b95d680d18f4e740ab.jpg",
+            "created_at": 1398019069,
+            "updated_at": 1398019069
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-charbonnet/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/in/aaroncharbonnet",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1388480764,
+            "updated_at": 2013
+          }
+        ]
+      }
+    }
+  }
+}

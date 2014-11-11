@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "81e65e538d82105776ddf9509427fd7a",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Firebird Management LLC is a privately owned investment manager. The firm primarily provides its services to financial institutions and high net worth individuals. It manages equity and fixed income portfolios. It also manages mutual funds for its clients. The firm invests in the public equity and fixed income markets across the globe. It was formerly known as Firebird Advisors LDC. Firebird Management was founded in 1994 and is based in New York, New York.\n",
+      "short_description": "investment firm",
+      "permalink": "firebird-management-llc",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "name": "Firebird Management",
+      "email_address": "firebird@fbird.com",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 1994,
+      "founded_on": "1994-01-01",
+      "founded_on_trust_code": 4,
+      "homepage_url": "http://www.fbird.com",
+      "created_at": 1294278454,
+      "updated_at": 1397988847,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/firebird-management-llc/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Anthony",
+            "last_name": "Milewski",
+            "title": "Emerging Markets Investor",
+            "started_on": "2009-01-01",
+            "ended_on": null,
+            "path": "person/anthony-milewski",
+            "created_at": 1249101105,
+            "updated_at": 1397988995
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/firebird-management-llc/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "152 West 57th Street, 24th Floor",
+            "street_2": null,
+            "postal_code": "10019",
+            "city": "New York",
+            "city_path": "location/new-york/d64b7615985cfbf44affaa89d70c4050",
+            "region": "New York",
+            "region_path": "location/new-york/83ead471332bd02e67b767279aed075b",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1295373926,
+            "updated_at": 1397991434
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/firebird-management-llc/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "152 West 57th Street, 24th Floor",
+            "street_2": null,
+            "postal_code": "10019",
+            "city": "New York",
+            "city_path": "location/new-york/d64b7615985cfbf44affaa89d70c4050",
+            "region": "New York",
+            "region_path": "location/new-york/83ead471332bd02e67b767279aed075b",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1295373926,
+            "updated_at": 1397991434
+          },
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "152 West 57th Street, 24th Floor",
+            "street_2": null,
+            "postal_code": "10019",
+            "city": "New York",
+            "city_path": "location/new-york/d64b7615985cfbf44affaa89d70c4050",
+            "region": "New York",
+            "region_path": "location/new-york/83ead471332bd02e67b767279aed075b",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1295373926,
+            "updated_at": 1397991434
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/firebird-management-llc/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397202150/39e793376e6397b97c402ea9f960d216.jpg",
+            "created_at": 1398018701,
+            "updated_at": 1398018701
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/firebird-management-llc/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397202151/124d6ffd334d455b7568aabbcb9709e9.jpg",
+            "created_at": 1398018701,
+            "updated_at": 1398018701
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/firebird-management-llc/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.fbird.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1294278454,
+            "updated_at": 1397988847
+          }
+        ]
+      }
+    }
+  }
+}

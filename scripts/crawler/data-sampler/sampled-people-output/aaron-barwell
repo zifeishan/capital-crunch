@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "09e15c0cd9602c5e2dfac4a391af854c",
+    "type": "Person",
+    "properties": {
+      "last_name": "Barwell",
+      "first_name": "Aaron",
+      "permalink": "aaron-barwell",
+      "created_at": 1324501420,
+      "updated_at": 1397989331
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-barwell/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Travel Emissary",
+            "organization_path": "organization/travel-emissary",
+            "title": "Founder",
+            "started_on": "2011-10-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-barwell/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Travel Emissary",
+            "organization_path": "organization/travel-emissary",
+            "title": "Founder",
+            "started_on": "2011-10-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-barwell/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Travel Emissary",
+            "path": "organization/travel-emissary",
+            "created_at": 1324530221,
+            "updated_at": 1406414254
+          }
+        ]
+      }
+    }
+  }
+}

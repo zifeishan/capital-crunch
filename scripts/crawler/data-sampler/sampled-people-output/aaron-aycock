@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "50b61151eb9c919e8a8d3e888b4d582e",
+    "type": "Person",
+    "properties": {
+      "last_name": "Aycock",
+      "first_name": "Aaron",
+      "permalink": "aaron-aycock",
+      "created_at": 1317176916,
+      "updated_at": 1397989315
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-aycock/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "CubeVibe",
+            "organization_path": "organization/cubevibe",
+            "title": "Founder",
+            "started_on": "2010-11-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-aycock/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "CubeVibe",
+            "organization_path": "organization/cubevibe",
+            "title": "Founder",
+            "started_on": "2010-11-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-aycock/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "CubeVibe",
+            "path": "organization/cubevibe",
+            "created_at": 1317202117,
+            "updated_at": 1409884135
+          }
+        ]
+      }
+    }
+  }
+}

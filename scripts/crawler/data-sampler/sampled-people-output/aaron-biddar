@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "1fbecd8e27e5f96b2c50e77506620809",
+    "type": "Person",
+    "properties": {
+      "last_name": "Biddar",
+      "first_name": "Aaron",
+      "permalink": "aaron-biddar",
+      "created_at": 1329270545,
+      "updated_at": 1408032369
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-biddar/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Social123",
+            "organization_path": "organization/social123",
+            "title": "CEO",
+            "started_on": "2011-04-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-biddar/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Social123",
+            "organization_path": "organization/social123",
+            "title": "CEO",
+            "started_on": "2011-04-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-biddar/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1408032364/pz8wuruyjhcjt6odgllx.jpg",
+            "created_at": 1398353769,
+            "updated_at": 1408032368
+          }
+        ]
+      }
+    }
+  }
+}

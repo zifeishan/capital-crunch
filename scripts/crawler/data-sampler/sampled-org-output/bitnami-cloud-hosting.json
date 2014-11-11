@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "d478e15534cf240c5c723be5574d2f02",
+    "type": "Organization",
+    "properties": {
+      "description": "BitNami Cloud Hosting makes it easy to install and run Drupal, Joomla,\nWordpress and dozens of other popular open source applications in the\nAmazon Cloud. Automatic monitoring of your servers and one-click\nbackup and restore make running applications in the cloud a breeze.\n",
+      "short_description": "BitNami Cloud Hosting enables users to install and run open source applications in the Amazon cloud.",
+      "permalink": "bitnami-cloud-hosting",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://bitnami.org/cloud",
+      "name": "BitNami Cloud Hosting",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 2007,
+      "founded_on": "2007-01-01",
+      "founded_on_trust_code": 4,
+      "role_company": true,
+      "email_address": "regs@bitnami.org",
+      "created_at": 1304944432,
+      "updated_at": 1397988209,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bitnami-cloud-hosting/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Erica",
+            "last_name": "Brescia",
+            "title": "Co-Founder and COO",
+            "started_on": null,
+            "path": "person/erica-brescia",
+            "created_at": 1367090571,
+            "updated_at": 1397989778
+          },
+          {
+            "first_name": "Daniel",
+            "last_name": "Lopez",
+            "title": "Co-Founder and CEO",
+            "started_on": null,
+            "path": "person/daniel-lopez-2",
+            "created_at": 1377494575,
+            "updated_at": 1397989335
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bitnami-cloud-hosting/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Cloud Computing",
+            "uuid": "7866a1c021ec241cc2a6d263a6ef49dd",
+            "path": "category/cloud computing/7866a1c021ec241cc2a6d263a6ef49dd",
+            "created_at": 1397980727,
+            "updated_at": 1415600227
+          },
+          {
+            "type": "Category",
+            "name": "Software",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+            "created_at": 1397980727,
+            "updated_at": 1415606418
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bitnami-cloud-hosting/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Daniel Lopez",
+            "path": "person/daniel-lopez-2",
+            "created_at": 1377494575,
+            "updated_at": 1397989335
+          },
+          {
+            "type": "Person",
+            "name": "Erica Brescia",
+            "path": "person/erica-brescia",
+            "created_at": 1367090571,
+            "updated_at": 1397989778
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bitnami-cloud-hosting/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397189610/a8b82ccb80f88fdb2b0d2333e28f7583.png",
+            "created_at": 1398018581,
+            "updated_at": 1398018581
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bitnami-cloud-hosting/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397189611/68674c303dfa0e26441c969b07e207de.png",
+            "created_at": 1398018581,
+            "updated_at": 1398018581
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bitnami-cloud-hosting/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.plus.google.com/+BitnamiProject",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/BitNamiProject",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/bitnami",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1304944432,
+            "updated_at": 1409423619
+          },
+          {
+            "url": "http://bitnami.org/blog",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1304944432,
+            "updated_at": 1397988209
+          },
+          {
+            "url": "http://bitnami.org/cloud",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1304944432,
+            "updated_at": 1397988209
+          }
+        ]
+      }
+    }
+  }
+}

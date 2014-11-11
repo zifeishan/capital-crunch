@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "c16253ca94c5f76039c0126a13c91fdd",
+    "type": "Organization",
+    "properties": {
+      "description": "Listly is a universal shopping service that allows you to create lists of products from any site and easily organize, compare, and share those lists with your family and friends.\n\nListly is perfect for baby or wedding registries, birthdays, holidays, or when you&#39;re trying to find the best product and price combination for that new camera or HDTV.\n\nFeatures include an easy to use bookmarklet, private and password protected lists, simple share features via email, Facebook and Twitter, and a clean interface that makes it easy to browse products and lists.\n",
+      "short_description": "Create wish lists from any site.",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 2011,
+      "founded_on": "2011-01-01",
+      "founded_on_trust_code": 4,
+      "permalink": "listly",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://listly.it",
+      "name": "Listly",
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "email_address": "hi@listly.it",
+      "role_company": true,
+      "num_employees_max": 10,
+      "num_employees_min": 1,
+      "created_at": 1334054567,
+      "updated_at": 1409885602,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 1
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/listly/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Ryan",
+            "last_name": "Hefner",
+            "title": "Founder",
+            "started_on": null,
+            "path": "person/ryan-hefner",
+            "created_at": 1334054567,
+            "updated_at": 1397989551
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/listly/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "The Office",
+            "street_1": "Projective Space (http://projective.co)",
+            "street_2": "72 Allen St. 3rd floor",
+            "postal_code": "10002",
+            "city": "New York",
+            "city_path": "location/new-york/d64b7615985cfbf44affaa89d70c4050",
+            "region": "New York",
+            "region_path": "location/new-york/83ead471332bd02e67b767279aed075b",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1334320258,
+            "updated_at": 1397991207
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/listly/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "The Office",
+            "street_1": "Projective Space (http://projective.co)",
+            "street_2": "72 Allen St. 3rd floor",
+            "postal_code": "10002",
+            "city": "New York",
+            "city_path": "location/new-york/d64b7615985cfbf44affaa89d70c4050",
+            "region": "New York",
+            "region_path": "location/new-york/83ead471332bd02e67b767279aed075b",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1334320258,
+            "updated_at": 1397991207
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 7,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/listly/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Curated Web",
+            "uuid": "c87f19a05bd9c7c6e379ca118f49aa4e",
+            "path": "category/curated web/c87f19a05bd9c7c6e379ca118f49aa4e",
+            "created_at": 1397980728,
+            "updated_at": 1415634085
+          },
+          {
+            "type": "Category",
+            "name": "Fashion",
+            "uuid": "d1a166b52c1e757cb08e6e5b7962e944",
+            "path": "category/fashion/d1a166b52c1e757cb08e6e5b7962e944",
+            "created_at": 1397980727,
+            "updated_at": 1415622596
+          },
+          {
+            "type": "Category",
+            "name": "Software",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+            "created_at": 1397980727,
+            "updated_at": 1415625123
+          },
+          {
+            "type": "Category",
+            "name": "Technology",
+            "uuid": "a596ac1954dc8da4ff04aad8d0861082",
+            "path": "category/technology/a596ac1954dc8da4ff04aad8d0861082",
+            "created_at": 1397980726,
+            "updated_at": 1415628639
+          },
+          {
+            "type": "Category",
+            "name": "Retail",
+            "uuid": "b65acba5b299399063908be3e3833a07",
+            "path": "category/retail/b65acba5b299399063908be3e3833a07",
+            "created_at": 1397980726,
+            "updated_at": 1415618553
+          },
+          {
+            "type": "Category",
+            "name": "E-Commerce",
+            "uuid": "275ddcbc27deff4f4e506dc26ebf9570",
+            "path": "category/e-commerce/275ddcbc27deff4f4e506dc26ebf9570",
+            "created_at": 1397980726,
+            "updated_at": 1415622716
+          },
+          {
+            "type": "Category",
+            "name": "Social Commerce",
+            "uuid": "c77bac1a9f41625cfa426702d0b27783",
+            "path": "category/social commerce/c77bac1a9f41625cfa426702d0b27783",
+            "created_at": 1397980726,
+            "updated_at": 1415598033
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/listly/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Ryan Hefner",
+            "path": "person/ryan-hefner",
+            "created_at": 1334054567,
+            "updated_at": 1397989551
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/listly/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397192421/6ace214660a9c059578cfaf188a1af31.png",
+            "created_at": 1398018785,
+            "updated_at": 1398018785
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/listly/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397192424/9d53342490aaf62294d2e0fa43529903.png",
+            "created_at": 1398018786,
+            "updated_at": 1398018786
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397192423/139e4398c5a8e88484ed29e3e1cab965.png",
+            "created_at": 1398018785,
+            "updated_at": 1398018785
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397192422/98725df21373f6fdd33b0069bdfa31db.png",
+            "created_at": 1398018785,
+            "updated_at": 1398018785
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/listly/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.facebook.com/listlyit",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1406413439,
+            "updated_at": 1406413440
+          },
+          {
+            "url": "http://www.plus.google.com/107032890696114987686",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/listlyit",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1334029367,
+            "updated_at": 1409439048
+          },
+          {
+            "url": "http://blog.listly.it",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1334029367,
+            "updated_at": 1397987806
+          },
+          {
+            "url": "http://listly.it",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1334029367,
+            "updated_at": 1397987806
+          }
+        ]
+      }
+    }
+  }
+}

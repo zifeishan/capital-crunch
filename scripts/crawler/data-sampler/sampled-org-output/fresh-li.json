@@ -1,0 +1,300 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "1a60602ca9e4fe51e12912b31962cf55",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Fresh.li offers a hosted portfolio service to creatives. Clients can register for a paid plan giving them options such as different templates or use of their own domain name.\n",
+      "short_description": "Online portfolio service",
+      "permalink": "fresh-li",
+      "primary_role": "company",
+      "closed_on_trust_code": 0,
+      "name": "Fresh.li",
+      "founded_on_day": 3,
+      "founded_on_month": 7,
+      "founded_on_year": 2008,
+      "founded_on": "2008-07-03",
+      "founded_on_trust_code": 7,
+      "is_closed": false,
+      "homepage_url": "http://fresh.li",
+      "email_address": "info@fresh.li",
+      "created_at": 1223306625,
+      "updated_at": 1397988475,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 2
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/fresh-li/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Tijs",
+            "last_name": "Teulings",
+            "title": "Founder",
+            "started_on": null,
+            "ended_on": "2013-01-01",
+            "path": "person/tijs-teulings",
+            "created_at": 1223306625,
+            "updated_at": 1397989152
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/fresh-li/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "World Headquarters",
+            "street_1": "Binckhorstlaan 36",
+            "street_2": "Magazijn Suite 319",
+            "postal_code": "2516 BE",
+            "city": "Den Haag",
+            "city_path": "location/den-haag/bc682c5bda13687794d89da026fde03b",
+            "region": "Zuid-Holland",
+            "region_path": "location/zuid-holland/f8fcab7700143f74127aba52d3f1fa68",
+            "country": "The Netherlands",
+            "country_path": "location/the-netherlands/4ae9a82d35d9be0cea9d366afba8f8f0",
+            "latitude": 52.073763,
+            "longitude": 4.332934,
+            "created_at": 1223281425,
+            "updated_at": 1397991163
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/fresh-li/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "World Headquarters",
+            "street_1": "Binckhorstlaan 36",
+            "street_2": "Magazijn Suite 319",
+            "postal_code": "2516 BE",
+            "city": "Den Haag",
+            "city_path": "location/den-haag/bc682c5bda13687794d89da026fde03b",
+            "region": "Zuid-Holland",
+            "region_path": "location/zuid-holland/f8fcab7700143f74127aba52d3f1fa68",
+            "country": "The Netherlands",
+            "country_path": "location/the-netherlands/4ae9a82d35d9be0cea9d366afba8f8f0",
+            "latitude": 52.073763,
+            "longitude": 4.332934,
+            "created_at": 1223281425,
+            "updated_at": 1397991163
+          },
+          {
+            "type": "Address",
+            "name": "World Headquarters",
+            "street_1": "Binckhorstlaan 36",
+            "street_2": "Magazijn Suite 319",
+            "postal_code": "2516 BE",
+            "city": "Den Haag",
+            "city_path": "location/den-haag/bc682c5bda13687794d89da026fde03b",
+            "region": "Zuid-Holland",
+            "region_path": "location/zuid-holland/f8fcab7700143f74127aba52d3f1fa68",
+            "country": "The Netherlands",
+            "country_path": "location/the-netherlands/4ae9a82d35d9be0cea9d366afba8f8f0",
+            "latitude": 52.073763,
+            "longitude": 4.332934,
+            "created_at": 1223281425,
+            "updated_at": 1397991163
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/fresh-li/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Art",
+            "uuid": "631d91d69da76e504eb0d27e28ed2a7f",
+            "path": "category/art/631d91d69da76e504eb0d27e28ed2a7f",
+            "created_at": 1397980728,
+            "updated_at": 1415431859
+          },
+          {
+            "type": "Category",
+            "name": "Creative",
+            "uuid": "cadcafaa90414b8cce03519f3413e71d",
+            "path": "category/creative/cadcafaa90414b8cce03519f3413e71d",
+            "created_at": 1397980727,
+            "updated_at": 1415188344
+          },
+          {
+            "type": "Category",
+            "name": "Presentations",
+            "uuid": "6d8f96f491cc95014ad2d66e65cfbca7",
+            "path": "category/presentations/6d8f96f491cc95014ad2d66e65cfbca7",
+            "created_at": 1397980727,
+            "updated_at": 1415354654
+          },
+          {
+            "type": "Category",
+            "name": "Finance",
+            "uuid": "ae5718dc8602c733e62b28e6167091ad",
+            "path": "category/finance/ae5718dc8602c733e62b28e6167091ad",
+            "created_at": 1397980727,
+            "updated_at": 1415419333
+          },
+          {
+            "type": "Category",
+            "name": "Design",
+            "uuid": "47b3b55695747cf6a48e489b69aa7daa",
+            "path": "category/design/47b3b55695747cf6a48e489b69aa7daa",
+            "created_at": 1397980727,
+            "updated_at": 1415436281
+          },
+          {
+            "type": "Category",
+            "name": "Public Relations",
+            "uuid": "d421318148a9dd5010ff32dd5a33e29f",
+            "path": "category/public relations/d421318148a9dd5010ff32dd5a33e29f",
+            "created_at": 1397980726,
+            "updated_at": 1415362709
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/fresh-li/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Tijs Teulings",
+            "path": "person/tijs-teulings",
+            "created_at": 1223306625,
+            "updated_at": 1397989152
+          }
+        ]
+      },
+      "products": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/fresh-li/products",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Product",
+            "name": "Fresh.li",
+            "path": "product/fresh-li",
+            "created_at": 1223306625,
+            "updated_at": 1397996185
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/fresh-li/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397193964/a54dd4f16c509bebdbfcbeee86a214ec.png",
+            "created_at": 1398019030,
+            "updated_at": 1398019030
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/fresh-li/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397193965/f08c4847da071620c09642c487701e8b.png",
+            "created_at": 1398019030,
+            "updated_at": 1398019030
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/fresh-li/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.facebook.com/freshli",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/freshli",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1223281425,
+            "updated_at": 1409428019
+          },
+          {
+            "url": "http://blog.fresh.li",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1223281425,
+            "updated_at": 1397988475
+          },
+          {
+            "url": "http://fresh.li",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1223281425,
+            "updated_at": 1397988475
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/fresh-li/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://thenextweb.org/2008/08/25/portfolio-service-freshli-addressing-the-untapped-potential-of-non-geeks/",
+            "author": null,
+            "posted_on": null,
+            "type": "PressReference",
+            "title": "Portfolio service Fresh.li addressing the untapped potential of non-geeks",
+            "created_at": 1223281425,
+            "updated_at": 2008
+          }
+        ]
+      }
+    }
+  }
+}

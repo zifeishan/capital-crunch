@@ -1,0 +1,629 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "9e322184791733278df912871dcc886f",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Quora, founded in June 2009, first launched in private beta in January 2010.\n\nQuora is a continually improving collection of questions and answers created, edited, and organized by everyone who uses it. The most important thing is to have each question page become the best possible resource for someone who wants to know about the question.\n\nOne way you can think of it is as a cache for the research that people do looking things up on the web and asking other people. Eventually, when you see a link to a question page on Quora, your feeling should be: &quot;Oh, great! That&#39;s going to have all the information I want about that.&quot; It&#39;s also a place where new stuff\u2014that no one has written about yet\u2014can get pulled onto the web.\n\nIt&#39;s amazing.\n",
+      "short_description": "Quora is a question-and-answer website created, edited and organized by its community of users.",
+      "founded_on_day": 1,
+      "founded_on_month": 6,
+      "founded_on_year": 2009,
+      "founded_on": "2009-06-01",
+      "founded_on_trust_code": 6,
+      "permalink": "quora",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://quora.com",
+      "name": "Quora",
+      "also_known_as": "[\"Alma Networks\"]",
+      "created_at": 1262786099,
+      "updated_at": 1411775239,
+      "total_funding_usd": 161000000,
+      "number_of_investments": 0,
+      "number_of_employees": 85
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 10,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/quora/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Neeraj",
+            "last_name": "Agrawal",
+            "title": "Engineer",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/neeraj-agrawal",
+            "created_at": 1281350513,
+            "updated_at": 1410841487
+          },
+          {
+            "first_name": "Charlie",
+            "last_name": "Cheever",
+            "title": "Founder",
+            "started_on": "2009-03-01",
+            "ended_on": "2012-09-01",
+            "path": "person/charlie-cheever",
+            "created_at": 1244252593,
+            "updated_at": 1413918613
+          },
+          {
+            "first_name": "Tracy",
+            "last_name": "Chou",
+            "title": "Engineer",
+            "started_on": "2010-01-01",
+            "ended_on": "2011-01-01",
+            "path": "person/tracy-chou",
+            "created_at": 1332399208,
+            "updated_at": 1414834724
+          },
+          {
+            "first_name": "Rebekah",
+            "last_name": "Cox",
+            "title": "Product Designer & Manager",
+            "started_on": "2009-07-01",
+            "ended_on": null,
+            "path": "person/rebekah-cox",
+            "created_at": 1262836061,
+            "updated_at": 1397989285
+          },
+          {
+            "first_name": "Kevin",
+            "last_name": "Der",
+            "title": "Engineer",
+            "started_on": "2009-01-01",
+            "ended_on": "2012-01-01",
+            "path": "person/kevin-der",
+            "created_at": 1262836061,
+            "updated_at": 1410165251
+          },
+          {
+            "first_name": "John",
+            "last_name": "Hegeman",
+            "title": "Director of Engineering",
+            "started_on": "2013-01-01",
+            "ended_on": null,
+            "path": "person/john-hegeman",
+            "created_at": 1372001914,
+            "updated_at": 1410161450
+          },
+          {
+            "first_name": "Andy",
+            "last_name": "Johns",
+            "title": "Product Manager of Growth",
+            "started_on": "2011-12-01",
+            "ended_on": "2013-04-01",
+            "path": "person/andy-johns-2",
+            "created_at": 1372815829,
+            "updated_at": 1410166452
+          },
+          {
+            "first_name": "Vladimir",
+            "last_name": "Novakovski",
+            "title": "Engineering Manager",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/vladimir-novakovski",
+            "created_at": 1403758052,
+            "updated_at": 1410168614
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/quora/board_members_and_advisors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Matt",
+            "last_name": "Cohler",
+            "title": "Member, Board of Directors",
+            "started_on": "2010-01-01",
+            "path": "person/matt-cohler",
+            "created_at": 1180156619,
+            "updated_at": 1414543871
+          },
+          {
+            "first_name": "Benjamin",
+            "last_name": "Ling",
+            "title": "Board Member",
+            "started_on": null,
+            "path": "person/ben-ling",
+            "created_at": 1210385770,
+            "updated_at": 1415217937
+          }
+        ]
+      },
+      "current_team": {
+        "paging": {
+          "total_items": 15,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/quora/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Issa",
+            "last_name": "Asad",
+            "title": "Employee",
+            "started_on": "2010-03-07",
+            "path": "person/issa-asad",
+            "created_at": 1387846535,
+            "updated_at": 1410156089
+          },
+          {
+            "first_name": "Marc",
+            "last_name": "Bodnick",
+            "title": "Product Marketing",
+            "started_on": "2011-01-01",
+            "path": "person/marc-bodnick",
+            "created_at": 1184698719,
+            "updated_at": 1410155253
+          },
+          {
+            "first_name": "David",
+            "last_name": "Cole",
+            "title": "Product Design Manager",
+            "started_on": null,
+            "path": "person/cole-david",
+            "created_at": 1410194475,
+            "updated_at": 1410195589
+          },
+          {
+            "first_name": "Adam",
+            "last_name": "D'Angelo",
+            "title": "Founder & CEO",
+            "started_on": "2009-01-01",
+            "path": "person/adam-d-angelo",
+            "created_at": 1187271055,
+            "updated_at": 1411773100
+          },
+          {
+            "first_name": "Nikhil",
+            "last_name": "Garg",
+            "title": "Engineering Manager",
+            "started_on": null,
+            "path": "person/garg-nikhil",
+            "created_at": 1410176269,
+            "updated_at": 1410179674
+          },
+          {
+            "first_name": "Josh",
+            "last_name": "Hannah",
+            "title": "Team Member/Investor",
+            "started_on": null,
+            "path": "person/josh-hannah",
+            "created_at": 1250661992,
+            "updated_at": 1412250451
+          },
+          {
+            "first_name": "Kah",
+            "last_name": "Hong Tay",
+            "title": "Product Designer",
+            "started_on": null,
+            "path": "person/kah-hong-tay",
+            "created_at": 1410174105,
+            "updated_at": 1410174416
+          },
+          {
+            "first_name": "Sandra Liu",
+            "last_name": "Huang",
+            "title": "Product Manager",
+            "started_on": null,
+            "path": "person/sandra-liu-huang",
+            "created_at": 1216790928,
+            "updated_at": 1410192982
+          }
+        ]
+      },
+      "competitors": {
+        "paging": {
+          "total_items": 12,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/quora/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Tawkers",
+            "path": "organization/tawkers",
+            "created_at": 1346457426,
+            "updated_at": 1410991297
+          },
+          {
+            "type": "Organization",
+            "name": "inploid.com",
+            "path": "organization/inploid-corp",
+            "created_at": 1325966693,
+            "updated_at": 1411794087
+          },
+          {
+            "type": "Organization",
+            "name": "Wikipedia",
+            "path": "organization/wikipedia",
+            "created_at": 1269879749,
+            "updated_at": 1414476690
+          },
+          {
+            "type": "Organization",
+            "name": "yoomoot",
+            "path": "organization/yoomoot",
+            "created_at": 1251385092,
+            "updated_at": 1409891804
+          },
+          {
+            "type": "Organization",
+            "name": "Formspring",
+            "path": "organization/formspring",
+            "created_at": 1224212973,
+            "updated_at": 1411776257
+          },
+          {
+            "type": "Organization",
+            "name": "Stack Exchange",
+            "path": "organization/stack-exchange",
+            "created_at": 1218802304,
+            "updated_at": 1414402086
+          },
+          {
+            "type": "Organization",
+            "name": "Aardvark",
+            "path": "organization/aardvark",
+            "created_at": 1208916219,
+            "updated_at": 1411773832
+          },
+          {
+            "type": "Organization",
+            "name": "Answers Corporation",
+            "path": "organization/answers-corporation",
+            "created_at": 1196015701,
+            "updated_at": 1415338940
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/quora/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "650 Castro Street",
+            "street_2": "4th Floor",
+            "postal_code": "94041",
+            "city": "Mountain View",
+            "city_path": "location/mountain-view/37bfe551197e02269a805d7bec8a50dd",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1269639405,
+            "updated_at": 1397992009
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/quora/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "650 Castro Street",
+            "street_2": "4th Floor",
+            "postal_code": "94041",
+            "city": "Mountain View",
+            "city_path": "location/mountain-view/37bfe551197e02269a805d7bec8a50dd",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1269639405,
+            "updated_at": 1397992009
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/quora/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Quora raises 80000000 in venture round",
+            "path": "funding-round/97ce012339dacd68a2a2bc1cd478b4c6",
+            "created_at": 1397049215,
+            "updated_at": 1403809553
+          },
+          {
+            "type": "FundingRound",
+            "name": "Quora raises 50000000 in venture round",
+            "path": "funding-round/514a68725f47425a3c1cdd607e679b0a",
+            "created_at": 1337046851,
+            "updated_at": 1398009927
+          },
+          {
+            "type": "FundingRound",
+            "name": "Quora raises 11000000 in venture round",
+            "path": "funding-round/216c9b58a5b235c87fbf0afb34cb2aa1",
+            "created_at": 1269893278,
+            "updated_at": 1398010149
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/quora/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Curated Web",
+            "uuid": "c87f19a05bd9c7c6e379ca118f49aa4e",
+            "path": "category/curated web/c87f19a05bd9c7c6e379ca118f49aa4e",
+            "created_at": 1397980728,
+            "updated_at": 1415355242
+          },
+          {
+            "type": "Category",
+            "name": "Semantic Search",
+            "uuid": "bb1777e525f3b9f2922b0d5defe0d5bb",
+            "path": "category/semantic search/bb1777e525f3b9f2922b0d5defe0d5bb",
+            "created_at": 1397980727,
+            "updated_at": 1415352821
+          }
+        ]
+      },
+      "customers": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/quora/customers",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Ouyeaa",
+            "path": "organization/ouyeaa",
+            "created_at": 1408010328,
+            "updated_at": 1415202561
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/quora/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Charlie Cheever",
+            "path": "person/charlie-cheever",
+            "created_at": 1244252593,
+            "updated_at": 1413918613
+          },
+          {
+            "type": "Person",
+            "name": "Adam D'Angelo",
+            "path": "person/adam-d-angelo",
+            "created_at": 1187271055,
+            "updated_at": 1411773100
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/quora/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397750681/11547dec01cce3b99ecc423fc3ef7270.png",
+            "created_at": 1398018802,
+            "updated_at": 1398018802
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/quora/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1402401197/zloe83xzlktpa0m92we2.png",
+            "created_at": 1402401205,
+            "updated_at": 1402401205
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397199578/e9041ce0a3fae45f26e3727fdb956052.jpg",
+            "created_at": 1398018803,
+            "updated_at": 1398018803
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397199577/b43ddce0a066dfefa343343cc55cc18c.jpg",
+            "created_at": 1398018803,
+            "updated_at": 1398018803
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397199576/cd3e5cf623b037663b1590fd59809e75.jpg",
+            "created_at": 1398018802,
+            "updated_at": 1398018802
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397199575/8b40dd6c614b8cbf8ba01851169afe60.jpg",
+            "created_at": 1398018802,
+            "updated_at": 1398018802
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/quora/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/company/quora",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1401604163,
+            "updated_at": 1401604163
+          },
+          {
+            "url": "http://www.facebook.com/quora",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1401604163,
+            "updated_at": 1409505372
+          },
+          {
+            "url": "http://twitter.com/Quora",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1262757299,
+            "updated_at": 1409424515
+          },
+          {
+            "url": "https://www.quora.com/blog",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1262757299,
+            "updated_at": 1397988366
+          },
+          {
+            "url": "http://quora.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1262757299,
+            "updated_at": 1397988366
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 100,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/quora/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.techinasia.com/zhihu-chinas-answer-quora/",
+            "author": null,
+            "posted_on": null,
+            "type": "PressReference",
+            "title": "A look inside Zhihu, China's answer to Quora",
+            "created_at": 1406485717,
+            "updated_at": 1406485717
+          },
+          {
+            "url": "http://techcrunch.com/2013/05/29/quora-mobile-search/",
+            "author": "Josh Constine",
+            "posted_on": "2013-05-29",
+            "type": "PressReference",
+            "title": "Quora Brings Full-Text Search To Mobile To Unlock FAQ&amp;As For Any Keyword",
+            "created_at": 1369846817,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://techcrunch.com/2013/05/28/quora-grows-more-than-3x-across-all-metrics-in-the-past-year/",
+            "author": "Alexia Tsotsis",
+            "posted_on": "2013-05-28",
+            "type": "PressReference",
+            "title": "Quora Grew More Than 3X Across All Metrics In The Past Year",
+            "created_at": 1369772413,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://techcrunch.com/2013/04/25/quora-snags-john-hegeman-from-facebook-to-lead-its-engineering-efforts/",
+            "author": "Alexia Tsotsis",
+            "posted_on": "2013-04-25",
+            "type": "PressReference",
+            "title": "Quora Snags John Hegeman From Facebook To Lead Its Engineering Efforts",
+            "created_at": 1366915213,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://techcrunch.com/2013/03/16/healthtaps-qa-service-sees-7-5m-uniques-per-month-with-mds-spending-an-hour-per-session-providing-581m-answers/",
+            "author": "Rip Empson",
+            "posted_on": "2013-03-16",
+            "type": "PressReference",
+            "title": "HealthTap's Q&amp;A Service Sees 7.5M Uniques Per Month, With MDs Spending An Hour Per Session Providing 581M Answers",
+            "created_at": 1363465213,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://techcrunch.com/2013/01/23/quora-launches-blogging-platform-with-mobile-text-editor-to-give-every-author-a-built-in-audience/",
+            "author": "Josh Constine",
+            "posted_on": "2013-01-23",
+            "type": "PressReference",
+            "title": "Quora Launches Blogging Platform With Mobile Text Editor To Give Every Author A Built-In Audience",
+            "created_at": 1358978427,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://techcrunch.com/2012/12/21/quora-beyond-qanda/",
+            "author": "Josh Constine",
+            "posted_on": "2012-12-21",
+            "type": "PressReference",
+            "title": "Quora Plans To Expand Beyond Q&amp;A, Hints Blogging Platform Could Give Anyone An Audience",
+            "created_at": 1356109224,
+            "updated_at": 2012
+          },
+          {
+            "url": "http://techcrunch.com/2012/10/19/responsa-is-disqus-for-company-faqs/",
+            "author": "Klint Finley",
+            "posted_on": "2012-10-19",
+            "type": "PressReference",
+            "title": "Responsa Is Disqus For Company FAQs",
+            "created_at": 1350661213,
+            "updated_at": 2012
+          }
+        ]
+      }
+    }
+  }
+}

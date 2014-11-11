@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "7cf5d36c8e222be546e070b473be9349",
+    "type": "Person",
+    "properties": {
+      "last_name": "Mittal",
+      "first_name": "Aakash",
+      "permalink": "aakash-mittal",
+      "bio": "GtechwebIndia is Delhi based Ecommerce Data Entry Company in India. We provide a full range of professional IT/BPO services that can save your time and money. We offer you the highest quality and Cost-effective ecommerce product data upload services, ecommerce product data entry, catalog processing product data entry, ecommerce data entry, online store data entry, data entry company india, offshore outsourcing company india, shopping store data entry, ecommerce catalog product entry, image cleaning services, professional seo services, data processing company india, ecommerce catalouge entry, data capturing services india, image editing services, ebay product data entry, amazon product data entry, magento product data entry, yahoostore product data entry. Our experience and expertise in the field has earned us the reputation of a reliable and excellent provider of Product Data Entry and Catalog Processing services.\n\nWe have well trained team for online product data entry shopping stores and shopping sites: Yahoo Store, Magento, Ebay, Amazon, Buy.com, OpenCart, coreCommerce, Zen Cart, X-Cart, Monster Commerce, osCommerce, 3d Cart,  ASP Dot Net Storefront, Volusion, CRE Loaded, Net Suit, Channel Advisor, Product Cart, Shopping.com, Google Merchant, ProStores, Auctiva for eBay, BigCommerce, Shopify, Shopzilla, Marketlive and any other industry standard eCommerce web stores. We can also work easily on any custom built eCommerce store applications.\n\nWe have qualified staff and highly skilled SEO specialists, content writers and web designers. Throughout our team, you&#39;ll find the highest standards, the brightest minds and the smartest solutions. By leveraging state-of-the-art SEO techniques, we help you reach out to targeted audience, gain web traffic, and boost your online reputation. Satisfied clients have come to trust and depend on GtechwebIndia to deliver the solutions they need to move their business forward with confidence.\n",
+      "homepage_url": "http://www.gtechwebindia.com",
+      "born_on_day": 6,
+      "born_on_month": 3,
+      "born_on_year": 1978,
+      "born_on": "1978-03-06",
+      "born_on_trust_code": 7,
+      "created_at": 1291933725,
+      "updated_at": 1397989277
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aakash-mittal/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Gtechwebindia",
+            "organization_path": "organization/gtechwebindia",
+            "title": "Ecommerce Product Data Upload Services, Ecommerce Catalouge Entry, Data Capturing Services India, Image Editing Services, Ebay Product Data Entry, Amazon Product Data Entry, Magento Product Data Entry, Yahoostore Product Data Entry, Ecommerce Product Data",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aakash-mittal/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Gtechwebindia",
+            "organization_path": "organization/gtechwebindia",
+            "title": "Ecommerce Product Data Upload Services, Ecommerce Catalouge Entry, Data Capturing Services India, Image Editing Services, Ebay Product Data Entry, Amazon Product Data Entry, Magento Product Data Entry, Yahoostore Product Data Entry, Ecommerce Product Data",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aakash-mittal/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/gtechwebindia",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1291933725,
+            "updated_at": 1409396279
+          },
+          {
+            "url": "http://www.gtechwebindia.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1291933725,
+            "updated_at": 1397989277
+          }
+        ]
+      }
+    }
+  }
+}

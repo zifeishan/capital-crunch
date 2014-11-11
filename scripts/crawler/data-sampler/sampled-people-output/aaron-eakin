@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "7855ba26a56970e7efe3e291c74c9055",
+    "type": "Person",
+    "properties": {
+      "bio": "Founder at SociableNow\n",
+      "last_name": "Eakin",
+      "first_name": "Aaron",
+      "permalink": "aaron-eakin",
+      "created_at": 1337032584,
+      "updated_at": 1397989225
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-eakin/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": null,
+            "degree_subject": null,
+            "type": "Degree",
+            "organization_name": "University of North Texas",
+            "organization_path": "organization/university-of-north-texas-2"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-eakin/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "SociableNow",
+            "organization_path": "organization/sociablenow",
+            "title": "Founder & COO",
+            "started_on": "2012-01-10",
+            "ended_on": null
+          },
+          {
+            "organization_name": "Telix Networks",
+            "organization_path": "organization/telix-networks",
+            "title": "COO",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-eakin/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Telix Networks",
+            "organization_path": "organization/telix-networks",
+            "title": "COO",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-eakin/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "SociableNow",
+            "path": "organization/sociablenow",
+            "created_at": 1337057784,
+            "updated_at": 1413909238
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-eakin/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://angel.co/aaron-eakin",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          }
+        ]
+      }
+    }
+  }
+}

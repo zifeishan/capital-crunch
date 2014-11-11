@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "42ddcad5e17f8f5d1e0842cdd608b781",
+    "type": "Person",
+    "properties": {
+      "last_name": "Nair",
+      "first_name": "Aakarsh",
+      "permalink": "aakarsh-nair",
+      "created_at": 1229734079,
+      "updated_at": 1397989058
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aakarsh-nair/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "TutorJam",
+            "organization_path": "organization/tutorjam",
+            "title": "Director of Operations",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aakarsh-nair/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "TutorJam",
+            "organization_path": "organization/tutorjam",
+            "title": "Director of Operations",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "c27de6aedcc652f95629f31ae741b6e5",
+    "type": "Person",
+    "properties": {
+      "last_name": "Cohen",
+      "first_name": "Aaron",
+      "permalink": "aaron-cohen",
+      "bio": "Aaron Cohen is a co-founder and former CEO of AnyClip.\n\nAaron Cohen has 12 years of Internet Media experience in consumer Internet as senior executive.   He has completed 13 transactions involving the buying, selling or capitalizing of early-stage Internet media companies.   He has founded or co-founded 4 startups, and served as CEO for two companies as a non-founder.  In the aggregate, Aaron\u00e2\u20ac\u2122s companies have generated nearly $100mm for shareholders.\n\nAaron became the CEO of MenuPages in February of 2008 As CEO, Aaron expanded relationships with MenuPages partners including CitySearch and Tribune Company, and completed a sale of the company to Wasserstein Media\u00e2\u20ac\u2122s New York Magazine in July of 2008.\n\nBefore MenuPages, Aaron was the CEO of Bolt Media and lead the company for 3 and half years during which he boosted revenue by 100% and repositioned the company as a leading video-based community.  During Aaron\u00e2\u20ac\u2122s tenure at Bolt, unique visitors grew from 1mm to 6mm per month.  The company\u00e2\u20ac\u2122s advertisers included the leading youth marketers in virtually every advertising category such as Verizon Wireless, Coca Cola, Nike, and Wendy\u00e2\u20ac\u2122s. Aaron sold the company to the GOFISH corporation (GOFH), a youth advertising network in August of 2007.\n\nPrior to Bolt, Aaron was the VP of Advertising Sales, VP of Business Development and then CEO of Concrete Media a website development and media company.  In his capacity Aaron lead two companies\u00e2\u20ac\u201c Concrete Media and its subsidiary Girls On (sold to Oxygen Media in 2000).  Concrete Media specialized in enabling large corporations to form Internet divisions or corporate carve-outs with their existing assets.   Concrete was a $20mm company and counted an eclectic group of large companies including Tommy Hilfiger, Bechtel Enterprises, McKesson, and the Avon corporations as customers, but fell victim the dotcom implosion of 2001.\n\nAaron\u00e2\u20ac\u2122s career began in 1990 working for Time Inc in Tokyo, Japan.  He lived in Tokyo for three years working in the marketing department for Time\u00e2\u20ac\u2122s ESL business.  At that time Aaron helped to devise curriculum material and marketing initiatives for the hot new technology of the period \u00e2\u20ac\u201c the CD-rom..\n\nIn 1993, Aaron left the corporate sector for 2 years to work as a journalist at States News Service in Washington DC \u00e2\u20ac\u201c his hometown.  He covered congress and wrote stories for the St. Petersburg Times, The Denver Post and numerous other publications.  He credits his time at States News with developing the experience to form productive relationships with the media.  Aaron has been quoted in the New York Times, Wall Street Journal, Finanical Times, TechCrunch, PaidContent, NewTeeVee, and BusinessWeek among others.\n\nAaron has spoken at dozen of events, but he\u00e2\u20ac\u2122s most proud of the summits he produced that brought together executives and intellectuals to discuss the future of the Internet industry He\u00e2\u20ac\u2122s hosted summits with Fortune Magazine and most recently with McKinsey and Company at their global headquarters in New York City.  In addition, Aaron has contributed articles to several publications including Fast Company and Billboard.\n\nIn December of 2008, Aaron began producing his first feature film \u00e2\u20ac\u201d The Aaron Cohens.  It\u00e2\u20ac\u2122s  a comedic documentary about 100 men named Aaron Cohen and their mothers.  Aaron conceived and will produce The Aaron Cohens a movie that explores issues of Jewish identity and the ability to form communities on the Internet.  Currently, Aaron has 100 friends on Facebook named Aaron Cohen and has met and filmed 16 Aaron Cohens in the United States and Israel.  The film recently was profiled in the New York Observer and has also been featured on National Public Radio.\n",
+      "died_on_trust_code": 0,
+      "born_on_day": 11,
+      "born_on_month": 4,
+      "born_on_year": 1967,
+      "born_on": "1967-04-11",
+      "born_on_trust_code": 7,
+      "homepage_url": "http://anyclip.com",
+      "died_on_day": null,
+      "died_on_month": null,
+      "died_on_year": null,
+      "died_on": null,
+      "created_at": 1185340580,
+      "updated_at": 1412952586
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-cohen/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Bolt Inc",
+            "organization_path": "organization/bolt-inc",
+            "title": "CEO",
+            "started_on": "2003-01-01",
+            "ended_on": "2007-09-01"
+          },
+          {
+            "organization_name": "Menupages",
+            "organization_path": "organization/menupages",
+            "title": "CEO",
+            "started_on": "2008-02-01",
+            "ended_on": "2008-08-01"
+          },
+          {
+            "organization_name": "AnyClip Media",
+            "organization_path": "organization/anyclip",
+            "title": "CEO, Co-Founder",
+            "started_on": "2009-03-30",
+            "ended_on": "2010-08-01"
+          },
+          {
+            "organization_name": "WikiYou",
+            "organization_path": "organization/wikiyou",
+            "title": "Co-founder",
+            "started_on": "2006-12-01",
+            "ended_on": "2007-06-01"
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-cohen/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "AnyClip Media",
+            "organization_path": "organization/anyclip",
+            "title": "CEO, Co-Founder",
+            "started_on": "2009-03-30",
+            "ended_on": "2010-08-01"
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-cohen/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "AnyClip Media",
+            "path": "organization/anyclip",
+            "created_at": 1251382815,
+            "updated_at": 1414111225
+          },
+          {
+            "type": "Organization",
+            "name": "WikiYou",
+            "path": "organization/wikiyou",
+            "created_at": 1185365332,
+            "updated_at": 1397987468
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-cohen/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397180688/7dfa263f6f33bd7358ab9e17b20c906f.jpg",
+            "created_at": 1398019034,
+            "updated_at": 1398019034
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-cohen/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.facebook.com/AnyClip",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/aaroncohen",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1185340580,
+            "updated_at": 1409406641
+          },
+          {
+            "url": "http://www.aarondelcohen.com",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1185340580,
+            "updated_at": 1397988947
+          },
+          {
+            "url": "http://anyclip.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1185340580,
+            "updated_at": 1397988947
+          }
+        ]
+      }
+    }
+  }
+}

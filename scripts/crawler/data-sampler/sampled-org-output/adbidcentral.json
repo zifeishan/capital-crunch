@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "325b61a2e8e508a4c8749bc4025e9065",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "AdBidCentral is to make buying and selling online media easy, efficient and effective for buyers and sellers. AdBidCentral is the only fully transparent, open marketplace where everything from posting, shopping, transacting, implementing and reporting takes place. \n",
+      "short_description": "AdBidCentral is to make buying and selling online media easy, efficient and effective for buyers and sellers.",
+      "permalink": "adbidcentral",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.adbidcentral.com",
+      "name": "AdbidCentral",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 2006,
+      "founded_on": "2006-01-01",
+      "founded_on_trust_code": 4,
+      "created_at": 1298851607,
+      "updated_at": 1397988470,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/adbidcentral/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "665 3rd St, Suite 530",
+            "street_2": null,
+            "postal_code": "94107",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1314350702,
+            "updated_at": 1397991463
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/adbidcentral/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "665 3rd St, Suite 530",
+            "street_2": null,
+            "postal_code": "94107",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1314350702,
+            "updated_at": 1397991463
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/adbidcentral/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397183572/562dafe16457f548cfd85a6ba440af12.jpg",
+            "created_at": 1398018612,
+            "updated_at": 1398018612
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/adbidcentral/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397183572/962f67783cafa9d2d9431852a6b57477.jpg",
+            "created_at": 1398018612,
+            "updated_at": 1398018612
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/adbidcentral/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.adbidcentral.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1298851607,
+            "updated_at": 1397988470
+          }
+        ]
+      }
+    }
+  }
+}

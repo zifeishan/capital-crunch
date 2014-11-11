@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "2677bd8c6de3ad8dd920234a2df69e2f",
+    "type": "Person",
+    "properties": {
+      "bio": "I&#39;m currently working on building Opternative which is improving peoples vision by creating the worlds first online eye exam. The exam delivers a valid glasses and contact lens prescription signed by an ophthalmologist. \n\nI&#39;m a serial entrepreneur, agile evangelist and technology specialist with over eight years of experience building software products and over 15 years of experience starting and growing start-up companies. I have a proven track record of envisioning new software products and taking them successfully through the full product life cycle utilizing agile development methodologies including Scrum and XP, developing businesses from a human capital and technology perspective, and interacting with users, developers, designers, clients and business owners on a regular basis. I&#39;m a results-driven creative problem solver that works to improve the world. \n",
+      "last_name": "Dallek",
+      "first_name": "Aaron",
+      "permalink": "aaron-dallek",
+      "created_at": 1295539669,
+      "updated_at": 1397989600
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-dallek/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": "2006-01-01",
+            "degree_type_name": "BS",
+            "degree_subject": "Business Administration",
+            "type": "Degree",
+            "organization_name": "University of California, Berkeley",
+            "organization_path": "organization/university-of-california-berkeley"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-dallek/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Opternative",
+            "organization_path": "organization/opternative",
+            "title": "CEO & Co-Founder",
+            "started_on": "2013-01-01",
+            "ended_on": null
+          },
+          {
+            "organization_name": "RevoDeals",
+            "organization_path": "organization/revodeals",
+            "title": "CEO and Founder",
+            "started_on": "2010-02-01",
+            "ended_on": "2012-03-01"
+          },
+          {
+            "organization_name": "Mavens League, LLC.",
+            "organization_path": "organization/mavens-league-llc",
+            "title": "CEO & Founder",
+            "started_on": "2012-01-01",
+            "ended_on": "2013-12-01"
+          },
+          {
+            "organization_name": "Cheap Ink",
+            "organization_path": "organization/cheap-ink",
+            "title": "CEO & Co-Founder",
+            "started_on": "2002-07-01",
+            "ended_on": "2013-12-01"
+          },
+          {
+            "organization_name": "Planet Metrics",
+            "organization_path": "organization/planet-metrics",
+            "title": "CTO and Co-Founder",
+            "started_on": "2006-05-21",
+            "ended_on": "2009-06-16"
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-dallek/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Opternative",
+            "organization_path": "organization/opternative",
+            "title": "CEO & Co-Founder",
+            "started_on": "2013-01-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-dallek/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Opternative",
+            "path": "organization/opternative",
+            "created_at": 1383704035,
+            "updated_at": 1412097768
+          },
+          {
+            "type": "Organization",
+            "name": "Mavens League, LLC.",
+            "path": "organization/mavens-league-llc",
+            "created_at": 1371223526,
+            "updated_at": 1397988057
+          },
+          {
+            "type": "Organization",
+            "name": "Cheap Ink",
+            "path": "organization/cheap-ink",
+            "created_at": 1301797191,
+            "updated_at": 1397987504
+          },
+          {
+            "type": "Organization",
+            "name": "RevoDeals",
+            "path": "organization/revodeals",
+            "created_at": 1295568469,
+            "updated_at": 1397987616
+          },
+          {
+            "type": "Organization",
+            "name": "Planet Metrics",
+            "path": "organization/planet-metrics",
+            "created_at": 1226588410,
+            "updated_at": 1397988863
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-dallek/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397181801/aaff3be83d57c4e21b804e001c75a721.jpg",
+            "created_at": 1398019060,
+            "updated_at": 1398019060
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-dallek/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://angel.co/ecoaaron",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.linkedin.com/in/dallek",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1299644789,
+            "updated_at": 1409480729
+          },
+          {
+            "url": "http://twitter.com/EcoAaron",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1295539669,
+            "updated_at": 1409371964
+          }
+        ]
+      }
+    }
+  }
+}

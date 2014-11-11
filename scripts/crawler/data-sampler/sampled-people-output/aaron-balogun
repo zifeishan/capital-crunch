@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "f93097a34f74b56cf0bca94385389b1d",
+    "type": "Person",
+    "properties": {
+      "bio": "Director, Innovation at one of The Economist companies, and Founder of Qbit USA, Inaar, IT and co-founder of Grasstek.\n",
+      "last_name": "Balogun",
+      "first_name": "Aaron",
+      "permalink": "aaron-balogun",
+      "homepage_url": "http://www.qbitusa.com",
+      "created_at": 1286314531,
+      "updated_at": 1397989414
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-balogun/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": null,
+            "degree_subject": null,
+            "type": "Degree",
+            "organization_name": "Stanford University",
+            "organization_path": "organization/stanford-university"
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-balogun/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/devaary",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1286314531,
+            "updated_at": 1409397701
+          },
+          {
+            "url": "http://www.qbitusa.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1286314531,
+            "updated_at": 1397989414
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "4b724583601330ca88b035e5c6e71ad5",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Epinions aims at helping people make informed buying decisions by being a source and platform for valuable consumer insight, unbiased advice, in-depth product evaluations, and personalized recommendations. \n\nEpinions is a service of Shopping.com, Inc., a provider of comparison shopping services. Shopping.com&#39;s mission is to help consumers anywhere use the power of information to find, compare and buy anything. \n\nEpinions covers millions of products and services in over 30 different categories. In addition to product reviews, users can read buying guides, product definitions, and &#39;how-to&#39; guides . Once the consumer decides what to purchase, Epinions then provides him/her with complete pricing and availability options through a list of rated online merchants. \n",
+      "short_description": "Epinions is a consumer reviews platform offering consumer insights, unbiased advice, product evaluations, and personalized recommendations.",
+      "permalink": "epinions",
+      "primary_role": "company",
+      "closed_on_trust_code": 0,
+      "name": "Epinions",
+      "founded_on_day": 1,
+      "founded_on_month": 5,
+      "founded_on_year": 1999,
+      "founded_on": "1999-05-01",
+      "founded_on_trust_code": 6,
+      "is_closed": false,
+      "homepage_url": "http://www.epinions.com",
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "created_at": 1205333202,
+      "updated_at": 1411061326,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 12,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/epinions/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Milind",
+            "last_name": "Gadekar",
+            "title": "Director, Product Marketing",
+            "started_on": "1999-01-01",
+            "ended_on": "2000-01-01",
+            "path": "person/milind-gadekar",
+            "created_at": 1288351296,
+            "updated_at": 1397989649
+          },
+          {
+            "first_name": "Eric",
+            "last_name": "Goldman",
+            "title": "General Counsel",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/eric-goldman",
+            "created_at": 1369580448,
+            "updated_at": 1413956782
+          },
+          {
+            "first_name": "Bill",
+            "last_name": "Hudak",
+            "title": "Business Development & Monetization Products",
+            "started_on": "2003-01-01",
+            "ended_on": "2003-01-01",
+            "path": "person/bill-hudak",
+            "created_at": 1211256045,
+            "updated_at": 1397989118
+          },
+          {
+            "first_name": "Dave",
+            "last_name": "Keefer",
+            "title": "Engineering Manager",
+            "started_on": "2000-01-01",
+            "ended_on": "2004-01-01",
+            "path": "person/dave-keefer",
+            "created_at": 1211256045,
+            "updated_at": 1397989118
+          },
+          {
+            "first_name": "Kevin",
+            "last_name": "Laws",
+            "title": "Team Member",
+            "started_on": "1999-01-01",
+            "ended_on": "2001-01-01",
+            "path": "person/kevin-laws",
+            "created_at": 1338369609,
+            "updated_at": 1398010362
+          },
+          {
+            "first_name": "Sarah",
+            "last_name": "Leary",
+            "title": "Vice President, Marketing and Product Management",
+            "started_on": "1999-01-01",
+            "ended_on": "2003-01-01",
+            "path": "person/sarah-leary",
+            "created_at": 1202716029,
+            "updated_at": 1407325023
+          },
+          {
+            "first_name": "Sean",
+            "last_name": "Macnew",
+            "title": "Business Development Manager",
+            "started_on": "1999-01-01",
+            "ended_on": "2001-01-01",
+            "path": "person/sean-macnew",
+            "created_at": 1276742835,
+            "updated_at": 1397989180
+          },
+          {
+            "first_name": "Lauren",
+            "last_name": "Meller",
+            "title": "Corporate Communications",
+            "started_on": "2000-01-01",
+            "ended_on": "2002-01-01",
+            "path": "person/lauren-meller",
+            "created_at": 1255052708,
+            "updated_at": 1397989336
+          }
+        ]
+      },
+      "competitors": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/epinions/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Amazon",
+            "path": "organization/amazon",
+            "created_at": 1400597804,
+            "updated_at": 1415358052
+          },
+          {
+            "type": "Organization",
+            "name": "Pluribo",
+            "path": "organization/pluribo",
+            "created_at": 1214878029,
+            "updated_at": 1397987481
+          },
+          {
+            "type": "Organization",
+            "name": "Souki",
+            "path": "organization/souki",
+            "created_at": 1208231169,
+            "updated_at": 1397988453
+          },
+          {
+            "type": "Organization",
+            "name": "Trusted Opinion",
+            "path": "organization/trustedopinion",
+            "created_at": 1190436885,
+            "updated_at": 1412049256
+          },
+          {
+            "type": "Organization",
+            "name": "Yelp",
+            "path": "organization/yelp",
+            "created_at": 1184073697,
+            "updated_at": 1414710107
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/epinions/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "8000 Marina Boulevard",
+            "street_2": "3rd Floor",
+            "postal_code": "94005",
+            "city": "Brisbane",
+            "city_path": "location/brisbane/538c3bc72a8704d8753606bc528edd40",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.674705,
+            "longitude": -122.38461,
+            "created_at": 1205362486,
+            "updated_at": 1397991625
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/epinions/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "8000 Marina Boulevard",
+            "street_2": "3rd Floor",
+            "postal_code": "94005",
+            "city": "Brisbane",
+            "city_path": "location/brisbane/538c3bc72a8704d8753606bc528edd40",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.674705,
+            "longitude": -122.38461,
+            "created_at": 1205362486,
+            "updated_at": 1397991625
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/epinions/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Curated Web",
+            "uuid": "c87f19a05bd9c7c6e379ca118f49aa4e",
+            "path": "category/curated web/c87f19a05bd9c7c6e379ca118f49aa4e",
+            "created_at": 1397980728,
+            "updated_at": 1415355242
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/epinions/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Lou Montulli",
+            "path": "person/lou-montulli",
+            "created_at": 1256273263,
+            "updated_at": 1411619701
+          },
+          {
+            "type": "Person",
+            "name": "Nirav Tolia",
+            "path": "person/nirav-tolia",
+            "created_at": 1202716029,
+            "updated_at": 1398010566
+          },
+          {
+            "type": "Person",
+            "name": "Naval Ravikant",
+            "path": "person/naval-ravikant",
+            "created_at": 1191609507,
+            "updated_at": 1415437933
+          },
+          {
+            "type": "Person",
+            "name": "Mike Speiser",
+            "path": "person/mike-speiser",
+            "created_at": 1187896643,
+            "updated_at": 1410670458
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/epinions/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184545/531ba2939f5804b287eebd45fa49d019.gif",
+            "created_at": 1398018850,
+            "updated_at": 1398018850
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/epinions/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184547/f804f62a3ddbcab56a5e4f483b2608bf.png",
+            "created_at": 1398018851,
+            "updated_at": 1398018851
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/epinions/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.plus.google.com/b/117381744271320491779",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/Epinions",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/epinions",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1205333202,
+            "updated_at": 1409432100
+          },
+          {
+            "url": "http://www.epinions.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1205333202,
+            "updated_at": 1397988161
+          }
+        ]
+      }
+    }
+  }
+}

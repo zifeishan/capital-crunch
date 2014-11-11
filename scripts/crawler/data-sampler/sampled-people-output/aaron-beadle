@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "dbd3f0d2d658d5aa2e2978a1cf9e5019",
+    "type": "Person",
+    "properties": {
+      "last_name": "Beadle",
+      "first_name": "Aaron",
+      "permalink": "aaron-beadle",
+      "created_at": 1331597330,
+      "updated_at": 1397989256
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-beadle/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Flubit Limited",
+            "organization_path": "organization/flubit-limited",
+            "title": "Head of Infrastructure & Technology",
+            "started_on": "2011-11-07",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-beadle/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Flubit Limited",
+            "organization_path": "organization/flubit-limited",
+            "title": "Head of Infrastructure & Technology",
+            "started_on": "2011-11-07",
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

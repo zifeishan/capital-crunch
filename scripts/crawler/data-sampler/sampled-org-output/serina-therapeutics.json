@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "94063c9287a5d6070f22ebded4589194",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Serina Therapeutics is a privately-held pharmaceutical company that is advancing novel therapeutics for cancer, inflammation, pain and metabolic disorders using its proprietary polymer technology. They have created new pharmaceutical candidates using polyoxazoline (POZ) \u00e2\u20ac\u201d a safe, water-soluble polymer to which they can attach a variety of small molecules, proteins, peptides and DNA. The attachment of these molecules to polymers of POZ typically confers a unique pharmacokinetic profile that is markedly different from the parent compound, and this profile may confer advantages in terms of safety and efficacy. \n",
+      "short_description": "Serina Therapeutics employs its proprietary polymer technology to develop treatments for cancer, inflammation, pain and metabolic disorders.",
+      "permalink": "serina-therapeutics",
+      "primary_role": "company",
+      "closed_on_trust_code": 0,
+      "name": "Serina Therapeutics",
+      "homepage_url": "http://www.serinatherapeutics.com",
+      "is_closed": false,
+      "email_address": "info@serinatherapeutics.com",
+      "created_at": 1306984035,
+      "updated_at": 1397988716,
+      "total_funding_usd": 22650080,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/serina-therapeutics/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Michael",
+            "last_name": "Bentley",
+            "title": "Founder, Chief Scientific Officer",
+            "started_on": null,
+            "path": "person/michael-bentley",
+            "created_at": 1374604796,
+            "updated_at": 1397989379
+          },
+          {
+            "first_name": "Randall",
+            "last_name": "Moreadith",
+            "title": "President and Chief Executive Officer",
+            "started_on": null,
+            "path": "person/randall-moreadith",
+            "created_at": 1374604796,
+            "updated_at": 1397989379
+          },
+          {
+            "first_name": "Tacey",
+            "last_name": "Viegas",
+            "title": "Chief Operating Officer",
+            "started_on": null,
+            "path": "person/tacey-viegas",
+            "created_at": 1374604796,
+            "updated_at": 1397989379
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/serina-therapeutics/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "601 Genome Way",
+            "street_2": "Suite 3400",
+            "postal_code": "35806",
+            "city": "Huntsville",
+            "city_path": "location/huntsville/40b9924485db2478c9177a76ae7c6aba",
+            "region": "Alabama",
+            "region_path": "location/alabama/84ebe8a679a5a3b11a1daf26349f134d",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1306984062,
+            "updated_at": 1397991141
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/serina-therapeutics/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "601 Genome Way",
+            "street_2": "Suite 3400",
+            "postal_code": "35806",
+            "city": "Huntsville",
+            "city_path": "location/huntsville/40b9924485db2478c9177a76ae7c6aba",
+            "region": "Alabama",
+            "region_path": "location/alabama/84ebe8a679a5a3b11a1daf26349f134d",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1306984062,
+            "updated_at": 1397991141
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/serina-therapeutics/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Serina Therapeutics raises 2000000 in seed round",
+            "path": "funding-round/3b8b5a8962165e5e6d1c3f72ae76e726",
+            "created_at": 1374579548,
+            "updated_at": 1398010172
+          },
+          {
+            "type": "FundingRound",
+            "name": "Serina Therapeutics raises 11150080 in private_equity round",
+            "path": "funding-round/926114dbf72a83ff2735379603dffcc5",
+            "created_at": 1374154298,
+            "updated_at": 1398010087
+          },
+          {
+            "type": "FundingRound",
+            "name": "Serina Therapeutics raises 9500000 in unknown round",
+            "path": "funding-round/6b5afc0be51f814835178444521d560e",
+            "created_at": 1306984293,
+            "updated_at": 1415304539
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/serina-therapeutics/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Biotechnology",
+            "uuid": "588427287ab95bd1bb67e8e55f6520a0",
+            "path": "category/biotechnology/588427287ab95bd1bb67e8e55f6520a0",
+            "created_at": 1397980726,
+            "updated_at": 1415622586
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/serina-therapeutics/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Michael Bentley",
+            "path": "person/michael-bentley",
+            "created_at": 1374604796,
+            "updated_at": 1397989379
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/serina-therapeutics/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397191886/acad244ca9f96d9517d5c3a8372b9e1d.jpg",
+            "created_at": 1398018817,
+            "updated_at": 1398018817
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/serina-therapeutics/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397191887/e8e08013386ac21a472aef4e5b2afd7d.jpg",
+            "created_at": 1398018817,
+            "updated_at": 1398018817
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/serina-therapeutics/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.serinatherapeutics.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1306984035,
+            "updated_at": 1397988716
+          }
+        ]
+      }
+    }
+  }
+}

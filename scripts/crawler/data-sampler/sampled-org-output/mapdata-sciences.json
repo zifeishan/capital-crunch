@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "6b1abae3993001797fd10f7bcee31a88",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "email_address": "info@mapds.com.au",
+      "description": "MapData Sciences Pty Ltd (MDS) have been developing geospatial databases and hosting online map-based applications since 1998. MDS has built an enviable reputation as a specialist in developing and using geographic information systems (GIS) and related data to solve real-world business problems. MDS designs and builds geo-applications and can host GIS applications on your behalf.  Their data and services are employed by some of Australia&#39;s largest blue chip companies and in multiple Government departments. Clients include Medicare, Australia Post, Woolworths, News Limited amongst many others. MDS data powers popular internet mapping systems such as Google Maps, Google Earth and Microsoft Bing Maps.\n",
+      "short_description": "MapData Sciences Pty Ltd (MDS) have been developing geospatial databases and hosting online map-based applications since 1998.",
+      "permalink": "mapdata-sciences",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.mapds.com.au",
+      "name": "MapData Sciences",
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "also_known_as": "[\"MDS\"]",
+      "created_at": 1280428661,
+      "updated_at": 1412981106,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "acquired_by": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/mapdata-sciences/acquired_by",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "announced_on": "2010-02-26",
+            "type": "Acquisition",
+            "name": "ESRI Australia acquired MapData Sciences",
+            "path": "acquisition/a5721a98c51f8781a3606f1e8733df36",
+            "created_at": 1280403551,
+            "updated_at": 1397994837
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/mapdata-sciences/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "110 Pacific Highway",
+            "street_2": "NSW",
+            "postal_code": "2065",
+            "city": "Greenwich",
+            "city_path": "location/greenwich/3949feb6ba52a04e45114ac273787920",
+            "region": "New South Wales",
+            "region_path": "location/new-south-wales/77c6ba3a1ceb046a4567fc3d755c2d79",
+            "country": "Australia",
+            "country_path": "location/australia/973b2306d32e3a70263ef1de1e0068f6",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1282303338,
+            "updated_at": 1397990805
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/mapdata-sciences/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "110 Pacific Highway",
+            "street_2": "NSW",
+            "postal_code": "2065",
+            "city": "Greenwich",
+            "city_path": "location/greenwich/3949feb6ba52a04e45114ac273787920",
+            "region": "New South Wales",
+            "region_path": "location/new-south-wales/77c6ba3a1ceb046a4567fc3d755c2d79",
+            "country": "Australia",
+            "country_path": "location/australia/973b2306d32e3a70263ef1de1e0068f6",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1282303338,
+            "updated_at": 1397990805
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/mapdata-sciences/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188308/f0e1206d2ba5ae3863aabb0b1cceaaf6.jpg",
+            "created_at": 1398018481,
+            "updated_at": 1398018481
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/mapdata-sciences/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188309/19437199cb3f3db8205bad740c545ee8.jpg",
+            "created_at": 1398018481,
+            "updated_at": 1398018481
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/mapdata-sciences/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.mapds.com.au",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1280403461,
+            "updated_at": 1397988796
+          }
+        ]
+      }
+    }
+  }
+}

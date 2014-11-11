@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "e0dc74ab29139337591f381f4212a7c9",
+    "type": "Person",
+    "properties": {
+      "last_name": "Bawcom",
+      "first_name": "Aaron",
+      "permalink": "aaron-bawcom",
+      "created_at": 1273835149,
+      "updated_at": 1410041134,
+      "location_uuid": "d8030351c1d20ace2b33794a95c99b7c"
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-bawcom/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": "1997-01-01",
+            "degree_type_name": "BS",
+            "degree_subject": "Computer Science",
+            "type": "Degree",
+            "organization_name": "Texas A & M University",
+            "organization_path": "organization/texas-a-m-university"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-bawcom/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "StrataCloud",
+            "organization_path": "organization/stratacloud",
+            "title": "CTO",
+            "started_on": "2014-04-02",
+            "ended_on": null
+          },
+          {
+            "organization_name": "Reflex Systems",
+            "organization_path": "organization/reflex-systems",
+            "title": "CTO",
+            "started_on": "2007-09-17",
+            "ended_on": null
+          },
+          {
+            "organization_name": "McAfee/NAI",
+            "organization_path": "organization/mcafee-nai",
+            "title": "Chief Architect",
+            "started_on": "1997-05-01",
+            "ended_on": "2000-04-17"
+          },
+          {
+            "organization_name": "Intrusion",
+            "organization_path": "organization/intrusion-inc",
+            "title": "CTO",
+            "started_on": "2000-04-20",
+            "ended_on": "2007-09-14"
+          }
+        ]
+      },
+      "primary_location": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-bawcom/primary_location",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Location",
+            "name": "Atlanta",
+            "uuid": "d8030351c1d20ace2b33794a95c99b7c",
+            "path": "location/atlanta/d8030351c1d20ace2b33794a95c99b7c",
+            "created_at": 1397982122,
+            "updated_at": 1412735033
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-bawcom/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "StrataCloud",
+            "organization_path": "organization/stratacloud",
+            "title": "CTO",
+            "started_on": "2014-04-02",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-bawcom/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1404483867/vwzbpu76oirnbcx893mr.jpg",
+            "created_at": 1398019013,
+            "updated_at": 1404483869
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 7,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-bawcom/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/reflex_abawcom",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1410041134,
+            "updated_at": 1410041134
+          },
+          {
+            "url": "http://stratacloud.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1404484101,
+            "updated_at": 1404484101
+          },
+          {
+            "url": "http://www.youtube.com/user/aaronbawcom",
+            "type": "WebPresence",
+            "title": "youtube",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://picasaweb.google.com/abawcom",
+            "type": "WebPresence",
+            "title": "picasa",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.linkedin.com/in/abawcom",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 1409494427
+          },
+          {
+            "url": "http://plus.google.com/114305689565618852102",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://angel.co/aaron-bawcom",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          }
+        ]
+      }
+    }
+  }
+}

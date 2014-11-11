@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "0754ae185e3208de80cb39c2c824e488",
+    "type": "Person",
+    "properties": {
+      "last_name": "Beashel",
+      "first_name": "Aaron",
+      "permalink": "aaron-beashel",
+      "created_at": 1321500993,
+      "updated_at": 1397989726
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-beashel/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Launchpad6",
+            "organization_path": "organization/launchpad6",
+            "title": "Director of Marketing",
+            "started_on": "2009-02-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-beashel/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Launchpad6",
+            "organization_path": "organization/launchpad6",
+            "title": "Director of Marketing",
+            "started_on": "2009-02-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-beashel/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/in/aaronbeashel",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 1409488293
+          },
+          {
+            "url": "http://angel.co/aaron-beashel",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          }
+        ]
+      }
+    }
+  }
+}

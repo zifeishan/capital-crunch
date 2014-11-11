@@ -1,0 +1,359 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "fd31cc602767398c9f5861ea1842c7a8",
+    "type": "Organization",
+    "properties": {
+      "role_investor": true,
+      "description": "Galileo Partners focuses on funding innovative companies in the Internet, software, electronics, semi-conductors, telecommunications, medical and media sectors.\n\nGalileo Partners aims to foster investment in innovative technology but also in media and Internet, areas in which Galileo has already experienced major success. The team shares its entrepreneurial spirit, its operational and financial expertise and its vision of the market with enthusiastic and highly competent entrepreneurs in innovative technology businesses.\n\nSince 1989, Galileo Partners has contributed to many major success stories which are still viewed as remarkable.\n\nGallileo Partners provides financing and strategic advice to its portfolio companies at every stage of their development cycle, from seed or expansion capital to the IPO stage for the \u00e2\u20ac\u0153block busters\u00e2\u20ac\u009d. Galileo Partners also supports spin-offs from large companies and turnarounds. \n\nGalileo Partners currently manages \u00e2\u201a\u00ac 250 M of private equity capital from world-class international investors. Galileo Partners invests both as a lead investor and as a co-investor in syndicated venture financing with both international and French investors.\n",
+      "short_description": "Galileo Partners focuses on funding innovative companies in the Internet, software, electronics, semi-conductors, telecommunications,",
+      "permalink": "galileo-partners",
+      "primary_role": "investor",
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.galileo.fr/eng/default.php",
+      "name": "Galileo Partners",
+      "is_closed": false,
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 1989,
+      "founded_on": "1989-01-01",
+      "founded_on_trust_code": 4,
+      "secondary_role_venture_capital": true,
+      "secondary_role_early_stage_venture": true,
+      "secondary_role_later_stage_venture": true,
+      "regions": "[\"France\"]",
+      "sectors": "[\"Analytics\",\"Software\",\"Consulting\"]",
+      "created_at": 1212029161,
+      "updated_at": 1410034341,
+      "total_funding_usd": 0,
+      "number_of_investments": 19
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/galileo-partners/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Alain",
+            "last_name": "Rougon",
+            "title": "General Secretary",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/alain-rougon",
+            "created_at": 1381755743,
+            "updated_at": 1397989218
+          }
+        ]
+      },
+      "current_team": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/galileo-partners/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Francois",
+            "last_name": "Duliege",
+            "title": "Partner",
+            "started_on": null,
+            "path": "person/francois-duliege",
+            "created_at": 1340325092,
+            "updated_at": 1397989600
+          },
+          {
+            "first_name": "Joel",
+            "last_name": "Flichy",
+            "title": "Co-founder",
+            "started_on": null,
+            "path": "person/jol-flichy",
+            "created_at": 1225677113,
+            "updated_at": 1397989255
+          },
+          {
+            "first_name": "Regis",
+            "last_name": "Saleur",
+            "title": "General Partner",
+            "started_on": null,
+            "path": "person/rgis-saleur",
+            "created_at": 1386005941,
+            "updated_at": 1397989609
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/galileo-partners/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "109, boulevard Haussmann",
+            "street_2": null,
+            "postal_code": "75008",
+            "city": "Paris",
+            "city_path": "location/paris/5805284c00a4f0aab8115843398ff2bb",
+            "region": "Ile-de-France",
+            "region_path": "location/ile-de-france/104bf8833a6103f9b51aba1d9a4d2c62",
+            "country": "France",
+            "country_path": "location/france/f134827e36a1fd31a82f950489e103ef",
+            "latitude": 48.860785,
+            "longitude": 2.319568,
+            "created_at": 1225648217,
+            "updated_at": 1411707899
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/galileo-partners/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "109, boulevard Haussmann",
+            "street_2": null,
+            "postal_code": "75008",
+            "city": "Paris",
+            "city_path": "location/paris/5805284c00a4f0aab8115843398ff2bb",
+            "region": "Ile-de-France",
+            "region_path": "location/ile-de-france/104bf8833a6103f9b51aba1d9a4d2c62",
+            "country": "France",
+            "country_path": "location/france/f134827e36a1fd31a82f950489e103ef",
+            "latitude": 48.860785,
+            "longitude": 2.319568,
+            "created_at": 1225648217,
+            "updated_at": 1411707899
+          },
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "109, boulevard Haussmann",
+            "street_2": null,
+            "postal_code": "75008",
+            "city": "Paris",
+            "city_path": "location/paris/5805284c00a4f0aab8115843398ff2bb",
+            "region": "Ile-de-France",
+            "region_path": "location/ile-de-france/104bf8833a6103f9b51aba1d9a4d2c62",
+            "country": "France",
+            "country_path": "location/france/f134827e36a1fd31a82f950489e103ef",
+            "latitude": 48.860785,
+            "longitude": 2.319568,
+            "created_at": 1225648217,
+            "updated_at": 1411707899
+          }
+        ]
+      },
+      "investments": {
+        "paging": {
+          "total_items": 19,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/galileo-partners/investments",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/c44fdfeb064bfd9ae903e9493699e11d"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Radio Systemes Ingenierie",
+              "path": "organization/radio-systemes-ingenierie"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/1d0a14f7c88b2db60cbf3ec9a433dba2"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Wokup",
+              "path": "organization/wokup"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/58404fc0e8c562fe0f8c6ac15ae03ccc"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Scality",
+              "path": "organization/scality"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/c9471ffb321049a1348296aac9d2084c"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Alyotech",
+              "path": "organization/alyotech"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/3ae814141628a5eb2e78509f35f3995c"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Talend",
+              "path": "organization/talend"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/54ea4327b85dae0fe5144873dd82dfc0"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "VirtuOz",
+              "path": "organization/virtuoz"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/b81908d92b8ba991601518c21793f70a"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Alyotech",
+              "path": "organization/alyotech"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/309b4cb5a89d83a0e4bb18727c460152"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Alyotech",
+              "path": "organization/alyotech"
+            }
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/galileo-partners/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Joel Flichy",
+            "path": "person/jol-flichy",
+            "created_at": 1225677113,
+            "updated_at": 1397989255
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/galileo-partners/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397179283/eeb2c73f1c19032e567baaecc5aed1d2.jpg",
+            "created_at": 1398019328,
+            "updated_at": 1398019328
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/galileo-partners/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.galileo.fr/eng/default.php",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1212003961,
+            "updated_at": 1397987517
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/galileo-partners/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://techcrunch.com/2011/02/25/scality/",
+            "author": "Robin Wauters",
+            "posted_on": "2011-02-25",
+            "type": "PressReference",
+            "title": "Scality Raises $7 Million For Enterprise Cloud Storage&nbsp;System",
+            "created_at": 1298634814,
+            "updated_at": 2011
+          },
+          {
+            "url": "http://techcrunch.com/2010/04/19/talend-funding/",
+            "author": "Robin Wauters",
+            "posted_on": "2010-04-19",
+            "type": "PressReference",
+            "title": "Investors Inject Another $8 Million Into Open Source Software Company&nbsp;Talend",
+            "created_at": 1271679527,
+            "updated_at": 2010
+          }
+        ]
+      }
+    }
+  }
+}

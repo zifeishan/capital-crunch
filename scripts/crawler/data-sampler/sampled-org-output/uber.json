@@ -1,0 +1,773 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "1eb371093b9301a9177ffee2cb1bfcdc",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Uber, a San Francisco-based technology startup, is innovating at the intersection of lifestyle and logistics. Uber connects riders with safe, reliable, convenient transportation providers at a variety of price-points in cities around the world.\n",
+      "short_description": "Uber is a mobile app connecting passengers with drivers for hire.",
+      "permalink": "uber",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.uber.com",
+      "name": "Uber",
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "founded_on_day": 1,
+      "founded_on_month": 3,
+      "founded_on_year": 2009,
+      "founded_on": "2009-03-01",
+      "founded_on_trust_code": 7,
+      "created_at": 1278367626,
+      "updated_at": 1415451539,
+      "total_funding_usd": 1507450000,
+      "number_of_investments": 0,
+      "number_of_employees": 822
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 13,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Utsav",
+            "last_name": "Agarwal",
+            "title": "Launch",
+            "started_on": "2014-05-01",
+            "ended_on": null,
+            "path": "person/utsav-agarwal",
+            "created_at": 1384808330,
+            "updated_at": 1398241013
+          },
+          {
+            "first_name": "James",
+            "last_name": "Aviaz",
+            "title": "Community Manager",
+            "started_on": "2011-03-01",
+            "ended_on": "2011-09-01",
+            "path": "person/james-aviaz",
+            "created_at": 1320295645,
+            "updated_at": 1397989604
+          },
+          {
+            "first_name": "Christopher",
+            "last_name": "Ballard",
+            "title": "Launcher",
+            "started_on": "2012-01-01",
+            "ended_on": "2013-01-01",
+            "path": "person/christopher-ballard",
+            "created_at": 1364371986,
+            "updated_at": 1406067632
+          },
+          {
+            "first_name": "Michelle",
+            "last_name": "Broderick",
+            "title": "Marketing, Strategy & Curator of Culture",
+            "started_on": "2011-01-01",
+            "ended_on": "2012-01-01",
+            "path": "person/michelle-broderick",
+            "created_at": 1270976499,
+            "updated_at": 1397989387
+          },
+          {
+            "first_name": "Max J",
+            "last_name": "Crowley",
+            "title": "Senior Marketing Manager",
+            "started_on": "2011-08-01",
+            "ended_on": "2014-04-25",
+            "path": "person/max-crowley",
+            "created_at": 1344835084,
+            "updated_at": 1400218649
+          },
+          {
+            "first_name": "Jason",
+            "last_name": "Fiedler",
+            "title": "Operations Manager",
+            "started_on": "2013-10-15",
+            "ended_on": "2014-05-24",
+            "path": "person/jason-fiedler",
+            "created_at": 1326792221,
+            "updated_at": 1410843611
+          },
+          {
+            "first_name": "Ryan",
+            "last_name": "Graves",
+            "title": "CEO & GM",
+            "started_on": "2010-01-01",
+            "ended_on": "2010-01-01",
+            "path": "person/ryan-graves",
+            "created_at": 1278384658,
+            "updated_at": 1407962389
+          },
+          {
+            "first_name": "Matthew",
+            "last_name": "Kochman",
+            "title": "NYC General Manager",
+            "started_on": "2011-02-01",
+            "ended_on": "2011-09-01",
+            "path": "person/matthew-kochman",
+            "created_at": 1360339146,
+            "updated_at": 1397989286
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "paging": {
+          "total_items": 8,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/board_members_and_advisors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Matt",
+            "last_name": "Cohler",
+            "title": "Board Observer",
+            "started_on": "2011-01-01",
+            "path": "person/matt-cohler",
+            "created_at": 1180156619,
+            "updated_at": 1414543871
+          },
+          {
+            "first_name": "Steve",
+            "last_name": "Jang",
+            "title": "Advisor",
+            "started_on": "2010-01-01",
+            "path": "person/steve-jang",
+            "created_at": 1188518395,
+            "updated_at": 1413852991
+          },
+          {
+            "first_name": "Bill",
+            "last_name": "Gurley",
+            "title": "Board Director",
+            "started_on": "2011-02-01",
+            "path": "person/bill-gurley",
+            "created_at": 1197941665,
+            "updated_at": 1413959630
+          },
+          {
+            "first_name": "Timothy",
+            "last_name": "Ferriss",
+            "title": "Advisor",
+            "started_on": null,
+            "path": "person/tim-ferriss",
+            "created_at": 1222153991,
+            "updated_at": 1411775147
+          },
+          {
+            "first_name": "Shervin",
+            "last_name": "Pishevar",
+            "title": "Strategic Adviser",
+            "started_on": "1000-11-11",
+            "path": "person/shervin-pishevar",
+            "created_at": 1188941293,
+            "updated_at": 1413972931
+          },
+          {
+            "first_name": "Paul",
+            "last_name": "Bragiel",
+            "title": "Board Advisor",
+            "started_on": null,
+            "path": "person/paul-bragiel",
+            "created_at": 1186573299,
+            "updated_at": 1409282436
+          },
+          {
+            "first_name": "Stephen (Steve)",
+            "last_name": "Russell",
+            "title": "Advisor",
+            "started_on": null,
+            "path": "person/stephen-russell",
+            "created_at": 1302621789,
+            "updated_at": 1397989671
+          },
+          {
+            "first_name": "Oscar",
+            "last_name": "Salazar",
+            "title": "Advisor",
+            "started_on": "2010-04-01",
+            "path": "person/oscar-salazar",
+            "created_at": 1278384658,
+            "updated_at": 1405544988
+          }
+        ]
+      },
+      "current_team": {
+        "paging": {
+          "total_items": 42,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Travis",
+            "last_name": "Kalanick",
+            "title": "CEO & Co-Founder",
+            "started_on": "2009-06-01",
+            "path": "person/travis-kalanick",
+            "created_at": 1230994056,
+            "updated_at": 1412205193
+          },
+          {
+            "first_name": "Ryan",
+            "last_name": "Graves",
+            "title": "Head of Global Operations & Board Member",
+            "started_on": "2010-02-01",
+            "path": "person/ryan-graves",
+            "created_at": 1278384658,
+            "updated_at": 1407962389
+          },
+          {
+            "first_name": "Salle",
+            "last_name": "Yoo",
+            "title": "General Counsel",
+            "started_on": null,
+            "path": "person/salle-yoo",
+            "created_at": 1396418388,
+            "updated_at": 1412031293
+          },
+          {
+            "first_name": "Garrett",
+            "last_name": "Camp",
+            "title": "Co-Founder & Chairman",
+            "started_on": "2009-01-01",
+            "path": "person/garrett-camp",
+            "created_at": 1180716143,
+            "updated_at": 1398010550
+          },
+          {
+            "first_name": "Jeff",
+            "last_name": "Holden",
+            "title": "Chief Product Officer",
+            "started_on": "2014-02-01",
+            "path": "person/jeff-holden",
+            "created_at": 1194058573,
+            "updated_at": 1397989094
+          },
+          {
+            "first_name": "Brent",
+            "last_name": "Callinicos",
+            "title": "Chief Financial Officer",
+            "started_on": "2013-09-01",
+            "path": "person/brent-callinicos",
+            "created_at": 1378268735,
+            "updated_at": 1397989688
+          },
+          {
+            "first_name": "Emil",
+            "last_name": "Michael",
+            "title": "SVP of Business",
+            "started_on": "2013-09-01",
+            "path": "person/emil-michael",
+            "created_at": 1207032932,
+            "updated_at": 1408619844
+          },
+          {
+            "first_name": "Ed",
+            "last_name": "Baker",
+            "title": "Head of Growth",
+            "started_on": "2013-09-01",
+            "path": "person/ed-baker",
+            "created_at": 1308809850,
+            "updated_at": 1406849459
+          }
+        ]
+      },
+      "competitors": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Taxi Mobility",
+            "path": "organization/taxi-mobility",
+            "created_at": 1394906930,
+            "updated_at": 1410041392
+          },
+          {
+            "type": "Organization",
+            "name": "LeCab",
+            "path": "organization/lecab",
+            "created_at": 1373493265,
+            "updated_at": 1402431053
+          },
+          {
+            "type": "Organization",
+            "name": "Hailo",
+            "path": "organization/hailo",
+            "created_at": 1310858219,
+            "updated_at": 1415376219
+          },
+          {
+            "type": "Organization",
+            "name": "GetTaxi",
+            "path": "organization/gettaxi",
+            "created_at": 1306195385,
+            "updated_at": 1414709838
+          },
+          {
+            "type": "Organization",
+            "name": "Lyft",
+            "path": "organization/lyft",
+            "created_at": 1219581784,
+            "updated_at": 1415342283
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Uber HQ",
+            "street_1": "405 Howard Street",
+            "street_2": null,
+            "postal_code": "94105",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.7887934,
+            "longitude": -122.3956068,
+            "created_at": 1278359281,
+            "updated_at": 1397991199
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Uber HQ",
+            "street_1": "405 Howard Street",
+            "street_2": null,
+            "postal_code": "94105",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.7887934,
+            "longitude": -122.3956068,
+            "created_at": 1278359281,
+            "updated_at": 1397991199
+          },
+          {
+            "type": "Address",
+            "name": "Uber HQ",
+            "street_1": "405 Howard Street",
+            "street_2": null,
+            "postal_code": "94105",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.7887934,
+            "longitude": -122.3956068,
+            "created_at": 1278359281,
+            "updated_at": 1397991199
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Uber Funding Round",
+            "path": "funding-round/7a617d3521e9a71816c8d5cbcd4c49b0",
+            "created_at": 1402085222,
+            "updated_at": 1412020786
+          },
+          {
+            "type": "FundingRound",
+            "name": "Uber raises 11000000 in venture round",
+            "path": "funding-round/7fb4f6a6b5c4566beba7c7f328296051",
+            "created_at": 1398202143,
+            "updated_at": 1412020849
+          },
+          {
+            "type": "FundingRound",
+            "name": "Uber raises 258000000 in venture round",
+            "path": "funding-round/42c8af05c0bf5f0a05351ca9580250e9",
+            "created_at": 1377229728,
+            "updated_at": 1412020729
+          },
+          {
+            "type": "FundingRound",
+            "name": "Uber raises 37000000 in venture round",
+            "path": "funding-round/5b1dc73e0e42d1b0406db5374baf91f9",
+            "created_at": 1323258638,
+            "updated_at": 1412020756
+          },
+          {
+            "type": "FundingRound",
+            "name": "Uber raises 1250000 in angel round",
+            "path": "funding-round/211176ddab64c19f775fe7e47ab9c1c2",
+            "created_at": 1287136400,
+            "updated_at": 1398009861
+          },
+          {
+            "type": "FundingRound",
+            "name": "Uber raises 200000 in seed round",
+            "path": "funding-round/765b8958c4aa1d9805b4694324cd7706",
+            "created_at": 1287136400,
+            "updated_at": 1398009861
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 7,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Real Time",
+            "uuid": "0a88e74aa6c9ff6d69dbe8c85881b4b9",
+            "path": "category/real time/0a88e74aa6c9ff6d69dbe8c85881b4b9",
+            "created_at": 1397980728,
+            "updated_at": 1415615203
+          },
+          {
+            "type": "Category",
+            "name": "Transportation",
+            "uuid": "95642ff023e979a3612b50de99f06305",
+            "path": "category/transportation/95642ff023e979a3612b50de99f06305",
+            "created_at": 1397980727,
+            "updated_at": 1415594123
+          },
+          {
+            "type": "Category",
+            "name": "Design",
+            "uuid": "47b3b55695747cf6a48e489b69aa7daa",
+            "path": "category/design/47b3b55695747cf6a48e489b69aa7daa",
+            "created_at": 1397980727,
+            "updated_at": 1415614954
+          },
+          {
+            "type": "Category",
+            "name": "SEO",
+            "uuid": "4bacab56cafe2e50fdb27cb16c0b1cd6",
+            "path": "category/seo/4bacab56cafe2e50fdb27cb16c0b1cd6",
+            "created_at": 1397980727,
+            "updated_at": 1415482004
+          },
+          {
+            "type": "Category",
+            "name": "Automotive",
+            "uuid": "bb2ad65f1009db81c6f683dbcfd64870",
+            "path": "category/automotive/bb2ad65f1009db81c6f683dbcfd64870",
+            "created_at": 1397980727,
+            "updated_at": 1415611021
+          },
+          {
+            "type": "Category",
+            "name": "Limousines",
+            "uuid": "53a48c729edc4903d575f3dcc210a54d",
+            "path": "category/limousines/53a48c729edc4903d575f3dcc210a54d",
+            "created_at": 1397980726,
+            "updated_at": 1410431359
+          },
+          {
+            "type": "Category",
+            "name": "Public Transportation",
+            "uuid": "404d4762e5b61721c0456b0556619e73",
+            "path": "category/public transportation/404d4762e5b61721c0456b0556619e73",
+            "created_at": 1397980726,
+            "updated_at": 1415188439
+          }
+        ]
+      },
+      "memberships": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/memberships",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Engine Foundation & Engine Advocacy",
+            "path": "organization/engine-foundation-engine-advocacy",
+            "created_at": 1405740818,
+            "updated_at": 1405742882
+          }
+        ]
+      },
+      "members": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/members",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "EPLATFORMA",
+            "path": "organization/eplatforma",
+            "created_at": 1409092629,
+            "updated_at": 1409900180
+          },
+          {
+            "type": "Person",
+            "name": "Christopher Ballard",
+            "path": "person/christopher-ballard",
+            "created_at": 1364371986,
+            "updated_at": 1406067632
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Travis Kalanick",
+            "path": "person/travis-kalanick",
+            "created_at": 1230994056,
+            "updated_at": 1412205193
+          },
+          {
+            "type": "Person",
+            "name": "Garrett Camp",
+            "path": "person/garrett-camp",
+            "created_at": 1180716143,
+            "updated_at": 1398010550
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1412017706/sv81vtnrqnenx1lpcgnv.jpg",
+            "created_at": 1398018887,
+            "updated_at": 1412017708
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397751568/0a209e7c9a64970143dd29ae0bea2bdf.png",
+            "created_at": 1398018888,
+            "updated_at": 1398018888
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397751567/bdffb459d6fb679c507eafe8c8d1d62b.png",
+            "created_at": 1398018888,
+            "updated_at": 1398018888
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397751566/dc28259737aed32ae5d30bf042b316e6.png",
+            "created_at": 1398018887,
+            "updated_at": 1398018887
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397751564/fe380c419dd3a6496337e09aa9068dfc.png",
+            "created_at": 1398018887,
+            "updated_at": 1398018887
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397751563/2532a915c66c03e1341b4651c683978d.png",
+            "created_at": 1398018887,
+            "updated_at": 1398018887
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397751562/330a7a1242b7e48cf20dc34100fb2d85.png",
+            "created_at": 1398018887,
+            "updated_at": 1398018887
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/company/uber.com",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1400495407,
+            "updated_at": 1409459527
+          },
+          {
+            "url": "http://www.facebook.com/uber.IND",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1400495407,
+            "updated_at": 1409602772
+          },
+          {
+            "url": "http://twitter.com/uber",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1278342426,
+            "updated_at": 1409425768
+          },
+          {
+            "url": "http://blog.uber.com",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1278342426,
+            "updated_at": 1397988276
+          },
+          {
+            "url": "http://www.uber.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1278342426,
+            "updated_at": 1397988275
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 99,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/uber/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://techcrunch.com/2014/10/31/lyft-vs-uber/",
+            "author": null,
+            "posted_on": "2014-10-31",
+            "type": "PressReference",
+            "title": "Lyft\u2019s Former VP Of Ops Stephen Schnell Defects To Uber | TechCrunch",
+            "created_at": 1414827448,
+            "updated_at": 1414827448
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/23/uber-partners-with-vaccine-finder-to-bring-a-free-flu-shot-to-you/",
+            "author": null,
+            "posted_on": "2014-10-23",
+            "type": "PressReference",
+            "title": "Uber Partners With Vaccine Finder To Bring A Free Flu Shot To You | TechCrunch",
+            "created_at": 1414381247,
+            "updated_at": 1414381247
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/20/ubers-non-profit-ridesharing-service-peoples-uber-expands-to-more-chinese-cities/",
+            "author": null,
+            "posted_on": "2014-10-20",
+            "type": "PressReference",
+            "title": "Uber\u2019s Nonprofit Ridesharing Service People\u2019s Uber Expands To More Chinese Cities | TechCrunch",
+            "created_at": 1413997364,
+            "updated_at": 1413997364
+          },
+          {
+            "url": "http://techcrunch.com/2014/09/10/early-uber-investors-reveal-sherpa-ventures-strategy-at-disrupt/",
+            "author": null,
+            "posted_on": "2014-09-10",
+            "type": "PressReference",
+            "title": "Early Uber Investors Reveal Sherpa Ventures\u2019 Strategy At Disrupt SF #Humbled #Blessed | TechCrunch",
+            "created_at": 1410420808,
+            "updated_at": 1410420810
+          },
+          {
+            "url": "http://techcrunch.com/2014/09/08/a-kindler-gentler-uber/",
+            "author": null,
+            "posted_on": "2014-09-08",
+            "type": "PressReference",
+            "title": "Uber CEO Thinks It Needs To Be Kinder And Gentler Now That It\u2019s On Top | TechCrunch",
+            "created_at": 1410247724,
+            "updated_at": 1410247725
+          },
+          {
+            "url": "http://www.builtincolorado.com/blog/uber-test-colorados-commitment-startups",
+            "author": "Built In Colorado",
+            "posted_on": "2013-08-26",
+            "type": "PressReference",
+            "title": "Uber is a test of Colorado's commitment to startups",
+            "created_at": 1410201450,
+            "updated_at": 1410201451
+          },
+          {
+            "url": "http://www.builtincolorado.com/blog/4-best-startup-jobs-colorado",
+            "author": "Built In Colorado",
+            "posted_on": "2014-03-13",
+            "type": "PressReference",
+            "title": "4 Best Startup Jobs in Colorado",
+            "created_at": 1410199490,
+            "updated_at": 1410199490
+          },
+          {
+            "url": "http://techcrunch.com/2014/09/04/uber-cuts-fares-in-berlin-munich/",
+            "author": null,
+            "posted_on": "2014-09-04",
+            "type": "PressReference",
+            "title": "As It Flouts Germany-Wide Ban, Uber Touts ~30% Price Cut In Berlin And Munich | TechCrunch",
+            "created_at": 1409914207,
+            "updated_at": 1409914208
+          }
+        ]
+      }
+    }
+  }
+}

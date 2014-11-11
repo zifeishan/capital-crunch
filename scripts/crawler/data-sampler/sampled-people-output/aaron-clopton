@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "493f25d47cb29a02b70aadd63b9be37d",
+    "type": "Person",
+    "properties": {
+      "last_name": "Clopton",
+      "first_name": "Aaron",
+      "permalink": "aaron-clopton",
+      "bio": "I am in charge of operations for Newstwit.com, a website that aggregates real-time news feed tweets into sorted and organized channels of specific interest for the user.  Specifically, I oversee content development, organizational strategy, and marketing.\n",
+      "born_on_day": 28,
+      "born_on_month": 3,
+      "born_on_year": 1978,
+      "born_on": "1978-03-28",
+      "born_on_trust_code": 7,
+      "homepage_url": "http://newstwit.com",
+      "created_at": 1262640527,
+      "updated_at": 1397989268
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-clopton/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": "2005-01-01",
+            "degree_type_name": "Ph.D",
+            "degree_subject": "Sport Management",
+            "type": "Degree",
+            "organization_name": "University of Kansas",
+            "organization_path": "organization/university-of-kansas-2"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-clopton/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Newstwit",
+            "organization_path": "organization/newstwit",
+            "title": "Owner/Operator",
+            "started_on": "2009-12-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-clopton/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Newstwit",
+            "organization_path": "organization/newstwit",
+            "title": "Owner/Operator",
+            "started_on": "2009-12-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-clopton/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://plus.google.com/110632503393900648337",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1406332102,
+            "updated_at": 1406332102
+          },
+          {
+            "url": "http://twitter.com/aaronwclopton",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1262640527,
+            "updated_at": 1409397003
+          },
+          {
+            "url": "http://newstwit-aaronwclopton.blogspot.com/",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1262640527,
+            "updated_at": 1397989268
+          },
+          {
+            "url": "http://newstwit.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1262640527,
+            "updated_at": 1397989268
+          }
+        ]
+      }
+    }
+  }
+}

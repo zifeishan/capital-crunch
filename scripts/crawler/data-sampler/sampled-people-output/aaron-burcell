@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "9454a20643c5a0d19585634b99cbe02d",
+    "type": "Person",
+    "properties": {
+      "last_name": "Burcell",
+      "first_name": "Aaron",
+      "permalink": "aaron-burcell",
+      "bio": "Aaron Burcell is a marketing professional with product and customer acquisition expertise. He is currently the VP of Marketing at Grockit, and previously served as the VP of Marketing at SmartyCard, the learning games division of Gazillion Entertainment.  \n\nHired to launch Gazillion&#39;s SmartyCard, Aaron conceived of and executed the customer acquisition and awareness efforts. Additionally, Aaron lead SmartyCard&#39;s outstanding media relations efforts and built the effective word of mouth marketing programs across networks of bloggers and independent media producers focused on women&#39;s issues, education and parenthood.  \n\nAs the CMO of Boston-based Utterli from June-Nov 2008, Aaron worked closely with founders Paul Gagne and Michael Bayer to re-launch the struggling Utterz micro-blogging service and create a media property briefly utilized by large enterprises like eBay, RedCross and Whole Foods for customer initiatives requiring multi-channel, multimedia group communications.  Aaron became a non-operational adviser to RPM after the company switched focus to cloud-bases mobile app platform development.\n\nAs the VP of marketing at Jangl in 07-08, Aaron applied his background in consumer marketing and strengths in start-up operations, business development and fund raising during the transformation of Jangl&#39;s subscription and licensing business. \n\nIn prior positions, Aaron was one of the first five employees at PodShow, heading up marketing and communications in 06-07. Burcell led all outbound and product marketing efforts at Stata Labs (acquired by Yahoo) from 02-04. Aaron was a co-founder and partner at Alterlayer, a sweat equity firm that consulted and invested in a broad array of Silicon Valley-based startups from late 1999-2002. \n\nAaron started his career in marketing communications and production at WebTV and Microsoft&#39;s WebTV (1996-1999). Aaron is a graduate of Stanford University, majoring in Political Science.\n",
+      "created_at": 1197005806,
+      "updated_at": 1397989158
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-burcell/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": "1995-01-01",
+            "degree_type_name": "BA",
+            "degree_subject": "Political Science",
+            "type": "Degree",
+            "organization_name": "Stanford University",
+            "organization_path": "organization/stanford-university"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-burcell/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Grockit",
+            "organization_path": "organization/grockit",
+            "title": "VP of Marketing",
+            "started_on": "2011-02-01",
+            "ended_on": "2013-07-31"
+          },
+          {
+            "organization_name": "Jangl SMS",
+            "organization_path": "organization/jangl-sms",
+            "title": "VP Marketing",
+            "started_on": "2007-03-01",
+            "ended_on": "2008-06-01"
+          },
+          {
+            "organization_name": "Outspark",
+            "organization_path": "organization/outspark",
+            "title": "VP of Marketing",
+            "started_on": "2010-05-01",
+            "ended_on": "2011-01-01"
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-burcell/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Grockit",
+            "organization_path": "organization/grockit",
+            "title": "VP of Marketing",
+            "started_on": "2011-02-01",
+            "ended_on": "2013-07-31"
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-burcell/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://plus.google.com/100851065817522968533",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1406334360,
+            "updated_at": 1406334360
+          },
+          {
+            "url": "http://www.facebook.com/aaron.burcell",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1406334359,
+            "updated_at": 1409508753
+          },
+          {
+            "url": "http://angel.co/aaron-burcell",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1406334359,
+            "updated_at": 1406334359
+          },
+          {
+            "url": "http://www.linkedin.com/in/aaronburcell",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 1409474540
+          },
+          {
+            "url": "http://aaronburcell.typepad.com/",
+            "type": "WebPresence",
+            "title": "typepad",
+            "created_at": 1265092011,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://twitter.com/smartycard",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1197005806,
+            "updated_at": 1409387853
+          }
+        ]
+      }
+    }
+  }
+}

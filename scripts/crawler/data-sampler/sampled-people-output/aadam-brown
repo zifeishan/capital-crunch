@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "242cba51c6b5df24f8ecdbec00203426",
+    "type": "Person",
+    "properties": {
+      "last_name": "Brown",
+      "first_name": "Aadam",
+      "permalink": "aadam-brown",
+      "created_at": 1314648403,
+      "updated_at": 1397989615
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aadam-brown/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Uadd",
+            "organization_path": "organization/uadd",
+            "title": "Co-founder",
+            "started_on": "2011-02-09",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aadam-brown/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Uadd",
+            "organization_path": "organization/uadd",
+            "title": "Co-founder",
+            "started_on": "2011-02-09",
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aadam-brown/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Uadd",
+            "path": "organization/uadd",
+            "created_at": 1314673605,
+            "updated_at": 1409866419
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aadam-brown/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://angel.co/aadam-brown",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/aadambrown",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1314648403,
+            "updated_at": 1409373488
+          }
+        ]
+      }
+    }
+  }
+}

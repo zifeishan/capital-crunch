@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "472a7a37134178d8ab0084ee0030e52f",
+    "type": "Person",
+    "properties": {
+      "last_name": "Bare",
+      "first_name": "Aaron",
+      "permalink": "aaron-bare",
+      "created_at": 1263599019,
+      "updated_at": 1397989355
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-bare/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Buzz Mouth",
+            "organization_path": "organization/buzz-mouth",
+            "title": "CEO",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-bare/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Buzz Mouth",
+            "organization_path": "organization/buzz-mouth",
+            "title": "CEO",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 11,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-bare/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://plus.google.com/104240830894778924654",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1406332055,
+            "updated_at": 1406332055
+          },
+          {
+            "url": "http://pinterest.com/aaronbare",
+            "type": "WebPresence",
+            "title": "pinterest",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.linkedin.com/in/aaronbare",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 1409465550
+          },
+          {
+            "url": "http://instagram.com/aaronbare",
+            "type": "WebPresence",
+            "title": "instagram",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://github.com/aaronbare",
+            "type": "WebPresence",
+            "title": "github",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/aaronbare",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 1409511841
+          },
+          {
+            "url": "http://www.dribbble.com/aaronbare",
+            "type": "WebPresence",
+            "title": "dribbble",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://angel.co/aaronbare",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          }
+        ]
+      }
+    }
+  }
+}

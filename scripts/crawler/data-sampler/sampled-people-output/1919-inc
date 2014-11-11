@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "07070181b217105eaad5e86a8973b9f2",
+    "type": "Person",
+    "properties": {
+      "last_name": "inc",
+      "first_name": "1919",
+      "permalink": "1919-inc",
+      "bio": "1919 Inc is a reliable marketing company that has a very good brand name in the markets for helping their clients to take their businesses to higher levels through effective marketing in different innovative ways.\n\n1919, INC\n405 E GUDE DRIVE\nSUITE 201\nROCKVILLE, MD 20850\n(240)428-1134\nEMAIL: CAREERS@1919INC.COM\n\nWebsite: http://www.1919inc.com/\n",
+      "homepage_url": "http://www.1919inc.com",
+      "created_at": 1334057576,
+      "updated_at": 1397989553
+    },
+    "relationships": {
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/1919-inc/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/1919inc",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1334057576,
+            "updated_at": 1409371401
+          },
+          {
+            "url": "http://www.1919inc.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1334057576,
+            "updated_at": 1397989553
+          }
+        ]
+      }
+    }
+  }
+}

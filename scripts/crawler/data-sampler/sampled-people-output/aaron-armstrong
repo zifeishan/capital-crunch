@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "0ae143959c9bbc6710a20bc99ca77b2e",
+    "type": "Person",
+    "properties": {
+      "last_name": "Armstrong",
+      "first_name": "Aaron",
+      "permalink": "aaron-armstrong",
+      "created_at": 1325601235,
+      "updated_at": 1397989399
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-armstrong/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "The Yoogotit Brand",
+            "organization_path": "organization/discount-days",
+            "title": "partner",
+            "started_on": "2012-01-02",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-armstrong/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "The Yoogotit Brand",
+            "organization_path": "organization/discount-days",
+            "title": "partner",
+            "started_on": "2012-01-02",
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "559c7d32c0b0cc778f576fa384a327ad",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "EnablePath is in the business of helping companies implement (or optimize) Salesforce.com to map to their unique business processes for greater productivity.  This can include basic CRM set up and user training as well as extensive customization and integrations with supporting technologies.  \n",
+      "short_description": "EnablePath is in the business of helping companies implement (or optimize) Salesforce.com to map to their unique business processes for",
+      "permalink": "enablepath",
+      "primary_role": "company",
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.enablepath.com",
+      "name": "Enablepath",
+      "is_closed": false,
+      "email_address": "info@enablepath.com",
+      "created_at": 1297377865,
+      "updated_at": 1397988087,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "acquired_by": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/enablepath/acquired_by",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "announced_on": "2014-01-13",
+            "type": "Acquisition",
+            "name": "Birlasoft acquired Enablepath",
+            "path": "acquisition/db23cbb9ab196919bcda13cce4df1ab3",
+            "created_at": 1389618198,
+            "updated_at": 1397994887
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/enablepath/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "2623 Mt. Isle Harbor Drive",
+            "street_2": null,
+            "postal_code": "28214",
+            "city": "Charlotte",
+            "city_path": "location/charlotte/7e6e1c52039c04cd9e98ea05bed9f66b",
+            "region": "North Carolina",
+            "region_path": "location/north-carolina/f967e66732ce6748d7e075e756617ccd",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1319181684,
+            "updated_at": 1397991062
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/enablepath/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "2623 Mt. Isle Harbor Drive",
+            "street_2": null,
+            "postal_code": "28214",
+            "city": "Charlotte",
+            "city_path": "location/charlotte/7e6e1c52039c04cd9e98ea05bed9f66b",
+            "region": "North Carolina",
+            "region_path": "location/north-carolina/f967e66732ce6748d7e075e756617ccd",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1319181684,
+            "updated_at": 1397991062
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/enablepath/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397181893/1178872a60e270736f800fa9cdd20d10.jpg",
+            "created_at": 1398019055,
+            "updated_at": 1398019055
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/enablepath/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397181893/8f12a11f0f570abf9cd3bf73333a854f.jpg",
+            "created_at": 1398019055,
+            "updated_at": 1398019055
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/enablepath/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/EnablePathCloud",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1297377865,
+            "updated_at": 1409434445
+          },
+          {
+            "url": "http://www.enablepath.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1297377865,
+            "updated_at": 1397988087
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "599735a65499c35b192c8770679675fa",
+    "type": "Person",
+    "properties": {
+      "last_name": "Ardiri",
+      "first_name": "Aaron",
+      "permalink": "aaron-ardiri",
+      "born_on_day": 7,
+      "born_on_month": 6,
+      "born_on_year": 1975,
+      "born_on": "1975-06-07",
+      "born_on_trust_code": 7,
+      "bio": "Aaron Ardiri has spent years focusing on research and development in the area of mobile entertainment using personal electronics with mobility or wireless capabilities. He has a reputation for pushing the boundaries of the mobile hardware to its limits; proving what is defined as not possible - always is possible.\n\nAaron Ardiri has proven his capabilities working with some of the largest companies in the mobile sector. If your looking for a competent technology lead or professional advice in the mobile arena - look no further.\n",
+      "homepage_url": "http://www.mobile1up.com",
+      "created_at": 1203721850,
+      "updated_at": 1397989349
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-ardiri/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": "1997-01-01",
+            "degree_type_name": "BS",
+            "degree_subject": "Computer Science",
+            "type": "Degree",
+            "organization_name": "Curtin University",
+            "organization_path": "organization/curtin-university"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-ardiri/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Blackberry",
+            "organization_path": "organization/blackberry",
+            "title": "Technical Director",
+            "started_on": "2011-05-31",
+            "ended_on": null
+          },
+          {
+            "organization_name": "Appear",
+            "organization_path": "organization/appear-networks",
+            "title": "CTO",
+            "started_on": "2008-02-01",
+            "ended_on": "2010-06-01"
+          },
+          {
+            "organization_name": "Medhand International AB",
+            "organization_path": "organization/medhand-international-ab",
+            "title": "CTO",
+            "started_on": "2000-12-01",
+            "ended_on": "2008-01-01"
+          },
+          {
+            "organization_name": "Ubitexx",
+            "organization_path": "organization/ubitexx",
+            "title": "VP Development",
+            "started_on": "2010-07-14",
+            "ended_on": "2011-05-30"
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-ardiri/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397182691/ab9b1315b4c68cf9c363b425b20a7e74.png",
+            "created_at": 1398019208,
+            "updated_at": 1398019208
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-ardiri/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.flickr.com/photos/ardiri",
+            "type": "WebPresence",
+            "title": "flickr",
+            "created_at": 1279258051,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://www.linkedin.com/in/ardiri",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1219035069,
+            "updated_at": 1409487386
+          },
+          {
+            "url": "http://twitter.com/ardiri",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1203721850,
+            "updated_at": 1409401343
+          },
+          {
+            "url": "http://www.mobile1up.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1203721850,
+            "updated_at": 1397989349
+          }
+        ]
+      }
+    }
+  }
+}

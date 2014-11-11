@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "d5db68d6ed6961251018dcd6b3cb9a99",
+    "type": "Person",
+    "properties": {
+      "last_name": "Camenisch",
+      "first_name": "Aaron",
+      "permalink": "aaron-camenisch",
+      "created_at": 1295368503,
+      "updated_at": 1397989581
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-camenisch/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Bluewire Group",
+            "organization_path": "organization/bluewire-group",
+            "title": "Creative Director",
+            "started_on": "2006-12-01",
+            "ended_on": "2010-06-30"
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-camenisch/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Bluewire Group",
+            "organization_path": "organization/bluewire-group",
+            "title": "Creative Director",
+            "started_on": "2006-12-01",
+            "ended_on": "2010-06-30"
+          }
+        ]
+      }
+    }
+  }
+}

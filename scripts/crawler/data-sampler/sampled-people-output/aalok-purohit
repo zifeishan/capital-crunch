@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "237d4035fdfcb5c81f9ce034fcb6b458",
+    "type": "Person",
+    "properties": {
+      "last_name": "Purohit",
+      "first_name": "Aalok",
+      "permalink": "aalok-purohit",
+      "created_at": 1310402296,
+      "updated_at": 1397989108
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aalok-purohit/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Social Catalyst",
+            "organization_path": "organization/social-catalyst",
+            "title": "Director of Business Development",
+            "started_on": "2009-10-07",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aalok-purohit/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Social Catalyst",
+            "organization_path": "organization/social-catalyst",
+            "title": "Director of Business Development",
+            "started_on": "2009-10-07",
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

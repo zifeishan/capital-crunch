@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "cb26429070de1e78c48baba76619264c",
+    "type": "Person",
+    "properties": {
+      "bio": "I am currently the Lead Designer at Blend360 Digital Agency in Toronto, Canada. I produce mobile and web solutions that adhere to web usability guidelines. I am an active member of the Toronto technology community, which includes conferences, activities, and educational events. I have over 5 years of experience of working with studios such as bNotions, Creative7, Bite Television and AuxTX.\n\nI empower creative teams by using positive encouragement.\n",
+      "last_name": "Alfred",
+      "first_name": "Aaron",
+      "permalink": "aaron-alfred",
+      "created_at": 1294320603,
+      "updated_at": 1397989468
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-alfred/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "BNOTIONS",
+            "organization_path": "organization/bnotions",
+            "title": "Lead Graphic Designer",
+            "started_on": "2010-07-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-alfred/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "BNOTIONS",
+            "organization_path": "organization/bnotions",
+            "title": "Lead Graphic Designer",
+            "started_on": "2010-07-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-alfred/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397181440/e44e337c0d02782a4e195f21f12b2bff.png",
+            "created_at": 1398019027,
+            "updated_at": 1398019027
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-alfred/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/in/aaronalfred",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 1409498831
+          },
+          {
+            "url": "http://twitter.com/AaronAlfred",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1294320603,
+            "updated_at": 1409372593
+          }
+        ]
+      }
+    }
+  }
+}

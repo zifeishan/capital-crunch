@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "c048fa18a9228d9a1b4c52c3bf5ec8f4",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "One Specialty located in Dallas, TX builds luxury pools and does landscaping. We service the DFW metroplex area. We believe in making sure the customer gets what they are asking for and love to make people happy with their new pools.\n",
+      "short_description": "One Specialty Luxury Pools",
+      "founded_on_day": 6,
+      "founded_on_month": 2,
+      "founded_on_year": 2008,
+      "founded_on": "2008-02-06",
+      "founded_on_trust_code": 7,
+      "permalink": "one-specialty",
+      "primary_role": "company",
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.onespecialty.com",
+      "name": "One Specialty",
+      "is_closed": false,
+      "email_address": "onespecialty@wrightimc.com",
+      "created_at": 1365721547,
+      "updated_at": 1397987601,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 10
+    },
+    "relationships": {
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/one-specialty/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Main",
+            "street_1": "18208 Preston Road #159",
+            "street_2": null,
+            "postal_code": "75252",
+            "city": "Dallas",
+            "city_path": "location/dallas/4adc63ff3d91959874dfe37fff9553ec",
+            "region": "Texas",
+            "region_path": "location/texas/54e9e76a1847d13700a7ed1aab624b78",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1365696347,
+            "updated_at": 1397991611
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/one-specialty/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Main",
+            "street_1": "18208 Preston Road #159",
+            "street_2": null,
+            "postal_code": "75252",
+            "city": "Dallas",
+            "city_path": "location/dallas/4adc63ff3d91959874dfe37fff9553ec",
+            "region": "Texas",
+            "region_path": "location/texas/54e9e76a1847d13700a7ed1aab624b78",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1365696347,
+            "updated_at": 1397991611
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/one-specialty/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Landsacping",
+            "uuid": "fe55ab185d215cd33aacf899919728ed",
+            "path": "category/landsacping/fe55ab185d215cd33aacf899919728ed",
+            "created_at": 1397980727,
+            "updated_at": 1415094676
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/one-specialty/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/company/one-specialty-concrete-llc-one-specialty-xteriors-llc-one-specialty-pools-llc",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.plus.google.com/104406042762380160002",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/onespecialty",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1365696347,
+            "updated_at": 1409453861
+          },
+          {
+            "url": "http://www.onespecialty.com/blog/",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1365696347,
+            "updated_at": 1397987601
+          },
+          {
+            "url": "http://www.onespecialty.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1365696347,
+            "updated_at": 1397987601
+          }
+        ]
+      }
+    }
+  }
+}

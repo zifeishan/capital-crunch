@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "c15bd65e9baa068144d1b4670c485ef8",
+    "type": "Person",
+    "properties": {
+      "last_name": "Chiles",
+      "first_name": "Aaron",
+      "permalink": "aaron-chiles",
+      "homepage_url": "http://www.aaronchiles.com",
+      "created_at": 1294532569,
+      "updated_at": 1397989489
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-chiles/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": "BS",
+            "degree_subject": "Business Administration - Information Technology",
+            "type": "Degree",
+            "organization_name": "Robert Gordon University",
+            "organization_path": "organization/robert-gordon-university"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-chiles/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "MySong.FM",
+            "organization_path": "organization/mysong-fm",
+            "title": "Chief Executive Officer",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "Chiles, LLC",
+            "organization_path": "organization/chiles-llc",
+            "title": "Team Member",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-chiles/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "MySong.FM",
+            "organization_path": "organization/mysong-fm",
+            "title": "Chief Executive Officer",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-chiles/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/AaronChiles",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1294532569,
+            "updated_at": 1409372646
+          },
+          {
+            "url": "http://blog.aaronchiles.com",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1294532569,
+            "updated_at": 1397989489
+          },
+          {
+            "url": "http://www.aaronchiles.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1294532569,
+            "updated_at": 1397989489
+          }
+        ]
+      }
+    }
+  }
+}

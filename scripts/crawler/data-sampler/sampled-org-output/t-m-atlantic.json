@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "329fbb2763f8e13d6f33ca0a108b51db",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "permalink": "t-m-atlantic",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "name": "T&M Atlantic",
+      "email_address": "marketing@tmatlantic.com",
+      "description": "T&amp;M Atlantic is proud to introduce newest and most innovative brand of test and measurement equipment - AKTAKOM.\nAKTAKOM is new in the U.S, but it\u00e2\u20ac\u2122s a very popular brand around the world, especially in Europe. AKTAKOM\u00e2\u20ac\u2122s good name and excellent reputation has been established for its quality, innovation and precision. AKTAKOM offers large variety of Digital test and measurement equipment including Multimeters, Oscilloscopes, Anemometers, Thermometers, Environment meters, Clamp meters and Milliohm meters.  In addition to test equipment , AKTAKOM\u00e2\u20ac\u2122s Professional Soldering Stations are equal in quality to world leading brands while offering much lower prices and excellent customer service.\nOne of the AKTAKOM\u00e2\u20ac\u2122s innovations comes in the form of unique technology of Automatic Data Logger, which allows the user an easy data transfer from device to PC by using an SD - memory card and Excel. Such applications are  available in 4 AKTAKOMmodels including: Anemometer ATE-1033 ,Thermometer ATE-2036,    Humidity/Temp. Meter ATE-5035 and Environment Meter ATE-9538\n T&amp;M Atlantic is now offering a full line of AKTAKOM products at the lowest introductory prices. We have all the  AKTAKOM products in stock and they are available for immediate delivery. Introductory prices will be available for a short period of time while supplies last.\nTMAtlantic.com and AKTAKOM is a perfect combination of high quality equipment, low prices and exceptional customer service, designed to provide the best possible test and measurement solutions to all our customers.\n",
+      "short_description": "Test & measuring solutions",
+      "homepage_url": "http://www.tmatlantic.com",
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "founded_on_day": 1,
+      "founded_on_month": 11,
+      "founded_on_year": 2010,
+      "founded_on": "2010-11-01",
+      "founded_on_trust_code": 7,
+      "num_employees_max": 10,
+      "num_employees_min": 1,
+      "created_at": 1294352240,
+      "updated_at": 1409872891,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 10
+    },
+    "relationships": {
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/t-m-atlantic/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "US Headquarters",
+            "street_1": "175 SW 7th Street",
+            "street_2": "Office 1807",
+            "postal_code": "33130",
+            "city": "Miami",
+            "city_path": "location/miami/3f15b36801239fe142228cf9a77afa6c",
+            "region": "Florida",
+            "region_path": "location/florida/7d27a7401eba06ba8941078f0789d387",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1294323440,
+            "updated_at": 1407366980
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/t-m-atlantic/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "US Headquarters",
+            "street_1": "175 SW 7th Street",
+            "street_2": "Office 1807",
+            "postal_code": "33130",
+            "city": "Miami",
+            "city_path": "location/miami/3f15b36801239fe142228cf9a77afa6c",
+            "region": "Florida",
+            "region_path": "location/florida/7d27a7401eba06ba8941078f0789d387",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1294323440,
+            "updated_at": 1407366980
+          },
+          {
+            "type": "Address",
+            "name": "US Headquarters",
+            "street_1": "175 SW 7th Street",
+            "street_2": "Office 1807",
+            "postal_code": "33130",
+            "city": "Miami",
+            "city_path": "location/miami/3f15b36801239fe142228cf9a77afa6c",
+            "region": "Florida",
+            "region_path": "location/florida/7d27a7401eba06ba8941078f0789d387",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1294323440,
+            "updated_at": 1407366980
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/t-m-atlantic/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397202193/8316ad86d55b5a6c1b100b037c4376b1.jpg",
+            "created_at": 1398018706,
+            "updated_at": 1398018706
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/t-m-atlantic/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397202195/89f170d39056ca5e3f7af290aaec5ad3.jpg",
+            "created_at": 1398018707,
+            "updated_at": 1398018707
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397202195/53de9dfc69549afa29995aa7ab69205f.jpg",
+            "created_at": 1398018706,
+            "updated_at": 1398018706
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397202194/e8e4a413ebb1300ce219737ff05c1d6e.jpg",
+            "created_at": 1398018706,
+            "updated_at": 1398018706
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/t-m-atlantic/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.tmatlantic.com",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1294323440,
+            "updated_at": 1397988858
+          },
+          {
+            "url": "http://www.tmatlantic.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1294323440,
+            "updated_at": 1397988858
+          }
+        ]
+      }
+    }
+  }
+}

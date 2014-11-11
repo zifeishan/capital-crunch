@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "d86f04f69b9e06606d34a1c632841f3a",
+    "type": "Person",
+    "properties": {
+      "last_name": "Cuenca-Barrett",
+      "first_name": "Aaron",
+      "permalink": "aaron-cuenca-barrett",
+      "created_at": 1258579855,
+      "updated_at": 1397988987
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-cuenca-barrett/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "TriFame",
+            "organization_path": "organization/trifame",
+            "title": "VP of Customer Experience",
+            "started_on": "2009-11-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-cuenca-barrett/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "TriFame",
+            "organization_path": "organization/trifame",
+            "title": "VP of Customer Experience",
+            "started_on": "2009-11-01",
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

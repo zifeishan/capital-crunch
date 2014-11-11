@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "76b111531b7078818c5864ccab464de7",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "How do you shop for environmentally-friendly outdoor gear?  The goal of Evergreen Sessions is to inform consumers about all of the environmentally-friendly outdoor products available, while also creating an online community of environmentally-conscious people interested in outdoor sports and recreation.  The site grows based on users adding products to the site and then rating and reviewing those products.  Those reviews help others make more informed purchases. Each product&#39;s page allows users to submit links to online stores that currently sell that product.  The thought is that the site will a database of environmentally-responsible products, reviewed by the very people that purchase and use the products.\n",
+      "short_description": "Easily find eco-friendly outdoor gear.",
+      "permalink": "evergreen-sessions",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://evergreensessions.com",
+      "name": "Evergreen Sessions",
+      "email_address": "support@evergreensessions.com",
+      "founded_on_day": 6,
+      "founded_on_month": 3,
+      "founded_on_year": 2010,
+      "founded_on": "2010-03-06",
+      "founded_on_trust_code": 7,
+      "created_at": 1273444053,
+      "updated_at": 1397987373,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 2
+    },
+    "relationships": {
+      "categories": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/evergreen-sessions/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Curated Web",
+            "uuid": "c87f19a05bd9c7c6e379ca118f49aa4e",
+            "path": "category/curated web/c87f19a05bd9c7c6e379ca118f49aa4e",
+            "created_at": 1397980728,
+            "updated_at": 1415598397
+          },
+          {
+            "type": "Category",
+            "name": "Outdoors",
+            "uuid": "47e90bbadfb42b2e0034d3e7c809373c",
+            "path": "category/outdoors/47e90bbadfb42b2e0034d3e7c809373c",
+            "created_at": 1397980727,
+            "updated_at": 1415258241
+          },
+          {
+            "type": "Category",
+            "name": "Green",
+            "uuid": "4d57f90d341bc9e6e03102880bb7edee",
+            "path": "category/green/4d57f90d341bc9e6e03102880bb7edee",
+            "created_at": 1397980727,
+            "updated_at": 1415449636
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/evergreen-sessions/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397181824/f10d20507b093c5d62a4249261ca6476.jpg",
+            "created_at": 1398018471,
+            "updated_at": 1398018471
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/evergreen-sessions/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397181824/b34f0f81f4aaf0dfef9abdc3c22fc1e0.jpg",
+            "created_at": 1398018471,
+            "updated_at": 1398018471
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/evergreen-sessions/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/beforevergreen",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1273418853,
+            "updated_at": 1409449040
+          },
+          {
+            "url": "http://evergreensessions.wordpress.com/",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1273418853,
+            "updated_at": 1397987373
+          },
+          {
+            "url": "http://evergreensessions.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1273418853,
+            "updated_at": 1397987373
+          }
+        ]
+      }
+    }
+  }
+}

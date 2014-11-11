@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "2c763e23229ca7d78cd2a7cb6171c619",
+    "type": "Person",
+    "properties": {
+      "last_name": "Easterly",
+      "first_name": "Aaron",
+      "permalink": "aaron-easterly",
+      "bio": "Rover&#39;s Top Dog, Aaron Easterly, brings an accomplished resume and more than 10 years of experience in the tech industry to the position of CEO. Prior to Rover, Aaron was General Manager of Network Strategy and Monetization within Microsoft\u2019s Advertiser and Publisher Solutions group. \n\nIn this position, he drove revenue and improved yield from the $3 billion suite of Microsoft ad offerings. He began his career with Microsoft in 2008 as General Manager of Ad Networks and prior to that he was VP and General Manager at Atlas Publishing leading the team responsible for the design of the company\u2019s yield engine that defined methods for performance estimation, segmentation and optimization.\n\nAs CEO of Rover, Aaron\u2019s excitement and interest was piqued when we realized he could help fellow dog owners solve a problem he has frequently faced himself. Aaron also relies heavily on the invaluable consultations he receives on a nightly basis from his four-pound Pomeranian, Caramel (but who doesn\u2019t).\n\nAaron graduated with Honors from Harvard College with an A.B. degree in Economics.\n",
+      "died_on_trust_code": 0,
+      "died_on_day": null,
+      "died_on_month": null,
+      "died_on_year": null,
+      "died_on": null,
+      "created_at": 1325119041,
+      "updated_at": 1411206000
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-easterly/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": "Undergraduate",
+            "degree_subject": "Economics",
+            "type": "Degree",
+            "organization_name": "Harvard University",
+            "organization_path": "organization/harvard-university"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-easterly/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Microsoft",
+            "organization_path": "organization/microsoft",
+            "title": "General Manager",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "GeekWire",
+            "organization_path": "organization/geekwire",
+            "title": "Team Member",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "Rover.com",
+            "organization_path": "organization/rover-com",
+            "title": "CEO",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-easterly/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Rover.com",
+            "organization_path": "organization/rover-com",
+            "title": "CEO",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-easterly/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397183885/9d9737382f2e18d081d6c27824a8de2c.png",
+            "created_at": 1398019164,
+            "updated_at": 1398019164
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-easterly/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/pub/aaron-easterly/13/459/b07",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1411205801,
+            "updated_at": 1411205801
+          },
+          {
+            "url": "http://twitter.com/aaroneasterly",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1411205801,
+            "updated_at": 1411764565
+          },
+          {
+            "url": "http://www.facebook.com/aaron.easterly.9",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1411205801,
+            "updated_at": 1411764565
+          }
+        ]
+      }
+    }
+  }
+}

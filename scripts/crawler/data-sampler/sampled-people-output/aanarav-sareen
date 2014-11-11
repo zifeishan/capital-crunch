@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "be942897a42051b981c819abac7f9c8e",
+    "type": "Person",
+    "properties": {
+      "last_name": "Sareen",
+      "first_name": "Aanarav",
+      "permalink": "aanarav-sareen",
+      "bio": "Aanarav Sareen is the president and co-founder of PaLaCart, the world\u2019s first universal shopping cart. Prior to starting PaLaCart, he was the lead creative technologist at Wunderman, a WPP company and the world&#39;s largest digital agency with revenues exceeding $1 billion. At Wunderman, he built, managed and provided leadership across creative, technology and strategic business units. He was responsible for managing all interactive media projects for clients including The Coca Cola Company, Nokia, Levi&#39;s, Dell and United Airlines.\n\nAanarav is the author of 2 best-selling books and one of the world&#39;s leading experts in interactive media. He is a frequent technology author and analyst and has been featured on ABC News, NBC News, Al Jazeera English and the Wall Street Journal. He is a frequent contributor to The Huffington Post.\n\nAanarav is an advanced media member of the National Academy of Television Arts &amp; Sciences, the organization that bestows the coveted Emmy\u00ae Awards.\n",
+      "created_at": 1398277703,
+      "updated_at": 1398277703,
+      "location_uuid": "d64b7615985cfbf44affaa89d70c4050"
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aanarav-sareen/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "PaLaCart",
+            "organization_path": "organization/palacart",
+            "title": "President",
+            "started_on": "2012-03-08",
+            "ended_on": null
+          },
+          {
+            "organization_name": "Visual Avenue",
+            "organization_path": "organization/visual-avenue",
+            "title": "Co-founder",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_location": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aanarav-sareen/primary_location",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Location",
+            "name": "New York",
+            "uuid": "d64b7615985cfbf44affaa89d70c4050",
+            "path": "location/new-york/d64b7615985cfbf44affaa89d70c4050",
+            "created_at": 1397981148,
+            "updated_at": 1414450437
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aanarav-sareen/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "PaLaCart",
+            "organization_path": "organization/palacart",
+            "title": "President",
+            "started_on": "2012-03-08",
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aanarav-sareen/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Visual Avenue",
+            "path": "organization/visual-avenue",
+            "created_at": 1235787616,
+            "updated_at": 1409879366
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aanarav-sareen/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1398273792/zp9ltf1in5suect57dap.jpg",
+            "created_at": 1398273790,
+            "updated_at": 1398273790
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 7,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aanarav-sareen/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.youtube.com/user/aanaravs",
+            "type": "WebPresence",
+            "title": "youtube",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://plus.google.com/107020766096878942660",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://angel.co/aanaravs",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.linkedin.com/in/aanarav",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1273787807,
+            "updated_at": 1409475743
+          },
+          {
+            "url": "http://www.flickr.com/aanaravs",
+            "type": "WebPresence",
+            "title": "flickr",
+            "created_at": 1273787807,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://www.facebook.com/aanarav",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1273787807,
+            "updated_at": 1409514577
+          },
+          {
+            "url": "http://twitter.com/aanaravs",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1235758816,
+            "updated_at": 1409400538
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "3c4df835fb0909e09ee2856877193c11",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Relocate Easily is an end to end relocation and property hunt solution provider in bangalore. Relocate Easily provides relocation service in the market for both domestic and corporate sector looking to invest or move within Bangalore.\n\nWith the help of cost-effective solutions, Relocate Easily help customers to reach utmost satisfaction. Relocate Easily has strong pool of resources spread across Bangalore in niche skills and expertise which help its customers enabling business growth and timely delivery.\n\nRelocateEasily is involved in every basic stage in Relocation Process, some of it&#39;s best offerings include:\n\nPackers &amp; Movers\n\nProperty Hunting\n\nLegal assistance\n\nUtility Connections \u2014 Internet, Cable &amp; Cooking Gas\n\nHousehold amenities \u2014 Rental Furniture &amp; Electronics\n\nOffers Running in Bangalore\n\nTicket Booking\n\nPersonal Assistance\n\nReal Estate Services comprises of:\n\nPersonalized Property Search\n\nReal Estate Consultancy\n\nProperty Investment\n\nProperty Valuation\n\nLegal Assistance\n\nLoan Sanction\n\nAll the executives here are distinguished by their functional and professional expertise combined with their hands-on experience, thereby ensuring that our clients receive the most effective and reliable service. Unlike other relocation firms, RelocateEasily provides relocation services at budget prices. \n\nIn order to meet the individual needs of clients, RelocateEasily is very shortly launching its services in Pune and Hyderabad and attaching more offerings to its list like:\n\nProperty Management\n\nOnline Rent Payment\n\nReal Estate Marketing\n\nExceptional functional and professional expertise coupled with extensive research makes Relocate Easily the ideal choice for a relocation firm to manage your relocation to Bangalore. \n",
+      "short_description": "Real Estate Company in Bangalore",
+      "permalink": "relocate-easily",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.relocateeasily.com",
+      "name": "Relocate Easily",
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "num_employees_max": 50,
+      "num_employees_min": 11,
+      "email_address": "jennita@relocateeasily.com",
+      "founded_on_day": 4,
+      "founded_on_month": 7,
+      "founded_on_year": 2009,
+      "founded_on": "2009-07-04",
+      "founded_on_trust_code": 7,
+      "created_at": 1285599151,
+      "updated_at": 1409881146,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 30
+    },
+    "relationships": {
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/relocate-easily/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Relocate Easily",
+            "street_1": "#2494,17th Main Road,",
+            "street_2": "HAL II stage,Indira Nagar",
+            "postal_code": "560038",
+            "city": "Bangalore",
+            "city_path": "location/bangalore/37f3a3feb659895e4d840b649e005c3a",
+            "region": "Karnataka",
+            "region_path": "location/karnataka/cd79504e3c0a954fa3c6094f46c0d524",
+            "country": "India",
+            "country_path": "location/india/44048bf7db640d7adb20fd3c1ebf47b0",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1285573951,
+            "updated_at": 1407369481
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/relocate-easily/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Relocate Easily",
+            "street_1": "#2494,17th Main Road,",
+            "street_2": "HAL II stage,Indira Nagar",
+            "postal_code": "560038",
+            "city": "Bangalore",
+            "city_path": "location/bangalore/37f3a3feb659895e4d840b649e005c3a",
+            "region": "Karnataka",
+            "region_path": "location/karnataka/cd79504e3c0a954fa3c6094f46c0d524",
+            "country": "India",
+            "country_path": "location/india/44048bf7db640d7adb20fd3c1ebf47b0",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1285573951,
+            "updated_at": 1407369481
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/relocate-easily/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397193568/6264bffcc7643119309740cd698dc5a4.png",
+            "created_at": 1398019002,
+            "updated_at": 1398019002
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/relocate-easily/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.facebook.com/pages/Relocate-Easily-in-Bangalore/21234",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1406396605,
+            "updated_at": 1406396605
+          },
+          {
+            "url": "http://twitter.com/relocateeasily",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1285573951,
+            "updated_at": 1409414633
+          },
+          {
+            "url": "http://blog.relocateeasily.com/",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1285573951,
+            "updated_at": 1397988414
+          },
+          {
+            "url": "http://www.relocateeasily.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1285573951,
+            "updated_at": 1397988414
+          }
+        ]
+      }
+    }
+  }
+}

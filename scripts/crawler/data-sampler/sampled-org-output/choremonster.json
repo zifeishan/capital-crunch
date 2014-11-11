@@ -1,0 +1,552 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "e5ff00b2655ad77f991610081d36bb50",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "closed_on_year": null,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on": null,
+      "closed_on_trust_code": 0,
+      "description": "ChoreMonster is a platform for web and mobile that makes chores actually fun for kids.\n\nKids earn points by completing chores to use towards rewards like an hour of video games or a camping trip.  For each chore completed, kids also earn a ticket to the Monster Carnival, where they can earn over 100 collectible, interactive monsters.  With ChoreMonster, kids will beg to do their chores!\n\nIn April 2014, ChoreMonster launched ChoreMonster 2.0, adding support for iPad, 4 new languages, integration with Amazon.com for rewards, and more.  ChoreMonster also removed subscriptions, making the app entirely free for all households.\n",
+      "short_description": "ChoreMonster is a platform for web and mobile that makes chores actually fun for kids. With ChoreMonster, kids will beg to do their chores.",
+      "founded_on_day": 1,
+      "founded_on_month": 8,
+      "founded_on_year": 2011,
+      "founded_on": "2011-08-01",
+      "founded_on_trust_code": 6,
+      "permalink": "choremonster",
+      "primary_role": "company",
+      "is_closed": false,
+      "homepage_url": "https://www.choremonster.com",
+      "name": "ChoreMonster",
+      "email_address": "chris@choremonster.org",
+      "created_at": 1325820550,
+      "updated_at": 1414576387,
+      "total_funding_usd": 3640035,
+      "number_of_investments": 0,
+      "number_of_employees": 12
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/choremonster/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "J.B.",
+            "last_name": "Kropp",
+            "title": "Advisor",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/j-b-kropp",
+            "created_at": 1279330773,
+            "updated_at": 1408963059
+          },
+          {
+            "first_name": "Kevin",
+            "last_name": "Pfefferle",
+            "title": "CTO",
+            "started_on": "2012-01-01",
+            "ended_on": null,
+            "path": "person/kevin-pfefferle",
+            "created_at": 1330381148,
+            "updated_at": 1397989135
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/choremonster/board_members_and_advisors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Ted",
+            "last_name": "Serbinski",
+            "title": "Board Member",
+            "started_on": "2013-07-01",
+            "path": "person/ted-serbinski",
+            "created_at": 1285130871,
+            "updated_at": 1412824459
+          }
+        ]
+      },
+      "current_team": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/choremonster/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Paul",
+            "last_name": "Armstrong",
+            "title": "Founder/CCO",
+            "started_on": "2011-08-01",
+            "path": "person/paul-armstrong",
+            "created_at": 1325820549,
+            "updated_at": 1406210826
+          },
+          {
+            "first_name": "Chris",
+            "last_name": "Bergman",
+            "title": "Founder/CEO",
+            "started_on": "2011-08-01",
+            "path": "person/chris-bergman",
+            "created_at": 1325820549,
+            "updated_at": 1408987014
+          },
+          {
+            "first_name": "Alex",
+            "last_name": "Bowman",
+            "title": "VP, Marketing & Operations",
+            "started_on": "2013-08-01",
+            "path": "person/alex-bowman",
+            "created_at": 1391209296,
+            "updated_at": 1413152986
+          }
+        ]
+      },
+      "competitors": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/choremonster/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "HighScore House",
+            "path": "organization/highscore-house",
+            "created_at": 1300574596,
+            "updated_at": 1413537625
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/choremonster/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "1401 Central Pkwy",
+            "street_2": "Suite 100",
+            "postal_code": "45202",
+            "city": "Cincinnati",
+            "city_path": "location/cincinnati/fb849a0adc914620a3017bb85672445e",
+            "region": "Ohio",
+            "region_path": "location/ohio/68ce1e7ecec0870b92a9134b2dc2a3e0",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 39.1100463,
+            "longitude": -84.520679,
+            "created_at": 1325791750,
+            "updated_at": 1397990918
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/choremonster/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "1401 Central Pkwy",
+            "street_2": "Suite 100",
+            "postal_code": "45202",
+            "city": "Cincinnati",
+            "city_path": "location/cincinnati/fb849a0adc914620a3017bb85672445e",
+            "region": "Ohio",
+            "region_path": "location/ohio/68ce1e7ecec0870b92a9134b2dc2a3e0",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 39.1100463,
+            "longitude": -84.520679,
+            "created_at": 1325791750,
+            "updated_at": 1397990918
+          },
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "1401 Central Pkwy",
+            "street_2": "Suite 100",
+            "postal_code": "45202",
+            "city": "Cincinnati",
+            "city_path": "location/cincinnati/fb849a0adc914620a3017bb85672445e",
+            "region": "Ohio",
+            "region_path": "location/ohio/68ce1e7ecec0870b92a9134b2dc2a3e0",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 39.1100463,
+            "longitude": -84.520679,
+            "created_at": 1325791750,
+            "updated_at": 1397990918
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/choremonster/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "ChoreMonster Funding Round",
+            "path": "funding-round/d557dee343b575126cadf48f4fa565a0",
+            "created_at": 1414576387,
+            "updated_at": 1414576458
+          },
+          {
+            "type": "FundingRound",
+            "name": "ChoreMonster Funding Round",
+            "path": "funding-round/b57b4bd241064f7f66d82aff821fbda3",
+            "created_at": 1405071487,
+            "updated_at": 1405071487
+          },
+          {
+            "type": "FundingRound",
+            "name": "ChoreMonster raises 1500000 in venture round",
+            "path": "funding-round/5509d9b81e8653bd01a4e6305fb7dd74",
+            "created_at": 1375334642,
+            "updated_at": 1398009949
+          },
+          {
+            "type": "FundingRound",
+            "name": "ChoreMonster raises 775000 in seed round",
+            "path": "funding-round/2566f2767e3ad156ef18ed6fee7b395b",
+            "created_at": 1357218730,
+            "updated_at": 1398010189
+          },
+          {
+            "type": "FundingRound",
+            "name": "ChoreMonster raises 25000 in seed round",
+            "path": "funding-round/81dbdb93a053dcee9c8221bd23d6795b",
+            "created_at": 1328878365,
+            "updated_at": 1398009916
+          },
+          {
+            "type": "FundingRound",
+            "name": "ChoreMonster raises 355000 in seed round",
+            "path": "funding-round/9ebc49637c5c71193d1f287fda16b23e",
+            "created_at": 1325791750,
+            "updated_at": 1398010155
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/choremonster/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Curated Web",
+            "uuid": "c87f19a05bd9c7c6e379ca118f49aa4e",
+            "path": "category/curated web/c87f19a05bd9c7c6e379ca118f49aa4e",
+            "created_at": 1397980728,
+            "updated_at": 1415558884
+          },
+          {
+            "type": "Category",
+            "name": "Apps",
+            "uuid": "af3332489c7e50c5168ae91b86595a17",
+            "path": "category/apps/af3332489c7e50c5168ae91b86595a17",
+            "created_at": 1397980727,
+            "updated_at": 1415543445
+          },
+          {
+            "type": "Category",
+            "name": "Parenting",
+            "uuid": "15c8defa8baee5471329e2365bb9bb51",
+            "path": "category/parenting/15c8defa8baee5471329e2365bb9bb51",
+            "created_at": 1397980727,
+            "updated_at": 1415356680
+          },
+          {
+            "type": "Category",
+            "name": "Internet",
+            "uuid": "2772a539e63609dc30dcb1a7deb98d0e",
+            "path": "category/internet/2772a539e63609dc30dcb1a7deb98d0e",
+            "created_at": 1397980726,
+            "updated_at": 1415559526
+          },
+          {
+            "type": "Category",
+            "name": "Mobile",
+            "uuid": "e907cf2a842d8a30a0b107d9de4a8178",
+            "path": "category/mobile/e907cf2a842d8a30a0b107d9de4a8178",
+            "created_at": 1397980726,
+            "updated_at": 1415573242
+          },
+          {
+            "type": "Category",
+            "name": "Kids",
+            "uuid": "3a3131dbe7b7a991fd5f5f1f7f5898bf",
+            "path": "category/kids/3a3131dbe7b7a991fd5f5f1f7f5898bf",
+            "created_at": 1397980726,
+            "updated_at": 1415288940
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/choremonster/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Paul Armstrong",
+            "path": "person/paul-armstrong",
+            "created_at": 1325820549,
+            "updated_at": 1406210826
+          },
+          {
+            "type": "Person",
+            "name": "Chris Bergman",
+            "path": "person/chris-bergman",
+            "created_at": 1325820549,
+            "updated_at": 1408987014
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/choremonster/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184927/7afe1719ee4462aac382111ad4638e80.png",
+            "created_at": 1398018686,
+            "updated_at": 1398018686
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 7,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/choremonster/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1404228053/xhnakvxixam7ytmsga7f.png",
+            "created_at": 1404228055,
+            "updated_at": 1404228055
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1404227997/dydt8d06apznqcgnilq3.png",
+            "created_at": 1404228000,
+            "updated_at": 1404228000
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184933/c6e0ab2bc19aef44f8fc13b61190818f.png",
+            "created_at": 1398018687,
+            "updated_at": 1398018687
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184931/bad352982d7a4689aaa440a87e06391c.png",
+            "created_at": 1398018686,
+            "updated_at": 1398018686
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184930/453df2d61e96f090a01f96b0cd08ba38.png",
+            "created_at": 1398018686,
+            "updated_at": 1398018686
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184929/a48b6b71f10fd9ebeb009c27e5bdc547.png",
+            "created_at": 1398018686,
+            "updated_at": 1398018686
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184928/4ee6779fba3256050710ea4168901454.png",
+            "created_at": 1398018686,
+            "updated_at": 1398018686
+          }
+        ]
+      },
+      "videos": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/choremonster/videos",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "VideoAsset",
+            "title": "ChoreMonster: your kids will beg to do chores!",
+            "created_at": 1404228074,
+            "updated_at": 1404228074
+          },
+          {
+            "type": "VideoAsset",
+            "title": "ChoreMonster Dads on being a Dad",
+            "created_at": 1404226006,
+            "updated_at": 1404226006
+          },
+          {
+            "type": "VideoAsset",
+            "title": "ChoreMonster presents: How to Feed Your Pets",
+            "created_at": 1404225990,
+            "updated_at": 1404225990
+          },
+          {
+            "type": "VideoAsset",
+            "title": "ChoreMonster Co-founders Introduction",
+            "created_at": 1404225968,
+            "updated_at": 1404225969
+          },
+          {
+            "type": "VideoAsset",
+            "title": "ChoreMonster Demo",
+            "created_at": 1404225947,
+            "updated_at": 1404225947
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/choremonster/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.pinterest.com/choremonster",
+            "type": "WebPresence",
+            "title": "pinterest",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/choremonster",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/choremonster",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1325791750,
+            "updated_at": 1409438715
+          },
+          {
+            "url": "http://www.choremonster.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1325791750,
+            "updated_at": 1409523608
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/choremonster/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.psychologytoday.com/articles/201306/tech-fun-done",
+            "author": null,
+            "posted_on": "2013-05-01",
+            "type": "PressReference",
+            "title": "Tech: From Fun To Done",
+            "created_at": 1404225854,
+            "updated_at": 1404225854
+          },
+          {
+            "url": "http://www.cnbc.com/id/101568078",
+            "author": null,
+            "posted_on": "2014-04-01",
+            "type": "PressReference",
+            "title": "Kids hate doing chores? There's an app for that",
+            "created_at": 1404225796,
+            "updated_at": 1404225796
+          },
+          {
+            "url": "http://thenextweb.com/apps/2014/04/03/choremonster-2-0-lands-web-ios-bringing-amazon-integration-new-interactive-monsters/",
+            "author": "Ben Woods",
+            "posted_on": "2014-04-01",
+            "type": "PressReference",
+            "title": "ChoreMonster 2.0 Brings Amazon Integration and New Monsters",
+            "created_at": 1404225761,
+            "updated_at": 1404225761
+          },
+          {
+            "url": "http://techcrunch.com/2014/04/03/choremonster-an-app-to-get-kids-to-do-their-share-now-free-parents-rejoice/",
+            "author": "Jay Donovan",
+            "posted_on": "2014-04-01",
+            "type": "PressReference",
+            "title": "ChoreMonster, An App To Get Kids To Do Their Share, Now Free. Parents Rejoice. | TechCrunch",
+            "created_at": 1404225735,
+            "updated_at": 1404225736
+          },
+          {
+            "url": "http://techcrunch.com/2013/01/20/cincinnati-start-up-choremonster-makes-chores-fun-and-they-even-made-a-beastie-for-us/",
+            "author": "Jay Donovan",
+            "posted_on": "2013-01-20",
+            "type": "PressReference",
+            "title": "Cincinnati Startup ChoreMonster Makes Chores Fun And They Even Made A Beastie For Us",
+            "created_at": 1358746820,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://techcocktail.com/8-startups-cincinnati-the-brandery-accelerator-2011-10#.TwX5giOXRih",
+            "author": null,
+            "posted_on": null,
+            "type": "PressReference",
+            "title": null,
+            "created_at": 1325791751,
+            "updated_at": 2012
+          }
+        ]
+      }
+    }
+  }
+}

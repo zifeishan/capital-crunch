@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "de5a25cea16e91d2e6291e98b1cd00e3",
+    "type": "Organization",
+    "properties": {
+      "short_description": "PriceGrabber offers e-commerce solutions for shoppers in reaching its consumer audience via computer and mobile devices.",
+      "founded_on_day": 1,
+      "founded_on_month": 2,
+      "founded_on_year": 1999,
+      "founded_on": "1999-02-01",
+      "founded_on_trust_code": 6,
+      "permalink": "pricegrabber",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "name": "PriceGrabber",
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "description": "PriceGrabber is a leading distributed ecommerce platform and shopping site that connects millions of shoppers each month with thousands of merchants. \n\nConsumers use PriceGrabber.com to shop and compare prices on products from different merchants. In addition to being a comparison shopping site, PriceGrabber is a leading distributed ecommerce platform with a network of over 400 digital publisher partners. \n\nPriceGrabber is a unit of CPL Holdings LLC and headquartered in Los Angeles, CA with operations across North America and in the United Kingdom. \n",
+      "homepage_url": "http://pricegrabber.com",
+      "role_company": true,
+      "created_at": 1188225792,
+      "updated_at": 1414243733,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 7,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/pricegrabber/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Barbary",
+            "last_name": "Brunner",
+            "title": "CMO",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/barbary-brunner",
+            "created_at": 1414243501,
+            "updated_at": 1414243848
+          },
+          {
+            "first_name": "Robert",
+            "last_name": "C. Smahl",
+            "title": "VP Marketing & Communications",
+            "started_on": "2003-01-01",
+            "ended_on": "2006-01-01",
+            "path": "person/robert-c-smahl",
+            "created_at": 1375701403,
+            "updated_at": 1397989729
+          },
+          {
+            "first_name": "Colin",
+            "last_name": "Casey",
+            "title": "Head of Display, Retail",
+            "started_on": "2003-01-01",
+            "ended_on": "2013-01-01",
+            "path": "person/colin-casey",
+            "created_at": 1378402101,
+            "updated_at": 1397989167
+          },
+          {
+            "first_name": "Pejman",
+            "last_name": "Kharrazi",
+            "title": "Senior Director of Merchandising & Media Sales",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/pejman-kharrazi",
+            "created_at": 1396052461,
+            "updated_at": 1397989954
+          },
+          {
+            "first_name": "Andre",
+            "last_name": "Leb",
+            "title": "Senior Director of Business Development",
+            "started_on": "2001-08-01",
+            "ended_on": "2010-05-20",
+            "path": "person/andre-leb",
+            "created_at": 1274367382,
+            "updated_at": 1398802400
+          },
+          {
+            "first_name": "Kamran",
+            "last_name": "Pourzanjani",
+            "title": "President / CEO",
+            "started_on": null,
+            "ended_on": "2005-01-01",
+            "path": "person/kamran-pourzanjani",
+            "created_at": 1227010978,
+            "updated_at": 1398010581
+          },
+          {
+            "first_name": "Johnny",
+            "last_name": "S",
+            "title": "Director of Sales, New Accounts and Storefronts",
+            "started_on": "2004-01-01",
+            "ended_on": "2010-01-01",
+            "path": "person/johnny-s",
+            "created_at": 1367291098,
+            "updated_at": 1411774323
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/pricegrabber/board_members_and_advisors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Derek",
+            "last_name": "Wall",
+            "title": "Strategic Partnerships / Advisor",
+            "started_on": "2003-01-01",
+            "path": "person/derek-wall",
+            "created_at": 1275622295,
+            "updated_at": 1397989093
+          },
+          {
+            "first_name": "Ray",
+            "last_name": "Gillenwater",
+            "title": "Advisor",
+            "started_on": "2012-12-01",
+            "path": "person/ray-gillenwater",
+            "created_at": 1387505559,
+            "updated_at": 1414650143
+          }
+        ]
+      },
+      "current_team": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/pricegrabber/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Anindya",
+            "last_name": "Ghosh",
+            "title": "Ad Operations Manager",
+            "started_on": null,
+            "path": "person/anindya-ghosh",
+            "created_at": 1412587853,
+            "updated_at": 1412588046
+          },
+          {
+            "first_name": "Jeff",
+            "last_name": "Goldstein",
+            "title": "President",
+            "started_on": null,
+            "path": "person/jeff-goldstein",
+            "created_at": 1377020452,
+            "updated_at": 1397989114
+          },
+          {
+            "first_name": "Dominique",
+            "last_name": "Jean",
+            "title": "Vice President",
+            "started_on": null,
+            "path": "person/dominique-jean",
+            "created_at": 1377020452,
+            "updated_at": 1397989114
+          },
+          {
+            "first_name": "Steve",
+            "last_name": "Krenzer",
+            "title": "CEO",
+            "started_on": null,
+            "path": "person/steve-krenzer",
+            "created_at": 1377020452,
+            "updated_at": 1397989113
+          },
+          {
+            "first_name": "Michael",
+            "last_name": "Pilla",
+            "title": "Managing Counsel & Head of Social Media",
+            "started_on": null,
+            "path": "person/michael-pilla",
+            "created_at": 1411963569,
+            "updated_at": 1411963599
+          }
+        ]
+      },
+      "acquisitions": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/pricegrabber/acquisitions",
+          "sort_order": "announced_on? desc"
+        },
+        "items": [
+          {
+            "announced_on": "2013-08-20",
+            "type": "Acquisition",
+            "name": "PriceGrabber acquired Snapette",
+            "path": "acquisition/d11f23059bfa0c79d744d92ccd733267",
+            "created_at": 1376981369,
+            "updated_at": 1397994966
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/pricegrabber/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "5150 Goldleaf Circle",
+            "street_2": "2nd FL",
+            "postal_code": "90056",
+            "city": "Los Angeles",
+            "city_path": "location/los-angeles/4ce61f42f6c4e7ec798d44813b58856b",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.09024,
+            "longitude": -95.712891,
+            "created_at": 1205362461,
+            "updated_at": 1397991000
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/pricegrabber/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "5150 Goldleaf Circle",
+            "street_2": "2nd FL",
+            "postal_code": "90056",
+            "city": "Los Angeles",
+            "city_path": "location/los-angeles/4ce61f42f6c4e7ec798d44813b58856b",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.09024,
+            "longitude": -95.712891,
+            "created_at": 1205362461,
+            "updated_at": 1397991000
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/pricegrabber/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Curated Web",
+            "uuid": "c87f19a05bd9c7c6e379ca118f49aa4e",
+            "path": "category/curated web/c87f19a05bd9c7c6e379ca118f49aa4e",
+            "created_at": 1397980728,
+            "updated_at": 1415355242
+          }
+        ]
+      },
+      "products": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/pricegrabber/products",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Product",
+            "name": "Snapette mobile app",
+            "path": "product/snapette-mobile-app",
+            "created_at": 1396069604,
+            "updated_at": 1399266385
+          },
+          {
+            "type": "Product",
+            "name": "PriceGrabber mobile app",
+            "path": "product/pricegrabber-mobile-app",
+            "created_at": 1396069604,
+            "updated_at": 1399265741
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/pricegrabber/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397181365/8b8c5d4f2f8094120e197e3237b21d6a.png",
+            "created_at": 1398018571,
+            "updated_at": 1398018571
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/pricegrabber/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397749310/d81aa439f169ec3551d4a185c6067940.jpg",
+            "created_at": 1398018572,
+            "updated_at": 1398018572
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/pricegrabber/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/company/12406",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1411963347,
+            "updated_at": 1412115879
+          },
+          {
+            "url": "http://www.facebook.com/PriceGrabber",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1411963347,
+            "updated_at": 1412115878
+          },
+          {
+            "url": "http://www.plus.google.com/112345553988295687042",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/PriceGrabber",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1188225792,
+            "updated_at": 1409440944
+          },
+          {
+            "url": "http://pricegrabber.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1188225792,
+            "updated_at": 1397987596
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/pricegrabber/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://techcrunch.com/2012/02/09/you-can-buy-me-love-but-please-dont-buy-me-gadgets/",
+            "author": "Jordan Crook",
+            "posted_on": "2012-02-09",
+            "type": "PressReference",
+            "title": "You Can Buy Me Love, But Please Don't Buy Me Gadgets",
+            "created_at": 1329868601,
+            "updated_at": 2012
+          },
+          {
+            "url": "http://techcrunch.com/2010/10/14/pricegrabber-now-lists-product-inventory-at-local-stores-courtesy-of-milo/",
+            "author": "Leena Rao",
+            "posted_on": "2010-10-14",
+            "type": "PressReference",
+            "title": "PriceGrabber Now Lists Product Inventory At Local Stores Courtesy Of&nbsp;Milo",
+            "created_at": 1287088676,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://www.techcrunch.com/2009/04/14/aol-redesigns-shopping-search-but-is-it-better-than-yahoos/",
+            "author": "Leena Rao",
+            "posted_on": "2009-04-14",
+            "type": "PressReference",
+            "title": "AOL Redesigns Shopping Search. But Is It Better Than Yahoo&#8217;s?",
+            "created_at": 1239748524,
+            "updated_at": 2009
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "ff5868fdf1db6c670c4ed76a6227af30",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "permalink": "loyaltysquare",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "name": "LoyaltySquare",
+      "description": "Loyalty Square aims to create a community of business professionals with interest in Loyalty Management. The professionals can come from varied functions like marketing, technology, analytics, advertising, etc. \n\nLoyalty Square provides a platform to share best practices and network with like-minded professionals. In order to do that, Loyalty Square plans to use latest tools to provide finest member experience. \n\nThe site covers extensive topics covering technology, analytics and latest trends.\n",
+      "short_description": "Loyalty Management and Analytics",
+      "founded_on_day": 10,
+      "founded_on_month": 4,
+      "founded_on_year": 2010,
+      "founded_on": "2010-04-10",
+      "founded_on_trust_code": 7,
+      "homepage_url": "http://www.loyaltysquare.com",
+      "email_address": "enquiries@loyaltysquare.com",
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "created_at": 1271119879,
+      "updated_at": 1409879847,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 3
+    },
+    "relationships": {
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/loyaltysquare/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": null,
+            "street_2": null,
+            "postal_code": "560062",
+            "city": "Bangalore",
+            "city_path": "location/bangalore/37f3a3feb659895e4d840b649e005c3a",
+            "region": "Karnataka",
+            "region_path": "location/karnataka/cd79504e3c0a954fa3c6094f46c0d524",
+            "country": "India",
+            "country_path": "location/india/44048bf7db640d7adb20fd3c1ebf47b0",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1271094679,
+            "updated_at": 1407364774
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/loyaltysquare/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": null,
+            "street_2": null,
+            "postal_code": "560062",
+            "city": "Bangalore",
+            "city_path": "location/bangalore/37f3a3feb659895e4d840b649e005c3a",
+            "region": "Karnataka",
+            "region_path": "location/karnataka/cd79504e3c0a954fa3c6094f46c0d524",
+            "country": "India",
+            "country_path": "location/india/44048bf7db640d7adb20fd3c1ebf47b0",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1271094679,
+            "updated_at": 1407364774
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/loyaltysquare/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "CRM",
+            "uuid": "1f24c7e8a95d3e1b27240941e80c9884",
+            "path": "category/crm/1f24c7e8a95d3e1b27240941e80c9884",
+            "created_at": 1397980727,
+            "updated_at": 1415532365
+          },
+          {
+            "type": "Category",
+            "name": "Technology",
+            "uuid": "a596ac1954dc8da4ff04aad8d0861082",
+            "path": "category/technology/a596ac1954dc8da4ff04aad8d0861082",
+            "created_at": 1397980726,
+            "updated_at": 1415611797
+          },
+          {
+            "type": "Category",
+            "name": "Consulting",
+            "uuid": "b9bd65b920bf45cc207db70ac35d5bf4",
+            "path": "category/consulting/b9bd65b920bf45cc207db70ac35d5bf4",
+            "created_at": 1397980726,
+            "updated_at": 1415613185
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/loyaltysquare/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397208334/d61d7c713f825552fe5e7495cfe30f9c.png",
+            "created_at": 1398018911,
+            "updated_at": 1398018911
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/loyaltysquare/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/loyaltysquare",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1271094679,
+            "updated_at": 1409416055
+          },
+          {
+            "url": "http://www.loyaltysquare.com/blog",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1271094679,
+            "updated_at": 1397988436
+          },
+          {
+            "url": "http://www.loyaltysquare.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1271094679,
+            "updated_at": 1397988436
+          }
+        ]
+      }
+    }
+  }
+}

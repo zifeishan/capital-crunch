@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "ad1c2895e03e49faa5ae7916102f2936",
+    "type": "Person",
+    "properties": {
+      "last_name": "D Cruz",
+      "first_name": "Aaron",
+      "permalink": "aaron-d-cruz",
+      "created_at": 1343068618,
+      "updated_at": 1397989323
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-d-cruz/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "NewAge SMB",
+            "organization_path": "organization/newage-smb",
+            "title": "Project Co-ordinator",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-d-cruz/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "NewAge SMB",
+            "organization_path": "organization/newage-smb",
+            "title": "Project Co-ordinator",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

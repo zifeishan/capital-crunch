@@ -1,0 +1,380 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "fddd24cd66fc698f3f013ead23f9f398",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "BView is a platform for businesses to connect locally with their customers built around the a local voucher search application.\n\nBView provides local and national businesses with a means to  target and create rewarding relationships with their local consumers through money saving and dynamic advertising features across their network.\n\nIn the first phase of its business model, BView is building a clearinghouse for local vouchers. Through a series of partnerships, BView is integrating the preponderance of all UK vouchers, with an emphasis on local vouchers.  There are now over 40,000 locations across the UK that have a local voucher offering on the BView web application. \n\nThe company is now focused on developing a broad distribution network for its vouchers.  BView recently published documentation for its Local Voucher API, creating a rich new source of content for a growing number of high profile partners.  \n\nBView partners with The Independent, Telegraph, The Daily Express, The Daily Star, OK! Magazine, New Magazine, Star Magazine, Moneywise, Money Divas, also Ask Jeeves and Google.\n\nIn September 2009 Bview launched an iPhone application, called Local Sale Finder, which instantly delivers vouchers and discounts from local merchants and restaurants direct to consumers&#39; iPhones and iPod Touches. \n\nConsumers can find thousands of discounts where they are or heading to. Discounts are redeemed by showing digital vouchers on the screen to local merchants or by booking tables for restaurants directly from their iPhones or iPod Touches. \n\nLocal Sale Finder has also become one of the top ten free Finance section applications on Apple&#39;s App Store since it was launched.\n\nIn November 2009 The Guardian named Local Sale Finder as one of the top 10 money saving iPhone applications. Lovemoney.com named Local Sale Finder as one of the top 3 free apps which can save you money.\n",
+      "short_description": "BView is a platform for businesses to connect locally with their customers, built around a local voucher search application.",
+      "permalink": "bview",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.bview.co.uk",
+      "name": "BView",
+      "founded_on_day": 1,
+      "founded_on_month": 3,
+      "founded_on_year": 2008,
+      "founded_on": "2008-03-01",
+      "founded_on_trust_code": 7,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "email_address": "brad@bview.com",
+      "num_employees_max": 10,
+      "num_employees_min": 1,
+      "created_at": 1210619013,
+      "updated_at": 1415243995,
+      "total_funding_usd": 4014726,
+      "number_of_investments": 0,
+      "number_of_employees": 6
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bview/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Adam",
+            "last_name": "Baker",
+            "title": "Co-Founder/Managing Director",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/adam-baker",
+            "created_at": 1210619013,
+            "updated_at": 1397989076
+          }
+        ]
+      },
+      "current_team": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bview/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Colin",
+            "last_name": "Bruce",
+            "title": "Co-Founder",
+            "started_on": null,
+            "path": "person/colin-bruce",
+            "created_at": 1210619013,
+            "updated_at": 1397989076
+          },
+          {
+            "first_name": "Brad",
+            "last_name": "Liebmann",
+            "title": "Founder/CEO",
+            "started_on": null,
+            "path": "person/brad-liebmann",
+            "created_at": 1210619013,
+            "updated_at": 1397989076
+          },
+          {
+            "first_name": "Simon",
+            "last_name": "Miller",
+            "title": "Community Manager",
+            "started_on": null,
+            "path": "person/simon-miller",
+            "created_at": 1220373138,
+            "updated_at": 1400492033
+          }
+        ]
+      },
+      "competitors": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bview/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "BT tradespace",
+            "path": "organization/bt-tradespace",
+            "created_at": 1210619012,
+            "updated_at": 1397988653
+          },
+          {
+            "type": "Organization",
+            "name": "TouchLocal",
+            "path": "organization/touchlocal",
+            "created_at": 1210619012,
+            "updated_at": 1409880847
+          },
+          {
+            "type": "Organization",
+            "name": "Yell",
+            "path": "organization/yell",
+            "created_at": 1210619012,
+            "updated_at": 1413645112
+          },
+          {
+            "type": "Organization",
+            "name": "TrustedPlaces",
+            "path": "organization/trustedplaces",
+            "created_at": 1207813046,
+            "updated_at": 1409221975
+          },
+          {
+            "type": "Organization",
+            "name": "Qype",
+            "path": "organization/qype",
+            "created_at": 1202953648,
+            "updated_at": 1410825640
+          },
+          {
+            "type": "Organization",
+            "name": "Yelp",
+            "path": "organization/yelp",
+            "created_at": 1184073697,
+            "updated_at": 1414710107
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bview/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "27 City Lofts",
+            "street_2": "112 Tabernacle Street",
+            "postal_code": "EC2A 4LE",
+            "city": "London",
+            "city_path": "location/london/aad17950576b8c448fd4f44dbeb59220",
+            "region": "London, City of",
+            "region_path": "location/london-city-of/79eb923b9e93e0db2fe075f0c430c2cb",
+            "country": "United Kingdom",
+            "country_path": "location/united-kingdom/a30e342c17426b1c66e9461de680e54b",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1210633138,
+            "updated_at": 1407433012
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bview/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "27 City Lofts",
+            "street_2": "112 Tabernacle Street",
+            "postal_code": "EC2A 4LE",
+            "city": "London",
+            "city_path": "location/london/aad17950576b8c448fd4f44dbeb59220",
+            "region": "London, City of",
+            "region_path": "location/london-city-of/79eb923b9e93e0db2fe075f0c430c2cb",
+            "country": "United Kingdom",
+            "country_path": "location/united-kingdom/a30e342c17426b1c66e9461de680e54b",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1210633138,
+            "updated_at": 1407433012
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bview/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "BView raises 4014726 in seed round",
+            "path": "funding-round/1bcfd39d89c61ed49f58be5f2c48a724",
+            "created_at": 1210593816,
+            "updated_at": 1398009901
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bview/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Networking",
+            "uuid": "cdf763fe4af9fc9e6ab9d51df5ee18c9",
+            "path": "category/networking/cdf763fe4af9fc9e6ab9d51df5ee18c9",
+            "created_at": 1397980728,
+            "updated_at": 1415391795
+          },
+          {
+            "type": "Category",
+            "name": "Local Search",
+            "uuid": "f7b1863a2f2c4caf9d643f698a08998a",
+            "path": "category/local search/f7b1863a2f2c4caf9d643f698a08998a",
+            "created_at": 1397980728,
+            "updated_at": 1414983111
+          },
+          {
+            "type": "Category",
+            "name": "Web Hosting",
+            "uuid": "56483f2d3a3570be7b8024c5bad5f1b8",
+            "path": "category/web hosting/56483f2d3a3570be7b8024c5bad5f1b8",
+            "created_at": 1397980728,
+            "updated_at": 1415447562
+          },
+          {
+            "type": "Category",
+            "name": "Software",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+            "created_at": 1397980727,
+            "updated_at": 1415499770
+          },
+          {
+            "type": "Category",
+            "name": "Social Media",
+            "uuid": "5349a2f214d89727c32a19ebea5db78c",
+            "path": "category/social media/5349a2f214d89727c32a19ebea5db78c",
+            "created_at": 1397980726,
+            "updated_at": 1415507050
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bview/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Colin Bruce",
+            "path": "person/colin-bruce",
+            "created_at": 1210619013,
+            "updated_at": 1397989076
+          },
+          {
+            "type": "Person",
+            "name": "Brad Liebmann",
+            "path": "person/brad-liebmann",
+            "created_at": 1210619013,
+            "updated_at": 1397989076
+          },
+          {
+            "type": "Person",
+            "name": "Adam Baker",
+            "path": "person/adam-baker",
+            "created_at": 1210619013,
+            "updated_at": 1397989076
+          }
+        ]
+      },
+      "products": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bview/products",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Product",
+            "name": "artificial grass",
+            "path": "product/artificial-grass",
+            "created_at": 1415243994,
+            "updated_at": 1415243995
+          },
+          {
+            "type": "Product",
+            "name": "BView",
+            "path": "product/bview",
+            "created_at": 1210619013,
+            "updated_at": 1397995848
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bview/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397187097/a4bbe1569fb53282ef041f4ee35d7cdc.gif",
+            "created_at": 1398019088,
+            "updated_at": 1398019088
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bview/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1415243626/eygesdiqexqcvfvkr8f3.jpg",
+            "created_at": 1415243630,
+            "updated_at": 1415243630
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/bview/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/bview",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1210593813,
+            "updated_at": 1409420565
+          },
+          {
+            "url": "http://blog.bview.co.uk",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1210593813,
+            "updated_at": 1397988654
+          },
+          {
+            "url": "http://www.bview.co.uk",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1210593813,
+            "updated_at": 1397988654
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "f51a16a0c08a39c827fd976ed73c89a3",
+    "type": "Organization",
+    "properties": {
+      "description": "ECentury Capital is a $90 million balanced-stage venture capital fund that makes investments throughout the eastern United States in distinctive technology companies that solve real business problems. We give our portfolio companies the power to accelerate their businesses into global markets by leveraging our active, institutional partners Hitachi, Mitsubishi, Allied Capital and Rothschild.\n\nECentury Capital is well positioned to make important contributions to the growth of our portfolio companies. Their partners have substantial operating experience in technology companies. Their institutional limited partners are poised to explore licensing, distribution, co-investment and other growth opportunities with our companies, giving them unique in-roads into building their business globally.\n\nA core value of ECentury Capital is a profound respect for entrepreneurs. We believe that the economy is driven forward principally through the brilliant ideas of entrepreneurs, their willingness to assume personal risk and their unrelenting hard work. At ECentury Capital, we build on this commitment.\n",
+      "short_description": "ECentury Capital is a $90 million balanced-stage venture capital fund that makes investments throughout the eastern United States in",
+      "permalink": "ecentury-capital-partners",
+      "primary_role": "investor",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.ecenturycapital.com",
+      "name": "ECentury Capital Partners",
+      "email_address": "info@ecenturycapital.com",
+      "role_investor": true,
+      "secondary_role_venture_capital": true,
+      "secondary_role_later_stage_venture": true,
+      "sectors": "[\"Wireless\",\"Mobile\",\"Semiconductors\"]",
+      "secondary_role_early_stage_venture": true,
+      "created_at": 1219219578,
+      "updated_at": 1410034586,
+      "total_funding_usd": 0,
+      "number_of_investments": 6
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/ecentury-capital-partners/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Jim",
+            "last_name": "Broder",
+            "title": "Managing Director",
+            "started_on": null,
+            "path": "person/jim-broder",
+            "created_at": 1226539383,
+            "updated_at": 1397989310
+          },
+          {
+            "first_name": "Tom",
+            "last_name": "Dan",
+            "title": "Co-Founder and Managing Director",
+            "started_on": null,
+            "path": "person/tom-dan",
+            "created_at": 1226539273,
+            "updated_at": 1397989310
+          },
+          {
+            "first_name": "Christian",
+            "last_name": "Fritz III",
+            "title": "Principal",
+            "started_on": null,
+            "path": "person/christian-fritz-iii",
+            "created_at": 1389290295,
+            "updated_at": 1397989501
+          },
+          {
+            "first_name": "Henderson",
+            "last_name": "Gilbert Tuten",
+            "title": "Chairman and Managing Director",
+            "started_on": null,
+            "path": "person/henderson-gilbert-tuten",
+            "created_at": 1226539093,
+            "updated_at": 1397989310
+          },
+          {
+            "first_name": "Edward",
+            "last_name": "J. Morris",
+            "title": "Controller",
+            "started_on": null,
+            "path": "person/edward-j-morris",
+            "created_at": 1389290295,
+            "updated_at": 1397989501
+          },
+          {
+            "first_name": "Marsh",
+            "last_name": "Marshall",
+            "title": "Co-Founder and Managing Director",
+            "started_on": null,
+            "path": "person/marsh-marshall",
+            "created_at": 1226539181,
+            "updated_at": 1397989310
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/ecentury-capital-partners/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "8180 Greensboro Drive",
+            "street_2": "Suite 1150",
+            "postal_code": "22102",
+            "city": "Mclean",
+            "city_path": "location/mclean/412d77123ce3decb8495bcf4b62fc4f3",
+            "region": "Virginia",
+            "region_path": "location/virginia/ba972fec7acf7c8443161ab2425cc6be",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 38.923453,
+            "longitude": -77.227525,
+            "created_at": 1226510099,
+            "updated_at": 1397991493
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/ecentury-capital-partners/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "8180 Greensboro Drive",
+            "street_2": "Suite 1150",
+            "postal_code": "22102",
+            "city": "Mclean",
+            "city_path": "location/mclean/412d77123ce3decb8495bcf4b62fc4f3",
+            "region": "Virginia",
+            "region_path": "location/virginia/ba972fec7acf7c8443161ab2425cc6be",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 38.923453,
+            "longitude": -77.227525,
+            "created_at": 1226510099,
+            "updated_at": 1397991493
+          }
+        ]
+      },
+      "investments": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/ecentury-capital-partners/investments",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/c7fb5473c5dad4b5a5dc1a54d1f477e0"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Alereon",
+              "path": "organization/alereon"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/a9d2a1a68b456c05370b032ed57f2076"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Unitrends",
+              "path": "organization/unitrends-software"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/6ae40f08e2bfcfa12c40950659ca4c01"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Magnolia Broadband",
+              "path": "organization/magnolia-broadband"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/f42175466b27f5049e4b30c048a6ac3d"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "ProVox Technologies",
+              "path": "organization/provox-technologies"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/b1d86cfcb41cc0b13798bb62bdb69fa3"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "BitWave",
+              "path": "organization/bitwave"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/c0e0d36e1bb15bb0dfbc365753548553"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "BitWave",
+              "path": "organization/bitwave"
+            }
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/ecentury-capital-partners/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Tom Dan",
+            "path": "person/tom-dan",
+            "created_at": 1226539273,
+            "updated_at": 1397989310
+          },
+          {
+            "type": "Person",
+            "name": "Marsh Marshall",
+            "path": "person/marsh-marshall",
+            "created_at": 1226539181,
+            "updated_at": 1397989310
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/ecentury-capital-partners/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397179454/5c9054f2718c25f3c6c05fdb6295a0c3.jpg",
+            "created_at": 1398019345,
+            "updated_at": 1398019345
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/ecentury-capital-partners/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.ecenturycapital.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1219194378,
+            "updated_at": 1397987550
+          }
+        ]
+      }
+    }
+  }
+}

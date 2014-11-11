@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "77841ec4c67f3586b99b97c0b84b023e",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "CHARTSNOW IS LOW COST, SIMPLE TO USE, MASS MARKET, MOBILE MUSIC APP THAT DELIVERS GENRE SPECIFIC, USER DRIVEN, TOP 40 CHART MUSIC; DOWNLOADED OVERNIGHT, THE SERVICE GIVES USERS FULL ACCESS TO THEIR MUSIC WITHOUT FURTHER NEED FOR CONNECTION OR COVERAGE.\n\nBuilt on innovative mobile media application technology with over 90 claims in pending patent applications, ChartsNow offers instant access to curated music content, deliverable via the majority of mobile phones. A mobile music service with a very big difference, this app is based on premium content charts, genre specific, selected by the user and downloaded to the user\u00e2\u20ac\u2122s phone overnight during off peak network periods. Via major brand partnerships, the Top 40 of the chosen genre is then available to play, unrestricted, whenever and wherever the user wishes \u00e2\u20ac\u201c regardless of network coverage or connection. This full access, premium content is a first for the industry and successfully combats the recurring issues around illegal music downloads and difficulties in reaching the enormous casual and indifferent marketplace. ChartsNow is a transformational service that finally delivers easy to use, low entry, legal, mass-market penetration.  Simply put, ChartsNow is designed to elevate users from a low yield position by subscribing to a very low cost service that delivers a much higher perceived value content. The application is uniquely simple, is very user friendly and allows one click purchase as required.  The technology is highly versatile and works over both WiFi and traditional mobile connections.\n",
+      "short_description": "ChartsNow has been rebranded MusicQubed",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 2009,
+      "founded_on": "2009-01-01",
+      "founded_on_trust_code": 4,
+      "permalink": "chartsnow",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.musicqubed.com",
+      "name": "ChartsNow (now MusicQubed)",
+      "closed_on_year": null,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on": null,
+      "email_address": "info@chartsnow.mobi",
+      "created_at": 1318027989,
+      "updated_at": 1408523620,
+      "total_funding_usd": 931420,
+      "number_of_investments": 0,
+      "number_of_employees": 30
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/chartsnow/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "CHRIS",
+            "last_name": "GORMAN",
+            "title": "FOUNDER",
+            "started_on": "2009-01-01",
+            "path": "person/chris-gorman",
+            "created_at": 1318027987,
+            "updated_at": 1408523171
+          },
+          {
+            "first_name": "CHARLIE",
+            "last_name": "LYCETT",
+            "title": "FOUNDER",
+            "started_on": "2009-01-01",
+            "path": "person/charlie-lycett",
+            "created_at": 1318027987,
+            "updated_at": 1408523125
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/chartsnow/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "London Office",
+            "street_1": "Bentinck House",
+            "street_2": "3-8 Bolsover Street",
+            "postal_code": "W1W 6AB",
+            "city": "London",
+            "city_path": "location/london/aad17950576b8c448fd4f44dbeb59220",
+            "region": "London, City of",
+            "region_path": "location/london-city-of/79eb923b9e93e0db2fe075f0c430c2cb",
+            "country": "United Kingdom",
+            "country_path": "location/united-kingdom/a30e342c17426b1c66e9461de680e54b",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1318002789,
+            "updated_at": 1407434399
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/chartsnow/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "London Office",
+            "street_1": "Bentinck House",
+            "street_2": "3-8 Bolsover Street",
+            "postal_code": "W1W 6AB",
+            "city": "London",
+            "city_path": "location/london/aad17950576b8c448fd4f44dbeb59220",
+            "region": "London, City of",
+            "region_path": "location/london-city-of/79eb923b9e93e0db2fe075f0c430c2cb",
+            "country": "United Kingdom",
+            "country_path": "location/united-kingdom/a30e342c17426b1c66e9461de680e54b",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1318002789,
+            "updated_at": 1407434399
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/chartsnow/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "ChartsNow raises 931420 in seed round",
+            "path": "funding-round/5449aa940c66ddf50424cfa6390b2c7a",
+            "created_at": 1318002789,
+            "updated_at": 1398010210
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/chartsnow/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Graphics",
+            "uuid": "c42c6f82b5465f37820fda570f51f056",
+            "path": "category/graphics/c42c6f82b5465f37820fda570f51f056",
+            "created_at": 1397980727,
+            "updated_at": 1415358109
+          },
+          {
+            "type": "Category",
+            "name": "Apps",
+            "uuid": "af3332489c7e50c5168ae91b86595a17",
+            "path": "category/apps/af3332489c7e50c5168ae91b86595a17",
+            "created_at": 1397980727,
+            "updated_at": 1415543445
+          },
+          {
+            "type": "Category",
+            "name": "Music",
+            "uuid": "d922c0063ba0537aedb5379ca5767662",
+            "path": "category/music/d922c0063ba0537aedb5379ca5767662",
+            "created_at": 1397980727,
+            "updated_at": 1415424271
+          },
+          {
+            "type": "Category",
+            "name": "Mobile",
+            "uuid": "e907cf2a842d8a30a0b107d9de4a8178",
+            "path": "category/mobile/e907cf2a842d8a30a0b107d9de4a8178",
+            "created_at": 1397980726,
+            "updated_at": 1415436303
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/chartsnow/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "CHARLIE LYCETT",
+            "path": "person/charlie-lycett",
+            "created_at": 1318027987,
+            "updated_at": 1408523125
+          },
+          {
+            "type": "Person",
+            "name": "CHRIS GORMAN",
+            "path": "person/chris-gorman",
+            "created_at": 1318027987,
+            "updated_at": 1408523171
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/chartsnow/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397202987/38aaa481ce7e402ca38f119a6c62f3c1.png",
+            "created_at": 1398018628,
+            "updated_at": 1398018628
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/chartsnow/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397202988/43fe5f0f8eddab10ce52a13aa229a715.jpg",
+            "created_at": 1398018628,
+            "updated_at": 1398018628
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/chartsnow/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/company/musicqubed",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1406414313,
+            "updated_at": 1406414313
+          },
+          {
+            "url": "http://www.facebook.com/Musicqubed",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1406414313,
+            "updated_at": 1406414313
+          },
+          {
+            "url": "http://twitter.com/ChartsNowMobi",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1318002789,
+            "updated_at": 1409431095
+          },
+          {
+            "url": "http://www.musicqubed.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1318002789,
+            "updated_at": 1408523620
+          }
+        ]
+      }
+    }
+  }
+}

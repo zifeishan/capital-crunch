@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "8fab4a18b21a067c7040a73ebb92f808",
+    "type": "Person",
+    "properties": {
+      "last_name": "Caito",
+      "first_name": "Aaron",
+      "permalink": "aaron-caito",
+      "bio": "Aaron is a far-sighted thinker that likes to solve problems.  He looks at most situations as opportunities and is always looking to make things better.\n\nAaron likes to work with small and mid-sized businesses and help them implement cloud based solutions.  He is the Founder of Computer System Works, LLC.\n",
+      "homepage_url": "http://computersystemworks.com",
+      "born_on_day": 22,
+      "born_on_month": 3,
+      "born_on_year": 1982,
+      "born_on": "1982-03-22",
+      "born_on_trust_code": 7,
+      "created_at": 1275076939,
+      "updated_at": 1397989062
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-caito/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Runyon Companies",
+            "organization_path": "organization/runyon-companies",
+            "title": "Director of Technology and Ecommerce",
+            "started_on": "2012-05-01",
+            "ended_on": null
+          },
+          {
+            "organization_name": "Computer System Works",
+            "organization_path": "organization/computer-system-works",
+            "title": "Founder",
+            "started_on": "2009-04-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-caito/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Computer System Works",
+            "organization_path": "organization/computer-system-works",
+            "title": "Founder",
+            "started_on": "2009-04-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-caito/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Computer System Works",
+            "path": "organization/computer-system-works",
+            "created_at": 1275102935,
+            "updated_at": 1409891630
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-caito/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397182918/8f60ba9dd741b8c860b72ea3549a6221.jpg",
+            "created_at": 1398019039,
+            "updated_at": 1398019039
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-caito/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.facebook.com/CSWorks",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1275076939,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://www.linkedin.com/in/aaroncaito",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1275076939,
+            "updated_at": 1409474342
+          },
+          {
+            "url": "http://twitter.com/csworks",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1275076939,
+            "updated_at": 1409401802
+          },
+          {
+            "url": "http://computersystemworks.com/blog",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1275076939,
+            "updated_at": 1397989062
+          },
+          {
+            "url": "http://computersystemworks.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1275076939,
+            "updated_at": 1397989062
+          }
+        ]
+      }
+    }
+  }
+}

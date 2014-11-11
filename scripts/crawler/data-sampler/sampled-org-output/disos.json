@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "475a69e1000277ecbcfe2d76395cf7be",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Disos is the vendor of knowt.net - a social cloud operating system for knowledge management and open government.\n",
+      "short_description": "Social Knowledge Management",
+      "permalink": "disos",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.knowt.net",
+      "name": "Disos",
+      "created_at": 1288122166,
+      "updated_at": 1397987463,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 4
+    },
+    "relationships": {
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/disos/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Software",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+            "created_at": 1397980727,
+            "updated_at": 1415616152
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/disos/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/knowt",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1288096966,
+            "updated_at": 1409446295
+          },
+          {
+            "url": "http://www.knowtspace.net",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1288096966,
+            "updated_at": 1397987463
+          },
+          {
+            "url": "http://www.knowt.net",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1288096966,
+            "updated_at": 1397987463
+          }
+        ]
+      }
+    }
+  }
+}

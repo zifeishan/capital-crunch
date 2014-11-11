@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "bd795bdf30028bf3e95fd93b52181cf0",
+    "type": "Person",
+    "properties": {
+      "last_name": "Endr\u00e9",
+      "first_name": "Aaron",
+      "permalink": "aaron-endr",
+      "bio": "A published poet and Michigan native, Aaron Endr\u00e9 left the Midwest in 2008 to join the flourishing tech industry in San Francisco. As the first hire at Bhava Communications, he helped build the scrappy PR agency from two people to more than a dozen and advised disruptive data infrastructure companies on marketing, PR and brand identity\u2014from disruptive startups like Pure Storage, Data Robotics and Cloudera to international public enterprises like Overland Storage and IBM.\n\nIn 2012 he left agency life to join Huddle, leading communications in the United States.\n",
+      "homepage_url": "http://www.aaronendre.com",
+      "created_at": 1341948264,
+      "updated_at": 1397989148
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-endr/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": "2008-01-01",
+            "degree_type_name": "BS",
+            "degree_subject": "Economics and Business; International Trade and Commerce",
+            "type": "Degree",
+            "organization_name": "Kalamazoo College",
+            "organization_path": "organization/kalamazoo-college"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-endr/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Huddle",
+            "organization_path": "organization/huddle",
+            "title": "Public Relations, United States",
+            "started_on": "2012-01-29",
+            "ended_on": "2013-03-01"
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-endr/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Huddle",
+            "organization_path": "organization/huddle",
+            "title": "Public Relations, United States",
+            "started_on": "2012-01-29",
+            "ended_on": "2013-03-01"
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-endr/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397182409/6ad21af854de773dc10ead37c048f7f2.jpg",
+            "created_at": 1398019169,
+            "updated_at": 1398019169
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 8,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-endr/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.facebook.com/aaronendrefreelance",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.youtube.com/user/aaronendre",
+            "type": "WebPresence",
+            "title": "youtube",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.linkedin.com/in/aaronendre",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 1409500599
+          },
+          {
+            "url": "http://plus.google.com/112100948888644310509",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://angel.co/aaron-endre",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/aaronendre",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1341948264,
+            "updated_at": 1409391167
+          },
+          {
+            "url": "http://www.huddle.com/blog/author/aaron-endre/",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1341948264,
+            "updated_at": 1397989148
+          },
+          {
+            "url": "http://www.aaronendre.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1341948264,
+            "updated_at": 1397989148
+          }
+        ]
+      }
+    }
+  }
+}

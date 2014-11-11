@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "98812c0ba67be613e9f82d068de7801c",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "TigerChef is more than a company serving your commercial needs. Using our expertise and extensive relationships in the food service industry, we offer products that anyone who is an avid cook can be proud to own. From bar and baking supplies to commercial appliances, our product list is truly endless. Our selection is unrivaled and features over 200,000 products! What we offer online is just a fraction of our inventory. If you don\u00e2\u20ac\u2122t see it here, do not hesitate to contact us. Chances are we have it\u00e2\u20ac\u201dfor a great price.\n\nWith over 30 years of excellence and experience, TigerChef has proven itself to be one of the best and fastest growing companies in the food service industry. Aside from fulfilling the needs of the casual cook, we pride ourselves on our ability to take you from consultation to completion, making the design and purchase of your commercial kitchen as smooth and as satisfying a process as it can possibly be.\n\nOur staff is comprised of expert product specialists and a knowledgeable sales force who will guide you through this exciting process. We combine precise architectural planning with quality kitchen products to create the perfect industrial workspace. Our past clients\u00e2\u20ac\u2122 rave reviews inspire us to continue offering the high quality of service for which we are known.\n\nOur portfolio showcases a large variety of hotel chains, restaurants and numerous other commercial facilities. With every job site we begin, our ultimate focus is customer satisfaction. From beginning to end, TigerChef is the key that will make your business more successful than ever!\n\nThe truth is this: TigerChef is the only website you will ever need for every one of your kitchen needs. Please bookmark us so that we will only be a click away!\n\nTigerChef.com\n27 Chestnut Street\nSuffern, NY 10901\n\nPhone: 877-928-4437 or 845-247-5230\nFax: 845-406-4130\nEmail: customerservice@tigerchef.com\n",
+      "short_description": "Save big at tiger chef, your source for",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 2006,
+      "founded_on": "2006-01-01",
+      "founded_on_trust_code": 4,
+      "permalink": "tiger-chef",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.tigerchef.com",
+      "name": "Tiger Chef",
+      "email_address": "tchef4@yahoo.com",
+      "created_at": 1291051913,
+      "updated_at": 1397988171,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tiger-chef/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397199370/19174a9841eb076c98a690feab3ef533.jpg",
+            "created_at": 1398019004,
+            "updated_at": 1398019004
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tiger-chef/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397199373/5ba7b19917736b1c380582b866eccad5.jpg",
+            "created_at": 1398019004,
+            "updated_at": 1398019004
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397199372/bdf28accd003f456e667a36f2fed132a.jpg",
+            "created_at": 1398019004,
+            "updated_at": 1398019004
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397199371/01741a98260168a4b2c5f82ca6ae9ab3.jpg",
+            "created_at": 1398019004,
+            "updated_at": 1398019004
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tiger-chef/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/company/tigerchef",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1406412282,
+            "updated_at": 1406412282
+          },
+          {
+            "url": "http://www.pinterest.com/tigerchef",
+            "type": "WebPresence",
+            "title": "pinterest",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/bakeware",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1291051913,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://www.plus.google.com/116153025621066600077",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1291051913,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://twitter.com/TigerChef",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1291051913,
+            "updated_at": 1409430154
+          },
+          {
+            "url": "http://www.tigerchef.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1291051913,
+            "updated_at": 1397988171
+          }
+        ]
+      }
+    }
+  }
+}

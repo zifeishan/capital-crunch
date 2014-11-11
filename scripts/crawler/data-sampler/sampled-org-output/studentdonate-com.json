@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "04acdee662bd6df822bb373a3abab9e4",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Studentdonate.com is a fully online non-profit helping current college students address the crushing burden of student loan debt using crowdsourcing.  It acts as a Kickstarter for student loan debt but where the &quot;projects&quot; are students with higher education debt.\n\nStudentDonate is a new way to help support higher education.   College students create profiles on our site that allow anyone to make a micro-donation directly to the student to support their college education. \n",
+      "short_description": "StudentDonate.com is a social platform that allows people from all over the world to make individual micro-donations to college students.",
+      "permalink": "studentdonate-com",
+      "primary_role": "company",
+      "closed_on_trust_code": 0,
+      "name": "StudentDonate.com",
+      "is_closed": false,
+      "homepage_url": "http://studentdonate.com",
+      "email_address": "contact@studentdonate.com",
+      "created_at": 1337400574,
+      "updated_at": 1397988704,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/studentdonate-com/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Andrew",
+            "last_name": "Wilkinson",
+            "title": "Executive Director",
+            "started_on": null,
+            "path": "person/andrew-wilkinson-2",
+            "created_at": 1337425774,
+            "updated_at": 1397989270
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/studentdonate-com/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Nonprofits",
+            "uuid": "fb2f0892ea6a8362461250e381ed9b08",
+            "path": "category/nonprofits/fb2f0892ea6a8362461250e381ed9b08",
+            "created_at": 1397980727,
+            "updated_at": 1415303849
+          },
+          {
+            "type": "Category",
+            "name": "Cloud Computing",
+            "uuid": "7866a1c021ec241cc2a6d263a6ef49dd",
+            "path": "category/cloud computing/7866a1c021ec241cc2a6d263a6ef49dd",
+            "created_at": 1397980727,
+            "updated_at": 1415532347
+          },
+          {
+            "type": "Category",
+            "name": "Education",
+            "uuid": "025caab73e5498f0061c73e7af159cd1",
+            "path": "category/education/025caab73e5498f0061c73e7af159cd1",
+            "created_at": 1397980727,
+            "updated_at": 1415527706
+          },
+          {
+            "type": "Category",
+            "name": "Crowdsourcing",
+            "uuid": "1b0319b6bf8092967c58e45f0767bbb4",
+            "path": "category/crowdsourcing/1b0319b6bf8092967c58e45f0767bbb4",
+            "created_at": 1397980726,
+            "updated_at": 1415377635
+          },
+          {
+            "type": "Category",
+            "name": "Internet",
+            "uuid": "2772a539e63609dc30dcb1a7deb98d0e",
+            "path": "category/internet/2772a539e63609dc30dcb1a7deb98d0e",
+            "created_at": 1397980726,
+            "updated_at": 1415559526
+          },
+          {
+            "type": "Category",
+            "name": "Technology",
+            "uuid": "a596ac1954dc8da4ff04aad8d0861082",
+            "path": "category/technology/a596ac1954dc8da4ff04aad8d0861082",
+            "created_at": 1397980726,
+            "updated_at": 1415567683
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/studentdonate-com/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397196011/56e34164cce684ace5429613ed6dc3a9.png",
+            "created_at": 1398018519,
+            "updated_at": 1398018519
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/studentdonate-com/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.facebook.com/pages/StudentDonate/372459149452858",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1406387004,
+            "updated_at": 1406387004
+          },
+          {
+            "url": "http://twitter.com/studentdonate",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1337400574,
+            "updated_at": 1409408497
+          },
+          {
+            "url": "http://studentdonate.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1337400574,
+            "updated_at": 1397988704
+          }
+        ]
+      }
+    }
+  }
+}

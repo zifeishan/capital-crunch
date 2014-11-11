@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "76f3209334a14d0e35827bed92f84ac0",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Mind2Mind is an all-Italian fast growing startup based in Rome and San Francisco.\n",
+      "short_description": "Italian fast-growing company",
+      "permalink": "mind2mind",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://mind2mind.is",
+      "name": "Mind2mind",
+      "email_address": "info@mind2mind.is",
+      "created_at": 1338908250,
+      "updated_at": 1397987363,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 10
+    },
+    "relationships": {
+      "offices": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/mind2mind/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "USA Office",
+            "street_1": "625 2nd St #280",
+            "street_2": null,
+            "postal_code": "94107",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1338883050,
+            "updated_at": 1397990842
+          },
+          {
+            "type": "Address",
+            "name": "Main Office",
+            "street_1": "Viale del Vignola 11",
+            "street_2": null,
+            "postal_code": "00196",
+            "city": "Rome",
+            "city_path": "location/rome/c5a012b1f2f9a3b5c66aee6be778eda2",
+            "region": "Lazio",
+            "region_path": "location/lazio/9bd8517c1a8b00c3986cf17b1f8fac07",
+            "country": "Italy",
+            "country_path": "location/italy/9dd7a8c57b7f778590f4fed17fa5a6ff",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1338883050,
+            "updated_at": 1397990842
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/mind2mind/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Main Office",
+            "street_1": "Viale del Vignola 11",
+            "street_2": null,
+            "postal_code": "00196",
+            "city": "Rome",
+            "city_path": "location/rome/c5a012b1f2f9a3b5c66aee6be778eda2",
+            "region": "Lazio",
+            "region_path": "location/lazio/9bd8517c1a8b00c3986cf17b1f8fac07",
+            "country": "Italy",
+            "country_path": "location/italy/9dd7a8c57b7f778590f4fed17fa5a6ff",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1338883050,
+            "updated_at": 1397990842
+          },
+          {
+            "type": "Address",
+            "name": "Main Office",
+            "street_1": "Viale del Vignola 11",
+            "street_2": null,
+            "postal_code": "00196",
+            "city": "Rome",
+            "city_path": "location/rome/c5a012b1f2f9a3b5c66aee6be778eda2",
+            "region": "Lazio",
+            "region_path": "location/lazio/9bd8517c1a8b00c3986cf17b1f8fac07",
+            "country": "Italy",
+            "country_path": "location/italy/9dd7a8c57b7f778590f4fed17fa5a6ff",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1338883050,
+            "updated_at": 1397990842
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/mind2mind/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Startups",
+            "uuid": "568e63721763cf41d3f05a985edc3220",
+            "path": "category/startups/568e63721763cf41d3f05a985edc3220",
+            "created_at": 1397980728,
+            "updated_at": 1415623716
+          },
+          {
+            "type": "Category",
+            "name": "Curated Web",
+            "uuid": "c87f19a05bd9c7c6e379ca118f49aa4e",
+            "path": "category/curated web/c87f19a05bd9c7c6e379ca118f49aa4e",
+            "created_at": 1397980728,
+            "updated_at": 1415634085
+          },
+          {
+            "type": "Category",
+            "name": "Creative",
+            "uuid": "cadcafaa90414b8cce03519f3413e71d",
+            "path": "category/creative/cadcafaa90414b8cce03519f3413e71d",
+            "created_at": 1397980727,
+            "updated_at": 1415188344
+          },
+          {
+            "type": "Category",
+            "name": "Technology",
+            "uuid": "a596ac1954dc8da4ff04aad8d0861082",
+            "path": "category/technology/a596ac1954dc8da4ff04aad8d0861082",
+            "created_at": 1397980726,
+            "updated_at": 1415628639
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/mind2mind/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://mind2mind.is",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1338883050,
+            "updated_at": 1397987363
+          }
+        ]
+      }
+    }
+  }
+}

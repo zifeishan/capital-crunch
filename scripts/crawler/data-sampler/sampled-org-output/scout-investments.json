@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "6bc56c1838d0474b9b8e90b5e7572323",
+    "type": "Organization",
+    "properties": {
+      "description": "Scout Investments offers an array of investment management services for institutional separate accounts and mutual funds through a stable of institutional asset managers.  Equity solutions consist of domestic large cap, mid cap, small cap, international, international small/mid-cap and global equity portfolios.  Fixed income products in core plus, core, intermediate, long duration, low duration, absolute return and real return (TIPS) are offered through Reams Asset Management, a division of Scout Investments.\n",
+      "short_description": "private equity",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 1928,
+      "founded_on": "1928-01-01",
+      "founded_on_trust_code": 4,
+      "permalink": "scout-investments",
+      "primary_role": "investor",
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.scoutinv.com",
+      "name": "Scout Investments",
+      "is_closed": false,
+      "role_investor": true,
+      "created_at": 1299160026,
+      "updated_at": 1397987587,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/scout-investments/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Michael",
+            "last_name": "Hedstrom",
+            "title": "senior vice president of marketing",
+            "started_on": null,
+            "path": "person/michael-hedstrom",
+            "created_at": 1299189289,
+            "updated_at": 1397989297
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/scout-investments/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397178653/711d99e4346b5905d297bc16066c365d.jpg",
+            "created_at": 1398019255,
+            "updated_at": 1398019255
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/scout-investments/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.scoutinv.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1299160026,
+            "updated_at": 1397987587
+          }
+        ]
+      }
+    }
+  }
+}

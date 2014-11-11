@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "daeb2aae93aa51d030843e35112a36d2",
+    "type": "Person",
+    "properties": {
+      "last_name": "Emigh",
+      "first_name": "Aaron",
+      "permalink": "aaron-emigh",
+      "bio": "Aaron Emigh is the CTO and cofounder of shopkick, Inc.  He has also served as  EVP and GM of Technology at Six Apart, CTO of Rojo Networks, Managing Director of Radix Labs, and CEO of CommerceFlow.\n\nAaron\u00e2\u20ac\u2122s work spans mobile, social media, security, consumer internet, anti-spam, networking, storage, e-commerce, data compression, multimedia, vision, machine learning, and operating systems.  He is a named inventor on over 70 issued and pending US patents, and has presented original research at numerous conferences and research colloquia, including RSA, APWG, DIMACS, TIPPI, SFECTF, ISSA, MAAWG, ITTC, and the AAAS.\n\nAaron is a member of the US Secret Service Electronic Crimes Task Force and the US-DHS Infosec Technology Transition Council, a Research Fellow of the Anti-Phishing Working Group, and a technical advisor to the Financial Services Technology Consortium.\n",
+      "died_on_trust_code": 0,
+      "died_on_day": null,
+      "died_on_month": null,
+      "died_on_year": null,
+      "died_on": null,
+      "created_at": 1247852845,
+      "updated_at": 1411582481
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-emigh/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "CommerceFlow",
+            "organization_path": "organization/commerceflow",
+            "title": "CEO",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "Radix Labs",
+            "organization_path": "organization/radix-labs",
+            "title": "Managing Director",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "Rojo Networks",
+            "organization_path": "organization/rojo-networks",
+            "title": "CTO",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "Six Apart",
+            "organization_path": "organization/six-apart",
+            "title": "EVP & GM, Core Technologies",
+            "started_on": "2006-01-01",
+            "ended_on": "2009-01-01"
+          },
+          {
+            "organization_name": "shopkick",
+            "organization_path": "organization/shopkick",
+            "title": "Co-Founder & CTO",
+            "started_on": "2009-01-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-emigh/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Radix Labs",
+            "organization_path": "organization/radix-labs",
+            "title": "Managing Director",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "advisor_at": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-emigh/advisor_at",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": null,
+            "title": "Advisor"
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-emigh/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "shopkick",
+            "path": "organization/shopkick",
+            "created_at": 1247632349,
+            "updated_at": 1414781684
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-emigh/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184203/a502ed60c9c4be354b014f33fec25cfe.jpg",
+            "created_at": 1398019165,
+            "updated_at": 1398019165
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-emigh/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/in/aaronemigh",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1397877760,
+            "updated_at": 1409497084
+          },
+          {
+            "url": "http://angel.co/aaron-emigh",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          }
+        ]
+      }
+    }
+  }
+}

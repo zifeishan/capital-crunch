@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "d1bedd64e8da670b36a322b3b395dd96",
+    "type": "Person",
+    "properties": {
+      "last_name": "Benzick",
+      "first_name": "Aaron",
+      "permalink": "aaron-benzick",
+      "bio": "Aaron is the founder of Munzee, a real world scavenger hunt game combining the technology of your smart phone with the adventure of hide and seek. \n",
+      "homepage_url": "http://www.munzee.com",
+      "created_at": 1311632425,
+      "updated_at": 1397989256
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-benzick/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": null,
+            "degree_subject": "Applied Arts and Sciences",
+            "type": "Degree",
+            "organization_name": "Midwestern State University, Wichita Falls",
+            "organization_path": "organization/midwestern-state-university-wichita-falls"
+          },
+          {
+            "started_on": null,
+            "completed_on": null,
+            "degree_type_name": null,
+            "degree_subject": null,
+            "type": "Degree",
+            "organization_name": "The University of Texas at Dallas",
+            "organization_path": "organization/the-university-of-texas-at-dallas"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-benzick/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Dynamex",
+            "organization_path": "organization/dynamex",
+            "title": "Web Developer",
+            "started_on": "2001-01-01",
+            "ended_on": "2002-01-01"
+          },
+          {
+            "organization_name": "Airsoft Retreat",
+            "organization_path": "organization/airsoft-retreat",
+            "title": "Owner & founder",
+            "started_on": "2001-01-01",
+            "ended_on": "2009-01-01"
+          },
+          {
+            "organization_name": "Munzee",
+            "organization_path": "organization/munzee",
+            "title": "Co-Founder",
+            "started_on": "2011-07-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-benzick/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Munzee",
+            "organization_path": "organization/munzee",
+            "title": "Co-Founder",
+            "started_on": "2011-07-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-benzick/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Airsoft Retreat",
+            "path": "organization/airsoft-retreat",
+            "created_at": 1366654613,
+            "updated_at": 1397988114
+          },
+          {
+            "type": "Organization",
+            "name": "Munzee",
+            "path": "organization/munzee",
+            "created_at": 1318094440,
+            "updated_at": 1406414308
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-benzick/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397634293/4939836a7678c2237b8109c6cb1ccb14.jpg",
+            "created_at": 1398019053,
+            "updated_at": 1398019053
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 7,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-benzick/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.facebook.com/munzeeinfo",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 1409513402
+          },
+          {
+            "url": "http://angel.co/munzee-2",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.instagram.com/munzeeapp",
+            "type": "WebPresence",
+            "title": "instagram",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.plus.google.com/+Munzee",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.linkedin.com/pub/aaron-benzick/3a/a98/aa2",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1366629747,
+            "updated_at": 1409484645
+          },
+          {
+            "url": "http://twitter.com/munzee",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1311632425,
+            "updated_at": 1409395573
+          },
+          {
+            "url": "http://www.munzee.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1311632425,
+            "updated_at": 1397989256
+          }
+        ]
+      }
+    }
+  }
+}

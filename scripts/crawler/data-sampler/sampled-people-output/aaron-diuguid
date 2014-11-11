@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "fcafe5aae310f1292d2c307e11ee57e1",
+    "type": "Person",
+    "properties": {
+      "last_name": "Diuguid",
+      "first_name": "Aaron",
+      "permalink": "aaron-diuguid",
+      "created_at": 1290990034,
+      "updated_at": 1397989182
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-diuguid/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "WoW Meeting Stone",
+            "organization_path": "organization/wow-meeting-stone",
+            "title": "Owner",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-diuguid/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "WoW Meeting Stone",
+            "organization_path": "organization/wow-meeting-stone",
+            "title": "Owner",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

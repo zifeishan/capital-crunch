@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "63fee92243e0c47bedb6a510c3369e9b",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "EGGidea was found with passionate objectives to be a bridge between startups in Thailand and the globe.\n",
+      "short_description": "EGGidea was found with passionate objectives to be a bridge between startups in Thailand and the globe.",
+      "founded_on_day": 1,
+      "founded_on_month": 6,
+      "founded_on_year": 2012,
+      "founded_on": "2012-06-01",
+      "founded_on_trust_code": 6,
+      "permalink": "eggidea",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://eggidea.com",
+      "name": "EGGidea",
+      "email_address": "editor@eggidea.com",
+      "created_at": 1344839487,
+      "updated_at": 1397988950,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/eggidea/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Phatthaworn",
+            "last_name": "Phongphaew",
+            "title": "co-founder",
+            "started_on": null,
+            "path": "person/phatthaworn-phongphaew",
+            "created_at": 1344864687,
+            "updated_at": 1397989528
+          },
+          {
+            "first_name": "Worawisut",
+            "last_name": "Pinyoyang",
+            "title": "co-founder",
+            "started_on": null,
+            "path": "person/worawisut-pinyoyang",
+            "created_at": 1349834571,
+            "updated_at": 1397989397
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/eggidea/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Worawisut Pinyoyang",
+            "path": "person/worawisut-pinyoyang",
+            "created_at": 1349834571,
+            "updated_at": 1397989397
+          },
+          {
+            "type": "Person",
+            "name": "Phatthaworn Phongphaew",
+            "path": "person/phatthaworn-phongphaew",
+            "created_at": 1344864687,
+            "updated_at": 1397989528
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/eggidea/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397180472/8177f7144ef92b7f263c6475738f68c8.png",
+            "created_at": 1398018728,
+            "updated_at": 1398018728
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/eggidea/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.facebook.com/eggideathailand",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/eggidea",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1344839487,
+            "updated_at": 1409404408
+          },
+          {
+            "url": "http://eggidea.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1344839487,
+            "updated_at": 1397988950
+          }
+        ]
+      }
+    }
+  }
+}

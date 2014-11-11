@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "a9746571e4f241baf7f0a80d40398e14",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "permalink": "magento-experts",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "name": "Magento Experts",
+      "description": "Magento Experts, And Website Designers For Ecommerce Websites, Joomla Developers, Prestashop Designers And Wordpress designing By Expert PHP Programmers.\n\nEnlightened&#39;s Magento experts are using the latest version of 1.7 magento&#39;s community edition to handle ecommerce websites for clients based in UK, USA, Australia, Denmark, Germany, Singapore and India. Our ecommerce websites designers are experts in ecommerce website development and we build ecommerce websites on magento, joomla, prestashop, oscommerce, zencart and even on wordpress platforms/softwares. \n\nOur ecommerce websites designers can custom build designs from scratch, and we can create multiple ecommerce websites sharing the same database! This is beneficial when you need to have a seperate website for wholesalers and a separate one for retailers, with different functionalties like registration details etc.\n",
+      "short_description": "Magento Experts, And Website Designers.",
+      "homepage_url": "http://www.enlighteneditdevelopment.com",
+      "email_address": "enlightenedit@gmail.com",
+      "created_at": 1342448460,
+      "updated_at": 1397988339,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/magento-experts/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Dan",
+            "last_name": "Strickland",
+            "title": "Team Member",
+            "started_on": "2011-06-11",
+            "ended_on": "2012-06-01",
+            "path": "person/dan-strickland",
+            "created_at": 1348205176,
+            "updated_at": 1401845222
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/magento-experts/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Magento Experts.",
+            "street_1": "#502, S.R Towers ,Road No-4, KPHB, Kukatpally, Hyderabad, AP,India.",
+            "street_2": null,
+            "postal_code": "500072",
+            "city": "Hyderabad",
+            "city_path": "location/hyderabad/b9f0b92235f2335da1e5f4b9a7f5b0fc",
+            "region": "Andhra Pradesh",
+            "region_path": "location/andhra-pradesh/1f3abd8200a656c56dd94c5fff22ef8f",
+            "country": "India",
+            "country_path": "location/india/44048bf7db640d7adb20fd3c1ebf47b0",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1342448460,
+            "updated_at": 1397991764
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/magento-experts/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Magento Experts.",
+            "street_1": "#502, S.R Towers ,Road No-4, KPHB, Kukatpally, Hyderabad, AP,India.",
+            "street_2": null,
+            "postal_code": "500072",
+            "city": "Hyderabad",
+            "city_path": "location/hyderabad/b9f0b92235f2335da1e5f4b9a7f5b0fc",
+            "region": "Andhra Pradesh",
+            "region_path": "location/andhra-pradesh/1f3abd8200a656c56dd94c5fff22ef8f",
+            "country": "India",
+            "country_path": "location/india/44048bf7db640d7adb20fd3c1ebf47b0",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1342448460,
+            "updated_at": 1397991764
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/magento-experts/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "E-Commerce",
+            "uuid": "275ddcbc27deff4f4e506dc26ebf9570",
+            "path": "category/e-commerce/275ddcbc27deff4f4e506dc26ebf9570",
+            "created_at": 1397980726,
+            "updated_at": 1415622716
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/magento-experts/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397201467/6c852053846c1a04f052951f79f264f8.png",
+            "created_at": 1398019077,
+            "updated_at": 1398019077
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/magento-experts/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.facebook.com/EIDevelopers",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.enlighteneditdevelopment.com/wordpress",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1342448460,
+            "updated_at": 1397988339
+          },
+          {
+            "url": "http://www.enlighteneditdevelopment.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1342448460,
+            "updated_at": 1397988339
+          }
+        ]
+      }
+    }
+  }
+}

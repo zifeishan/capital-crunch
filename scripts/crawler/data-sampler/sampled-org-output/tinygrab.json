@@ -1,0 +1,356 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "590512d472079f530084a09a3d0cf8a1",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "closed_on_trust_code": 0,
+      "description": "TinyGrab is a simple yet extremely powerful utility for Mac OS X. Harnessing the power of Mac OS X\u00e2\u20ac\u2122s built in screenshot capabilites, TinyGrab instantly uploads and allows you to share with a small URL\u00e2\u20ac\u201d all in under thirty-seconds.\n\nTinyGrab was envisioned in April 2009 by British student Chris Leydon, whilst at Staffordshire University in the United Kingdom.\n\nThe first version of TinyGrab was limited to run only on the Mac OS X operating system. Soon after, TinyGrab expanded upon this by releasing an application that allowed users of Microsoft Windows to use the service. TinyGrab for iPhone was released on 26 May 2010 and is now available in the iTunes app store\n\nIn March 2010, TinyGrab was profiled in Macworld Magazine.\n\nApril 2010 saw the announcement of TinyGrab 2.0 with the beta launching in October 2010. TinyGrab 2.0 focuses on social screenshot sharing and is a complete overhaul of the system.\n\nIn May 2010, TinyGrab appealed to its users for help with funding the project in order to keep it alive. Later the same month they announced support from MacHeist and Rackspace.\n\nTinyGrab was available for a short time through a MacHeist bundle at the end of 2009.\n\nUnusually for a web based service, TinyGrab is entirely self funded by the two founding partners with no external source of funding, or investors.\n",
+      "short_description": "Image Hosting Service",
+      "founded_on_day": 1,
+      "founded_on_month": 3,
+      "founded_on_year": 2009,
+      "founded_on": "2009-03-01",
+      "founded_on_trust_code": 6,
+      "permalink": "tinygrab",
+      "primary_role": "company",
+      "is_closed": false,
+      "name": "TinyGrab",
+      "homepage_url": "http://www.tinygrab.com",
+      "email_address": "info@tinygrab.com",
+      "created_at": 1252328204,
+      "updated_at": 1397988064,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 6
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tinygrab/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Nick",
+            "last_name": "Cooper",
+            "title": "Founder and Business Officer",
+            "started_on": "2008-09-15",
+            "ended_on": "2011-07-08",
+            "path": "person/nick-cooper",
+            "created_at": 1237108891,
+            "updated_at": 1397989418
+          },
+          {
+            "first_name": "James",
+            "last_name": "Cunningham",
+            "title": "Systems Administrator",
+            "started_on": "2010-11-15",
+            "ended_on": "2011-07-08",
+            "path": "person/james-cunningham",
+            "created_at": 1295755838,
+            "updated_at": 1397989623
+          },
+          {
+            "first_name": "Lawrence",
+            "last_name": "Job",
+            "title": "Chief Technology Officer",
+            "started_on": "2010-05-01",
+            "ended_on": "2011-07-08",
+            "path": "person/lawrence-job",
+            "created_at": 1222902773,
+            "updated_at": 1406332695
+          },
+          {
+            "first_name": "Chris",
+            "last_name": "Leydon",
+            "title": "Founder and Managing Director",
+            "started_on": "2008-09-15",
+            "ended_on": "2011-07-08",
+            "path": "person/chris-leydon",
+            "created_at": 1237108891,
+            "updated_at": 1397989418
+          },
+          {
+            "first_name": "Olly",
+            "last_name": "Newport",
+            "title": "Producer",
+            "started_on": "2010-05-01",
+            "ended_on": "2011-07-08",
+            "path": "person/olly-newport",
+            "created_at": 1305573603,
+            "updated_at": 1397989243
+          }
+        ]
+      },
+      "acquired_by": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tinygrab/acquired_by",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "announced_on": "2011-07-08",
+            "type": "Acquisition",
+            "name": "Company 52 acquired TinyGrab",
+            "path": "acquisition/cb12f5c5dea2b6637082ed04ecd97c97",
+            "created_at": 1311688097,
+            "updated_at": 1397994993
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tinygrab/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "TinyGrab",
+            "street_2": "4 Pinkus Close",
+            "postal_code": "WR4 0DJ",
+            "city": "Worcester",
+            "city_path": "location/worcester/b1e25ccbe6fdd61e5c1be05872ba2982",
+            "region": "Worcestershire",
+            "region_path": "location/worcestershire/9d209d25763a33a44e9b35387fdf2a7a",
+            "country": "United Kingdom",
+            "country_path": "location/united-kingdom/a30e342c17426b1c66e9461de680e54b",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1286528289,
+            "updated_at": 1397992003
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tinygrab/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "TinyGrab",
+            "street_2": "4 Pinkus Close",
+            "postal_code": "WR4 0DJ",
+            "city": "Worcester",
+            "city_path": "location/worcester/b1e25ccbe6fdd61e5c1be05872ba2982",
+            "region": "Worcestershire",
+            "region_path": "location/worcestershire/9d209d25763a33a44e9b35387fdf2a7a",
+            "country": "United Kingdom",
+            "country_path": "location/united-kingdom/a30e342c17426b1c66e9461de680e54b",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1286528289,
+            "updated_at": 1397992003
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tinygrab/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Curated Web",
+            "uuid": "c87f19a05bd9c7c6e379ca118f49aa4e",
+            "path": "category/curated web/c87f19a05bd9c7c6e379ca118f49aa4e",
+            "created_at": 1397980728,
+            "updated_at": 1415558884
+          },
+          {
+            "type": "Category",
+            "name": "Software",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+            "created_at": 1397980727,
+            "updated_at": 1415567658
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tinygrab/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Nick Cooper",
+            "path": "person/nick-cooper",
+            "created_at": 1237108891,
+            "updated_at": 1397989418
+          },
+          {
+            "type": "Person",
+            "name": "Chris Leydon",
+            "path": "person/chris-leydon",
+            "created_at": 1237108891,
+            "updated_at": 1397989418
+          }
+        ]
+      },
+      "products": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tinygrab/products",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Product",
+            "name": "TinyGrab for iPhone",
+            "path": "product/tinygrab-for-iphone",
+            "created_at": 1286554278,
+            "updated_at": 1397996160
+          },
+          {
+            "type": "Product",
+            "name": "TinyGrab for Mac",
+            "path": "product/tinygrab-for-mac",
+            "created_at": 1286554278,
+            "updated_at": 1397996160
+          },
+          {
+            "type": "Product",
+            "name": "TinyGrab for Windows",
+            "path": "product/tinygrab-for-windows",
+            "created_at": 1286554277,
+            "updated_at": 1397996160
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tinygrab/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397189633/46acfac8f6ef5ef15f967ee985790881.png",
+            "created_at": 1398018543,
+            "updated_at": 1398018543
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tinygrab/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397189634/c244887dd0f383b8ba76268eadab95b7.png",
+            "created_at": 1398018544,
+            "updated_at": 1398018544
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tinygrab/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://en.wikipedia.org/wiki/TinyGrab",
+            "type": "WebPresence",
+            "title": "wikipedia",
+            "created_at": 1286529016,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://twitter.com/TinyGrab",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1252303004,
+            "updated_at": 1409430641
+          },
+          {
+            "url": "http://blog.tinygrab.com/",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1252303004,
+            "updated_at": 1397988064
+          },
+          {
+            "url": "http://www.tinygrab.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1252303004,
+            "updated_at": 1397988064
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/tinygrab/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.guardian.co.uk/media/pda/2010/nov/01/tinygrab-startup",
+            "author": null,
+            "posted_on": null,
+            "type": "PressReference",
+            "title": "Elevator Pitch: TinyGrab's take on the ultimate screenshot tool",
+            "created_at": 1313701089,
+            "updated_at": 2011
+          },
+          {
+            "url": "http://lifehacker.com/5354783/tinygrab-captures-and-shares-your-screen",
+            "author": null,
+            "posted_on": null,
+            "type": "PressReference",
+            "title": "TinyGrab - LifeHacker",
+            "created_at": 1286529016,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://www.macworld.co.uk/digitallifestyle/reviews/index.cfm?reviewid=3908",
+            "author": null,
+            "posted_on": null,
+            "type": "PressReference",
+            "title": "TinyGrab review - Macworld",
+            "created_at": 1286529016,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://www.techcrunch.com/2009/09/07/tinygrab-combines-mac-screen-grabs-with-small-urls-for-easy-image-sharing/",
+            "author": "Daniel Brusilovsky",
+            "posted_on": "2009-09-07",
+            "type": "PressReference",
+            "title": "TinyGrab Combines Mac Screen Grabs With Small URLs For Easy Image Sharing",
+            "created_at": 1255903789,
+            "updated_at": 2009
+          }
+        ]
+      }
+    }
+  }
+}

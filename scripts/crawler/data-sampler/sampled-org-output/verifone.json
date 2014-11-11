@@ -1,0 +1,684 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "6d42a4ec4ca966b82fc1d27d5f0631b1",
+    "type": "Organization",
+    "properties": {
+      "role_investor": true,
+      "short_description": "VeriFone develops secure e-payment solutions and services that provide transactions and value-added services at the point-of-sale.",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 1981,
+      "founded_on": "1981-01-01",
+      "founded_on_trust_code": 4,
+      "permalink": "verifone",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.verifone.com",
+      "name": "VeriFone",
+      "description": "VeriFone is a global leader in secure electronic payment technologies. They provide solutions, services, and expertise that enable electronic payment transactions and value-added services at the point of sale.\n\nTheir devices and systems process a broad spectrum of payment types including signature and PIN-based debit cards, credit cards, EMV smart cards, contactless, value-added applications, and signature capture. Their solutions incorporate existing and emerging technologies, comply with the latest global security standards, and take advantage of the latest connectivity options from GPRS, CDMA, and Wi-Fi to IP and Bluetooth-enabled devices. \n",
+      "role_company": true,
+      "closed_on_year": null,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on": null,
+      "created_at": 1398010402,
+      "updated_at": 1413370130,
+      "total_funding_usd": 17584713,
+      "number_of_investments": 3,
+      "stock_symbol": "PAY"
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 33,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Imanuel",
+            "last_name": "Baharier",
+            "title": "General Manager",
+            "started_on": "2004-07-01",
+            "ended_on": "2013-04-01",
+            "path": "person/imanuel-baharier",
+            "created_at": 1413369754,
+            "updated_at": 1413372733
+          },
+          {
+            "first_name": "Robert",
+            "last_name": "Drescher",
+            "title": "Director, Product Marketing",
+            "started_on": "1992-01-01",
+            "ended_on": "1994-01-01",
+            "path": "person/robert-drescher",
+            "created_at": 1377266918,
+            "updated_at": 1397989253
+          },
+          {
+            "first_name": "Jeff",
+            "last_name": "Dumbrell",
+            "title": "SVP - North America",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/jeff-dumbrell",
+            "created_at": 1403853411,
+            "updated_at": 1403853596
+          },
+          {
+            "first_name": "Jeff",
+            "last_name": "Dumbrell",
+            "title": "EVP - EMEA & Asia Pacific",
+            "started_on": "2008-01-01",
+            "ended_on": "2013-01-01",
+            "path": "person/jeff-dumbrell",
+            "created_at": 1403853411,
+            "updated_at": 1403853596
+          },
+          {
+            "first_name": "Eric",
+            "last_name": "Duprat",
+            "title": "Director Strategic Relationships",
+            "started_on": "1994-01-01",
+            "ended_on": "2002-01-01",
+            "path": "person/eric-duprat",
+            "created_at": 1308672008,
+            "updated_at": 1397989579
+          },
+          {
+            "first_name": "Bob",
+            "last_name": "Dykes",
+            "title": "Executive VP & CFO",
+            "started_on": "2008-09-01",
+            "ended_on": "2013-02-01",
+            "path": "person/bob-dykes",
+            "created_at": 1412951018,
+            "updated_at": 1412955152
+          },
+          {
+            "first_name": "Yoav",
+            "last_name": "Elgrichi",
+            "title": "Director ofBusinessDevelopment",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/yoav-elgrichi",
+            "created_at": 1385693432,
+            "updated_at": 1397989533
+          },
+          {
+            "first_name": "Serafin",
+            "last_name": "Fuente",
+            "title": "Team Member",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/serafin-fuente",
+            "created_at": 1403858381,
+            "updated_at": 1403858948
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/board_members_and_advisors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Wenda",
+            "last_name": "Harris Millard",
+            "title": "Board of Directors",
+            "started_on": null,
+            "path": "person/wenda-harris-millard",
+            "created_at": 1284555877,
+            "updated_at": 1415121540
+          },
+          {
+            "first_name": "Hatim",
+            "last_name": "Tyabji",
+            "title": "Chairman",
+            "started_on": null,
+            "path": "person/hatim-tyabji",
+            "created_at": 1224561282,
+            "updated_at": 1410372710
+          },
+          {
+            "first_name": "Alex",
+            "last_name": "W. \"Pete\" Hart",
+            "title": "Board of Directors",
+            "started_on": "2006-07-01",
+            "path": "person/alex-w-pete-hart",
+            "created_at": 1228328516,
+            "updated_at": 1408438359
+          }
+        ]
+      },
+      "current_team": {
+        "paging": {
+          "total_items": 7,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Soner",
+            "last_name": "Casur",
+            "title": "Senior Vice President",
+            "started_on": null,
+            "path": "person/soner-casur",
+            "created_at": 1359751733,
+            "updated_at": 1411516229
+          },
+          {
+            "first_name": "Robert",
+            "last_name": "Dykes",
+            "title": "Senior Vice President & Chief Financial Officer",
+            "started_on": null,
+            "path": "person/robert-dykes-2",
+            "created_at": 1301668257,
+            "updated_at": 1397989572
+          },
+          {
+            "first_name": "Jeffrey",
+            "last_name": "E. Stiefler",
+            "title": "Director",
+            "started_on": "2008-01-01",
+            "path": "person/jeffrey-e-stiefler",
+            "created_at": 1368656265,
+            "updated_at": 1397989451
+          },
+          {
+            "first_name": "Douglas",
+            "last_name": "G. Bergeron",
+            "title": "Chief Executive Officer",
+            "started_on": null,
+            "path": "person/douglas-g-bergeron",
+            "created_at": 1301668257,
+            "updated_at": 1397989572
+          },
+          {
+            "first_name": "Albert",
+            "last_name": "Liu",
+            "title": "Senior Vice President & General Counsel",
+            "started_on": null,
+            "path": "person/albert-liu",
+            "created_at": 1301668258,
+            "updated_at": 1397989572
+          },
+          {
+            "first_name": "Peter",
+            "last_name": "Scharnell",
+            "title": "Sr. Product Manager",
+            "started_on": "2012-07-06",
+            "path": "person/peter-scharnell",
+            "created_at": 1377911878,
+            "updated_at": 1397989550
+          },
+          {
+            "first_name": "Scott",
+            "last_name": "Thompson",
+            "title": "Digital Marketing Manager",
+            "started_on": "2012-01-01",
+            "path": "person/scott-thompson-2",
+            "created_at": 1408382577,
+            "updated_at": 1412097405
+          }
+        ]
+      },
+      "acquisitions": {
+        "paging": {
+          "total_items": 7,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/acquisitions",
+          "sort_order": "announced_on? desc"
+        },
+        "items": [
+          {
+            "announced_on": "2012-12-18",
+            "type": "Acquisition",
+            "name": "VeriFone acquired EFTPOS New Zealand Limited",
+            "path": "acquisition/9762eeb4bb1d4023380083f4660ed7b2",
+            "created_at": 1355799659,
+            "updated_at": 1397995093
+          },
+          {
+            "announced_on": "2011-11-15",
+            "type": "Acquisition",
+            "name": "VeriFone acquired Point",
+            "path": "acquisition/2d236891c3e895f5660badbeb57fc056",
+            "created_at": 1321334470,
+            "updated_at": 1397995130
+          },
+          {
+            "announced_on": "2011-11-01",
+            "type": "Acquisition",
+            "name": "VeriFone acquired Global Bay Mobile",
+            "path": "acquisition/49d19a7fc3784b907ca424cd9e5b49b9",
+            "created_at": 1344531183,
+            "updated_at": 1397994952
+          },
+          {
+            "announced_on": "2010-11-17",
+            "type": "Acquisition",
+            "name": "VeriFone acquired Hypercom",
+            "path": "acquisition/293eac6c60f078f0c0585d86c108690d",
+            "created_at": 1290137781,
+            "updated_at": 1397994958
+          },
+          {
+            "announced_on": "2010-09-09",
+            "type": "Acquisition",
+            "name": "VeriFone acquired Semtek Innovative Solutions",
+            "path": "acquisition/e7fb74c69aeaaf297f1b8d500eb46c88",
+            "created_at": 1284116821,
+            "updated_at": 1397994869
+          },
+          {
+            "announced_on": "2010-09-01",
+            "type": "Acquisition",
+            "name": "VeriFone acquired WAY Systems",
+            "path": "acquisition/8c47d824796ba056f069d54c0268a15c",
+            "created_at": 1283343831,
+            "updated_at": 1397994861
+          },
+          {
+            "announced_on": "2010-04-02",
+            "type": "Acquisition",
+            "name": "VeriFone acquired VeriFone Transportation Systems",
+            "path": "acquisition/8a9ad4371d5031f33033c41cc3df102e",
+            "created_at": 1278515156,
+            "updated_at": 1397995239
+          }
+        ]
+      },
+      "acquired_by": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/acquired_by",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "announced_on": "2001-05-01",
+            "type": "Acquisition",
+            "name": "Gores Technology Group acquired VeriFone",
+            "path": "acquisition/09fec87bcf103aa0cfba49f3a44990c7",
+            "created_at": 1372256696,
+            "updated_at": 1397994878
+          },
+          {
+            "announced_on": "1997-04-01",
+            "type": "Acquisition",
+            "name": "Hewlett-Packard acquired VeriFone",
+            "path": "acquisition/410fb9744a09c63d71b7fd8b04f65e0c",
+            "created_at": 1372256595,
+            "updated_at": 1397994877
+          }
+        ]
+      },
+      "competitors": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "mPowa",
+            "path": "organization/mpowa",
+            "created_at": 1324876117,
+            "updated_at": 1410043341
+          },
+          {
+            "type": "Organization",
+            "name": "PAX",
+            "path": "organization/pax-2",
+            "created_at": 1299091520,
+            "updated_at": 1401303992
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Headquarters",
+            "street_1": "2099 Gateway Place",
+            "street_2": "Suite 600",
+            "postal_code": "95110",
+            "city": "San Jose",
+            "city_path": "location/san-jose/1a36817cb0a6fbd1a2be3fb7e4900331",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1258018826,
+            "updated_at": 1404128872
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Headquarters",
+            "street_1": "2099 Gateway Place",
+            "street_2": "Suite 600",
+            "postal_code": "95110",
+            "city": "San Jose",
+            "city_path": "location/san-jose/1a36817cb0a6fbd1a2be3fb7e4900331",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1258018826,
+            "updated_at": 1404128872
+          },
+          {
+            "type": "Address",
+            "name": "Headquarters",
+            "street_1": "2099 Gateway Place",
+            "street_2": "Suite 600",
+            "postal_code": "95110",
+            "city": "San Jose",
+            "city_path": "location/san-jose/1a36817cb0a6fbd1a2be3fb7e4900331",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1258018826,
+            "updated_at": 1404128872
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "VeriFone raises 17584713 in unknown round",
+            "path": "funding-round/e4aad79bff8689b27b37c154b082bd53",
+            "created_at": 1384845211,
+            "updated_at": 1415304074
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Payments",
+            "uuid": "f6195c471e3b4cce54096ed62f94d43c",
+            "path": "category/payments/f6195c471e3b4cce54096ed62f94d43c",
+            "created_at": 1397980727,
+            "updated_at": 1415357854
+          },
+          {
+            "type": "Category",
+            "name": "Hardware + Software",
+            "uuid": "6826312c814aadc750ab9de1e9bd1999",
+            "path": "category/hardware + software/6826312c814aadc750ab9de1e9bd1999",
+            "created_at": 1397980727,
+            "updated_at": 1415449669
+          }
+        ]
+      },
+      "investments": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/investments",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/aa2c2484c464407be3544f1862ea85d9"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Semtek Innovative Solutions",
+              "path": "organization/semtek-innovative-technologies-corporation"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/33519c47c8ceaca6b8ebd8ce64e9f16e"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Semtek Innovative Solutions",
+              "path": "organization/semtek-innovative-technologies-corporation"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/1bb140bd85bbfbd02a1895857543fcef"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Trunkbow",
+              "path": "organization/trunkbow-international-holdings"
+            }
+          }
+        ]
+      },
+      "ipo": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/ipo",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Ipo",
+            "name": "Went public on April  9, 2005",
+            "path": "ipo/94736425eae5cf8005dd96e84d9830de",
+            "created_at": 1332214587,
+            "updated_at": 1410341381
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397191809/8181e0386bd3bd4158c2f005f0f842f5.png",
+            "created_at": 1398018750,
+            "updated_at": 1398018750
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397191811/1c23347a7adf5e73d3969148a1dc26df.png",
+            "created_at": 1398018750,
+            "updated_at": 1398018750
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397191810/4a4fbafb0156408ed12ebc141643d786.jpg",
+            "created_at": 1398018750,
+            "updated_at": 1398018750
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/company/verifone",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1403082228,
+            "updated_at": 1409601672
+          },
+          {
+            "url": "http://twitter.com/VeriFone",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1254341114,
+            "updated_at": 1409415139
+          },
+          {
+            "url": "http://blog.verifone.com/",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1254341114,
+            "updated_at": 1397988469
+          },
+          {
+            "url": "http://www.verifone.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1254341114,
+            "updated_at": 1397988469
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 16,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/verifone/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://techcrunch.com/2013/05/29/as-software-trumps-hardware-in-the-world-of-payments-verifone-partners-with-cardspring-for-card-linked-services/",
+            "author": "Ingrid Lunden,Sarah Perez",
+            "posted_on": "2013-05-29",
+            "type": "PressReference",
+            "title": "As Software Trumps Hardware In The World Of Payments, VeriFone Partners With CardSpring For Card-Linked Services",
+            "created_at": 1369852816,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://techcrunch.com/2012/12/14/verifone-nixes-mobile-pos-and-square-competitor-sail-citing-razor-thin-margins-and-high-attrition/",
+            "author": "Darrell Etherington",
+            "posted_on": "2012-12-14",
+            "type": "PressReference",
+            "title": "VeriFone Nixes Mobile POS And Square Competitor Sail, Citing &#8220;Razor-Thin Margins&#8221; And &#8220;High Attrition&#8221;",
+            "created_at": 1355495122,
+            "updated_at": 2012
+          },
+          {
+            "url": "http://techcrunch.com/2012/11/18/verifone-battles-back-against-square-paypal-with-new-technology-partnerships-and-more/",
+            "author": "Leena Rao",
+            "posted_on": "2012-11-18",
+            "type": "PressReference",
+            "title": "VeriFone Battles Back Against Square, PayPal With New Technology Partnerships And More",
+            "created_at": 1353266411,
+            "updated_at": 2012
+          },
+          {
+            "url": "http://techcrunch.com/2012/08/20/stitch-labs-verifone-sail/",
+            "author": "Ryan Lawler",
+            "posted_on": "2012-08-20",
+            "type": "PressReference",
+            "title": "Inventory Management Startup Stitch Labs Adds Payment Processing With Verifone&#8217;s Sail",
+            "created_at": 1345467678,
+            "updated_at": 2012
+          },
+          {
+            "url": "http://techcrunch.com/2012/03/19/verifones-payments-gateway-and-square-competitor-reaches-10b-in-yearly-u-s-transaction-volume/",
+            "author": "Leena Rao",
+            "posted_on": "2012-03-19",
+            "type": "PressReference",
+            "title": "VeriFone's Payments Gateway And Square Competitor Reaches $10B In Yearly U.S. Transaction Volume",
+            "created_at": 1332185077,
+            "updated_at": 2012
+          },
+          {
+            "url": "http://techcrunch.com/2012/03/05/isis-reveals-new-pos-partnerships-with-verifone-ingenico-and-vivotech/",
+            "author": "Jordan Crook",
+            "posted_on": "2012-03-05",
+            "type": "PressReference",
+            "title": "Isis Reveals New POS Partnerships With Verifone, Ingenico And&nbsp;ViVOtech",
+            "created_at": 1330954548,
+            "updated_at": 2012
+          },
+          {
+            "url": "http://techcrunch.com/2011/12/08/not-so-lucky-supermarket-customers-get-hacked/",
+            "author": "Jon Orlin",
+            "posted_on": "2011-12-08",
+            "type": "PressReference",
+            "title": "Not So Lucky Supermarket Customers Get&nbsp;Hacked",
+            "created_at": 1323371806,
+            "updated_at": 2011
+          },
+          {
+            "url": "http://techcrunch.com/2011/11/14/verifone-buys-european-payments-processing-company-point-for-820-million/",
+            "author": "Leena Rao",
+            "posted_on": "2011-11-14",
+            "type": "PressReference",
+            "title": "VeriFone Buys European Payments Processing Company Point For Over $1&nbsp;Billion",
+            "created_at": 1321277106,
+            "updated_at": 2011
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "0f24acde5ea822d331fd11d4e0a7024c",
+    "type": "Organization",
+    "properties": {
+      "description": "S-Cubed Capital is a diversified investment holding company and family office located in Menlo Park, CA. The organization has global interests in agribusiness, financial asset management, philanthropy and real estate. Our investment portfolio is comprised of direct investments as well as partnerships with many leading investment managers.\n",
+      "short_description": "S-Cubed Capital is a diversified investment holding company and family office located in Menlo Park, CA.",
+      "permalink": "s-cubed-capital",
+      "primary_role": "investor",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://scubedcap.com",
+      "name": "S-Cubed Capital",
+      "role_investor": true,
+      "secondary_role_seed": true,
+      "secondary_role_early_stage_venture": true,
+      "sectors": "[\"Education\",\"Social Media\",\"Apps\"]",
+      "created_at": 1350130317,
+      "updated_at": 1410034727,
+      "total_funding_usd": 0,
+      "number_of_investments": 5
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/s-cubed-capital/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Mark",
+            "last_name": "Stevens",
+            "title": "Managing Partner",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/mark-stevens",
+            "created_at": 1202478198,
+            "updated_at": 1412184285
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/s-cubed-capital/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "2061 Avy Avenue",
+            "street_2": "1st Floor",
+            "postal_code": "94025",
+            "city": "Menlo Park",
+            "city_path": "location/menlo-park/1f8abfef5379b26b702005a09908492f",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.432243,
+            "longitude": -122.200821,
+            "created_at": 1368303258,
+            "updated_at": 1397991578
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/s-cubed-capital/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "2061 Avy Avenue",
+            "street_2": "1st Floor",
+            "postal_code": "94025",
+            "city": "Menlo Park",
+            "city_path": "location/menlo-park/1f8abfef5379b26b702005a09908492f",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.432243,
+            "longitude": -122.200821,
+            "created_at": 1368303258,
+            "updated_at": 1397991578
+          },
+          {
+            "type": "Address",
+            "name": "HQ",
+            "street_1": "2061 Avy Avenue",
+            "street_2": "1st Floor",
+            "postal_code": "94025",
+            "city": "Menlo Park",
+            "city_path": "location/menlo-park/1f8abfef5379b26b702005a09908492f",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.432243,
+            "longitude": -122.200821,
+            "created_at": 1368303258,
+            "updated_at": 1397991578
+          }
+        ]
+      },
+      "investments": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/s-cubed-capital/investments",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/102018e3149b63c8c7b90137f17d15b4"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Secret",
+              "path": "organization/secret"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/99f01c86187144871b4e6e785724b443"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "collegefeed",
+              "path": "organization/collegefeed"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/cdfcd2c000af0f2cfd3d57bffe194a3c"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Kidaptive",
+              "path": "organization/kidaptive"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/3ca581dd45afa4f70de1561c95452f78"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Lovely",
+              "path": "organization/lovely"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/ce7d3ae9f0709253a0080b1406ff874b"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Wello",
+              "path": "organization/wello"
+            }
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/s-cubed-capital/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397178643/a275c4f6cfee5e299d1b0355194805b6.gif",
+            "created_at": 1398019252,
+            "updated_at": 1398019252
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/s-cubed-capital/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://scubedcap.com/news-blog",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1350105117,
+            "updated_at": 1397987542
+          },
+          {
+            "url": "http://scubedcap.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1350105117,
+            "updated_at": 1397987542
+          }
+        ]
+      }
+    }
+  }
+}

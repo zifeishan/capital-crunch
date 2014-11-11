@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "3158184383fbb9cf7613047d16a073f2",
+    "type": "Person",
+    "properties": {
+      "last_name": "Burnett",
+      "first_name": "Aaron",
+      "permalink": "aaron-burnett",
+      "created_at": 1238626050,
+      "updated_at": 1397988925
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-burnett/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Produxs",
+            "organization_path": "organization/produxs",
+            "title": "Principal",
+            "started_on": "2009-02-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-burnett/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Produxs",
+            "organization_path": "organization/produxs",
+            "title": "Principal",
+            "started_on": "2009-02-01",
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

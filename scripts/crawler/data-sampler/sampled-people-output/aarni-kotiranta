@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "1db69041149562e1669539493b22e1a6",
+    "type": "Person",
+    "properties": {
+      "last_name": "Kotiranta",
+      "first_name": "Aarni",
+      "permalink": "aarni-kotiranta",
+      "created_at": 1308138096,
+      "updated_at": 1397989526
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aarni-kotiranta/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Sofanatics",
+            "organization_path": "organization/sofanatics",
+            "title": "Marketing Intern",
+            "started_on": "2011-04-18",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aarni-kotiranta/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Sofanatics",
+            "organization_path": "organization/sofanatics",
+            "title": "Marketing Intern",
+            "started_on": "2011-04-18",
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

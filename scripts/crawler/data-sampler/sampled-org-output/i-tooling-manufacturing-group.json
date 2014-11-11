@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "36bbdf5ae3487636b6e289f322f6e6bf",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "IMG is a tooling-based manufacturing group with comprehensive manufacturing, engineering and R&amp;D capabilities. They provide products and services in tooling, prototyping, molding, casting, stamping, coating, OEM/ODM services and engineering services. They are devoted to build strategic partnerships with global customers in automotives, medical, 3C, OA and industrial segments. From Design to Delivery, they offer end-to-end total manufacturing solutions to global OEM/ODM customers.\n",
+      "short_description": "I-Tooling Manufacturing Group (IMG) is a tooling-based manufacturing group.",
+      "permalink": "i-tooling-manufacturing-group",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "name": "I-Tooling Manufacturing Group",
+      "homepage_url": "http://www.i-tooling.com",
+      "also_known_as": "[\"IMG\"]",
+      "created_at": 1254240321,
+      "updated_at": 1411771832,
+      "total_funding_usd": 2930000,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "funding_rounds": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/i-tooling-manufacturing-group/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "I-Tooling Manufacturing Group raises 2930000 in unknown round",
+            "path": "funding-round/6bad755d56e076d5253adc657a1c6651",
+            "created_at": 1254215699,
+            "updated_at": 1415305656
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/i-tooling-manufacturing-group/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Manufacturing",
+            "uuid": "e811671c168d1fd236e5df4e08a09f7c",
+            "path": "category/manufacturing/e811671c168d1fd236e5df4e08a09f7c",
+            "created_at": 1397980727,
+            "updated_at": 1415516436
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/i-tooling-manufacturing-group/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397191642/159aa4677746a022cc485003241b4dff.jpg",
+            "created_at": 1398018733,
+            "updated_at": 1398018733
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/i-tooling-manufacturing-group/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397191642/4b643c95fbc21780b805752b336705cc.jpg",
+            "created_at": 1398018733,
+            "updated_at": 1398018733
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/i-tooling-manufacturing-group/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.i-tooling.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1254215121,
+            "updated_at": 1397988439
+          }
+        ]
+      }
+    }
+  }
+}

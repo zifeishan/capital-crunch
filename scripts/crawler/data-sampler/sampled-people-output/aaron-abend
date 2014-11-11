@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "4dd399b2e444dd63c0f89676a8c19b63",
+    "type": "Person",
+    "properties": {
+      "last_name": "Abend",
+      "first_name": "Aaron",
+      "permalink": "aaron-abend",
+      "created_at": 1254776777,
+      "updated_at": 1397989317
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-abend/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Recombinant Data Corp.",
+            "organization_path": "organization/recombinant-data-corp",
+            "title": "Managing Director, Data Warehousing",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-abend/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Recombinant Data Corp.",
+            "organization_path": "organization/recombinant-data-corp",
+            "title": "Managing Director, Data Warehousing",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

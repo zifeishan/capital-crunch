@@ -1,0 +1,769 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "bcb617c39e43d5b01d1482b795f2642f",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "email_address": "press@airbnb.com",
+      "description": "Airbnb is a community marketplace for people to list, discover and book unique spaces around the world through mobile phones or the internet. Whether an apartment for a night, a castle for a week, or a villa for a month, Airbnb connects people to unique travel experiences at any price point, with over 500,000 listings in 33,000 cities and 192 countries.\n\nWith a growing community of users, Airbnb also provides an easy way for people to monetize their extra space and showcase it to an audience of millions. \n\nFounded in August 2008, Airbnb has acquired several of its competitors, including Accoleo, CrashPadder, NabeWise, and Localmind.\n\nAirbnb was founded in August 2008 by Brian Chesky and Joe Gebbia, and is currently headquartered in San Francisco, California, USA.\n",
+      "short_description": "Airbnb is an online community marketplace for people to list, discover, and book accommodation around the world.",
+      "permalink": "airbnb",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://airbnb.com",
+      "name": "Airbnb",
+      "founded_on_day": 1,
+      "founded_on_month": 8,
+      "founded_on_year": 2008,
+      "founded_on": "2008-08-01",
+      "founded_on_trust_code": 6,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "created_at": 1217504495,
+      "updated_at": 1415232601,
+      "total_funding_usd": 794820000,
+      "number_of_investments": 0,
+      "number_of_employees": 1324
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 21,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Brian",
+            "last_name": "Armstrong",
+            "title": "Software Engineer",
+            "started_on": "2011-05-16",
+            "ended_on": null,
+            "path": "person/brian-armstrong",
+            "created_at": 1255211700,
+            "updated_at": 1413990556
+          },
+          {
+            "first_name": "Lex",
+            "last_name": "Bayer",
+            "title": "Head of Global Payments & Head of Business Development",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/lex-bayer",
+            "created_at": 1237949402,
+            "updated_at": 1407958357
+          },
+          {
+            "first_name": "Carly",
+            "last_name": "Chamberlain",
+            "title": "Marketing",
+            "started_on": "2009-07-01",
+            "ended_on": "2011-01-01",
+            "path": "person/carly-chamberlain",
+            "created_at": 1318299462,
+            "updated_at": 1407263095
+          },
+          {
+            "first_name": "Chris",
+            "last_name": "Collins",
+            "title": "Software Engineer",
+            "started_on": "2009-09-01",
+            "ended_on": "2011-03-01",
+            "path": "person/chris-collins-2",
+            "created_at": 1323232932,
+            "updated_at": 1412625204
+          },
+          {
+            "first_name": "Patrick",
+            "last_name": "Desmond",
+            "title": "Global Operations Lead",
+            "started_on": "2011-07-01",
+            "ended_on": "2013-05-01",
+            "path": "person/patrick-desmond",
+            "created_at": 1344861163,
+            "updated_at": 1397989528
+          },
+          {
+            "first_name": "Kenji",
+            "last_name": "Droullard",
+            "title": "Graphic Designer",
+            "started_on": "2011-11-02",
+            "ended_on": "2013-09-13",
+            "path": "person/kenji-droullard",
+            "created_at": 1303347102,
+            "updated_at": 1407446368
+          },
+          {
+            "first_name": "Peter",
+            "last_name": "Ehrlich",
+            "title": "Engineering Intern",
+            "started_on": "2010-05-01",
+            "ended_on": "2010-08-01",
+            "path": "person/peter-ehrlich",
+            "created_at": 1291286986,
+            "updated_at": 1401843528
+          },
+          {
+            "first_name": "Gunnar",
+            "last_name": "Froh",
+            "title": "Managing Director Germany",
+            "started_on": "2011-05-01",
+            "ended_on": "2012-12-31",
+            "path": "person/gunnar-froh",
+            "created_at": 1334494896,
+            "updated_at": 1408995028
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/board_members_and_advisors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Greg",
+            "last_name": "McAdoo",
+            "title": "Board of Directors",
+            "started_on": null,
+            "path": "person/greg-mcadoo",
+            "created_at": 1202477603,
+            "updated_at": 1397989254
+          },
+          {
+            "first_name": "Kevin",
+            "last_name": "Hartz",
+            "title": "Investor and Advisor",
+            "started_on": null,
+            "path": "person/kevin-hartz",
+            "created_at": 1191218448,
+            "updated_at": 1412103793
+          },
+          {
+            "first_name": "Alfred",
+            "last_name": "Lin",
+            "title": "Board Member",
+            "started_on": null,
+            "path": "person/alfred-lin",
+            "created_at": 1226165044,
+            "updated_at": 1413968538
+          },
+          {
+            "first_name": "Joel",
+            "last_name": "Cutler",
+            "title": "Strategic Advisor",
+            "started_on": null,
+            "path": "person/joel-cutler",
+            "created_at": 1201539786,
+            "updated_at": 1397989241
+          }
+        ]
+      },
+      "current_team": {
+        "paging": {
+          "total_items": 35,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Brian",
+            "last_name": "Chesky",
+            "title": "Co-Founder & CEO",
+            "started_on": "2007-10-01",
+            "path": "person/brian-chesky",
+            "created_at": 1217504495,
+            "updated_at": 1410170548
+          },
+          {
+            "first_name": "Nathan",
+            "last_name": "Blecharczyk",
+            "title": "Co-Founder & CTO",
+            "started_on": null,
+            "path": "person/nathan-blecharcyk",
+            "created_at": 1217504495,
+            "updated_at": 1410169574
+          },
+          {
+            "first_name": "Joe",
+            "last_name": "Gebbia",
+            "title": "Co-Founder & CPO",
+            "started_on": null,
+            "path": "person/joe-gebbia",
+            "created_at": 1217504495,
+            "updated_at": 1410171013
+          },
+          {
+            "first_name": "Chip",
+            "last_name": "Conley",
+            "title": "Head Of Global Hospitality",
+            "started_on": "2013-09-17",
+            "path": "person/chip-conley",
+            "created_at": 1376092027,
+            "updated_at": 1397989251
+          },
+          {
+            "first_name": "Joe",
+            "last_name": "Zadeh",
+            "title": "Director of Product",
+            "started_on": null,
+            "path": "person/joe-zadeh",
+            "created_at": 1343705553,
+            "updated_at": 1411774327
+          },
+          {
+            "first_name": "Phillip",
+            "last_name": "Cardenas",
+            "title": "Head of Trust and Safety",
+            "started_on": "2011-01-01",
+            "path": "person/phillip-cardenas",
+            "created_at": 1400600210,
+            "updated_at": 1411103325
+          },
+          {
+            "first_name": "Katie",
+            "last_name": "Dill",
+            "title": "Head of User Experience Design",
+            "started_on": "2014-03-01",
+            "path": "person/katie-dill",
+            "created_at": 1405534580,
+            "updated_at": 1405534718
+          },
+          {
+            "first_name": "Gustaf",
+            "last_name": "Alstromer",
+            "title": "Producer, Growth",
+            "started_on": "2012-11-01",
+            "path": "person/gustaf-alstromer",
+            "created_at": 1220097870,
+            "updated_at": 1415428150
+          }
+        ]
+      },
+      "acquisitions": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/acquisitions",
+          "sort_order": "announced_on? desc"
+        },
+        "items": [
+          {
+            "announced_on": "2012-12-01",
+            "type": "Acquisition",
+            "name": "Airbnb acquired Localmind",
+            "path": "acquisition/a110d34cb7bcb21a52cee70828dc79d6",
+            "created_at": 1356048404,
+            "updated_at": 1397995099
+          },
+          {
+            "announced_on": "2012-10-03",
+            "type": "Acquisition",
+            "name": "Airbnb acquired Fondu",
+            "path": "acquisition/9b5b7914879c6e0958f32cbfc8c138f8",
+            "created_at": 1360186308,
+            "updated_at": 1397995148
+          },
+          {
+            "announced_on": "2012-07-01",
+            "type": "Acquisition",
+            "name": "Airbnb acquired NabeWise",
+            "path": "acquisition/ef8d91a8ab56ef691376de1a60d2e30c",
+            "created_at": 1357944467,
+            "updated_at": 1397995122
+          },
+          {
+            "announced_on": "2012-03-20",
+            "type": "Acquisition",
+            "name": "Airbnb acquired Crashpadder",
+            "path": "acquisition/c312dc831914b5962b5831bde47c539e",
+            "created_at": 1332297650,
+            "updated_at": 1397994802
+          },
+          {
+            "announced_on": "2012-01-01",
+            "type": "Acquisition",
+            "name": "Airbnb acquired DailyBooth",
+            "path": "acquisition/edace27c5ce75abbb0012cca27b777ca",
+            "created_at": 1343183331,
+            "updated_at": 1397994938
+          },
+          {
+            "announced_on": "2011-06-01",
+            "type": "Acquisition",
+            "name": "Airbnb acquired Accoleo",
+            "path": "acquisition/19e1c82599fec6e6c3bfae33bffa66fe",
+            "created_at": 1306927580,
+            "updated_at": 1397994913
+          }
+        ]
+      },
+      "competitors": {
+        "paging": {
+          "total_items": 20,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "SunnyRentals",
+            "path": "organization/sunnyrentals",
+            "created_at": 1406031388,
+            "updated_at": 1406031861
+          },
+          {
+            "type": "Organization",
+            "name": "atraveo",
+            "path": "organization/atraveo",
+            "created_at": 1366068247,
+            "updated_at": 1407256790
+          },
+          {
+            "type": "Organization",
+            "name": "Alterkeys",
+            "path": "organization/alterkeys-com",
+            "created_at": 1359333217,
+            "updated_at": 1409883636
+          },
+          {
+            "type": "Organization",
+            "name": "upiq",
+            "path": "organization/upiq",
+            "created_at": 1342462305,
+            "updated_at": 1411165643
+          },
+          {
+            "type": "Organization",
+            "name": "AlwayOnVacation",
+            "path": "organization/alwayonvacation",
+            "created_at": 1339971021,
+            "updated_at": 1397987642
+          },
+          {
+            "type": "Organization",
+            "name": "Zukbox",
+            "path": "organization/zukbox",
+            "created_at": 1323662091,
+            "updated_at": 1411573284
+          },
+          {
+            "type": "Organization",
+            "name": "kozaza.com",
+            "path": "organization/kozaza-com",
+            "created_at": 1322955103,
+            "updated_at": 1411770962
+          },
+          {
+            "type": "Organization",
+            "name": "TravelRent.com",
+            "path": "organization/travelrent-com",
+            "created_at": 1317406270,
+            "updated_at": 1397987800
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Headquarters",
+            "street_1": "888 Brannan Street",
+            "street_2": null,
+            "postal_code": "94103",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1217479296,
+            "updated_at": 1397991968
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Headquarters",
+            "street_1": "888 Brannan Street",
+            "street_2": null,
+            "postal_code": "94103",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1217479296,
+            "updated_at": 1397991968
+          },
+          {
+            "type": "Address",
+            "name": "Headquarters",
+            "street_1": "888 Brannan Street",
+            "street_2": null,
+            "postal_code": "94103",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1217479296,
+            "updated_at": 1397991968
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Airbnb Funding Round",
+            "path": "funding-round/48ab76afc274d36dddf8a1e26fca313e",
+            "created_at": 1398152036,
+            "updated_at": 1407029430
+          },
+          {
+            "type": "FundingRound",
+            "name": "Airbnb raises 200000000 in venture round",
+            "path": "funding-round/fb9e4d00991e5bb84d0e2406239b50f9",
+            "created_at": 1382962802,
+            "updated_at": 1407029280
+          },
+          {
+            "type": "FundingRound",
+            "name": "Airbnb raises 112000000 in venture round",
+            "path": "funding-round/d2e9a4b63710e2eaa5c10ec849bde45f",
+            "created_at": 1306804958,
+            "updated_at": 1398010010
+          },
+          {
+            "type": "FundingRound",
+            "name": "Airbnb raises 7200000 in venture round",
+            "path": "funding-round/e5e53009a100e5790c074f44416c959a",
+            "created_at": 1289442056,
+            "updated_at": 1398010070
+          },
+          {
+            "type": "FundingRound",
+            "name": "Airbnb raises 600000 in seed round",
+            "path": "funding-round/ba7b61b633ca1b0d7d912fed65efc5ec",
+            "created_at": 1269911976,
+            "updated_at": 1398010151
+          },
+          {
+            "type": "FundingRound",
+            "name": "Airbnb raises 20000 in seed round",
+            "path": "funding-round/0ddb5b940c366a61319400490c89804a",
+            "created_at": 1236161183,
+            "updated_at": 1398010189
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Hotels",
+            "uuid": "b7cc065f4c03e1a9cbc01d3fcec0f641",
+            "path": "category/hotels/b7cc065f4c03e1a9cbc01d3fcec0f641",
+            "created_at": 1397980727,
+            "updated_at": 1415349793
+          },
+          {
+            "type": "Category",
+            "name": "Travel",
+            "uuid": "8672f521ce9ae851adffc35d2441a0ad",
+            "path": "category/travel/8672f521ce9ae851adffc35d2441a0ad",
+            "created_at": 1397980727,
+            "updated_at": 1415360341
+          }
+        ]
+      },
+      "customers": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/customers",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Ouyeaa",
+            "path": "organization/ouyeaa",
+            "created_at": 1408010328,
+            "updated_at": 1415202561
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Nathan Blecharczyk",
+            "path": "person/nathan-blecharcyk",
+            "created_at": 1217504495,
+            "updated_at": 1410169574
+          },
+          {
+            "type": "Person",
+            "name": "Joe Gebbia",
+            "path": "person/joe-gebbia",
+            "created_at": 1217504495,
+            "updated_at": 1410171013
+          },
+          {
+            "type": "Person",
+            "name": "Brian Chesky",
+            "path": "person/brian-chesky",
+            "created_at": 1217504495,
+            "updated_at": 1410170548
+          }
+        ]
+      },
+      "products": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/products",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Product",
+            "name": "Airbnb",
+            "path": "product/airbnb",
+            "created_at": 1406018665,
+            "updated_at": 1406643470
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1405534850/vubc5kxhmw6jalain0ot.jpg",
+            "created_at": 1398018741,
+            "updated_at": 1405534851
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397190884/52c6e015026a20f044c1f5a397b49e80.png",
+            "created_at": 1398018741,
+            "updated_at": 1398018741
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397750620/0dfd9ef9fb9f2612aed0510fb811814e.png",
+            "created_at": 1398018741,
+            "updated_at": 1398018741
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 8,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.pinterest.com/airbnb",
+            "type": "WebPresence",
+            "title": "pinterest",
+            "created_at": 1406490218,
+            "updated_at": 1406490218
+          },
+          {
+            "url": "http://www.linkedin.com/company/airbnb",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1400306711,
+            "updated_at": 1409459564
+          },
+          {
+            "url": "http://vt.webrazzi.com/sirket/airbnb",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.plus.google.com/+airbnb",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/airbnb",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1394107722,
+            "updated_at": 1409517564
+          },
+          {
+            "url": "http://twitter.com/airbnb",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1217479295,
+            "updated_at": 1409442805
+          },
+          {
+            "url": "http://blog.airbnb.com",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1217479295,
+            "updated_at": 1397987816
+          },
+          {
+            "url": "http://airbnb.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1217479295,
+            "updated_at": 1397987816
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 120,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/airbnb/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://techcrunch.com/2014/11/03/homeaway-sf-lawsuit/",
+            "author": null,
+            "posted_on": "2014-11-03",
+            "type": "PressReference",
+            "title": "HomeAway Sues San Francisco To Block So-Called \u2018Airbnb Law\u2019 | TechCrunch",
+            "created_at": 1415084641,
+            "updated_at": 1415084641
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/03/airbnb-lifestyle-the-rise-of-the-hipster-nomad/",
+            "author": null,
+            "posted_on": "2014-10-03",
+            "type": "PressReference",
+            "title": "Airbnb Lifestyle: The Rise Of The Hipster Nomad | TechCrunch",
+            "created_at": 1414414863,
+            "updated_at": 1414414863
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/03/sf-housing-interests-unite-against-proposed-airbnb-legislation/",
+            "author": null,
+            "posted_on": "2014-10-03",
+            "type": "PressReference",
+            "title": "SF Housing Interests Unite Against Proposed Airbnb Legislation | TechCrunch",
+            "created_at": 1414414686,
+            "updated_at": 1414414686
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/07/airbnb-sf/",
+            "author": null,
+            "posted_on": "2014-10-07",
+            "type": "PressReference",
+            "title": "It\u2019s Decision Day For Airbnb in San Francisco | TechCrunch",
+            "created_at": 1414407589,
+            "updated_at": 1414407589
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/07/san-francisco-airbnb/",
+            "author": null,
+            "posted_on": "2014-10-07",
+            "type": "PressReference",
+            "title": "San Francisco Legalizes, Regulates Airbnb With 7-4 Vote, Lots of Amendments | TechCrunch",
+            "created_at": 1414406968,
+            "updated_at": 1414406969
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/08/airbnb-and-uber-face-some-harsh-realities/",
+            "author": null,
+            "posted_on": "2014-10-08",
+            "type": "PressReference",
+            "title": "Airbnb and Uber Face Some Harsh Realities | TechCrunch",
+            "created_at": 1414404081,
+            "updated_at": 1414404081
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/16/soccer-dropbox-airbnb/",
+            "author": null,
+            "posted_on": "2014-10-16",
+            "type": "PressReference",
+            "title": "Hundreds Protest At San Francisco City Hall After Soccer Conflict With Dropbox, Airbnb Employees | TechCrunch",
+            "created_at": 1414030280,
+            "updated_at": 1414030280
+          },
+          {
+            "url": "http://techcrunch.com/2014/09/18/airbnb-cfo-andrew-swain-has-left-the-company/",
+            "author": null,
+            "posted_on": "2014-01-18",
+            "type": "PressReference",
+            "title": "Airbnb CFO Andrew Swain Has Left The Company | TechCrunch",
+            "created_at": 1411125059,
+            "updated_at": 1411125060
+          }
+        ]
+      }
+    }
+  }
+}

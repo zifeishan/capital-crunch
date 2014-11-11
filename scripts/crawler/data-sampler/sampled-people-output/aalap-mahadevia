@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "4481b5991ba409143e5bb992af230405",
+    "type": "Person",
+    "properties": {
+      "bio": "Aalap Mahadevia is an associate at Leucadia National in New York City. Prior to joining Leucadia, Aalap was an analyst at Farallon Capital Management, a $20B+ multi-strategy investment fund in San Francisco, where he focused on long/short equity strategies. Aalap graduated from Harvard College in 2003, where he concentrated in Government. He is also a member of the Class of 2009 at Harvard Business School.\n",
+      "last_name": "Mahadevia",
+      "first_name": "Aalap",
+      "permalink": "aalap-mahadevia",
+      "created_at": 1274382254,
+      "updated_at": 1397989016
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aalap-mahadevia/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "SumZero",
+            "organization_path": "organization/sumzero",
+            "title": "Co-Founder",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aalap-mahadevia/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "SumZero",
+            "organization_path": "organization/sumzero",
+            "title": "Co-Founder",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aalap-mahadevia/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "SumZero",
+            "path": "organization/sumzero",
+            "created_at": 1274407254,
+            "updated_at": 1406426675
+          }
+        ]
+      }
+    }
+  }
+}

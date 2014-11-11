@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "f367dd8717b2a0d68e0fdd16e86a2b95",
+    "type": "Person",
+    "properties": {
+      "last_name": "del Guidice",
+      "first_name": "Aaron",
+      "permalink": "aaron-del-guidice",
+      "created_at": 1308824907,
+      "updated_at": 1397989604
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-del-guidice/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Apploors",
+            "organization_path": "organization/apploors",
+            "title": "Team Member",
+            "started_on": "2010-10-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-del-guidice/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Apploors",
+            "organization_path": "organization/apploors",
+            "title": "Team Member",
+            "started_on": "2010-10-01",
+            "ended_on": null
+          }
+        ]
+      }
+    }
+  }
+}

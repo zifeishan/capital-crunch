@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "74842e4e82bd523a02871335361c26d3",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "short_description": "International 3D Society has been founded to advance the art and technologies of stereoscopic 3D content and its professional innovators.",
+      "permalink": "international-3d-society",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.international3dsociety.com",
+      "name": "International 3D Society",
+      "description": "International 3D Society has been founded to advance the art and technologies of stereoscopic 3D content and its professional innovators. The organization will host educational opportunities for showcasing work, recognizing achievement and advancing member growth. The International 3D Society is open to individuals and organizations active in moving 3D media to an exciting new era of creative achievement and consumer support.\n",
+      "created_at": 1348147127,
+      "updated_at": 1397988245,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/international-3d-society/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184265/b4e9f3b4f834f465d13de09c0999c10d.jpg",
+            "created_at": 1398018519,
+            "updated_at": 1398018519
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/international-3d-society/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/3Dsociety",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1348147127,
+            "updated_at": 1409427353
+          },
+          {
+            "url": "http://www.international3dsociety.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1348147127,
+            "updated_at": 1397988245
+          }
+        ]
+      }
+    }
+  }
+}

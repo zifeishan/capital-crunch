@@ -1,0 +1,376 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "206b7bb46072d3b0acbf49ca69d9a412",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "email_address": "kamel@stribe.com",
+      "description": "Stribe is a plug and play service to instantly create a social network on any website.\n\nFounded in March 2008, Stribe is based in San Francisco &amp; Paris. Founders Kamel Zeroual, Ga\u00c3\u00abl Delalleau and Demba Diallo released the service in September 2009 during TechCrunch50.\n\nUsing easy copy-and-paste javascript, Stribe offers blog, casual gaming or even e-commerce site administrators the ability to create their own customizable, freely-branded social network for their sites.  Through the Stribe network service, a site\u00e2\u20ac\u2122s community can interact on all Stribe-enabled sites, allowing members to stay connected with their \u00e2\u20ac\u0153tribes\u00e2\u20ac\u009d or online communities.\n\nStribe engages site visitors instantly and allows social interactions after an easy 5-minutes plug-and-play registration and configuration process, which can be fully customized and freely branded.\n\nStribe\u00e2\u20ac\u2122s business model is based on selling premium modules including analytics such as the Stribe Back-Office, which provides all key metrics on the site\u00e2\u20ac\u2122s community including social metrics, breakdown of users and their engagement times, comment analytics, metrics on \u00e2\u20ac\u02dchidden activity\u00e2\u20ac\u2122 including private chats and messages, and the community\u00e2\u20ac\u2122s overall activity. \n\nMoving forward, the company plans to open its API for website developers and provides more and more premium modules. \n",
+      "short_description": "Stribe offers a plug-and-play service that enables users to create social networks on other websites.",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 2008,
+      "founded_on": "2008-01-01",
+      "founded_on_trust_code": 6,
+      "permalink": "stribe",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.stribe.com",
+      "name": "Stribe",
+      "closed_on_year": null,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on": null,
+      "created_at": 1251758472,
+      "updated_at": 1414111252,
+      "total_funding_usd": 600000,
+      "number_of_investments": 0,
+      "number_of_employees": 7
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/stribe/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Gael",
+            "last_name": "Delalleau",
+            "title": "CTO",
+            "started_on": null,
+            "path": "person/gael-delalleau",
+            "created_at": 1251758471,
+            "updated_at": 1397989135
+          },
+          {
+            "first_name": "Demba",
+            "last_name": "Diallo",
+            "title": "VP Business Developpment",
+            "started_on": null,
+            "path": "person/demba-diallo",
+            "created_at": 1251758471,
+            "updated_at": 1397989135
+          },
+          {
+            "first_name": "Kamel",
+            "last_name": "Zeroual",
+            "title": "CEO",
+            "started_on": null,
+            "path": "person/kamel-zeroual",
+            "created_at": 1251758471,
+            "updated_at": 1397989135
+          }
+        ]
+      },
+      "competitors": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/stribe/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Socialthing",
+            "path": "organization/socialthing",
+            "created_at": 1187357628,
+            "updated_at": 1397987532
+          },
+          {
+            "type": "Organization",
+            "name": "Meebo",
+            "path": "organization/meebo",
+            "created_at": 1184620944,
+            "updated_at": 1411015877
+          },
+          {
+            "type": "Organization",
+            "name": "Ning by Glam Media",
+            "path": "organization/ning",
+            "created_at": 1182181055,
+            "updated_at": 1414688178
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/stribe/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "San Francisco Office",
+            "street_1": "2415 Third Street",
+            "street_2": null,
+            "postal_code": "94107",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.7577668,
+            "longitude": -122.3881879,
+            "created_at": 1251733274,
+            "updated_at": 1397992123
+          },
+          {
+            "type": "Address",
+            "name": "Paris Office",
+            "street_1": "7 rue lamand\u00c3\u00a9",
+            "street_2": null,
+            "postal_code": "75014",
+            "city": "Paris",
+            "city_path": "location/paris/5805284c00a4f0aab8115843398ff2bb",
+            "region": "Ile-de-France",
+            "region_path": "location/ile-de-france/104bf8833a6103f9b51aba1d9a4d2c62",
+            "country": "France",
+            "country_path": "location/france/f134827e36a1fd31a82f950489e103ef",
+            "latitude": 48.886307,
+            "longitude": 2.319832,
+            "created_at": 1251733274,
+            "updated_at": 1411707924
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/stribe/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Paris Office",
+            "street_1": "7 rue lamand\u00c3\u00a9",
+            "street_2": null,
+            "postal_code": "75014",
+            "city": "Paris",
+            "city_path": "location/paris/5805284c00a4f0aab8115843398ff2bb",
+            "region": "Ile-de-France",
+            "region_path": "location/ile-de-france/104bf8833a6103f9b51aba1d9a4d2c62",
+            "country": "France",
+            "country_path": "location/france/f134827e36a1fd31a82f950489e103ef",
+            "latitude": 48.886307,
+            "longitude": 2.319832,
+            "created_at": 1251733274,
+            "updated_at": 1411707924
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/stribe/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Stribe raises 600000 in angel round",
+            "path": "funding-round/9e6edb882ba7dbcc3693c24a2c23f743",
+            "created_at": 1251733274,
+            "updated_at": 1398010100
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/stribe/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Curated Web",
+            "uuid": "c87f19a05bd9c7c6e379ca118f49aa4e",
+            "path": "category/curated web/c87f19a05bd9c7c6e379ca118f49aa4e",
+            "created_at": 1397980728,
+            "updated_at": 1415355242
+          },
+          {
+            "type": "Category",
+            "name": "Social Network Media",
+            "uuid": "bbd74a82d6bf3287b8db4e9bd2bcd015",
+            "path": "category/social network media/bbd74a82d6bf3287b8db4e9bd2bcd015",
+            "created_at": 1397980727,
+            "updated_at": 1415353031
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/stribe/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397189122/4a1b66c019977b965cdf7bda062e0d20.jpg",
+            "created_at": 1398018498,
+            "updated_at": 1398018498
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/stribe/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397189128/b44751b305b9c0dc4354da2b8913ffab.png",
+            "created_at": 1398018499,
+            "updated_at": 1398018499
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397189127/825ec7f999895783eb70298b0520d835.png",
+            "created_at": 1398018499,
+            "updated_at": 1398018499
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397189126/388f92bef8db2429979eee87261a08c5.png",
+            "created_at": 1398018499,
+            "updated_at": 1398018499
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397189125/80aacd1759f436eedd98bf26ad36b50f.png",
+            "created_at": 1398018499,
+            "updated_at": 1398018499
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397189124/453431e20d8068eb3125266fe86944fb.png",
+            "created_at": 1398018499,
+            "updated_at": 1398018499
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397189123/0ea774d5532101cbbbd893d9c63fccd5.png",
+            "created_at": 1398018499,
+            "updated_at": 1398018499
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/stribe/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://twitter.com/STRIBE",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1251733272,
+            "updated_at": 1409430506
+          },
+          {
+            "url": "http://blog.stribe.com/",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1251733272,
+            "updated_at": 1397987971
+          },
+          {
+            "url": "http://www.stribe.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1251733272,
+            "updated_at": 1397987971
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/stribe/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://techcrunch.com/2010/11/04/stribe-api/",
+            "author": "MG Siegler",
+            "posted_on": "2010-11-04",
+            "type": "PressReference",
+            "title": "Stribe Opens Its API To Battle Orcs And Wizards And&nbsp;Such",
+            "created_at": 1288911356,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://techcrunch.com/2010/07/06/stribe-open/",
+            "author": "MG Siegler",
+            "posted_on": "2010-07-06",
+            "type": "PressReference",
+            "title": "Stribe Opens To All And Starts Thinking About Its Own Open Graph",
+            "created_at": 1278428726,
+            "updated_at": 2010
+          },
+          {
+            "url": "http://www.techcrunch.com/2009/12/10/stribe-startup-competition-le-web-2009/",
+            "author": "Mike Butcher",
+            "posted_on": "2009-12-10",
+            "type": "PressReference",
+            "title": "Stribe Snags Top Prize At Le Web / TechCrunch Europe Startup Competition",
+            "created_at": 1260457454,
+            "updated_at": 2009
+          },
+          {
+            "url": "http://www.techcrunch.com/2009/09/17/techcrunch50-wrap-up-congrats-to-all-the-startups-who-made-it/",
+            "author": "Erick Schonfeld",
+            "posted_on": "2009-09-17",
+            "type": "PressReference",
+            "title": "TechCrunch50 Wrap-Up. Congrats To All The Startups Who Made It.",
+            "created_at": 1253241970,
+            "updated_at": 2009
+          },
+          {
+            "url": "http://www.techcrunch.com/2009/09/15/tc50-simply-add-a-social-network-to-any-site-with-stribe/",
+            "author": "MG Siegler",
+            "posted_on": "2009-09-15",
+            "type": "PressReference",
+            "title": "TC50: Simply Add A Social Network To Any Site With Stribe",
+            "created_at": 1253060148,
+            "updated_at": 2009
+          },
+          {
+            "url": "http://www.techcrunch.com/2009/09/14/the-list-of-startups-presenting-at-techcrunch50/",
+            "author": "Leena Rao",
+            "posted_on": "2009-09-14",
+            "type": "PressReference",
+            "title": "The List Of Startups Presenting At TechCrunch50",
+            "created_at": 1252953240,
+            "updated_at": 2009
+          }
+        ]
+      }
+    }
+  }
+}

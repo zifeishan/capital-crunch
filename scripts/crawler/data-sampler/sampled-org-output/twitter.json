@@ -1,0 +1,897 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "5da6106f0d270d37e9d7dcfeccc1f709",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Twitter is an online social network and a microblogging service that enables users to send and read \u201ctweets,&quot; which are messages limited to 140 characters. Registered users of Twitter are able to read and post tweets via the web, SMS or mobile applications.\n\nCreated in March 2006, Twitter is a global real-time communications platform with 400 million monthly visitors to twitter.com and more than 255 million monthly active users around the world. It receives a billion tweets every 2 days on every conceivable topic. World leaders, major athletes, star performers, news organizations and entertainment outlets are among the millions of active Twitter accounts through which users can truly get the pulse of the planet.\n\nTwitter is based in San Francisco and has offices in New York City, Boston, San Antonio and Detroit. It was founded by Jack Dorsey, Evan Williams, Biz Stone and Noah Glass.\n",
+      "short_description": "Twitter is a global real-time communications platform that enables users to post and read 'tweets,' messages limited to 140 characters.",
+      "permalink": "twitter",
+      "primary_role": "company",
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://twitter.com",
+      "name": "Twitter",
+      "is_closed": false,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on_year": null,
+      "closed_on": null,
+      "founded_on_day": 21,
+      "founded_on_month": 3,
+      "founded_on_year": 2006,
+      "founded_on": "2006-03-21",
+      "founded_on_trust_code": 7,
+      "email_address": "press@twitter.com",
+      "secondary_role_for_profit": true,
+      "stock_symbol": "TWTR",
+      "created_at": 1180712554,
+      "updated_at": 1415490976,
+      "total_funding_usd": 1160166511,
+      "number_of_investments": 0,
+      "number_of_employees": 3000
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 80,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Jack",
+            "last_name": "Dorsey",
+            "title": "CEO",
+            "started_on": "2006-03-01",
+            "ended_on": "2011-03-28",
+            "path": "person/jack-dorsey",
+            "created_at": 1180727204,
+            "updated_at": 1407209668
+          },
+          {
+            "first_name": "Michael",
+            "last_name": "Abbott",
+            "title": "VP / Head - Technology & Engineering",
+            "started_on": "2010-05-01",
+            "ended_on": "2011-10-01",
+            "path": "person/michael-abbott",
+            "created_at": 1243470289,
+            "updated_at": 1415369276
+          },
+          {
+            "first_name": "Ori",
+            "last_name": "Allon",
+            "title": "Director of Engineering",
+            "started_on": "2011-09-01",
+            "ended_on": null,
+            "path": "person/ori-allon",
+            "created_at": 1316663407,
+            "updated_at": 1398010431
+          },
+          {
+            "first_name": "Thomas",
+            "last_name": "Arend",
+            "title": "International Product Lead",
+            "started_on": "2011-09-01",
+            "ended_on": "2013-01-01",
+            "path": "person/thomas-arend",
+            "created_at": 1342685661,
+            "updated_at": 1407352068
+          },
+          {
+            "first_name": "Ray",
+            "last_name": "Bradford",
+            "title": "Special Project PM",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/ray-bradford",
+            "created_at": 1372447927,
+            "updated_at": 1415077099
+          },
+          {
+            "first_name": "Ryan",
+            "last_name": "Brown",
+            "title": "Sales Solutions Coordinator",
+            "started_on": "2012-03-12",
+            "ended_on": null,
+            "path": "person/ryan-brown",
+            "created_at": 1299216635,
+            "updated_at": 1411773079
+          },
+          {
+            "first_name": "Cameron",
+            "last_name": "Burnham",
+            "title": "Held Positions",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/cameron-burnham",
+            "created_at": 1393266023,
+            "updated_at": 1404395611
+          },
+          {
+            "first_name": "Kevin",
+            "last_name": "Cheng",
+            "title": "Product Manager",
+            "started_on": "2010-01-01",
+            "ended_on": "2011-07-01",
+            "path": "person/kevin-cheng",
+            "created_at": 1213174678,
+            "updated_at": 1398403872
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "paging": {
+          "total_items": 16,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/board_members_and_advisors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Eric",
+            "last_name": "Lunt",
+            "title": "Senior Technology Advisor",
+            "started_on": null,
+            "path": "person/eric-lunt",
+            "created_at": 1184263203,
+            "updated_at": 1414906332
+          },
+          {
+            "first_name": "Raymond",
+            "last_name": "Nasr",
+            "title": "Advisor",
+            "started_on": null,
+            "path": "person/raymond-nasr",
+            "created_at": 1335946733,
+            "updated_at": 1411454035
+          },
+          {
+            "first_name": "Ron",
+            "last_name": "Conway",
+            "title": "Board of Directors",
+            "started_on": null,
+            "path": "person/ron-conway",
+            "created_at": 1199382348,
+            "updated_at": 1414391151
+          },
+          {
+            "first_name": "Peter",
+            "last_name": "Fenton",
+            "title": "Board of Directors",
+            "started_on": null,
+            "path": "person/peter-fenton",
+            "created_at": 1202716028,
+            "updated_at": 1413234716
+          },
+          {
+            "first_name": "Shiva",
+            "last_name": "Shivakumar",
+            "title": "Advisor",
+            "started_on": null,
+            "path": "person/n-shivakumar",
+            "created_at": 1309698660,
+            "updated_at": 1407243382
+          },
+          {
+            "first_name": "Bijan",
+            "last_name": "Sabet",
+            "title": "Board Member",
+            "started_on": null,
+            "path": "person/bijan-sabet",
+            "created_at": 1211521832,
+            "updated_at": 1397989139
+          },
+          {
+            "first_name": "Sam",
+            "last_name": "Pullara",
+            "title": "Advisor-Engineering and Corporate Development",
+            "started_on": "2012-11-01",
+            "path": "person/sam-pullara",
+            "created_at": 1224900680,
+            "updated_at": 1411758132
+          },
+          {
+            "first_name": "Randy",
+            "last_name": "Glein",
+            "title": "Board of Directors",
+            "started_on": null,
+            "path": "person/randy-glein",
+            "created_at": 1345696095,
+            "updated_at": 1399479331
+          }
+        ]
+      },
+      "current_team": {
+        "paging": {
+          "total_items": 109,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Dick",
+            "last_name": "Costolo",
+            "title": "CEO",
+            "started_on": "2010-10-01",
+            "path": "person/dick-costolo",
+            "created_at": 1185814431,
+            "updated_at": 1398010267
+          },
+          {
+            "first_name": "Jack",
+            "last_name": "Dorsey",
+            "title": "Co-Founder, Exec Chairman",
+            "started_on": null,
+            "path": "person/jack-dorsey",
+            "created_at": 1180727204,
+            "updated_at": 1407209668
+          },
+          {
+            "first_name": "Mike",
+            "last_name": "Gupta",
+            "title": "CFO",
+            "started_on": "2012-11-01",
+            "path": "person/mike-gupta",
+            "created_at": 1364951921,
+            "updated_at": 1398198396
+          },
+          {
+            "first_name": "Evan",
+            "last_name": "Williams",
+            "title": "Co-Founder",
+            "started_on": "2008-10-01",
+            "path": "person/evan-williams",
+            "created_at": 1180712713,
+            "updated_at": 1414004424
+          },
+          {
+            "first_name": "Biz",
+            "last_name": "Stone",
+            "title": "Founder",
+            "started_on": "2006-04-01",
+            "path": "person/biz-stone",
+            "created_at": 1180749341,
+            "updated_at": 1414035052
+          },
+          {
+            "first_name": "Adam",
+            "last_name": "Bain",
+            "title": "President, Global Revenue",
+            "started_on": "2010-09-01",
+            "path": "person/adam-bain",
+            "created_at": 1229877040,
+            "updated_at": 1406110938
+          },
+          {
+            "first_name": "Adam",
+            "last_name": "Messinger",
+            "title": "CTO",
+            "started_on": null,
+            "path": "person/adam-messinger",
+            "created_at": 1378786974,
+            "updated_at": 1409887489
+          },
+          {
+            "first_name": "Vijaya",
+            "last_name": "Gadde",
+            "title": "General Counsel",
+            "started_on": "2013-08-01",
+            "path": "person/vijaya-gadde",
+            "created_at": 1377914896,
+            "updated_at": 1406111305
+          }
+        ]
+      },
+      "acquisitions": {
+        "paging": {
+          "total_items": 38,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/acquisitions",
+          "sort_order": "announced_on? desc"
+        },
+        "items": [
+          {
+            "announced_on": "2014-08-11",
+            "type": "Acquisition",
+            "name": "Twitter acquired Gnip",
+            "path": "acquisition/9952c726fea05b0f0ff5cc26bfce8423",
+            "created_at": 1397582763,
+            "updated_at": 1407814721
+          },
+          {
+            "announced_on": "2014-07-31",
+            "type": "Acquisition",
+            "name": "Acquisition",
+            "path": "acquisition/35498cd95b58eeb4f88d4e6c3f74529e",
+            "created_at": 1406863143,
+            "updated_at": 1406863190
+          },
+          {
+            "announced_on": "2014-07-17",
+            "type": "Acquisition",
+            "name": "Acquisition",
+            "path": "acquisition/c7a726e438ef2dd69928d284d105ca1e",
+            "created_at": 1405636876,
+            "updated_at": 1405636876
+          },
+          {
+            "announced_on": "2014-06-30",
+            "type": "Acquisition",
+            "name": "Acquisition",
+            "path": "acquisition/f5447250a2c6209994e0e8f98a7684d6",
+            "created_at": 1404169568,
+            "updated_at": 1404169568
+          },
+          {
+            "announced_on": "2014-06-19",
+            "type": "Acquisition",
+            "name": "Acquisition",
+            "path": "acquisition/f2231b2a0aa32ebaa0e326b20a10e15b",
+            "created_at": 1403184366,
+            "updated_at": 1403184366
+          },
+          {
+            "announced_on": "2014-06-05",
+            "type": "Acquisition",
+            "name": "Acquisition",
+            "path": "acquisition/9242c50a0af42eb18287760d7135794b",
+            "created_at": 1402024665,
+            "updated_at": 1402024665
+          },
+          {
+            "announced_on": "2014-04-07",
+            "type": "Acquisition",
+            "name": "Twitter acquired Cover Lockscreen",
+            "path": "acquisition/f7513253e5e7b3b05c76a309cc1ee0ca",
+            "created_at": 1396982083,
+            "updated_at": 1397995162
+          },
+          {
+            "announced_on": "2014-03-31",
+            "type": "Acquisition",
+            "name": "Twitter acquired SecondSync",
+            "path": "acquisition/fc69ecad74b6faada9c7046c35977284",
+            "created_at": 1396322402,
+            "updated_at": 1397995122
+          }
+        ]
+      },
+      "competitors": {
+        "paging": {
+          "total_items": 26,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Tawkers",
+            "path": "organization/tawkers",
+            "created_at": 1346457426,
+            "updated_at": 1410991297
+          },
+          {
+            "type": "Organization",
+            "name": "CrowdSpot Mobile App",
+            "path": "organization/crowdspot-mobile-app",
+            "created_at": 1317782289,
+            "updated_at": 1411158978
+          },
+          {
+            "type": "Organization",
+            "name": "Blockboard",
+            "path": "organization/blockboard",
+            "created_at": 1263017701,
+            "updated_at": 1414527493
+          },
+          {
+            "type": "Organization",
+            "name": "Collecta",
+            "path": "organization/collecta",
+            "created_at": 1245364028,
+            "updated_at": 1409890332
+          },
+          {
+            "type": "Organization",
+            "name": "Xumii",
+            "path": "organization/xumii",
+            "created_at": 1231310775,
+            "updated_at": 1397987924
+          },
+          {
+            "type": "Organization",
+            "name": "Me2day",
+            "path": "organization/me2day",
+            "created_at": 1230018105,
+            "updated_at": 1397987753
+          },
+          {
+            "type": "Organization",
+            "name": "spotengine",
+            "path": "organization/spotengine-inc",
+            "created_at": 1224038750,
+            "updated_at": 1409880263
+          },
+          {
+            "type": "Organization",
+            "name": "Present.ly",
+            "path": "organization/present-ly",
+            "created_at": 1221776474,
+            "updated_at": 1408559978
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Headquarters",
+            "street_1": "1355 Market St.",
+            "street_2": null,
+            "postal_code": "94103",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.7768052,
+            "longitude": -122.4169244,
+            "created_at": 1205362453,
+            "updated_at": 1404292845
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Headquarters",
+            "street_1": "1355 Market St.",
+            "street_2": null,
+            "postal_code": "94103",
+            "city": "San Francisco",
+            "city_path": "location/san-francisco/528f5e3c90d111115d1c2e4ff979d58e",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.7768052,
+            "longitude": -122.4169244,
+            "created_at": 1205362453,
+            "updated_at": 1404292845
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 8,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Twitter raises 400000000 in secondary_market round",
+            "path": "funding-round/c3438ee378f2c92f259873987c5ec700",
+            "created_at": 1315541701,
+            "updated_at": 1398010078
+          },
+          {
+            "type": "FundingRound",
+            "name": "Twitter raises 400000000 in venture round",
+            "path": "funding-round/6e6bf5db8245ac7b96059e4e0b99e08a",
+            "created_at": 1312341413,
+            "updated_at": 1406697041
+          },
+          {
+            "type": "FundingRound",
+            "name": "Twitter raises 200000000 in venture round",
+            "path": "funding-round/f6dd9ca08435b98a604e00f116eafcae",
+            "created_at": 1292453195,
+            "updated_at": 1398010200
+          },
+          {
+            "type": "FundingRound",
+            "name": "Twitter raises 5166511 in venture round",
+            "path": "funding-round/38629729dfdaaf6393d5c64575b1b302",
+            "created_at": 1263103784,
+            "updated_at": 1398009941
+          },
+          {
+            "type": "FundingRound",
+            "name": "Twitter raises 100000000 in venture round",
+            "path": "funding-round/3178951902922ee85f68d9b60dbd7ee8",
+            "created_at": 1253898523,
+            "updated_at": 1398009819
+          },
+          {
+            "type": "FundingRound",
+            "name": "Twitter raises 35000000 in venture round",
+            "path": "funding-round/7ef9b5f7a86f831d77a1eb8032a7875c",
+            "created_at": 1234554164,
+            "updated_at": 1398010163
+          },
+          {
+            "type": "FundingRound",
+            "name": "Twitter raises 15000000 in venture round",
+            "path": "funding-round/012d17ab43eee5b586edab85c1e18cf0",
+            "created_at": 1208932034,
+            "updated_at": 1398009876
+          },
+          {
+            "type": "FundingRound",
+            "name": "Twitter raises 5000000 in venture round",
+            "path": "funding-round/e172186fcc94184ac5a6d1c6290ee7bf",
+            "created_at": 1185789388,
+            "updated_at": 1398009853
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Messaging",
+            "uuid": "8c6239bf6854494b1a16e4f7a286dbd5",
+            "path": "category/messaging/8c6239bf6854494b1a16e4f7a286dbd5",
+            "created_at": 1397980728,
+            "updated_at": 1415353876
+          },
+          {
+            "type": "Category",
+            "name": "Software",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+            "created_at": 1397980727,
+            "updated_at": 1415456047
+          },
+          {
+            "type": "Category",
+            "name": "SMS",
+            "uuid": "08e0a9b414d1c281daa8a228c45e5110",
+            "path": "category/sms/08e0a9b414d1c281daa8a228c45e5110",
+            "created_at": 1397980727,
+            "updated_at": 1415200335
+          },
+          {
+            "type": "Category",
+            "name": "MicroBlogging",
+            "uuid": "384dd8cc50a4a233f63de6b9ae105b5f",
+            "path": "category/micro-blogging/384dd8cc50a4a233f63de6b9ae105b5f",
+            "created_at": 1397980727,
+            "updated_at": 1413686932
+          },
+          {
+            "type": "Category",
+            "name": "Social Media",
+            "uuid": "5349a2f214d89727c32a19ebea5db78c",
+            "path": "category/social media/5349a2f214d89727c32a19ebea5db78c",
+            "created_at": 1397980726,
+            "updated_at": 1415397009
+          }
+        ]
+      },
+      "members": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/members",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Ralph Oelbermann",
+            "path": "person/ralph-oelbermann",
+            "created_at": 1403062831,
+            "updated_at": 1403111505
+          }
+        ]
+      },
+      "customers": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/customers",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Ouyeaa",
+            "path": "organization/ouyeaa",
+            "created_at": 1408010328,
+            "updated_at": 1415489099
+          },
+          {
+            "type": "Organization",
+            "name": "Yzenith Corp",
+            "path": "organization/yzenith-corp",
+            "created_at": 1405071179,
+            "updated_at": 1410561919
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Noah Glass",
+            "path": "person/noah-glass-2",
+            "created_at": 1383802842,
+            "updated_at": 1412623030
+          },
+          {
+            "type": "Person",
+            "name": "Biz Stone",
+            "path": "person/biz-stone",
+            "created_at": 1180749341,
+            "updated_at": 1414035052
+          },
+          {
+            "type": "Person",
+            "name": "Jack Dorsey",
+            "path": "person/jack-dorsey",
+            "created_at": 1180727204,
+            "updated_at": 1407209668
+          },
+          {
+            "type": "Person",
+            "name": "Evan Williams",
+            "path": "person/evan-williams",
+            "created_at": 1180712713,
+            "updated_at": 1414004424
+          }
+        ]
+      },
+      "ipo": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/ipo",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Ipo",
+            "name": "Went public on November  7, 2013",
+            "path": "ipo/ca07c9594c395a9d305d34633fb6093f",
+            "created_at": 1401085023,
+            "updated_at": 1405162374
+          }
+        ]
+      },
+      "products": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/products",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Product",
+            "name": "Promoted Video",
+            "path": "product/promoted-video",
+            "created_at": 1407899945,
+            "updated_at": 1407899946
+          },
+          {
+            "type": "Product",
+            "name": "Tweet Activity Dashboard",
+            "path": "product/tweet-activity-dashboard",
+            "created_at": 1406101057,
+            "updated_at": 1412602517
+          },
+          {
+            "type": "Product",
+            "name": "Twicco",
+            "path": "product/twicco",
+            "created_at": 1225897864,
+            "updated_at": 1397996314
+          },
+          {
+            "type": "Product",
+            "name": "Twitter Blocks",
+            "path": "product/twitter-blocks",
+            "created_at": 1188585026,
+            "updated_at": 1408786273
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397180207/d242197edc3ff044620cf2d8ff39d6b3.jpg",
+            "created_at": 1398018468,
+            "updated_at": 1398018468
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1405162372/w6ynrkzbtqjxa8uvaecd.jpg",
+            "created_at": 1405162374,
+            "updated_at": 1405162374
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397180214/5d6a804a7410cff656fcd18a8e94dada.png",
+            "created_at": 1398018468,
+            "updated_at": 1398018468
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.linkedin.com/company/twitter",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1398124900,
+            "updated_at": 1409465096
+          },
+          {
+            "url": "http://vt.webrazzi.com/sirket/twitter",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/twitterinc",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1393910519,
+            "updated_at": 1409521873
+          },
+          {
+            "url": "http://twitter.com/twitter",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1340838306,
+            "updated_at": 1409456214
+          },
+          {
+            "url": "http://twitter.com/blog",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1180687354,
+            "updated_at": 1397987387
+          },
+          {
+            "url": "http://twitter.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1180687354,
+            "updated_at": 1397987387
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 2245,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/twitter/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://techcrunch.com/2014/11/06/twitter-will-open-hong-kong-office-to-target-advertisers/",
+            "author": null,
+            "posted_on": "2014-11-06",
+            "type": "PressReference",
+            "title": "Twitter Will Open Hong Kong Office To Target\u00a0Advertisers",
+            "created_at": 1415342614,
+            "updated_at": 1415342614
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/29/more-twitter-departures/",
+            "author": null,
+            "posted_on": "2014-10-29",
+            "type": "PressReference",
+            "title": "Twitter Sees Two More Exec Departures, Including VP Of Engineering Jeremy Gordon | TechCrunch",
+            "created_at": 1414655075,
+            "updated_at": 1414655075
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/02/twitter-uk-tv-ratings-go-live-this-month-the-first-of-6-new-markets-with-kantar/",
+            "author": null,
+            "posted_on": "2014-10-02",
+            "type": "PressReference",
+            "title": "Twitter UK TV Ratings Go Live This Month, The First Of 6 New Markets With Kantar | TechCrunch",
+            "created_at": 1414488567,
+            "updated_at": 1414488567
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/02/twitter-for-mac-gets-multiple-photo-sharing-support-for-photos-in-messages/",
+            "author": null,
+            "posted_on": "2014-10-02",
+            "type": "PressReference",
+            "title": "Twitter For Mac Gets Multiple Photo Sharing, Support For Photos In Messages | TechCrunch",
+            "created_at": 1414484907,
+            "updated_at": 1414484908
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/27/twitter-beats-in-q3-with-revenue-of-361m-but-slowing-user-growth-drags-its-shares-down-8/",
+            "author": null,
+            "posted_on": "2014-10-27",
+            "type": "PressReference",
+            "title": "Twitter Beats In Q3 With Revenue Of $361M, But Slowing User Growth Drags Its Shares Down 8% | TechCrunch",
+            "created_at": 1414477113,
+            "updated_at": 1414477113
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/27/picture-in-twitter/",
+            "author": null,
+            "posted_on": "2014-10-27",
+            "type": "PressReference",
+            "title": "Twitter Becomes Its Own Second Screen With Dockable Videos That Play While You Browse | TechCrunch",
+            "created_at": 1414476661,
+            "updated_at": 1414476662
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/07/twitter-sues-the-government-over-data-request-disclosures/",
+            "author": null,
+            "posted_on": "2014-10-07",
+            "type": "PressReference",
+            "title": "Twitter Sues The Government Over Data-Request Disclosures | TechCrunch",
+            "created_at": 1414407068,
+            "updated_at": 1414407068
+          },
+          {
+            "url": "http://techcrunch.com/2014/10/24/the-queens-first-tweet-is-a-royal-mystery/",
+            "author": null,
+            "posted_on": "2014-10-24",
+            "type": "PressReference",
+            "title": "The Queen\u2019s First Tweet Is A Royal Mystery | TechCrunch",
+            "created_at": 1414386238,
+            "updated_at": 1414386238
+          }
+        ]
+      }
+    }
+  }
+}

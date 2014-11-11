@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "e8348f114141f97f72e27a1515d77201",
+    "type": "Organization",
+    "properties": {
+      "short_description": "Carbon Nanotube",
+      "permalink": "unidym",
+      "primary_role": "company",
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.unidym.com",
+      "name": "Unidym",
+      "is_closed": false,
+      "description": "Unidym is a leader in the manufacture and application of carbon nanotubes (CNTs), a novel material with extraordinary electrical, thermal, and mechanical properties. Unidym provides bulk materials, CNT-enabled products, and intellectual property to a wide range of customers and business partners. As a result of its recent merger with CNI, Unidym possesses a foundational patent portfolio that covers nearly every aspect of CNT manufacturing and processing as\nwell as multiple product applications.\n",
+      "role_company": true,
+      "email_address": "info@unidym.com",
+      "created_at": 1250747634,
+      "updated_at": 1397987804,
+      "total_funding_usd": 0,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "acquired_by": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/unidym/acquired_by",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "announced_on": "2011-01-18",
+            "type": "Acquisition",
+            "name": "Wisepower acquired Unidym",
+            "path": "acquisition/c13692bd918c6558dee874e13005b027",
+            "created_at": 1295515680,
+            "updated_at": 1397995222
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/unidym/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "1430 O'Brien Drive, Suite G",
+            "street_2": null,
+            "postal_code": "94025",
+            "city": "Menlo Park",
+            "city_path": "location/menlo-park/1f8abfef5379b26b702005a09908492f",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.476418,
+            "longitude": -122.143818,
+            "created_at": 1250750605,
+            "updated_at": 1397991919
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/unidym/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "1430 O'Brien Drive, Suite G",
+            "street_2": null,
+            "postal_code": "94025",
+            "city": "Menlo Park",
+            "city_path": "location/menlo-park/1f8abfef5379b26b702005a09908492f",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 37.476418,
+            "longitude": -122.143818,
+            "created_at": 1250750605,
+            "updated_at": 1397991919
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/unidym/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Unidym raises 0 in unknown round",
+            "path": "funding-round/d0cd84758e007862ed05e735620d1661",
+            "created_at": 1250750999,
+            "updated_at": 1398010049
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/unidym/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Manufacturing",
+            "uuid": "e811671c168d1fd236e5df4e08a09f7c",
+            "path": "category/manufacturing/e811671c168d1fd236e5df4e08a09f7c",
+            "created_at": 1397980727,
+            "updated_at": 1415516436
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/unidym/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188154/572c207cda8b465a53144aad5f2e99ce.jpg",
+            "created_at": 1398019107,
+            "updated_at": 1398019107
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/unidym/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188155/5f487eec78156094b90632e9e79fe654.jpg",
+            "created_at": 1398019107,
+            "updated_at": 1398019107
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/unidym/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.unidym.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1250747634,
+            "updated_at": 1397987804
+          }
+        ]
+      }
+    }
+  }
+}

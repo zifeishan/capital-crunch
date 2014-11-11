@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "9b80ef57a6858726b765efd19770aaac",
+    "type": "Person",
+    "properties": {
+      "last_name": "Averbuch",
+      "first_name": "Aaron",
+      "permalink": "aaron-averbuch",
+      "bio": "As AdReady\u2019s CTO, Aaron is responsible for developing and executing the company\u2019s product and technology vision as well as leading day-to-day media and engineering operations. \n\nWith a decade of technical experience Aaron and his team are responsible for delivering the software and operations at the heart of AdReady\u2019s scalable solution including, the creative tools, media center and all-in-one user interface. \n\nAaron previously served as AdReady\u2019s CEO responsible for leading the company\u2019s go-to-market strategy and day-to-day operations and as VP of Technology, focusing on the company\u2019s technical initiatives.\n\nPrior to joining the company, Aaron led the work of the Seattle office of Cisco\u2019s Home Network Business Unit (\u201cLinksys\u201d), which he joined via the 2008 acquisition of Pure Networks. \n\nThere he drove the technology work for all Windows, Macintosh, and Mobile development for Linksys products, including the award-winning Cisco Connect management software, Network Magic networking suite, and Linksys Router Setup wizards. \n\nPrior to Pure Networks/Cisco, Aaron was a Lead Software Developer at Microsoft. Aaron holds BA and MS degrees from Washington University in St. Louis.\n",
+      "created_at": 1331653271,
+      "updated_at": 1397989265
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-averbuch/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": "2000-01-01",
+            "degree_type_name": "BS",
+            "degree_subject": "Political Science",
+            "type": "Degree",
+            "organization_name": "Washington University in St Louis",
+            "organization_path": "organization/washington-university-in-st-louis"
+          },
+          {
+            "started_on": null,
+            "completed_on": "2000-01-01",
+            "degree_type_name": "MS",
+            "degree_subject": "Computer Science",
+            "type": "Degree",
+            "organization_name": "Washington University in St Louis",
+            "organization_path": "organization/washington-university-in-st-louis"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-averbuch/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Microsoft",
+            "organization_path": "organization/microsoft",
+            "title": "Lead Software Design Engineer",
+            "started_on": "2000-01-01",
+            "ended_on": "2005-01-01"
+          },
+          {
+            "organization_name": "Pure Networks",
+            "organization_path": "organization/pure-networks",
+            "title": "Software Development Manager",
+            "started_on": "2005-01-01",
+            "ended_on": "2008-01-01"
+          },
+          {
+            "organization_name": "Cisco",
+            "organization_path": "organization/cisco",
+            "title": "Senior Software Development Manager",
+            "started_on": "2008-01-01",
+            "ended_on": "2011-01-01"
+          },
+          {
+            "organization_name": "AdReady",
+            "organization_path": "organization/adready",
+            "title": "President and CEO",
+            "started_on": "2012-01-01",
+            "ended_on": "2012-01-01"
+          },
+          {
+            "organization_name": "AdReady",
+            "organization_path": "organization/adready",
+            "title": "VP of Technology",
+            "started_on": "2011-11-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-averbuch/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "AdReady",
+            "organization_path": "organization/adready",
+            "title": "VP of Technology",
+            "started_on": "2011-11-01",
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-averbuch/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397185337/edbf1f27c496508b100da576f262567b.jpg",
+            "created_at": 1398019153,
+            "updated_at": 1398019153
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 8,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-averbuch/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.youtube.com/user/abrok21",
+            "type": "WebPresence",
+            "title": "youtube",
+            "created_at": 1406334501,
+            "updated_at": 1406334501
+          },
+          {
+            "url": "http://www.blogger.com/profile/01227219033618851285",
+            "type": "WebPresence",
+            "title": "blogger",
+            "created_at": 1406334501,
+            "updated_at": 1406334501
+          },
+          {
+            "url": "http://quora.com/aaron-averbuch",
+            "type": "WebPresence",
+            "title": "quora",
+            "created_at": 1406334500,
+            "updated_at": 1406334500
+          },
+          {
+            "url": "http://plus.google.com/102278790735575911334",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1406334500,
+            "updated_at": 1406334500
+          },
+          {
+            "url": "http://picasaweb.google.com/ahaverbuch",
+            "type": "WebPresence",
+            "title": "picasa",
+            "created_at": 1406334499,
+            "updated_at": 1406334499
+          },
+          {
+            "url": "http://www.facebook.com/averbuch",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1406334499,
+            "updated_at": 1409508748
+          },
+          {
+            "url": "http://www.linkedin.com/in/averbuch",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1375084938,
+            "updated_at": 1409490465
+          },
+          {
+            "url": "http://twitter.com/ahaverbuch",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1331653271,
+            "updated_at": 1409395807
+          }
+        ]
+      }
+    }
+  }
+}

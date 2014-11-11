@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "436c48d40d72a9d430150e7c4b968646",
+    "type": "Person",
+    "properties": {
+      "last_name": "Abdullah",
+      "first_name": "Aamer",
+      "permalink": "aamer-abdullah",
+      "bio": "Principal at MI Ventures.\n",
+      "role_investor": true,
+      "created_at": 1398010380,
+      "updated_at": 1398010380
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamer-abdullah/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "MI Ventures",
+            "organization_path": "organization/mi-ventures",
+            "title": "Principal",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamer-abdullah/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "MI Ventures",
+            "organization_path": "organization/mi-ventures",
+            "title": "Principal",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "investments": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamer-abdullah/investments",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/d4dbcb0e07b73fcdf484b7fc4aaa96f3"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "BizeeBee",
+              "path": "organization/bizeebee"
+            }
+          },
+          {
+            "type": "InvestorInvestment",
+            "money_invested": null,
+            "money_invested_currency_code": "USD",
+            "money_invested_usd": null,
+            "funding_round": {
+              "path": "funding-round/a9bbaca5019c98831394245ddf9f9a2e"
+            },
+            "invested_in": {
+              "type": "Organization",
+              "name": "Pogoseat",
+              "path": "organization/pogoseat"
+            }
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aamer-abdullah/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184115/4737bf30d11b328b410524a2877c50dc.jpg",
+            "created_at": 1398019186,
+            "updated_at": 1398019186
+          }
+        ]
+      }
+    }
+  }
+}

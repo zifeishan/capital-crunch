@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "bfad8fdd73201bdcbe7eee77cb3644a3",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Border Stylo, LLC engages in developing communication platforms that humanize the Internet experience by empowering individuals.  The company was founded in 2008 and is based in Delaware.\n",
+      "short_description": "Border Stylo develops communication platforms, browser add\u2013ins and mobile apps to add a human element to the internet experience.",
+      "founded_on_day": 1,
+      "founded_on_month": 1,
+      "founded_on_year": 2008,
+      "founded_on": "2008-01-01",
+      "founded_on_trust_code": 4,
+      "permalink": "border-stylo",
+      "primary_role": "company",
+      "is_closed": false,
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://borderstylo.com",
+      "name": "Border Stylo",
+      "created_at": 1335943418,
+      "updated_at": 1406220585,
+      "total_funding_usd": 27520000,
+      "number_of_investments": 0
+    },
+    "relationships": {
+      "past_team": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/border-stylo/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "first_name": "Judd",
+            "last_name": "Kessler",
+            "title": "Judd Kessler",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/judd-kessler",
+            "created_at": 1381438197,
+            "updated_at": 1412032979
+          },
+          {
+            "first_name": "Diego",
+            "last_name": "Prats",
+            "title": "CEO & Co - Founder",
+            "started_on": "2008-01-01",
+            "ended_on": "2011-01-01",
+            "path": "person/diego-prats",
+            "created_at": 1270785988,
+            "updated_at": 1397989379
+          },
+          {
+            "first_name": "Eduardo",
+            "last_name": "Prats",
+            "title": "Co-Founder and President of Products",
+            "started_on": null,
+            "ended_on": null,
+            "path": "person/eduardo-prats",
+            "created_at": 1270785988,
+            "updated_at": 1397989379
+          },
+          {
+            "first_name": "Eduardo",
+            "last_name": "Prats",
+            "title": "Product Manager, Co-Founder",
+            "started_on": "2008-08-01",
+            "ended_on": "2011-12-01",
+            "path": "person/eduardo-prats",
+            "created_at": 1270785988,
+            "updated_at": 1397989379
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/border-stylo/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "7257 Beverly Blvd",
+            "street_2": "Suite 210",
+            "postal_code": "90036",
+            "city": "Los Angeles",
+            "city_path": "location/los-angeles/4ce61f42f6c4e7ec798d44813b58856b",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1381412834,
+            "updated_at": 1397991853
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/border-stylo/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": "7257 Beverly Blvd",
+            "street_2": "Suite 210",
+            "postal_code": "90036",
+            "city": "Los Angeles",
+            "city_path": "location/los-angeles/4ce61f42f6c4e7ec798d44813b58856b",
+            "region": "California",
+            "region_path": "location/california/eb879a83c91a121e0bb8829782dbcf04",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1381412834,
+            "updated_at": 1397991853
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/border-stylo/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Border Stylo raises 4000000 in unknown round",
+            "path": "funding-round/2b8f312cdcb9de8ddc93fc695b668ead",
+            "created_at": 1386857151,
+            "updated_at": 1415305309
+          },
+          {
+            "type": "FundingRound",
+            "name": "Border Stylo raises 3520000 in venture round",
+            "path": "funding-round/c4ff6e0f9efcc1468000174d8010a0fa",
+            "created_at": 1385472107,
+            "updated_at": 1398010204
+          },
+          {
+            "type": "FundingRound",
+            "name": "Border Stylo raises 20000000 in private_equity round",
+            "path": "funding-round/2b582a44d8ef23aebb064a2a011b8b2b",
+            "created_at": 1381413028,
+            "updated_at": 1398009929
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/border-stylo/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Software",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+            "created_at": 1397980727,
+            "updated_at": 1415606418
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/border-stylo/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Diego Prats",
+            "path": "person/diego-prats",
+            "created_at": 1270785988,
+            "updated_at": 1397989379
+          },
+          {
+            "type": "Person",
+            "name": "Eduardo Prats",
+            "path": "person/eduardo-prats",
+            "created_at": 1270785988,
+            "updated_at": 1397989379
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/border-stylo/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://borderstylo.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1335918218,
+            "updated_at": 1397988304
+          }
+        ]
+      }
+    }
+  }
+}

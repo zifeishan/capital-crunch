@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "b2f409dd53fddab88b2560882af5ef89",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "description": "Coolture LLC was founded in 2009 to develop and market fashionable cooling apparel for people compromised by heat. Coolture is introducing The Signature vest which is a \u00e2\u20ac\u0153garment that cools\u00e2\u20ac\u009d and is the first fashionable alternative to a limited number of cooling products currently in the market. Unlike other cooling garments, the Coolture vest does not look like a military aid or medical device. The vest is comprised of specialty materials that help facilitate the cooling that is provided by frozen thermal packs. The initial target market for Coolture garments is the 50 million Americans who suffer from some form of Auto Immune Related disease (ARD), and whose symptoms are stressed and/or exacerbated by heat.\n",
+      "short_description": "Coolture is the developer of athletic-styled cooling vest that improves physical endurance and prevents heat injury in warm environments.",
+      "permalink": "coolture",
+      "primary_role": "company",
+      "closed_on_trust_code": 0,
+      "homepage_url": "http://www.coolture.net",
+      "name": "Coolture",
+      "is_closed": false,
+      "founded_on_day": 1,
+      "founded_on_month": 4,
+      "founded_on_year": 2009,
+      "founded_on": "2009-04-01",
+      "founded_on_trust_code": 6,
+      "email_address": "query@coolture.net",
+      "created_at": 1281130207,
+      "updated_at": 1400676177,
+      "total_funding_usd": 45000,
+      "number_of_investments": 0,
+      "number_of_employees": 3
+    },
+    "relationships": {
+      "offices": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/coolture/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "Buffalo",
+            "city_path": "location/buffalo/4531e3254a00146d62370b900cbe012e",
+            "region": "New York",
+            "region_path": "location/new-york/83ead471332bd02e67b767279aed075b",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1281105007,
+            "updated_at": 1397991778
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/coolture/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": null,
+            "street_1": null,
+            "street_2": null,
+            "postal_code": null,
+            "city": "Buffalo",
+            "city_path": "location/buffalo/4531e3254a00146d62370b900cbe012e",
+            "region": "New York",
+            "region_path": "location/new-york/83ead471332bd02e67b767279aed075b",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1281105007,
+            "updated_at": 1397991778
+          }
+        ]
+      },
+      "funding_rounds": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/coolture/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "name": "Coolture raises 45000 in venture round",
+            "path": "funding-round/4f1e0e28cabdadeb35f9b392c8cb52ab",
+            "created_at": 1371550654,
+            "updated_at": 1398009825
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/coolture/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "E-Commerce",
+            "uuid": "275ddcbc27deff4f4e506dc26ebf9570",
+            "path": "category/e-commerce/275ddcbc27deff4f4e506dc26ebf9570",
+            "created_at": 1397980726,
+            "updated_at": 1415375619
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/coolture/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188982/d3112ea09148b9e09adab044c2a8cc33.jpg",
+            "created_at": 1398018556,
+            "updated_at": 1398018556
+          }
+        ]
+      },
+      "images": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/coolture/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188984/98f7836c5ecd7f2fb22daaa824ab799c.jpg",
+            "created_at": 1398018557,
+            "updated_at": 1398018557
+          },
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397188984/10056b622859514f626bea872fcefa02.jpg",
+            "created_at": 1398018557,
+            "updated_at": 1398018557
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/coolture/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.instagram.com/coolture_cooling",
+            "type": "WebPresence",
+            "title": "instagram",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/coolture",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/CooltureUSA",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1281105007,
+            "updated_at": 1409405911
+          },
+          {
+            "url": "http://cooltureusa.blogspot.com/",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1281105007,
+            "updated_at": 1397988964
+          },
+          {
+            "url": "http://www.coolture.net",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1281105007,
+            "updated_at": 1397988964
+          }
+        ]
+      },
+      "news": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/coolture/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://buffalo.ynn.com//?ArID=509122",
+            "author": null,
+            "posted_on": null,
+            "type": "PressReference",
+            "title": "High Tech Forum, Coolture News clip",
+            "created_at": 1281105007,
+            "updated_at": 2010
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "87acfcc5b848dbefeb11bd3ef2fb35f1",
+    "type": "Person",
+    "properties": {
+      "bio": "Aarjav is the founder and CEO of RideCell. Before RideCell, Aarjav worked in engineering at SpiDynamics (Acquired by HP) and as a research engineer at CipherTrust and Secure Computing (Acquired by McAfee) where he helped invent and ship security systems used by over 40% of the Fortune 500 as well as the Pentagon. Aarjav has a Masters degree in Computer Science from Georgia Tech and a Bachelors in in Computer Science from University of Mumbai.\n",
+      "last_name": "Trivedi",
+      "first_name": "Aarjav",
+      "permalink": "aarjav-trivedi",
+      "homepage_url": "http://www.aarjav.net",
+      "created_at": 1312179177,
+      "updated_at": 1397989346
+    },
+    "relationships": {
+      "degrees": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aarjav-trivedi/degrees",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "started_on": null,
+            "completed_on": "2003-01-01",
+            "degree_type_name": null,
+            "degree_subject": "Computer Science / Information Technology",
+            "type": "Degree",
+            "organization_name": "University of Mumbai",
+            "organization_path": "organization/university-of-mumbai"
+          },
+          {
+            "started_on": null,
+            "completed_on": "2008-01-01",
+            "degree_type_name": "MS",
+            "degree_subject": "Computer Science",
+            "type": "Degree",
+            "organization_name": "Georgia Institute of Technology, Main Campus",
+            "organization_path": "organization/georgia-institute-of-technology-main-campus"
+          }
+        ]
+      },
+      "experience": {
+        "paging": {
+          "total_items": 5,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aarjav-trivedi/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "Summon",
+            "organization_path": "organization/summon",
+            "title": "Founder",
+            "started_on": "2012-07-01",
+            "ended_on": null
+          },
+          {
+            "organization_name": "RideCell",
+            "organization_path": "organization/ridecell",
+            "title": "CEO",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "McAfee",
+            "organization_path": "organization/mcafee",
+            "title": "Research Engineer",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "Secure Computing",
+            "organization_path": "organization/secure-computing",
+            "title": "Research Engineer",
+            "started_on": null,
+            "ended_on": null
+          },
+          {
+            "organization_name": "CipherTrust",
+            "organization_path": "organization/ciphertrust",
+            "title": "Advanced Product Development Engineer",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aarjav-trivedi/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "RideCell",
+            "organization_path": "organization/ridecell",
+            "title": "CEO",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aarjav-trivedi/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "Summon",
+            "path": "organization/summon",
+            "created_at": 1363399484,
+            "updated_at": 1411776799
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aarjav-trivedi/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397180412/6e6eb6363c06b89d9cecbb90bbda5df9.jpg",
+            "created_at": 1398019077,
+            "updated_at": 1398019077
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aarjav-trivedi/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://instagram.com/instantcab",
+            "type": "WebPresence",
+            "title": "instagram",
+            "created_at": 1406334073,
+            "updated_at": 1406334073
+          },
+          {
+            "url": "http://www.facebook.com/instantcab",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1406334073,
+            "updated_at": 1409508693
+          },
+          {
+            "url": "http://angel.co/aarjav",
+            "type": "WebPresence",
+            "title": "angellist",
+            "created_at": 1406334072,
+            "updated_at": 1406334072
+          },
+          {
+            "url": "http://www.linkedin.com/in/aarjav",
+            "type": "WebPresence",
+            "title": "linkedin",
+            "created_at": 1367760023,
+            "updated_at": 2013
+          },
+          {
+            "url": "http://twitter.com/aarjav",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1312179177,
+            "updated_at": 1409400014
+          },
+          {
+            "url": "http://www.aarjav.net",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1312179177,
+            "updated_at": 1397989346
+          }
+        ]
+      }
+    }
+  }
+}

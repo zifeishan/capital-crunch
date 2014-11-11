@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "b05f716ec3a32131a9b5b172aca13546",
+    "type": "Organization",
+    "properties": {
+      "role_company": true,
+      "closed_on_year": null,
+      "closed_on_day": null,
+      "closed_on_month": null,
+      "closed_on": null,
+      "closed_on_trust_code": 0,
+      "description": "Sociallybuzz based out of Miami, FL, is an advanced Social Media Management, Campaign and Reputation company.\n\nWe exist to help brands, restaurants, franchises, nightclubs and retail owners grow their business using social media. By helping them reach relevant customers, build customer loyalty, mange reputation and increase revenue. We protect relationship with their customer, create effective campaigns, manage their social channels and online reputation 24/7.\n\nWe are launching our new social media and reputation management app. The Sociallybuzz App helps brick and mortar businesses easily manage Yelp, Google Places, Facebook and Urbanspoon in one place, anytime, anywhere. They can use it to protect relationship with customers, manage social networks and online reputation on the go. It is a Powerful, Intelligent and Easy-To-Use Social Media Mobile App.\n",
+      "short_description": "Social Media Management & Reputation",
+      "permalink": "sociallybuzz",
+      "primary_role": "company",
+      "is_closed": false,
+      "homepage_url": "http://www.sociallybuzz.com",
+      "name": "Sociallybuzz",
+      "founded_on_day": 1,
+      "founded_on_month": 6,
+      "founded_on_year": 2010,
+      "founded_on": "2010-06-01",
+      "founded_on_trust_code": 7,
+      "email_address": "info@sociallybuzz.com",
+      "num_employees_max": 50,
+      "num_employees_min": 11,
+      "created_at": 1276471689,
+      "updated_at": 1409891668,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "number_of_employees": 13
+    },
+    "relationships": {
+      "current_team": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/sociallybuzz/current_team",
+          "sort_order": "custom"
+        },
+        "items": [
+          {
+            "first_name": "Andre",
+            "last_name": "Kay",
+            "title": "Co-Founder",
+            "started_on": "2010-06-13",
+            "path": "person/andre-kay",
+            "created_at": 1252731019,
+            "updated_at": 1397989200
+          }
+        ]
+      },
+      "offices": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/sociallybuzz/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "Miami Beach",
+            "street_1": "6538 Collins Ave",
+            "street_2": "Suite 252",
+            "postal_code": "33141",
+            "city": "Miami Beach",
+            "city_path": "location/miami-beach/1390e7b26be3ec361372999e75b48e27",
+            "region": "Florida",
+            "region_path": "location/florida/7d27a7401eba06ba8941078f0789d387",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 25.848744,
+            "longitude": -80.1206229,
+            "created_at": 1373648633,
+            "updated_at": 1397991285
+          },
+          {
+            "type": "Address",
+            "name": "World Headquarters",
+            "street_1": "4000 Hollywood Blvd",
+            "street_2": "555-S",
+            "postal_code": "33021",
+            "city": "Hollywood",
+            "city_path": "location/hollywood/141c08211fde2157aa9bfffda2cf217c",
+            "region": "Florida",
+            "region_path": "location/florida/7d27a7401eba06ba8941078f0789d387",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 26.010554,
+            "longitude": -80.183607,
+            "created_at": 1373648632,
+            "updated_at": 1397991284
+          }
+        ]
+      },
+      "headquarters": {
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/sociallybuzz/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "name": "World Headquarters",
+            "street_1": "4000 Hollywood Blvd",
+            "street_2": "555-S",
+            "postal_code": "33021",
+            "city": "Hollywood",
+            "city_path": "location/hollywood/141c08211fde2157aa9bfffda2cf217c",
+            "region": "Florida",
+            "region_path": "location/florida/7d27a7401eba06ba8941078f0789d387",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 26.010554,
+            "longitude": -80.183607,
+            "created_at": 1373648632,
+            "updated_at": 1397991284
+          },
+          {
+            "type": "Address",
+            "name": "World Headquarters",
+            "street_1": "4000 Hollywood Blvd",
+            "street_2": "555-S",
+            "postal_code": "33021",
+            "city": "Hollywood",
+            "city_path": "location/hollywood/141c08211fde2157aa9bfffda2cf217c",
+            "region": "Florida",
+            "region_path": "location/florida/7d27a7401eba06ba8941078f0789d387",
+            "country": "United States",
+            "country_path": "location/united-states/f110fca2105599f6996d011c198b3928",
+            "latitude": 26.010554,
+            "longitude": -80.183607,
+            "created_at": 1373648632,
+            "updated_at": 1397991284
+          }
+        ]
+      },
+      "categories": {
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/sociallybuzz/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Category",
+            "name": "Social Media Management",
+            "uuid": "98698685a9834d2fa11dde7e3602eda4",
+            "path": "category/social media management/98698685a9834d2fa11dde7e3602eda4",
+            "created_at": 1397980728,
+            "updated_at": 1413967064
+          },
+          {
+            "type": "Category",
+            "name": "Reputation",
+            "uuid": "6dcf01031977291c71e304df32828986",
+            "path": "category/reputation/6dcf01031977291c71e304df32828986",
+            "created_at": 1397980728,
+            "updated_at": 1414450457
+          },
+          {
+            "type": "Category",
+            "name": "Social Media Advertising",
+            "uuid": "e9abe18b6578192c63a8266acf7aa840",
+            "path": "category/social media advertising/e9abe18b6578192c63a8266acf7aa840",
+            "created_at": 1397980727,
+            "updated_at": 1414672067
+          },
+          {
+            "type": "Category",
+            "name": "Software",
+            "uuid": "c08b5441a05b9777b7a6012728caddd9",
+            "path": "category/software/c08b5441a05b9777b7a6012728caddd9",
+            "created_at": 1397980727,
+            "updated_at": 1415532315
+          }
+        ]
+      },
+      "founders": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/sociallybuzz/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Person",
+            "name": "Andre Kay",
+            "path": "person/andre-kay",
+            "created_at": 1252731019,
+            "updated_at": 1397989200
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/sociallybuzz/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184282/97baf0e89c49af657fa59441915188ae.jpg",
+            "created_at": 1398018735,
+            "updated_at": 1398018735
+          }
+        ]
+      },
+      "websites": {
+        "paging": {
+          "total_items": 6,
+          "first_page_url": "http://api.crunchbase.com/v/2/organization/sociallybuzz/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "url": "http://www.pinterest.com/sociallybuzz",
+            "type": "WebPresence",
+            "title": "pinterest",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.plus.google.com/109672167820429554021",
+            "type": "WebPresence",
+            "title": "google+",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://www.facebook.com/sociallybuzz",
+            "type": "WebPresence",
+            "title": "facebook",
+            "created_at": 1397877760,
+            "updated_at": 2014
+          },
+          {
+            "url": "http://twitter.com/Sociallybuzz",
+            "type": "WebPresence",
+            "title": "twitter",
+            "created_at": 1276446489,
+            "updated_at": 1409436831
+          },
+          {
+            "url": "http://sociallybuzz.wordpress.com/",
+            "type": "WebPresence",
+            "title": "blog",
+            "created_at": 1276446489,
+            "updated_at": 1397987938
+          },
+          {
+            "url": "http://www.sociallybuzz.com",
+            "type": "WebPresence",
+            "title": "homepage",
+            "created_at": 1276446489,
+            "updated_at": 1397987938
+          }
+        ]
+      }
+    }
+  }
+}

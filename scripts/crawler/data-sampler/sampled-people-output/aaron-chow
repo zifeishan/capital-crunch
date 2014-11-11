@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "version": 2,
+    "www_path_prefix": "http://www.crunchbase.com/",
+    "api_path_prefix": "http://api.crunchbase.com/v/2/",
+    "image_path_prefix": "http://images.crunchbase.com/"
+  },
+  "data": {
+    "uuid": "ff532b5e4a5b2319ddef144ec9f792fe",
+    "type": "Person",
+    "properties": {
+      "bio": "&quot;It all started on a rainy day in Vancouver (well, I&#39;m not sure if it was raining or not, but it was October in Vancouver) back in 1978. To escape that rain, I&#39;d go traveling, always with a &quot;small&quot; collection of trusted guidebooks. Pokin would always bug me about just how many I&#39;d have with me (sometimes 1/2 my backpack would be full of books). In an attempt to get her off my back, avoid the baggage weight surcharges and save some trees, I thought I&#39;d do my part to help the world go paperless and make a good travel web site.&quot;\n",
+      "last_name": "Chow",
+      "first_name": "Aaron",
+      "permalink": "aaron-chow",
+      "created_at": 1327718718,
+      "updated_at": 1397989579
+    },
+    "relationships": {
+      "experience": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-chow/experience",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "GeckoGo",
+            "organization_path": "organization/geckogo",
+            "title": "Co-founder",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "primary_affiliation": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-chow/primary_affiliation",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "organization_name": "GeckoGo",
+            "organization_path": "organization/geckogo",
+            "title": "Co-founder",
+            "started_on": null,
+            "ended_on": null
+          }
+        ]
+      },
+      "founded_companies": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-chow/founded_companies",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "name": "GeckoGo",
+            "path": "organization/geckogo",
+            "created_at": 1226647377,
+            "updated_at": 1397988874
+          }
+        ]
+      },
+      "primary_image": {
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "http://api.crunchbase.com/v/2/person/aaron-chow/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "ImageAsset",
+            "title": null,
+            "path": "image/upload/v1397184444/2283bf35d50fb4bd2e3408ae36c33c75.jpg",
+            "created_at": 1398019217,
+            "updated_at": 1398019217
+          }
+        ]
+      }
+    }
+  }
+}
