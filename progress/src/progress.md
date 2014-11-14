@@ -25,8 +25,8 @@ based on textual, topological and domain-specific signals from both
 the investor and start-up.
 
 (2) To analyze and reveal the factors that would prompt an investor to
-invest in startups so as to shed light on the adjustments the start-
-ups could make to attract more investments.
+invest in startups so as to shed light on the adjustments the start-ups 
+could make to attract more investments.
 
 \end{abstract}
 
@@ -43,107 +43,17 @@ We ask questions such as: what factors play the most critical role in investment
 # Dataset
 
 We downloaded all the data from *CrunchBase.com*, one of the biggest databases about
-information of companies. \footnote{We
-requested the CrunchBase education plan API, which gives us a much
-higher rate when acquiring data.} The full CrunchBase dataset includes 214,290 companies and 286,659 people.
+information of companies. 
 
 ## Accessing data
 
 CrunchBase provides indexing data and an API for full access of their
-data, yet the API has limited throughput. Due to the limitation, by
-now we would like to sub-sample the dataset, and we may get the full
-dataset in the future.
+data. We requested the CrunchBase education plan API, which gives us a much
+higher throughput when acquiring data, and we were able to get the full dataset.
 
-For data sub-sampling, a possible strategy is random sampling.
-However, it would have the potential drawback that we might not
-achieve consistency amongst different parties. (e.g. Facebook is
-sampled but its CEO Mark Zuckerberg is not).  Therefore we propose to
-adopt the strategy where we start with a "seed set" of companies, and
-iteratively sample all related people and organizations to grow
-the network.
+The full CrunchBase dataset includes 214,290 companies and 286,659 people. We also parsed all known investments in CrunchBase, and got 31,942 investments.
 
-## Data format
-
-The detailed data format for people and companies is demonstrated below.
-
-\small
-
-```
-// people                  // company
-"data": {                  "data": {           
-  "uuid": "a01b8d...",      "uuid": "770db0...",                         
-  "properties": {            "properties": {                   
-    "bio": ...                 "description": {...}                
-    "last_name": ...           "founded_on": {...}                      
-    "first_name": ...          "name": {...}                       
-    ...                        "number_of_employees": {...}
-  }                          }     
-  "relationship": {          "relationships": {...}                     
-    "degrees": {...}         "board_members_and_advisors": {...}
-    "experiences": {...}     "acquisitions": {...}                          
-    "news": {...}            "competitors": {...}                   
-    ...                      ...         
-  }                        }     
-}                          
-```
-
-<!-- 
-```
-"data": {
-  "uuid": "a01b8d4...",
-  "properties": {
-    "bio": ...
-    "last_name": ...
-    "first_name": ...
-    ...
-  }
-  "relationship": {
-    "degrees": {...}
-    "experiences": {...}
-    "news": {...}
-    ...
-  }
-}
-``` -->
-
-<!-- \normalsize
-The organization data for startups are like this:
-
-\small
-
-```
-"data": {
-  "uuid": "a01b8d4...",
-  "properties": {
-    "description": {...}
-    "founded_on": {...}
-    "name": {...}
-    "number_of_employees": {...}
-  }
-  "relationships": {...}
-  "borad_members_and_advisors": {...}
-  "acquisitions": {...}
-  "competitors": {...}
-  ...
-}
-``` -->
-
-<!-- \normalsize
-With these data as input, we construct models and run machine learning
-algorithms to get predictions on investments. The section below
-articulates our proposed model.
- -->
-
-<!-- In terms of data processing, we propose to adopt common natural
-language processing on the bio of people and the description of the
-organizations to extract features. Furthermore, we would model the
-whole problem as a graph, and use investors and start-ups as nodes,
-and relationships such as "whether to invest", "degree of founders" as
-edges. -->
-
-\normalsize
-
-# Proposed Approach
+# Approach
 
 ## Data Model
 
@@ -152,6 +62,7 @@ person, product, etc. There are also different relations
 including investment, acquisition, degree, founder,
 etc.
 
+We currently focus on investment relationships.
 For simplification, we categorize organizations into **startups**
 and **investors**, and we care about predicting **investment**
 relationship between them.
@@ -162,7 +73,7 @@ The data model is defined below:
 - $Investor(investorId, [attributes...])$
 - $Investment(investorId, startupId, isTrue)$
 
-Where we use features in $Startup$ and $Investor$ entities to predict
+Where we use attributes (features) in $Startup$ and $Investor$ entities to predict
 $Investment$ relations. 
 
 ## Problem definition
@@ -178,47 +89,101 @@ invests a startup.
 
 \end{definition}
 
-**The desired output** is a predicted probability between each investor and a startup. For example:
+**The desired output** is a predicted probability between each investor and a startup.
 
-\small
+<!-- ## Features
 
-```
-# investor  startup         probability
-facebook    hello-doctor    0.95
-google      hello-doctor    0.85
-google      zynga           0.97
-twitter     zynga           0.45
-```
+A rich set of features can be applied to predict investments. A list of features are described below:
 
-\normalsize
-
-## Features
-
-A rich set of features can be applied to predict investments. They may
-include:
+- Start-up attributes:
+  - Total funding used
+  - 
 
 - Company attributes. e.g. date founded, number of employees.
 - Attributes of correlated people. e.g. degrees of founders and employees.
 - Linguistic features: information buried in company descriptions and biography of people.
 - Network topology, e.g. make use of all relations including degree, founder and other investments. These feature may be only captured by a factor graph model discussed later.
+ -->
 
-## Model
+## Algorithm
 
-A naive baseline model would be a random predictor that predict random
-labels based on some class priors. An oracle would be one that knows
-all existing investments and give correct predictions.
+In our initial model, we train an independent logistic regressor
+for each individual investor, which takes a feature vector of a start-
+up and predicts a label. 
 
-Our initial model would be training an independent logistic regressor
-for each individual investor, that takes a feature vector of a start-
-up and predicts a label. The drawback of this model is that it can
-hardly utilize investor-based attributes and higher-level knowledge
-such as network topology.
+The logistic regression model is a subcase of a factor graph model:
+each $Investment$ relation is a boolean variable that we are
+predicting, and the features are unary factors applied to variables.
+The factor graph for logistic regression is demonstrated in Figure
+\ref{fig:lr}. Each circle is a variable and each square is a unary
+factor.  Note that the figure only represents the factor graph for a
+certain investor. For each investor we train a model like this, and
+their factor graphs are disconnected.
 
-As an improvement, we propose to apply a factor graph model that
-correlates features across this graph. Specifically, each $Investment$
-relation is a boolean variable that we are predicting, and features in
-both sides of investors and startups can be correlated. We can further
-design features for more complex correlations.
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.4\textwidth]{img/logistic-regression.eps}
+\caption{Logistic Regression model (for a single investor)}
+\label{fig:lr}
+\end{figure}
+
+The drawback of this model is that it cannot utilize investor-based
+attributes and higher-level knowledge such as network topology.
+
+As an improvement, we propose a factor graph / CRF model that correlates
+features across this graph. In a factor graph, and features in both
+sides of investors and startups can be correlated.
+
+Figure \ref{fig:crf} presents a possible design of a factor graph model. In this design, we add a binary factor $f3$ to connect factor graphs:
+
+A factor $Equal(I_1S_1, I_2S_2)$ is applied if $I_1$ and $I_2$ has a
+common attribute $a_i$, and $S_1$ and $S_2$ has a common attribute
+$a_s$, and the weight (coefficient) is determined by $(a_i, a_s)$.
+Intuitively, **investors that have similar interest would prefer to
+invest in similar startups,** and the degree is determined by the
+specific attributes.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.4\textwidth]{img/crf.eps}
+\caption{Factor graph model that captures similarity}
+\label{fig:crf}
+\end{figure}
+
+We use DeepDive \cite{zhang2014feature}, a highly scalable inference
+engine to tackle the problem. L-1 regularization is applied during
+weight learning, and Gibbs Sampling is used for inference.
+
+## Features
+
+A rich set of features can be applied to predict investments. A list
+of features are described as below:
+
+**Start-up attributes:**
+
+- Unigrams (words) of short description of the start-up, with stopwords removed.
+- Total funding used: we think the more funding the startup has used, the more promising it is and the more likely it will get another funding raise.
+- Founded year: it is used combining with the total funding rounds. We use this to generate the negative example.
+- Current team size: the size of founders in the start-up. We think the larger it is, the more likely it will be invested.
+- Number of Competitors: we think the more competitors the start-up has, the less likely it will get the investment.
+- Headquarters: the location of headquarters of the startup. We find that some specific VC likes to invest the startups in some specific areas.
+- Category: the category of the service of the startup. We know that some VC are fond of the startups running on some certain kinds of service.
+- Total items of websites: we think that the more official websites the startup, the startup are more likely to get the investment since websites are indicative of the marketing potential.
+
+Note that in a logistic regression model, each investor will have
+different weights (coefficients) for these different attributes. For
+example, investor $A$ may prefer start-ups with headquarter in
+Beijing, $B$ may prefer start-ups with larger team size, $C$ will
+prefer start-ups in the category of artificial intelligence, etc.
+
+**Investor attributes:**
+
+- Total number of investments: if this investor has already invested more items, the more likely it gives a start-up investment under the same situation
+- Total number of acquisitions: it is similar to the total investment items.
+- Headquarters: the location of headquarters of the investor. It is similar to the feature of the startup's headquarter.
+- Category: the category of the service of the investor. It is similar to the feature of the startup's category.
+
+Note these features are not used in training independent logistic regressors, but they are useful in the full factor graph model.
 
 ## Getting training data
 
@@ -230,38 +195,180 @@ in $Investment$ relation.
 For the negative training examples, it might not be desirable to
 simply label all pairs of $(investor, startup)$ that do not have a
 known investment as negative, because (1) this makes positive examples
-extremely sparse and introduce a data skew, and (2) even if an
+extremely sparse and introduce a data skew, (2) this yields too many
+training examples and makes training harder, and (3) even if an
 investor have not invested a startup right now, it is still possible
-that the investment will happen in the future. How to effectively label
-negative examples is still open to us. For now we propose to sub-sample
-random pairs of investors and startups without known investment
-happening.
+that the investment will happen in the future. 
+
+For now we sub-sample random pairs of investors and startups without known
+investment happening as negative examples. In future work, we will apply
+some heuristics to label negative examples. The proposed method is described below.
+
+<!-- How to effectively
+label negative examples is still open to us. For now we propose to
+sub-sample random pairs of investors and startups without known
+investment happening. -->
+
+<!-- ### Generating negative examples -->
+
+### Proposed heuristics for negative example generation
+
+If a certain investor does not invest a startup, we cannot simply
+label it as a negative example since there is a chance that this
+investor will invest this startup in the future. Besides, there are
+competitions between investors as the amount of investment for a
+start-up is limited. If investor $A$ has made the investment for
+startup $X$ but investor $B$ has not, we cannot say $(B, X)$ is a
+negative example because $B$ may have the intention to invest $X$ but
+$A$'s investment prevents it happening.
+
+So we propose a model to help us generate the negative examples. For
+all the startups, we have already known their founded year and funding
+rounds. We believe that the longer this start-up exists and the less
+funding rounds it has, the less likely it has the investment from
+other investors and vice versa. Therefore we use this equation to give
+startup X a probability to have negative examples:
+
+$$P(X = N) = e^{-K}, K = \frac{\textbf{funding rounds}+1}{\textbf{running time}+1}$$
+
+Intuitively, if the start-up has already run for a long time, it
+should have more funding rounds. Otherwise, it will have a high
+probability to get negative answers from investors. In contrast, if
+the start-up only runs for a short time but has already got many
+rounds of funding, it is very likely to get positive answers from
+other investors. We add one to the numerator and denominator to smooth
+it and also prevent illegal equation.
 
 
 # Evaluation
 
-We will evaluate our models based on ground truth investments.
-Specifically, we hold out a fraction of training examples, and predict
-these relations and get measures including precision and recall. We
-may want to define our own measure to encourage aggressive predictions
-and punish false negatives more than false positives.
+## Evaluation metrics
 
-Another measure to try is the accuracy of top-K prediction: we hope to
-get a trained system where the most confident predictions are very
-likely to be true.
+We evaluate our models based on ground truth investments (positive examples) as well as randomly / heuristically labeled negative examples.
+Specifically, we hold out a fraction of training examples, and use the predictions on these relations for evaluation.
 
-An further evaluation method is the calibration plot where we layout
-the predicted probabilities and the accuracy in testingset in buckets.
-See Figure \ref{fig:calibration}. A discussion of interpreting
+We examine the calibration plots, where we layout
+the predicted probabilities and the accuracy in test set in buckets. A discussion of interpreting
 calibration plots is in the paper \cite{zhang2014feature}.
 
-\begin{figure}[ht!]
-\centering
-\includegraphics[width=0.4\textwidth]{img/calibration.png}
-\caption{A sample calibration plot}
-\label{fig:calibration}
-\end{figure}
+<!-- We may want to define our own measure to encourage aggressive predictions
+and punish false negatives more than false positives. -->
 
+We look at the accuracy of most confident predictions: we hope to
+get a trained system where the most confident predictions are very
+likely to be true. Specifically, we evaluate the precision where the system predicts a probability above $0.95$, as well as the recall.
+
+We also evaluate the recall of predictions above probability $0.5$, as well as the recall.
+
+We compare our results with a naive baseline model: a random predictor that predict random labels based on class priors. An oracle model would be one that knows
+all existing investments and give correct predictions, which have precision and recall of $1.0$.
+
+## Initial Results
+
+We run experiments on a filtered dataset where each investor have at least 5 investments. We randomly label investor-startup pairs that do not have known investments as negative examples with probability of $0.01$. 
+This yields a dataset of 9,521 positive examples, and 47,490 negative examples.
+
+Factor graph size:
+
+- 4.7 million variables
+- 115 million factors
+- 3.1 million different weights
+
+Calibration plot: See Figure \ref{fig:calibration}.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.8\textwidth]{img/calibration.png}
+\caption{Calibration plot for investment predictions}
+\label{fig:calibration}
+\end{figure*}
+
+High confidence (probability $>0.95$ predictions):
+
+- Precision $81.22\%$ (over labeled data)
+- Precision $0.91\%$ (if count all predicted unlabeled data as false positives)
+- Recall $3.13\%$ (over all 2460 held-out positive examples)
+
+Half confidence (probability $>0.5$ predictions):
+
+- Precision $59.34\%$ (over labeled data)
+- Precision $0.37\%$ (if count all predicted unlabeled data as false positives)
+- Recall $40.7\%$ (over all 2460 held-out positive examples)
+
+<!-- 
+crunchbase=# select is_true, count(*) from investment_is_true_inference group by is_true;
+ is_true |  count
+---------+---------
+ t       |    2460
+         | 4672511
+ f       |   11809
+(3 rows)
+
+crunchbase=# select is_true, count(*) from investment_is_true_inference where expectation > 0.95 group by is_true;
+ is_true | count
+---------+-------
+         | 36140
+ f       |    77
+ t       |   333
+(3 rows)
+
+
+crunchbase=# select is_true, count(*) from investment_is_true_inference where expectation > 0.5 group by is_true;
+ is_true | count
+---------+--------
+ t       |   1003
+         | 270050
+ f       |    687
+(3 rows)
+ -->
+
+
+## Initial error analysis
+
+The results are not optimal. Specifically, we see severe underfitting from the calibration plot. Possible reasons include unexpressive features or models, or bad labeling strategy. We will discuss improvements in future work.
+
+## Result analysis
+
+Here is a list of top indicative features for the investor *Sequoia Capital*:
+
+- headquarter=Shanghai
+- headquarter=Beijing
+- num_websites==5
+- num_competitors==2
+- category=Web Hosting
+- founded_on_year=2005
+- short_bio_1gram=services
+- num_websites==4
+- headquarter=Houston
+- num_competitors==10
+- founded_on_year=2004
+- category=Databases
+- headquarter=Pune
+- category=Technology
+
+We see some interesting results in these features: this investor
+prefers Asia startups, in field of web hosting, services, databases
+and technology. 
+
+Analysis like this might help startups find ideal investors, making
+marketing strategy and technical decisions.
+
+# Future Work
+
+We clearly see several directions of improvements towards a better predictor:
+
+
+(1) Improve features. We will add textual features in company descriptions, rather than using simple unigrams of short-bio. We have already parsed all the sentences in company descriptions using Stanford CoreNLP. We have also downloaded information about startup founders, which might help improving features.
+
+(2) Improve models.  We will add the similarity CRF rule discussed above..
+
+TODO
+
+    - people-related rules?
+    - PageRank-like
+- improve supervision methods: 
+    - how many negative examples to generate? how to choose negative examples? How to do proper train/test split?
+    - hold out start-ups, not single investment edges.
 
 
 <!-- We want to use the information from people and organizations, finding
