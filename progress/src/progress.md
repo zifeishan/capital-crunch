@@ -119,12 +119,12 @@ factor.  Note that the figure only represents the factor graph for a
 certain investor. For each investor we train a model like this, and
 their factor graphs are disconnected.
 
-\begin{figure*}[t]
+\begin{figure}[t]
 \centering
-\includegraphics[width=0.6\textwidth]{img/logistic-regression.eps}
+\includegraphics[width=0.4\textwidth]{img/logistic-regression.eps}
 \caption{Logistic Regression model (for a single investor)}
 \label{fig:lr}
-\end{figure*}
+\end{figure}
 
 The drawback of this model is that it cannot utilize investor-based
 attributes and higher-level knowledge such as network topology.
@@ -142,12 +142,12 @@ Intuitively, **investors that have similar interest would prefer to
 invest in similar startups,** and the degree is determined by the
 specific attributes.
 
-\begin{figure}[t]
+\begin{figure*}[t]
 \centering
-\includegraphics[width=0.4\textwidth]{img/crf.eps}
+\includegraphics[width=0.7\textwidth]{img/crf.eps}
 \caption{Factor graph model that captures similarity}
 \label{fig:crf}
-\end{figure}
+\end{figure*}
 
 We use DeepDive \cite{zhang2014feature}, a highly scalable inference
 engine to tackle the problem. L-1 regularization is applied during
