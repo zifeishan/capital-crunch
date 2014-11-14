@@ -330,23 +330,23 @@ Here are some examples with features:
 
 \begin{table*}[!t]
 \centering
-\caption{Examples of predicted relations}
-\label{table:result}
-\begin{tabular}{llll}
+\begin{tabular}{c|c|c|c|c}
+
 \hline
-investor_id   &   startup_id   &   is_true expectation   &   features\\
+
+investor\_id &  startup\_id & is\_true & expectation & features \\
 \hline
-sequoia-capital influitive   &   f   &   0.982   &   category=Communities,category=Communities,category=Marketing Automation,category=Marketing Automation,category=Social CRM,c...\\
-new-enterprise-associates   &   liquidia-technologies   &   t   &   0.988   &   category=Nanotechnology,category=Nanotechnology,founded_on_year=2004,founded_on_year=2004,headquarter=Morrisville,headquarter=Morr...\\
-intel-capital   &   mobixell   &   t   &   0.998   &   category=Mobile,category=Mobile,founded_on_year=2000,founded_on_year=2000,headquarter=San Jose,headquarter=San Jose,num_compet...\\
-index-ventures  abes-market   &   t   &   0.98   &   category=E-Commerce,category=E-Commerce,founded_on_year=2009,founded_on_year=2009,headquarter=Chicago,headquarter=Chicago,headquar...\\
-y-combinator   &   homejoy t   &   0.982   &   category=Hospitality,founded_on_year=2012,headquarter=San Francisco,num_investments==1,num_websites==6,short_bio_1gram=$20,short...\\
-high-tech-gruenderfonds fraud-sciences  f   &   0.99   &   category=Security,category=Security,headquarter=Palo Alto,headquarter=Palo Alto,headquarter=Palo Alto,headquarter=Palo Alto...\\
-insight-venture-partners   &   twitter t   &   0.996   &   category=Messaging,category=Messaging,category=MicroBlogging,category=MicroBlogging,category=SMS,category=SMS,category=Social Med...\\
-sequoia-capital stripe  t   &   0.98   &   category=Credit Cards,category=Credit Cards,category=Payments,category=Payments,category=Software,category=Software,founded_on...\\
-amicus-capital  getable t   &   0.992   &   category=Curated Web,category=Curated Web,founded_on_year=2010,founded_on_year=2010,headquarter=San Francisco,headquarter=S...\\
+sequoia-capital & influitive   &   f   &   0.982   &   category=Communities,category=Communities,category=Marketing Automation,...\\
+new-enterprise-associates   &   liquidia-technologies   &   t   &   0.988   &   category=Nanotechnology,category=Nanotechnology,founded\_on\_year=2004,...\\
+intel-capital   &   mobixell   &   t   &   0.998   &   category=Mobile,category=Mobile,founded\_on\_year=2000,...\\
+index-ventures & abes-market   &   t   &   0.98   &   category=E-Commerce,category=E-Commerce,founded\_on\_year=2009,...\\
+y-combinator   &   homejoy & t   &   0.982   &   category=Hospitality,founded\_on\_year=2012,headquarter=San Francisco,...\\
+high-tech-gruenderfonds & fraud-sciences & f   &   0.99   &   category=Security,category=Security,headquarter=Palo Alto,...\\
+insight-venture-partners   &   twitter & t   &   0.996   &   category=Messaging,category=Messaging,category=MicroBlogging,...\\
+amicus-capital  & getable & t   &   0.992   &   category=Curated Web,category=Curated Web,founded\_on\_year=2010,...\\
 \hline
 \end{tabular}
+\caption{Examples of predicted relations}\label{table:result}
 \end{table*}
 
 
