@@ -42,8 +42,7 @@ We ask questions such as: what factors play the most critical role in investment
 
 # Dataset
 
-We downloaded all the data from *CrunchBase.com*, one of the biggest databases about
-information of companies. 
+We downloaded all the data from *CrunchBase.com*, one of the biggest databases with company information.
 
 ## Accessing data
 
@@ -62,7 +61,7 @@ person, product, etc. There are also different relations
 including investment, acquisition, degree, founder,
 etc.
 
-We currently focus on investment relationships.
+Our currently focus is on investment relationships.
 For simplification, we categorize organizations into **startups**
 and **investors**, and we care about predicting **investment**
 relationship between them.
@@ -220,7 +219,7 @@ competitions between investors as the amount of investment for a
 start-up is limited. If investor $A$ has made the investment for
 startup $X$ but investor $B$ has not, we cannot say $(B, X)$ is a
 negative example because $B$ may have the intention to invest $X$ but
-$A$'s investment prevents it happening.
+$A$'s investment prevents it happening. Furthermore, some investors may not be early enough to know the company but they actually have huge interest in the start-up.
 
 So we propose a model to help us generate the negative examples. For
 all the startups, we have already known their founded year and funding
