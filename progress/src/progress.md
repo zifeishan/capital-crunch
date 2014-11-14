@@ -120,12 +120,12 @@ factor.  Note that the figure only represents the factor graph for a
 certain investor. For each investor we train a model like this, and
 their factor graphs are disconnected.
 
-\begin{figure}[ht!]
+\begin{figure*}[t]
 \centering
-\includegraphics[width=0.4\textwidth]{img/logistic-regression.eps}
+\includegraphics[width=0.6\textwidth]{img/logistic-regression.eps}
 \caption{Logistic Regression model (for a single investor)}
 \label{fig:lr}
-\end{figure}
+\end{figure*}
 
 The drawback of this model is that it cannot utilize investor-based
 attributes and higher-level knowledge such as network topology.
@@ -143,7 +143,7 @@ Intuitively, **investors that have similar interest would prefer to
 invest in similar startups,** and the degree is determined by the
 specific attributes.
 
-\begin{figure}[ht!]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.4\textwidth]{img/crf.eps}
 \caption{Factor graph model that captures similarity}
@@ -278,7 +278,7 @@ Calibration plot: See Figure \ref{fig:calibration}.
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=0.8\textwidth]{img/calibration.png}
+\includegraphics[width=0.9\textwidth]{img/calibration.png}
 \caption{Calibration plot for investment predictions}
 \label{fig:calibration}
 \end{figure*}
@@ -360,15 +360,9 @@ We clearly see several directions of improvements towards a better predictor:
 
 (1) Improve features. We will add textual features in company descriptions, rather than using simple unigrams of short-bio. We have already parsed all the sentences in company descriptions using Stanford CoreNLP. We have also downloaded information about startup founders, which might help improving features.
 
-(2) Improve models.  We will add the similarity CRF rule discussed above..
+(2) Improve models.  We will add the similarity CRF rule discussed above, and propose more expressive rules such as people-related rules, or propose HITS/PageRank-like models (good investors invest in good startups, and vise versa), whose idea is similar with a previous work discussed in \cite{shan2012gamerank}.
 
-TODO
-
-    - people-related rules?
-    - PageRank-like
-- improve supervision methods: 
-    - how many negative examples to generate? how to choose negative examples? How to do proper train/test split?
-    - hold out start-ups, not single investment edges.
+(3) improve supervision methods. We should integrate the heuristics of generating negative examples discussed above. Further questions include: how many negative examples to generate? How to do proper train/test split? Specifically, we might hold out start-ups, rather than single investment edges.
 
 
 <!-- We want to use the information from people and organizations, finding
@@ -383,6 +377,7 @@ model and help us chose good predictors and relationship between nodes
 our model is trained well and use the information we get properly.
  -->
 
+<!-- 
 # Challenges
 
 We see several challenges in the project:
@@ -418,27 +413,7 @@ engine to tackle the problem.
 If time permits, we might extend our model to predict company
 acquisition in this dataset. We also propose to do analysis on
 important factors in investment and acquisition behaviors.
-
-<!-- The need to integrate the various parties and their relationships into
-one problem. For example we have start-ups, venture capital companies,
-and people (e.g. the founder of a start-up), we need to use a model so
-as to accurately capture their relationship. -->
-
-<!-- ## Topics to Address Challenges
-
-Natural Language Processing : We would use the Stanford NLP to process
-the short descriptions so as to obtain information such as which area
-the start-up is focusing on.
-
-Probabilistic Graphical Models: PGM would be adopted to examine the
-relationship between founders, companies, and investors.
-
-TODO 
-
-Factor Networks: Factor networks would be used to model the whole
-dataset. For example, degree would be an edge to connect a founder of
-the start-up and a founder of a venture capital company.
- -->
+-->
 
 # Related Work
 
