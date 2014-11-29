@@ -2,3 +2,5 @@
 env.sh
 ddapp/log/
 ddapp/out/
+proposal/build/
+progress/build/
