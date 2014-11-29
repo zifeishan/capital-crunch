@@ -77,7 +77,7 @@ $Investment$ relations.
 
 ## Problem definition
 
-Our former problem is: 
+Our formal problem is: 
 
 \begin{definition}\label{def:problem}
 
@@ -142,12 +142,12 @@ Intuitively, **investors that have similar interest would prefer to
 invest in similar startups,** and the degree is determined by the
 specific attributes.
 
-\begin{figure*}[t]
+\begin{figure}[t]
 \centering
-\includegraphics[width=0.7\textwidth]{img/crf.eps}
+\includegraphics[width=0.4\textwidth]{img/crf.eps}
 \caption{Factor graph model that captures similarity}
 \label{fig:crf}
-\end{figure*}
+\end{figure}
 
 We use DeepDive \cite{zhang2014feature}, a highly scalable inference
 engine to tackle the problem. L-1 regularization is applied during
@@ -326,24 +326,22 @@ crunchbase=# select is_true, count(*) from investment_is_true_inference where ex
 
 The results are not optimal. Specifically, we see severe underfitting from the calibration plot. Possible reasons include inexpressive features or models, or bad labeling strategy. We will discuss improvements in future work.
 
-Here are some examples with features:
+Table \ref{table:result} shows some high-confidence examples with features. A view like this is useful for future error analysis.
 
-\begin{table*}[!t]
+\begin{table*}[t]
 \centering
-\begin{tabular}{c|c|c|c|c}
-
+\begin{tabular}{llll p{6.5cm}}
 \hline
-
 investor\_id &  startup\_id & is\_true & expectation & features \\
 \hline
-sequoia-capital & influitive   &   f   &   0.982   &   category=Communities,category=Communities,category=Marketing Automation,...\\
-new-enterprise-associates   &   liquidia-technologies   &   t   &   0.988   &   category=Nanotechnology,category=Nanotechnology,founded\_on\_year=2004,...\\
-intel-capital   &   mobixell   &   t   &   0.998   &   category=Mobile,category=Mobile,founded\_on\_year=2000,...\\
-index-ventures & abes-market   &   t   &   0.98   &   category=E-Commerce,category=E-Commerce,founded\_on\_year=2009,...\\
-y-combinator   &   homejoy & t   &   0.982   &   category=Hospitality,founded\_on\_year=2012,headquarter=San Francisco,...\\
-high-tech-gruenderfonds & fraud-sciences & f   &   0.99   &   category=Security,category=Security,headquarter=Palo Alto,...\\
-insight-venture-partners   &   twitter & t   &   0.996   &   category=Messaging,category=Messaging,category=MicroBlogging,...\\
-amicus-capital  & getable & t   &   0.992   &   category=Curated Web,category=Curated Web,founded\_on\_year=2010,...\\
+sequoia-capital & influitive   &   f   &   0.982   &   category=Communities, category=Marketing Automation,...\\
+new-enterprise-associates   &   liquidia-technologies   &   t   &   0.988   &   category=Nanotechnology, founded\_on\_year=2004,...\\
+intel-capital   &   mobixell   &   t   &   0.998   &   category=Mobile, founded\_on\_year=2000,...\\
+index-ventures & abes-market   &   t   &   0.98   &   category=E-Commerce, founded\_on\_year=2009,...\\
+y-combinator   &   homejoy & t   &   0.982   &   category=Hospitality, founded\_on\_year=2012, headquarter=San Francisco,...\\
+high-tech-gruenderfonds & fraud-sciences & f   &   0.99   &   category=Security, headquarter=Palo Alto,...\\
+insight-venture-partners   &   twitter & t   &   0.996   &   category=Messaging, category=MicroBlogging,...\\
+amicus-capital  & getable & t   &   0.992   &   category=Curated Web, founded\_on\_year=2010,...\\
 \hline
 \end{tabular}
 \caption{Examples of predicted relations}\label{table:result}
