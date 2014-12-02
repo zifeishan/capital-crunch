@@ -53,6 +53,24 @@ CREATE TABLE investor_feature (
   value real
 );
 
+DROP TABLE IF EXISTS startup_people_feature CASCADE;
+
+CREATE TABLE startup_people_feature (
+  startup_id text,
+  type text,
+  feature text,
+  value real
+);
+
+DROP TABLE IF EXISTS investor_people_feature CASCADE;
+
+CREATE TABLE investor_people_feature (
+  investor_id text,
+  type text,
+  feature text,
+  value real
+);
+
 DROP TABLE IF EXISTS description CASCADE;
 
 CREATE TABLE description (

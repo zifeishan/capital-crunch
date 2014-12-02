@@ -81,14 +81,14 @@ for line in sys.stdin:
   except:
     continue
 
-  try:
-    text = js['data']['properties']['short_description']
-    words = text.strip().split(' ')
-    for w in words:
-      if w in ENGLISH_STOP_WORDS: continue
-      features.append([FEATURE_TYPE, 'short_bio_1gram=%s' % w.lower(), 1]) # addable
-  except:
-    pass
+  # try:
+  #   text = js['data']['properties']['short_description']
+  #   words = text.strip().split(' ')
+  #   for w in words:
+  #     if w in ENGLISH_STOP_WORDS: continue
+  #     features.append([FEATURE_TYPE, 'short_bio_1gram=%s' % w.lower(), 1]) # addable
+  # except:
+  #   pass
 
 
   FEATURE_TYPE = 'basic_numeric'

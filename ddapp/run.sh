@@ -9,6 +9,7 @@ export GPHOST=rambo
 # Launch gpfdist if not launched.
 gpfdist -d $GPPATH -p $GPPORT &
 
+export DATA_DIR=../scripts/crawler/output/
 
 ### Run with deepdive binary:
 deepdive -c application.conf
