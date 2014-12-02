@@ -4,3 +4,5 @@ ddapp/log/
 ddapp/out/
 proposal/build/
 progress/build/
+error_analysis/investment-precision/input.csv
+ddapp/error_analysis/investment-precision/input.csv

@@ -1,0 +1,1 @@
+psql $DBNAME -c "TRUNCATE $1; ANALYZE $1;"

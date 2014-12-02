@@ -18,3 +18,5 @@ psql -d $DBNAME -c "COPY investor from STDIN;" < $INVESTORS
 cat $EDGEDIR/* | psql -d $DBNAME -c "COPY known_investment from STDIN;"
 
 python generate_tsv.py ../scripts/crawler/output/organizations/ | psql -d $DBNAME -c "COPY organization_path from STDIN;"
+
+psql $DBNAME -c "COPY sentences FROM STDIN CSV" < ../data/sentences_dump.csv
