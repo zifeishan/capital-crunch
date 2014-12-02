@@ -70,6 +70,7 @@ for line in sys.stdin:
   for f in features:
     try:
       print '\t'.join(str(_) for _ in [org_id] + f)
+      # print '\t'.join(re.sub(r'\\', r'\\\\', str(_)) for _ in [org_id] + f)
     except Exception as e:
       # print >>sys.stderr, 'Error:', org_id, f, e
       pass

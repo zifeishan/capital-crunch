@@ -60,13 +60,13 @@ for line in sys.stdin:
   # feature: (type, key, value)
   features = []
   
-  FEATURE_TYPE = 'basic_numeric'
+  # FEATURE_TYPE = 'basic_numeric'
 
-  try:
-    totalFunding = log(js['data']['properties']['total_funding_usd'])
-    features.append([FEATURE_TYPE, 'total_funding_log', totalFunding])
-  except:
-    pass
+  # try:
+  #   totalFunding = log(js['data']['properties']['total_funding_usd'])
+  #   features.append([FEATURE_TYPE, 'total_funding_log', totalFunding])
+  # except:
+  #   pass
 
   FEATURE_TYPE = 'basic_text'
 
@@ -107,12 +107,12 @@ for line in sys.stdin:
   except: 
     pass
 
-  try:
-    if 'acquisitions' in relationships:
-      numAcquisitions = relationships['acquisitions']['paging']['total_items']
-      features.append([FEATURE_TYPE, 'num_investments', numAcquisitions])
-  except: 
-    pass
+  # try:
+  #   if 'acquisitions' in relationships:
+  #     numAcquisitions = relationships['acquisitions']['paging']['total_items']
+  #     features.append([FEATURE_TYPE, 'num_investments', numAcquisitions])
+  # except: 
+  #   pass
 
   FEATURE_TYPE = 'basic_text'
 
@@ -142,11 +142,24 @@ for line in sys.stdin:
   except:
     pass
 
-  FEATURE_TYPE = 'basic_numeric'
+  FEATURE_TYPE = 'cheat'
+
+  # Cheat with funding rounds
+  if 'funding_rounds' in relationships:
+    num_funding_rounds = relationships['funding_rounds']['paging']['total_items']
+    features.append([FEATURE_TYPE, 'funding_rounds', num_funding_rounds])
+    if num_funding_rounds > 0:
+      features.append([FEATURE_TYPE, 'has_funding_rounds', 1])
+  else:
+    features.append([FEATURE_TYPE, 'funding_rounds', 0])
+
+    
+
   
   # Output data
   for f in features:
     try:
+      # print '\t'.join(re.sub(r'\\', r'\\\\', str(_)) for _ in [org_id] + f)
       print '\t'.join(str(_) for _ in [org_id] + f)
     except Exception as e:
       # print >>sys.stderr, 'Error:', org_id, f, e
