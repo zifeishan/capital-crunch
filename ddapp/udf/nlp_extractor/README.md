@@ -96,3 +96,48 @@ $ cat /lfs/rambo/0/zifei/cs221/capital-crunch/ddapp/out/2014-12-02T020412/calibr
 0.70    0.80    156     112     44
 0.80    0.90    277     250     27
 0.90    1.00    806     787     19
+
+## AFTER PRUNE:
+
+### Training + Testing
+
+crunchbase=# select count(*) from investment;
+ count
+-------
+ 50956
+(1 row)
+
+crunchbase=# select count(distinct startup_id) from investment;
+ count
+-------
+ 25205
+(1 row)
+
+crunchbase=# select count(distinct investor_id) from investment;
+ count
+-------
+   998
+(1 row)
+
+crunchbase=# select is_true, count(*) from investment group by is_true;
+ is_true | count
+---------+-------
+ t       |  7749
+ f       | 43207
+(2 rows)
+
+## Testing 
+
+crunchbase=# select count(*) from investment_is_true_inference;
+ count
+-------
+ 12663
+(1 row)
+
+crunchbase=# select is_true, count(*) from investment_is_true_inference group by is_true;
+ is_true | count
+---------+-------
+ t       |  1918
+ f       | 10745
+(2 rows)
+

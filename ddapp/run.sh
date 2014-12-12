@@ -1,4 +1,5 @@
 #! /bin/bash
+set -eu
 
 . "$(dirname $0)/env.sh"
 
@@ -18,7 +19,13 @@ deepdive -c application.conf
 # sbt "run -c $APP_HOME/application.conf"
 
 echo "Saving configurations.."
-cp application.conf out/`ls -t out/ | head -n 1`/
+OUT_DIR=out/`ls -t out/ | head -n 1`
+cp application.conf $OUT_DIR/
 echo "Saved to out/"`ls -t out/ | head -n 1`
-cat out/`ls -t out/ | head -n 1`/calibration/*.tsv
+echo " ========= Bucket distribution: =========="
+cat $OUT_DIR/calibration/*.tsv
 
+echo ""
+echo " ========= Evaluation: ========== "
+echo ""
+python scoring.py < $OUT_DIR/calibration/*.tsv > $OUT_DIR/score.tsv
