@@ -44,7 +44,7 @@ We ask questions such as: what factors play the most critical role in investment
 
 We downloaded all the data from *CrunchBase.com*, one of the biggest databases with company information.
 
-## Accessing data
+<!-- ## Accessing data -->
 
 CrunchBase provides indexing data and an API for full access of their
 data. We requested the CrunchBase education plan API, which gives us a much
@@ -217,7 +217,7 @@ For each startup $S$ among these, we randomly generate edges with known investor
 
 ### Train / Test Split
 
-We randomly hold out investment edges for 25% startups from all labeled data as test set. Table ~\ref{table:split} shows statistics for the training set and test set.
+We randomly hold out investment edges for 25% startups from all labeled data as test set. Table \ref{table:split} shows statistics for the training set and test set.
 
 \begin{table}[t]
 \centering
