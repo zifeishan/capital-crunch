@@ -16,3 +16,9 @@ deepdive -c application.conf
 
 ### Compile and run:
 # sbt "run -c $APP_HOME/application.conf"
+
+echo "Saving configurations.."
+cp application.conf out/`ls -t out/ | head -n 1`/
+echo "Saved to out/"`ls -t out/ | head -n 1`
+cat out/`ls -t out/ | head -n 1`/calibration/*.tsv
+

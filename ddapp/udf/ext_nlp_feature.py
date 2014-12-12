@@ -1,7 +1,8 @@
 #! /usr/bin/env python
 
-import json, sys
-import ddlib  # Load the ddlib Python library for NLP functions
+import sys
+import ddlib     # DeepDive python utility
+from collections import defaultdict
 
 ENGLISH_STOP_WORDS = frozenset([
       "a", "about", "above", "across", "after", "afterwards", "again", "against",
@@ -46,122 +47,85 @@ ENGLISH_STOP_WORDS = frozenset([
       "within", "without", "would", "yet", "you", "your", "yours", "yourself",
       "yourselves"])
 
-# For each input row
-for line in sys.stdin:
-  org_id, path = line.strip().split('\t')
-  # Load the JSON object
-  try:
-    js = json.load(open(path))
-  except:
-    continue
 
-  # "js" is the organization json object.
-  ##### WRITE FEATURE EXTRACTOR HERE
-  # feature: (type, key, value)
+ARR_DELIM = '~^~'
+
+def ngrams(words, gram_len):
+  ngram = {}
+  for i in range(len(words) - gram_len):
+    gram = ' '.join(words[i : i + gram_len])
+    if gram not in ngram:
+      ngram[gram] = 0
+    ngram[gram] += 1
+    # Optimize: cross product...
+  return ngram
+
+# For each input tuple
+for row in sys.stdin:
   features = []
+  parts = row.strip().split('\t')
+  document_id, sentence_id = parts[:2]
+  words, lemmas, pos_tags, ner_tags, dep_paths, dep_parents = [part.split(ARR_DELIM) for part in parts[2:]]
   
-  # FEATURE_TYPE = 'basic_numeric'
 
-  # try:
-  #   totalFunding = log(js['data']['properties']['total_funding_usd'])
-  #   features.append([FEATURE_TYPE, 'total_funding_log', totalFunding])
-  # except:
-  #   pass
+  # Locations
+  FEATURE_TYPE = 'nlp'
+  start_index = 0
+  phrases = set()
 
-  FEATURE_TYPE = 'basic_text'
+  while start_index < len(words):
+    # Checking if there is a LOCATION phrase starting from start_index
+    index = start_index
+    while index < len(words) and ner_tags[index] == "LOCATION":
+      index += 1
+    if index != start_index:   # found a person from "start_index" to "index"
+      text = ' '.join(words[start_index:index])
+      length = index - start_index
+      phrases.add(text)
+    start_index = index + 1
 
-  try:
-    foundYear = js['data']['properties']['founded_on_year']
-    features.append([FEATURE_TYPE, 'founded_on_year=%d' % foundYear, 1])
-  except:
-    pass
+  for text in phrases:
+    features.append([FEATURE_TYPE, 'location=%s' % text, 1])
 
-  try: 
-    relationships = js['data']['relationships']
-  except:
-    continue
+  # Bigrams
+  # TODO too large.. not used
 
-  # try:
-  #   text = js['data']['properties']['short_description']
-  #   words = text.strip().split(' ')
-  #   for w in words:
-  #     if w in ENGLISH_STOP_WORDS: continue
-  #     features.append([FEATURE_TYPE, 'short_bio_1gram=%s' % w.lower(), 1]) # addable
-  # except:
-  #   pass
+  # # Special NERs
+  # start_index = 0
+  # phrases = set()
 
+  # while start_index < len(words):
+  #   # Checking if there is a phrase starting from start_index
+  #   index = start_index
+  #   current_ner = "O"
+  #   # must have coherent tags
+  #   while index < len(words) and ner_tags[index] not in ["LOCATION", "O"] and (index == start_index or ner_tags[index] == ner_tags[index - 1]): 
+  #     index += 1
+  #   if index != start_index:   # found a person from "start_index" to "index"
+  #     text = ' '.join(words[start_index:index])
+  #     length = index - start_index
+  #     phrases.add((ner_tags[index], text))
+  #   start_index = index + 1
 
-  FEATURE_TYPE = 'basic_numeric'
+  # for ner, text in phrases:
+  #   features.append([FEATURE_TYPE, 'phase[%s]=%s' % (ner, text), 1])
 
-  try:
-    if 'competitors' in relationships:
-      numCompetitors = relationships['competitors']['paging']['total_items']
-      features.append([FEATURE_TYPE, 'num_competitors', numCompetitors])
-  except: 
-    pass
+  # unigram-lemmas of Nouns (non-stop-words)
+  start_index = 0
+  phrases = set([lemmas[i] for i in range(len(words)) if \
+      pos_tags[i].startswith('NN') and \
+      lemmas[i] not in ENGLISH_STOP_WORDS and \
+      ner_tags[i] != "LOCATION" # redundant
+    ])
 
-  try:
-    if 'websites' in relationships:
-      numWebsites = relationships['websites']['paging']['total_items']
-      features.append([FEATURE_TYPE, 'num_websites', numWebsites])
-  except: 
-    pass
+  for word in phrases:
+    features.append([FEATURE_TYPE, 'noun-1gram=%s' % word, 1])
 
-  # try:
-  #   if 'acquisitions' in relationships:
-  #     numAcquisitions = relationships['acquisitions']['paging']['total_items']
-  #     features.append([FEATURE_TYPE, 'num_investments', numAcquisitions])
-  # except: 
-  #   pass
-
-  FEATURE_TYPE = 'basic_text'
-
-  try:
-    if 'headquarters' in relationships:
-      headquarters = relationships['headquarters']['items']
-      for o in headquarters:
-        features.append([FEATURE_TYPE, 'headquarter=%s' % (o['city']), 1])
-  except: 
-    pass
-
-  try:
-    if 'categories' in relationships:
-      categories = js['data']['relationships']['categories']['items']
-      for o in categories:
-        features.append([FEATURE_TYPE, 'category=%s' % (o['name']), 1])
-  except: 
-    pass
-
-  FEATURE_TYPE = 'graph'
-
-  try:
-    if 'founders' in relationships:
-      founders = js['data']['relationships']['founders']['items']
-      for o in founders:
-        features.append([FEATURE_TYPE, 'founder=%s' % (o['path'].split('/')[1]), 1])
-  except:
-    pass
-
-  FEATURE_TYPE = 'cheat'
-
-  # Cheat with funding rounds
-  if 'funding_rounds' in relationships:
-    num_funding_rounds = relationships['funding_rounds']['paging']['total_items']
-    features.append([FEATURE_TYPE, 'funding_rounds', num_funding_rounds])
-    if num_funding_rounds > 0:
-      features.append([FEATURE_TYPE, 'has_funding_rounds', 1])
-  else:
-    features.append([FEATURE_TYPE, 'funding_rounds', 0])
-
-    
-
-  
   # Output data
   for f in features:
     try:
-      # print '\t'.join(re.sub(r'\\', r'\\\\', str(_)) for _ in [org_id] + f)
-      print '\t'.join(str(_) for _ in [org_id] + f)
+      print '\t'.join(str(_) for _ in [document_id] + f)
     except Exception as e:
-      # print >>sys.stderr, 'Error:', org_id, f, e
+      # print >>sys.stderr, 'Error:', document_id, f, e
       pass
 

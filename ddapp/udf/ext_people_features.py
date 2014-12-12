@@ -1,7 +1,8 @@
 #! /usr/bin/env python
 
-import json, sys
+import json, sys, os, re
 import ddlib  # Load the ddlib Python library for NLP functions
+
 
 ENGLISH_STOP_WORDS = frozenset([
       "a", "about", "above", "across", "after", "afterwards", "again", "against",
@@ -46,122 +47,108 @@ ENGLISH_STOP_WORDS = frozenset([
       "within", "without", "would", "yet", "you", "your", "yours", "yourself",
       "yourselves"])
 
-# For each input row
+def getPath(personId):
+  return os.environ['DATA_DIR'] + '/people/' + personId
+
 for line in sys.stdin:
   org_id, path = line.strip().split('\t')
-  # Load the JSON object
-  try:
+
+  try : 
     js = json.load(open(path))
-  except:
-    continue
-
-  # "js" is the organization json object.
-  ##### WRITE FEATURE EXTRACTOR HERE
-  # feature: (type, key, value)
-  features = []
-  
-  # FEATURE_TYPE = 'basic_numeric'
-
-  # try:
-  #   totalFunding = log(js['data']['properties']['total_funding_usd'])
-  #   features.append([FEATURE_TYPE, 'total_funding_log', totalFunding])
-  # except:
-  #   pass
-
-  FEATURE_TYPE = 'basic_text'
-
-  try:
-    foundYear = js['data']['properties']['founded_on_year']
-    features.append([FEATURE_TYPE, 'founded_on_year=%d' % foundYear, 1])
-  except:
-    pass
-
-  try: 
     relationships = js['data']['relationships']
+    if 'current_team' in relationships:
+      people = relationships['current_team']['items']
+    else:
+      continue
   except:
     continue
 
-  # try:
-  #   text = js['data']['properties']['short_description']
-  #   words = text.strip().split(' ')
-  #   for w in words:
-  #     if w in ENGLISH_STOP_WORDS: continue
-  #     features.append([FEATURE_TYPE, 'short_bio_1gram=%s' % w.lower(), 1]) # addable
-  # except:
-  #   pass
+  for person in people:
 
+    person_title = ''
+    if 'title' not in person: continue
+    title = person['title']
+    if 'Founder' in title and 'CEO' in title:
+      person_title = 'founder+ceo'
+    elif 'Founder' in title:
+      person_title = 'founder'
+    elif 'CEO' in title:
+      person_title = 'ceo'
+    else:
+      # Not an important person
+      continue
 
-  FEATURE_TYPE = 'basic_numeric'
+    personId = person['path'].split('/')[-1]
+    profilePath = getPath(personId) # a particular function that could give the profile 
+    try: 
+      peopleJs = json.load(open(profilePath))
+    except:
+      continue
 
-  try:
-    if 'competitors' in relationships:
-      numCompetitors = relationships['competitors']['paging']['total_items']
-      features.append([FEATURE_TYPE, 'num_competitors', numCompetitors])
-  except: 
-    pass
-
-  try:
-    if 'websites' in relationships:
-      numWebsites = relationships['websites']['paging']['total_items']
-      features.append([FEATURE_TYPE, 'num_websites', numWebsites])
-  except: 
-    pass
-
-  # try:
-  #   if 'acquisitions' in relationships:
-  #     numAcquisitions = relationships['acquisitions']['paging']['total_items']
-  #     features.append([FEATURE_TYPE, 'num_investments', numAcquisitions])
-  # except: 
-  #   pass
-
-  FEATURE_TYPE = 'basic_text'
-
-  try:
-    if 'headquarters' in relationships:
-      headquarters = relationships['headquarters']['items']
-      for o in headquarters:
-        features.append([FEATURE_TYPE, 'headquarter=%s' % (o['city']), 1])
-  except: 
-    pass
-
-  try:
-    if 'categories' in relationships:
-      categories = js['data']['relationships']['categories']['items']
-      for o in categories:
-        features.append([FEATURE_TYPE, 'category=%s' % (o['name']), 1])
-  except: 
-    pass
-
-  FEATURE_TYPE = 'graph'
-
-  try:
-    if 'founders' in relationships:
-      founders = js['data']['relationships']['founders']['items']
-      for o in founders:
-        features.append([FEATURE_TYPE, 'founder=%s' % (o['path'].split('/')[1]), 1])
-  except:
-    pass
-
-  FEATURE_TYPE = 'cheat'
-
-  # Cheat with funding rounds
-  if 'funding_rounds' in relationships:
-    num_funding_rounds = relationships['funding_rounds']['paging']['total_items']
-    features.append([FEATURE_TYPE, 'funding_rounds', num_funding_rounds])
-    if num_funding_rounds > 0:
-      features.append([FEATURE_TYPE, 'has_funding_rounds', 1])
-  else:
-    features.append([FEATURE_TYPE, 'funding_rounds', 0])
-
-    
-
-  
-  # Output data
-  for f in features:
+    features = []
+    FEATURE_TYPE = 'people_text'
     try:
-      # print '\t'.join(re.sub(r'\\', r'\\\\', str(_)) for _ in [org_id] + f)
-      print '\t'.join(str(_) for _ in [org_id] + f)
-    except Exception as e:
-      # print >>sys.stderr, 'Error:', org_id, f, e
+      last_name = peopleJs['data']['properties']['last_name']
+      features.append([FEATURE_TYPE, 'last_name=%s' % last_name, 1])
+    except:
       pass
+    try:
+      first_name = peopleJs['data']['properties']['first_name']
+      features.append([FEATURE_TYPE, 'first_name=%s' % first_name, 1])
+    except:
+      pass
+
+    # person bio is Too sparse
+    # try:
+    #   bio = peopleJs['data']['properties']['bio']
+    #   words = bio.strip().split(' ')
+    #   for w in words:
+    #     if w in ENGLISH_STOP_WORDS: continue
+    #     features.append([FEATURE_TYPE, 'short_bio_1gram=%s' % w.lower(), 1])
+    # except:
+    #   pass
+
+    try: 
+      personRelationships = peopleJs['data']['relationships']
+    except:
+      continue
+
+    if 'degrees' in personRelationships:
+      degrees = personRelationships['degrees']['items']
+      paging = personRelationships['degrees']['paging']
+      isMBA = any(degree['degree_subject']  == 'MBA' for degree in degrees)
+      if isMBA:
+        features.append([FEATURE_TYPE, 'MBA_obtained', 1])
+
+      if 'total_items' in paging:
+        features.append(['people_numeric', 'num_degrees', paging['total_items']])
+
+      for degree in degrees:
+        if 'organization_name' not in degree: continue
+        university_name = degree['organization_name']
+        features.append([FEATURE_TYPE, 'university_name=%s' % university_name, 1])
+
+        # if i == paging['total_items']:
+        #   time = degree['completed_on']
+        #   features.append(FEATURE_TYPE, 'time of graduation', time)
+
+    else:
+      features.append(['people_numeric', 'num_degrees', 0])
+
+    try:
+      experiences = personRelationships['experience']['items']
+      for experience in experiences:
+        if 'organization_name' not in experience: continue
+        company_name = experience['organization_name']
+        features.append([FEATURE_TYPE, 'company_name=%s' % company_name, 1])
+    except:
+      continue
+
+    # Output data
+    for f in features:
+      try:
+        print '\t'.join(re.sub(r'\\', r'\\\\', str(_)) for _ in [org_id, f[0], person_title+':'+f[1], f[2]])
+      except Exception as e:
+        # print >>sys.stderr, 'Error:', org_id, f, e
+        pass
 
