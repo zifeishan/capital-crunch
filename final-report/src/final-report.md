@@ -158,38 +158,47 @@ weight learning, and Gibbs Sampling is used for inference.
 A rich set of features can be applied to predict investments. A list
 of features are described as below:
 
-**Start-up attributes:**
+**Basic attributes:**
 
-- Unigrams (words) of short description of the start-up, with stopwords removed.
-- Total funding used: we think the more funding the startup has used, the more promising it is and the more likely it will get another funding raise.
-- Founded year: it is used combining with the total funding rounds. We use this to generate the negative example.
-- Current team size: the size of founders in the start-up. We think the larger it is, the more likely it will be invested.
-- Number of Competitors: we think the more competitors the start-up has, the less likely it will get the investment.
 - Headquarters: the location of headquarters of the startup. We find that some specific VC likes to invest the startups in some specific areas.
 - Category: the category of the service of the startup. We know that some VC are fond of the startups running on some certain kinds of service.
-- Total items of websites: we think that the more official websites the startup, the startup are more likely to get the investment since websites are indicative of the marketing potential.
+- Founded year: it is used combining with the total funding rounds. We use this to generate the negative example.
+- Number of Competitors: we think the more competitors the start-up has, the less likely it will get the investment.
+- Number of websites: we think that the more official websites the startup, the startup are more likely to get the investment since websites are indicative of the marketing potential.
+- Current team size: the size of founders in the start-up. We think the larger it is, the more likely it will be invested.
 
-Note that in a logistic regression model, each investor will have
-different weights (coefficients) for these different attributes. For
-example, investor $A$ may prefer start-ups with headquarter in
-Beijing, $B$ may prefer start-ups with larger team size, $C$ will
-prefer start-ups in the category of artificial intelligence, etc.
 
-**Investor attributes:**
 
-- Total number of investments: if this investor has already invested more items, the more likely it gives a start-up investment under the same situation
-- Total number of acquisitions: it is similar to the total investment items.
-- Headquarters: the location of headquarters of the investor. It is similar to the feature of the startup's headquarter.
-- Category: the category of the service of the investor. It is similar to the feature of the startup's category.
+**People attributes**
 
-Note these features are not used in training independent logistic regressors, but they are useful in the full factor graph model.
+We think that investors will have the detailed evaluation for the founders and CEO of the startups and it highly affects whether the investment will happen or not. So we extract the following important features of founders and CEO of startups.
 
-## Getting training data
+- Names: the names could reveal which race the founders are or which countries the founders are from.
+- University of graduation: some investors have certain preference of people from some specific universities.
+- Has obtained MBA: the investors have preference to people who has MBA degree.
+- Number of degree obtained: the more degree the founders or CEO have, the more likely they get the investment
+- Company worked in: this helps the investors to evaluate the working experience of founders.
+
+**Linguistic attributes**
+
+We try to utilize the linguistic attributes of startups to help improve the performance of the model. These linguistic features are extracted from the description of the startups. We think the description could kind of reveal some important information.
+
+We use Stanford CoreNLP to extract the following features from the description:
+
+- Location phrases
+- Unigram of lemmatized nouns
+
+
+## Getting Labeled Data
+
+### Positive Examples
 
 To train the predictor, we take ground truth investments in CrunchBase
 as positive training examples, that is, if an investor $I$ has
 invested in a startup $S$, we obtain a training example $(I, S, true)$
 in $Investment$ relation.
+
+### Negative Examples
 
 For the negative training examples, it might not be desirable to
 simply label all pairs of $(investor, startup)$ that do not have a
@@ -199,9 +208,31 @@ training examples and makes training harder, and (3) even if an
 investor have not invested a startup right now, it is still possible
 that the investment will happen in the future. 
 
-For now we sub-sample random pairs of investors and startups without known
-investment happening as negative examples. In future work, we will apply
-some heuristics to label negative examples. The proposed method is described below.
+So we take startups that satisfies both following conditions
+
+1. Have been founded more than 6 months.
+2. Have not been invested or acquired.
+
+For each startup $S$ among these, we randomly generate edges with known investors in $I$, to obtain negative examples $(I, S, false)$.
+
+### Train / Test Split
+
+We randomly hold out investment edges for 25% startups from all labeled data as test set. Table ~\ref{table:split} shows statistics for the training set and test set.
+
+\begin{table}[t]
+\centering
+\begin{tabular}{lll p{3.5cm}}
+\hline
+Category &  Positive Example & Negative Example \\
+\hline
+Total & 7749 & 43207 \\
+Training & 5831 & 32462 \\
+Test & 1918 & 10745 \\
+\hline
+\end{tabular}
+\caption{Dataset Statistics}\label{table:split}
+\end{table}
+
 
 <!-- How to effectively
 label negative examples is still open to us. For now we propose to
@@ -209,35 +240,6 @@ sub-sample random pairs of investors and startups without known
 investment happening. -->
 
 <!-- ### Generating negative examples -->
-
-### Proposed heuristics for negative example generation
-
-If a certain investor does not invest a startup, we cannot simply
-label it as a negative example since there is a chance that this
-investor will invest this startup in the future. Besides, there are
-competitions between investors as the amount of investment for a
-start-up is limited. If investor $A$ has made the investment for
-startup $X$ but investor $B$ has not, we cannot say $(B, X)$ is a
-negative example because $B$ may have the intention to invest $X$ but
-$A$'s investment prevents it happening. Furthermore, some investors may not be early enough to know the company but they actually have huge interest in the start-up.
-
-So we propose a model to help us generate the negative examples. For
-all the startups, we have already known their founded year and funding
-rounds. We believe that the longer this start-up exists and the less
-funding rounds it has, the less likely it has the investment from
-other investors and vice versa. Therefore we use this equation to give
-startup X a probability to have negative examples:
-
-$$P(X = N) = e^{-K}, K = \frac{\textbf{funding rounds}+1}{\textbf{running time}+1}$$
-
-Intuitively, if the start-up has already run for a long time, it
-should have more funding rounds. Otherwise, it will have a high
-probability to get negative answers from investors. In contrast, if
-the start-up only runs for a short time but has already got many
-rounds of funding, it is very likely to get positive answers from
-other investors. We add one to the numerator and denominator to smooth
-it and also prevent illegal equation.
-
 
 # Evaluation
 
